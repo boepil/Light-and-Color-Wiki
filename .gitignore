@@ -1,0 +1,11 @@
+# Obsidian
+.obsidian/
+
+# Quartz build artifacts
+website/node_modules/
+website/public/
+website/.quartz-cache/
+
+# OS
+Thumbs.db
+.DS_Store
