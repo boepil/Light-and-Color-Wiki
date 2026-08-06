@@ -1,17 +1,8 @@
-# Anatomy
+
+![[Anatomy.jpg]]
 
 **Scope:** Covers the biological anatomy of the eye, specifically the cornea, lens, and retina.
 
-## Subtopics
-- Cornea and Lens
-- Retina
-- Optic Nerve
-
-## Cross-References
-- [[Wavelength Perception]]
-- [[Rods vs. Cones - Density & Distribution]]
-
-## Synthesized Content
 
 The visual process begins when light enters the **cornea**, a transparent bulge at the front of the eye that provides primary focusing power and protection (**Contemporary Color**, **Illusions of Seeing**, **vision-science-photons-to-pheno**). Light then passes through the **aqueous humor** and the **pupil**, an opening in the circular **iris** that functions like a camera's aperture by constricting or dilating to regulate light levels (**Contemporary Color**, **Illusions of Seeing**, **vision-science-photons-to-pheno**). Behind the iris is the **lens**, which adjusts its shape—a process called **accommodation**—via the ciliary muscles to focus objects at various distances (**Color Management**, **Illusions of Seeing**, **vision-science-photons-to-pheno**). 
 
@@ -25,3 +16,13 @@ MacEvoy's approach to ocular anatomy focuses heavily on the uneven distribution 
 > Traditional models and uniform color spaces often imply mathematically symmetrical spectral divisions to create neat color wheels. Handprint explicitly flags that because the L, M, and S cones are heavily clumped and unevenly distributed, mathematical symmetry in color spaces is a biological falsehood. This anatomical imbalance is the biological root of our perceptual bias toward "warm" colors and our extreme sensitivity to green hues, explaining why perfectly symmetrical color spaces cannot accurately model human vision without severe distortion. 
 > 
 > *(Source: [[raw_sources/handprint/color18a.md|color18a.html]])*
+
+
+## Subtopics
+- Cornea and Lens
+- Retina
+- Optic Nerve
+
+## Cross-References
+- [[Wavelength Perception]]
+- [[Rods vs. Cones - Density & Distribution]]
