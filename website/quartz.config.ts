@@ -26,10 +26,6 @@ const config: QuartzConfig = {
       "log.md",
       "llm-wiki.md",
       "README.md",
-      "Colors.md",
-      "Light.md",
-      "Eye.md",
-      "Painting.md",
     ],
     defaultDateType: "modified",
     theme: {
