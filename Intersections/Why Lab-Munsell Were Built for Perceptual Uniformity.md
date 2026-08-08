@@ -1,4 +1,4 @@
-> **Header image prompt (flat medical-textbook blue anatomy-plate style, wide banner, 16:9 proportion):** A monochrome blue line-art diagram on a pale blue background contrasting non-uniform and uniform color spaces. Left: a horseshoe **CIE xy DIAGRAM** with two labeled segments of equal measured length — **BLUE 1.0 UNIT** and **GREEN 3.86 UNITS** — with a caption **EQUAL PERCEIVED STEP, UNEQUAL DISTANCE** and small MacAdam ellipses scattered across it at varying sizes. Center: a CIELAB space diagram — vertical **L\* (0–100)** axis with a cube-root curve **f(Y) = (Y/Y_n)^(1/3)**, crossed by **a\*** and **b\*** axes, with a **ΔE** ruler showing equal steps. Right: the **MUNSELL COLOR TREE** with its **VALUE AXIS 0–10** and a callout **1943 RENOTATION → CIE COORDS**. Bold uppercase labels with thin leader lines and arrowheads, flat vintage anatomy-plate look, no realism, no 3D, no watermark, no color beyond blue tones.
+![[Pasted image 20260808154710.png]]
 
 **Scope:** Cross-cutting page (Eye × Colors) explaining the necessity of mathematically bending color spaces to match non-linear human perception.
 

@@ -1,4 +1,4 @@
-> **Header image prompt (flat medical-textbook blue anatomy-plate style, wide banner, 16:9 proportion):** A logical flow diagram tracing color causality in a flat, monochrome-blue medical textbook style. From left to right: a panel labeled 'SPECTRAL PROPERTIES' shows a step-like 'warm cliff' pigment reflectance curve; a center panel labeled 'BIOLOGICAL SENSITIVITY' shows a bell-shaped curve representing human photopic luminosity sensitivity V(λ) peaking at 555nm; and a right panel labeled 'PERCEPTUAL LIMITS' shows a lopsided, irregular three-dimensional optimal color solid (MacAdam Limits) and a nested smaller boundary representing Pointer's Gamut. High-contrast bold uppercase labels with leader lines and arrowheads connect these concepts. Pale blue background, clean lines, no 3D realism or shading.
+![[Pasted image 20260808153904.png]]
 
 **Scope:** Tracing the causal sequence connecting the physical reflectance spectra of pigments, the human biological response defined by CIE color-matching functions and photopic luminosity, the empirical boundaries of Pointer's Gamut, and the final perceptual experience of color asymmetry.
 

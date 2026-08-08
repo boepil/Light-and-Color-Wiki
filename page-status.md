@@ -12,7 +12,7 @@
 - `Appendix/Project Notes.md` — `stub` (6 lines)
 
 ## Light
-- `Light.md` (section index) — `draft`
+- `Light.md` (section index) — **done** (deep, no-H1, linked-section hub from notebook light dump: EM duality/purity, E=1240/λ, 380–780 nm, specular/diffuse, illuminants A/C/D65/D50 + CCT, Rayleigh scattering, spectral locus + purity)
 - `Light/Wave Nature.md` — `draft` (22 lines, physics core present)
 - `Light/The Visible Spectrum.md` — `draft` (19 lines)
 - `Light/Reflection vs. Emission.md` — `draft` (25 lines)
@@ -21,7 +21,7 @@
 - `Light/Natural Daylight Variation & Hyperspectral Scene Data.md` — `draft` (21 lines)
 
 ## Eye
-- `Eye.md` (section index) — `draft`
+- `Eye.md` (section index) — **done** (deep, no-H1, linked-section hub: anatomy, rods vs cones, visual acuity, wavelength perception, opponent process; no handprint per user)
 - `Eye/Anatomy.md` — **done** (content + header image added; anatomy depth OK)
 - `Eye/Wavelength Perception.md` — **done** (deep, notebook-cited: trichromatic theory, cone peaks 440-448/518-540/560-617 nm, univariance, iodopsin phototransduction, ratio coding, rod/cone counts)
 - `Eye/Visual Acuity & Receptor Spacing.md` — **done** (deep, notebook-cited: 2 µm spacing, Nyquist sampling, fovea 350,000 cones, 2° rod-free zone, 1 arcmin/20/20, eccentricity 18-20° rod peak 150k/mm², scotopic fixation blindness, diffraction limit, microsaccades, vernier 3.6 arcsec; handprint spatial frequency)
@@ -29,7 +29,7 @@
 - `Eye/Opponent-Process Color Coding.md` — **done** (deep, notebook-cited: axes, neural wiring, afterimages, zone theory, data)
 
 ## Colors
-- `Colors.md` (section index) — `stub`
+- `Colors.md` (section index) — **done** (deep, no-H1, linked-section hub: CIE, Munsell, MacAdam, Gamuts/Device/Pointer/Optimal; Sources canonical)
 - `Colors/CIE Systems.md` — **done** (deep, notebook-cited: 1931 founding, RGB 700/546.1/435.8 nm matching, imaginary XYZ primaries + V(λ), 2°/10° observers, xy derivation + spectral locus 380-780 nm + line of purples + D65, CIELAB 1976 L*a*b* + ΔE 1.0 + white point adaptation, gamuts/MacAdam/1943 Munsell Renotation, CIELUV/CIECAM97; handprint conceptual vs material primaries + contradiction flag)
 - `Colors/Munsell Notation.md` — **done** (deep, notebook-cited: 3 dimensions 10×10 hue circle, H V/C format 5PB 4/8 + N neutrals, irregular Color Tree + green luminosity insight, Munsell biography/pedagogy, 1943 Renotation ~3M observations → CIE coords, value 5 ≈ 18-20% reflectance square/cube-root; handprint value scale ↔ L* ×10, color strength harmonies)
 - `Colors/MacAdam Ellipses.md` — **done** (deep, notebook-cited: 1942 JND matching experiments ~25 targets, 10:1 size disparity, largest green/smallest blue-violet, rotating orientation, 150-300 JND steps, 8-bit banding → 10-bit requirement, 1.4M distinguishable display colors, CIELAB/CIELUV + 1960 UCS uv + ΔE 1.0, Munsell 3.86x green vs purple, 495/590 nm best discrimination, industry acceptability ellipsoids; handprint yellow/cyan discrimination + violet tinting)
@@ -39,7 +39,7 @@
 - `Colors/Gamuts/Optimal Color Solid-MacAdam Limits.md` — **done** (deep, notebook-cited: 0-1 step spectra maximize chroma, Schrödinger 1919-20 ≤2 transitions, MacAdam 1935 Yxy mapping, lopsided spindle + V(λ) 555 nm protrusion 500-570 nm, red V(λ) 0.1-0.3 constraint, band-pass/band-stop extremes of convex set, Pointer subset + 1943 Munsell realizability + sRGB gaps, phthalocyanines + evolutionary insight; handprint three chromaticity spaces)
 
 ## Painting
-- `Painting.md` (section index) — `draft`
+- `Painting.md` (section index) — **done** (deep, no-H1, linked-section hub: composition, movements, pigments chemistry/natural-synthetic/high-chroma/particle-size/spectral sourcing; Sources canonical)
 - `Painting/Composition.md` — `draft` (16 lines)
 - `Painting/Movements & Painters/Movements & Painters.md` — `draft` (16 lines)
 - `Painting/Movements & Painters/Bauhaus.md` — `draft` (16 lines)

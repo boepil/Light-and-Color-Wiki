@@ -9,7 +9,7 @@
 - [[Appendix/Project Notes|Project Notes]]: Personal project notes on building a 3D color visualization, detailing the Three.js implementation and coordinate conventions.
 
 ## Colors
-**[[Colors|Colors]]**: This section explores the mathematical models and empirical frameworks used to standardize, measure, and reproduce color.
+**[[Colors|Colors]]**: Standardization of color — CIE XYZ/xy/CIELAB with imaginary primaries and 2°/10° observers, MacAdam just-noticeable differences, Munsell's Hue/Value/Chroma and 1943 Renotation, and the gamut boundaries of real, optimal, and device colors.
 
 - [[Colors/CIE Systems|CIE Systems]]: Overview of CIE coordinate systems including the xy diagram, XYZ, and Lab spaces.
 - [[Colors/Gamuts/Device Gamuts|Device Gamuts]]: Examines device-specific color gamuts such as those of displays and printers.
@@ -20,7 +20,7 @@
 - [[Colors/Munsell Notation|Munsell Notation]]: Explores the Munsell notation system, its structure, the 1943 Renotation, and its open-ended chroma.
 
 ## Eye
-**[[Eye|Eye]]**: This section details the biological and neurological mechanisms that translate physical wavelengths of light into the psychological experience of color.
+**[[Eye|Eye]]**: The light-to-perception machinery — anatomy of the visual pathway, the rods/cones systems and their distribution, the receptor-spacing limits of visual acuity, trichromatic S/M/L wavelength coding, and opponent re-encoding in the retina and LGN.
 
 - [[Eye/Anatomy|Anatomy]]: Covers the biological anatomy of the eye, specifically the cornea, lens, and retina.
 - [[Eye/Opponent-Process Color Coding|Opponent-Process Color Coding]]: Explains the neural opponent-process theory of color coding.
@@ -37,7 +37,7 @@
 - [[Intersections/Why Lab-Munsell Were Built for Perceptual Uniformity|Why Lab-Munsell Were Built for Perceptual Uniformity]]: Cross-cutting page (Eye × Colors) explaining the necessity of mathematically bending color spaces to match non-linear human perception.
 
 ## Light
-**[[Light|Light]]**: This section explores the fundamental physics of electromagnetic radiation and how it behaves before it enters the human eye or interacts with paint.
+**[[Light|Light]]**: The physics of light before the eye — electromagnetic duality, E=1240/λ(nm) energy, the 380–780 nm visible band, emission/reflection, standard illuminants and correlated color temperature, Rayleigh scattering, and spectral locus boundaries.
 
 - [[Light/Illuminants & Correlated Color Temperature|Illuminants & Correlated Color Temperature]]: Explores standard illuminants and the concept of Correlated Color Temperature (CCT).
 - [[Light/Natural Daylight Variation & Hyperspectral Scene Data|Natural Daylight Variation & Hyperspectral Scene Data]]: Analyzes the physical variations of natural daylight and the use of hyperspectral scene data.
@@ -47,7 +47,7 @@
 - [[Light/Wave Nature|Wave Nature]]: Details the physical wave nature of light, covering wavelength, frequency, and spectral power distributions.
 
 ## Painting
-**[[Painting|Painting]]**: This section bridges the gap between abstract color theory and the physical reality of applied pigments.
+**[[Painting|Painting]]**: Abstract color theory meeting applied pigment — composition (contrast, mostly/some/bit, mother color), the art-history arc from Vermeer/Impressionism to Color Field, pigment chemistry and high-chroma synthetics, and objective spectral pigment analysis.
 
 - [[Painting/Composition|Composition]]: Focuses on color composition, harmony, and structural use of color in painting.
 - [[Painting/Movements & Painters/Bauhaus|Bauhaus]]: Discusses color theory and pedagogy at the Bauhaus (Itten, Klee, Kandinsky).

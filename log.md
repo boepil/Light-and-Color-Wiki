@@ -1,5 +1,10 @@
 # Ingest Log
 
+## [2026-08-08] ingest | Section hub pages (Eye/Light/Colors/Painting)
+- User defined final hub format in `Eye_Test.md`: no-H1, `**Scope:**`, one linked `### [[Subpage|path]]` content section per subpage, `## Related Intersections`, `## Sources` last — no Handprint, no header image, no Subpages list.
+- Replicated to `Eye.md` (added missing rods/visual acuity sections per user), wrote `Light.md`, `Colors.md`, `Painting.md` from the corresponding `raw_sources/notebooklm_*_notes.md` dumps, all facts grounded in the dumps + existing deep pages, Sources canonical per Bibliography.
+- Updated `page-status.md` (hubs → done), `index.md`, `log.md`.
+
 ## [2026-08-08] ingest | Impressionism deep
 - NotebookLM query (5 parts: plein air + atmospheric effects + collapsible tubes c. 1860s; broken color + optical mixture + lustre/flicker; local color abandonment + cold-warm contrast; Goethe 1810 colored shadows + Chevreul 1839 simultaneous/successive contrast; serial studies Monet series + 10-20 canvases + diurnal illuminants) — user pasted browser answer.
 - Verified existing `Painting/Movements & Painters/Impressionism.md` draft against notebook data; grounded Handprint citations in color12 (diurnal changes best seen from darkened-room window, Monet Rouen Cathedral series) and color11 (limited value range not flat — Monet/Whistler); added Goethe + Chevreul to Sources (canonical titles per Bibliography).

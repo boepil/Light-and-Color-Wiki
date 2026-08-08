@@ -1,4 +1,4 @@
-> **Header image prompt (flat medical-textbook blue anatomy-plate style, wide banner, 16:9 proportion):** A horizontal flow diagram tracing color from physics to perception. Left panel labeled 'LIGHT' shows a rainbow spectrum band with a photon particle at ~400 nm (violet) and ~700 nm (red) endpoints. Next panel labeled 'PIGMENT' shows a paint swatch with arrows for selective absorption and reflection (subtractive mix to black). Center panel labeled 'EYE' shows the retina mosaic of rods (~120M) and cones (~6M) with S/M/L cone curves. Next panel labeled 'PERCEPTION' shows opponent axes (red–green, blue–yellow, black–white). Right panel labeled 'CORTEX V1–V4' shows a brain glyph. Bold uppercase labels with leader lines and arrowheads running left to right; pale blue background, clean lines, no 3D realism.
+![[home.jpg]]
 
 **Scope:** Landing page explaining how the four main sections ([[Light]], [[Eye]], [[Colors]], [[Painting]]) fit into a single causal chain — from physical photons, through the subtractive limits of pigments, the biological transduction of the retina, and the constructive processing of the brain — plus a suggested reading order.
 
@@ -36,18 +36,6 @@ Bruce MacEvoy grounds the chain in the same observer machinery, but from the pai
 - The unified 5-stage chain: light, material, retina, physiology, cortex
 - Overview of the light, eye, color, painting sections
 - Suggested reading order from physics to painting
-
-## Cross-References
-- [[Light]]
-- [[Eye]]
-- [[Colors]]
-- [[Painting]]
-- [[Eye/Wavelength Perception]]
-- [[Eye/Opponent-Process Color Coding]]
-- [[Painting/Pigments/Pigments]]
-- [[Intersections/Causal Chain - Pigments to Perception]]
-- [[Intersections/Simultaneous Contrast, Color Constancy, Afterimages, Subtractive vs. Additive Mixing]]
-- [[Colors/Gamuts/Optimal Color Solid-MacAdam Limits]]
 
 ## Sources
 * The Science of Painting — (source author not specified)
