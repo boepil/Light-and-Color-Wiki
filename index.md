@@ -1,6 +1,6 @@
 # Wiki Index
 
-[[Home|Home]]: Landing page with a short overview of how the four main sections (Light, Eye, Colors, Painting) relate to each other, plus a suggested reading order.
+[[Home|Home]]: Landing page tracing the unified 5-stage chain from physical light, through the subtractive limits of pigment, the S/M/L transduction of the eye, opponent-process perception, to V1–V4 cortical plasticity — with a suggested reading order across the four sections.
 
 ## Appendix
 - [[Appendix/Bibliography|Bibliography]]: A bibliography organized by section linking back to supporting pages.
@@ -29,6 +29,7 @@
 - [[Eye/Wavelength Perception|Wavelength Perception]]: Details how cones biologically encode physical wavelengths into a neural signal.
 
 ## Intersections
+- [[Intersections/Causal Chain - Pigments to Perception|Causal Chain - Pigments to Perception]]: Traces the causal flow from physical surface reflectance to human biological response ($V(\lambda)$) and perceptual experience.
 - [[Intersections/Color Matching Functions and the Photopic Luminosity Function|Color Matching Functions and the Photopic Luminosity Function]]: Cross-cutting page (Light × Eye) exploring how physical light is weighted by human biological sensitivity.
 - [[Intersections/Natural Light Gamut vs. Pigment Gamut - Metamerism|Natural Light Gamut vs. Pigment Gamut - Metamerism]]: Cross-cutting page (Painting × Light) comparing the range of colors in nature to those achievable with pigments, and addressing metamerism.
 - [[Intersections/Optical vs. Physical Mixture|Optical vs. Physical Mixture]]: The distinction between visual/optical mixing (additive) and physical paint mixing (subtractive), specifically addressing the complementary color and primary color fallacies.
@@ -52,7 +53,7 @@
 - [[Painting/Movements & Painters/Bauhaus|Bauhaus]]: Discusses color theory and pedagogy at the Bauhaus (Itten, Klee, Kandinsky).
 - [[Painting/Movements & Painters/Color Field|Color Field]]: Analyzes the immersive use of color in the Color Field movement (Rothko, Newman).
 - [[Painting/Movements & Painters/Fauvism|Fauvism]]: Examines Fauvism (Matisse, Derain) and the liberation of color from descriptive realism.
-- [[Painting/Movements & Painters/Impressionism|Impressionism]]: Explores Impressionism (Monet, Renoir, Pissarro) and their focus on capturing fleeting light.
+- [[Painting/Movements & Painters/Impressionism|Impressionism]]: Explores Impressionism (Monet, Renoir, Pissarro) and their focus on capturing fleeting light through en plein air painting, broken-color optical mixtures, and colored complementary shadows.
 - [[Painting/Movements & Painters/Movements & Painters|Movements & Painters]]: Parent page covering the historical evolution of color use across art movements and specific painters.
 - [[Painting/Movements & Painters/Neo-Impressionism-Pointillism|Neo-Impressionism-Pointillism]]: Details Neo-Impressionism and Pointillism (Seurat, Signac) and their scientific application of optical mixing.
 - [[Painting/Movements & Painters/Newton's Influence on Painters|Newton's Influence on Painters]]: Examines the impact of Isaac Newton's optical theories on subsequent painters and color theory.

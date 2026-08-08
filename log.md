@@ -1,5 +1,21 @@
 # Ingest Log
 
+## [2026-08-08] ingest | Impressionism deep
+- NotebookLM query (5 parts: plein air + atmospheric effects + collapsible tubes c. 1860s; broken color + optical mixture + lustre/flicker; local color abandonment + cold-warm contrast; Goethe 1810 colored shadows + Chevreul 1839 simultaneous/successive contrast; serial studies Monet series + 10-20 canvases + diurnal illuminants) — user pasted browser answer.
+- Verified existing `Painting/Movements & Painters/Impressionism.md` draft against notebook data; grounded Handprint citations in color12 (diurnal changes best seen from darkened-room window, Monet Rouen Cathedral series) and color11 (limited value range not flat — Monet/Whistler); added Goethe + Chevreul to Sources (canonical titles per Bibliography).
+- Updated `page-status.md` (→ done), `index.md`.
+
+## [2026-08-08] ingest | Home landing deep
+- NotebookLM query ("main connections in light, the eye, color, pigment, and perception"; user pasted browser answers — extraction flaky, citation query ran separately).
+- Rewrote `Home.md` in no-H1 format: header image prompt blockquote, Scope, 5-stage chain (light → pigment → eye → neural processing → V1–V4 cortex) with notebook citations + page refs, suggested reading order, Handprint Perspectives from color18a (retinal trichromatic primaries as bridging vs opponent axes of appearance; peak-chroma lightness varies around hue circle, tracking photopic sensitivity with violet exception).
+- Updated `page-status.md` (→ done), `index.md`, `log.md`.
+
+## [2026-08-08] ingest | Causal Chain from Pigments to Perception
+- Processed NotebookLM query tracing the causal chain between surface pigments, human luminosity sensitivity V(λ), Pointer's Gamut, and perceived color asymmetry.
+- Created new intersection page `Intersections/Causal Chain - Pigments to Perception.md` in no-H1 format with detailed citations (optimal colors step function, V(λ) 555 nm peak, Pointer's Gamut, opponent processes).
+- Integrated Handprint Perspective from color12 (MacEvoy's "warm cliff" reflectance curve, warm surface colors chroma preservation).
+- Updated `page-status.md` (→ done), `index.md`, `log.md`.
+
 ## [2026-08-06] ingest | Simultaneous Contrast / Constancy / Afterimages deep
 - NotebookLM query (6 parts: simultaneous contrast + Chevreul 1839 + opponent/lateral inhibition; constancy + discounting + sodium lamp failure + infant 2-4 mo; afterimages fatigue 30-60 s + complements + saccades; RGB vs CMY + optical mixture; agent vs effect + twilight + gray ground; 40 s afterimage demo + Johns Flag + gray carpet) — user pasted browser answer.
 - Rewrote `Intersections/Simultaneous Contrast, Color Constancy, Afterimages, Subtractive vs. Additive Mixing.md` in no-H1 format with notebook citations + header image prompt blockquote; Handprint Perspectives (color18b afterimage asymmetry + positive afterimages) + preserved Color Wheel Fallacy contradiction flag (color14).

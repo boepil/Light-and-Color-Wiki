@@ -1,4 +1,4 @@
-![[Pasted image 20260806114022.png]]
+![[images/Pasted image 20260806114022.png]]
 
 **Scope:** Explains the neural opponent-process theory of color coding — how trichromatic cone signals are recombined into antagonistic channels.
 

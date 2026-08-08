@@ -1,4 +1,4 @@
-![[Rods vs. Cones.jpg]]
+![[images/Rods vs. Cones.jpg]]
 
 **Scope:** Analyzes the density and spatial distribution of rods and cones across the retina.
 

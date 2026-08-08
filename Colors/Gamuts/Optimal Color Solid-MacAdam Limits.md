@@ -1,4 +1,4 @@
-![[ChatGPT Image Aug 6, 2026, 02_46_29 PM.png]]
+![[images/ChatGPT Image Aug 6, 2026, 02_46_29 PM.png]]
 
 **Scope:** Discusses the Optimal Color Solid and MacAdam Limits of maximum achievable reflecting colors.
 

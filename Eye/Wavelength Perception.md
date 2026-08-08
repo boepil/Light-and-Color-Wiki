@@ -1,4 +1,4 @@
-![[ChatGPT Image Aug 6, 2026, 12_36_58 PM 1.png]]
+![[images/ChatGPT Image Aug 6, 2026, 12_36_58 PM 1.png]]
 
 **Scope:** Details how cones biologically encode physical wavelengths into a neural signal.
 

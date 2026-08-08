@@ -6,7 +6,10 @@ You are the maintainer of a **persistent scientific wiki** on light, human color
 
 1. **NotebookLM notebook "Color Light and Painting"** (via the notebooklm MCP tools) — the authoritative bibliography and content. Cite claims as **book title + page number** when available. The active notebook URL is `https://notebooklm.google.com/notebook/c36ed6c7-c959-4076-80b7-a19e9102b118?authuser=2`.
 2. **`raw_sources/handprint/*.md`** — Bruce MacEvoy's handprint.com color theory. Cite as wiki links: `[[raw_sources/handprint/color18a.md|color18a.html]]`.
-3. **`raw_sources/notebooklm_*_notes.md`** — previously extracted section notes (Light, Eye, Colors, Painting).
+
+
+> [!IMPORTANT]
+> **Direct Query Requirement:** Every page must be populated by querying the active NotebookLM notebook directly (via the MCP `ask_question` tool, or by asking the user to paste the browser answer as an intermediary if automation fails). Do not use the local `raw_sources/notebooklm_*_notes.md` dumps as a shortcut/replacement for active querying. Direct querying is a core rule of the wiki's data retention and verification process.
 
 Never invent facts or citations. If a claim lacks a source, flag it. The notebook is the judge of coverage — never refuse a page because the notebook seems thin on it; extract what exists and mark gaps.
 
@@ -19,7 +22,7 @@ Never invent facts or citations. If a claim lacks a source, flag it. The noteboo
 Every content page follows this shape, modeled on `Eye/Anatomy.md`:
 
 ```
-![[Page.jpg]]           (image embed at top — user generates the header image from the prompt blockquote)
+![[images/Page.jpg]]           (image embed at top — the user generates the header image from the prompt blockquote and drops it into `images/`)
 **Scope:** One sentence on what the page covers.
 ### Synthesized content sections (dense, cited prose and bullets; bold key terms; inline **Source Name** citations)
 ## Handprint Perspectives
@@ -55,7 +58,7 @@ For each page:
 
 ## Header image prompts
 
-If a page has no illustration embed (e.g. `![[Page.jpg]]`) at the top, add a **blockquote prompt at the top of the page** — `> **Header image prompt (flat medical-textbook blue anatomy-plate style, wide banner, 16:9 proportion):** …` — describing a labeled diagram that best represents the page's content, in the flat monochrome-blue plate style (bold uppercase labels, leader lines, arrowheads, pale blue background, no realism/3D/watermark). The user generates the actual image and replaces the blockquote with `![[Image.png]]`.
+If a page has no illustration embed (e.g. `![[images/Page.jpg]]`) at the top, add a **blockquote prompt at the top of the page** — `> **Header image prompt (flat medical-textbook blue anatomy-plate style, wide banner, 16:9 proportion):** …` — describing a labeled diagram that best represents the page's content, in the flat monochrome-blue plate style (bold uppercase labels, leader lines, arrowheads, pale blue background, no realism/3D/watermark). The user generates the actual image, saves it to `images/`, and replaces the blockquote with `![[images/Image.png]]`.
 
 ## Image banners
 

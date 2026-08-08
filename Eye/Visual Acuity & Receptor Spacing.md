@@ -1,5 +1,5 @@
 
-![[ChatGPT Image Aug 6, 2026, 01_29_28 PM.png]]
+![[images/ChatGPT Image Aug 6, 2026, 01_29_28 PM.png]]
 
 **Scope:** Relates visual acuity to the physical spacing of photoreceptors in the eye.
 

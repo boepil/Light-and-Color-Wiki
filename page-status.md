@@ -2,6 +2,9 @@
 
 **States:** `stub` (bare template) · `draft` (some content) · `review` (needs proofing) · `done` (reference-grade, cited).
 
+## Landing
+- `Home.md` — **done** (deep: 5-stage light→pigment→eye→cortex chain, notebook-cited + page refs, handprint color18a peak-chroma lightness perspective, reading order)
+
 ## Appendix
 - `Appendix/Bibliography.md` — **done** (54 sources, title + author, handprint block)
 - `Appendix/History & Key Figures.md` — **done** (6 biographies, cited)
@@ -42,7 +45,7 @@
 - `Painting/Movements & Painters/Bauhaus.md` — `draft` (16 lines)
 - `Painting/Movements & Painters/Color Field.md` — `draft` (16 lines)
 - `Painting/Movements & Painters/Fauvism.md` — `draft` (8 lines)
-- `Painting/Movements & Painters/Impressionism.md` — `draft` (16 lines)
+- `Painting/Movements & Painters/Impressionism.md` — **done** (deep, notebook-cited: plein air + collapsible tubes 1860s, broken color optical mixture vs palette mud, local color abandonment + cold-warm contrast, Goethe 1810 colored shadows + Chevreul 1839 simultaneous/successive contrast, Monet series Rouen/Haystacks/Parliament + 10-20 canvases hourly, diurnal illuminants dawn tints/noon saturation/afternoon shades; handprint color12 diurnal filter + color11 compressed value range)
 - `Painting/Movements & Painters/Neo-Impressionism-Pointillism.md` — `draft` (16 lines)
 - `Painting/Movements & Painters/Newton's Influence on Painters.md` — `draft` (7 lines)
 - `Painting/Movements & Painters/Op Art.md` — `draft` (8 lines)
@@ -63,6 +66,7 @@
 - `Intersections/Color Matching Functions and the Photopic Luminosity Function.md` — **done** (deep, notebook-cited: RGB matching 700/546.1/435.8 nm + negative values, x̄ 595-600/ȳ 555/z̄ 445-450 nm peaks, V(λ) ≡ ȳ + flicker photometry, 1924 blue deficiency + Judd-Vos 1988 V_M(λ), X = kΣP·x̄·R tristimulus integration, V′(λ) 507 nm + Purkinje shift; handprint peak-chroma lightness vs photopic sensitivity + 555→510 nm shift)
 - `Intersections/Natural Light Gamut vs. Pigment Gamut - Metamerism.md` — **done** (deep, notebook-cited: natural SPD state space 400-700 nm, 7M levels, reflectance 0-100%/<90% white, lightness-chroma bind, subtractive loss, metamerism 3-receptor reduction 580 nm = R+G, illuminant metamerism + color constancy, 150 hues, Pointer 4,000 + 85,879 spectra, CIE tristimulus built-in metamerism + observer metamerism; handprint yellow+orange filters → green/red/black, material metamerism rule, grays/dull metameric tech13)
 - `Intersections/Why Lab-Munsell Were Built for Perceptual Uniformity.md` — **done** (deep, notebook-cited: xy non-uniformity 1.0 blue vs 3.86 green Munsell evidence, JND color difference ruler, CIELAB cube-root L* + opponent a*b* + Euclidean ΔE, Munsell 1905/1943 3M obs 41 observers, sqrt vs cube-root scaling, blue-region 1.57x residual + CMC/CIE94 + CIECAM; handprint 50 perceptible lightness levels + Gelb staircase anchoring)
+- `Intersections/Causal Chain - Pigments to Perception.md` — **done** (deep, notebook-cited: step-function optimal colors, photopic V(λ) 555 nm peak, Pointer's Gamut 4,000 surfaces, opponent channels, warm cliff; handprint warm colors chroma preservation; new no-H1 format)
 
 ## Next up
 1. `Light/Spectral Locus & Excitation Purity.md` → deep (completes Intersections + picks up Light section)

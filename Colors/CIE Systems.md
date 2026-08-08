@@ -1,5 +1,5 @@
 
-![[ChatGPT Image Aug 6, 2026, 02_26_10 PM.png]]
+![[images/ChatGPT Image Aug 6, 2026, 02_26_10 PM.png]]
 
 **Scope:** Overview of CIE coordinate systems including the xy diagram, XYZ, and Lab spaces.
 
