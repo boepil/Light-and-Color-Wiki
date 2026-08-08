@@ -1,3 +1,8 @@
+---
+title: Painting
+aliases: [Painting]
+---
+
 **Scope:** The painting section bridges abstract color theory and the physical reality of applied pigments — how color sustains composition, the chemistry and optics of natural and synthetic pigments, objective pigment analysis via spectral data, and the historical arc of color use from the Old Masters to abstract painting.
 
 ### [[Composition|Painting/Composition]]

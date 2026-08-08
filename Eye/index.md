@@ -1,3 +1,8 @@
+---
+title: Eye
+aliases: [Eye]
+---
+
 **Scope:** How the eye translates physical wavelengths of light into the psychological experience of color — the anatomy of the visual pathway, the dual rod/cone receptor systems and their spatial distribution, the physical limits of visual acuity, wavelength sampling by three cone classes, and opponent-process recoding in the retina and brain.
 
 ### [[Anatomy|Eye/Anatomy]]
