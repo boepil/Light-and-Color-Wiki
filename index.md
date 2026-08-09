@@ -30,6 +30,7 @@
 
 ## Intersections
 - [[Intersections/Causal Chain - Pigments to Perception|Causal Chain - Pigments to Perception]]: Traces the causal flow from physical surface reflectance to human biological response ($V(\lambda)$) and perceptual experience.
+- [[Intersections/Color Psychology & Symbolism|Color Psychology & Symbolism]]: Cross-cutting page (Painting × Eye) on color's emotional, symbolic, and commercial claims — evidence quality (controlled studies vs. doctrine vs. anecdote), cultural relativity of meaning, Kandinsky's synesthetic doctrine, warm/cool physics-and-convention, and the hue/value/chroma conflation in color-mood research.
 - [[Intersections/Color Matching Functions and the Photopic Luminosity Function|Color Matching Functions and the Photopic Luminosity Function]]: Cross-cutting page (Light × Eye) exploring how physical light is weighted by human biological sensitivity.
 - [[Intersections/Natural Light Gamut vs. Pigment Gamut - Metamerism|Natural Light Gamut vs. Pigment Gamut - Metamerism]]: Cross-cutting page (Painting × Light) comparing the range of colors in nature to those achievable with pigments, and addressing metamerism.
 - [[Intersections/Optical vs. Physical Mixture|Optical vs. Physical Mixture]]: The distinction between visual/optical mixing (additive) and physical paint mixing (subtractive), specifically addressing the complementary color and primary color fallacies.

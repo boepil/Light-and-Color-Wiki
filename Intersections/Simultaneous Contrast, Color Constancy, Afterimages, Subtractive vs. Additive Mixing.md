@@ -1,4 +1,4 @@
-> **Header image prompt (flat medical-textbook blue anatomy-plate style, wide banner, 16:9 proportion):** A monochrome blue line-art diagram on a pale blue background of color interaction phenomena. Top row: **SIMULTANEOUS CONTRAST** — a central gray patch shown twice, once on a red background (labeled **LOOKS GREENISH**) and once on a green background (labeled **LOOKS REDDISH**). Middle row: **AFTERIMAGE** — an eye staring at a red square for **40 s**, an arrow to a white surface with a ghostly cyan square labeled **NEGATIVE AFTERIMAGE · COMPLEMENT**. Bottom row: **COLOR CONSTANCY** — the same apple shown under a sun icon and a blue-tinted lamp icon, both labeled **SAME PERCEIVED RED** with a caption **CHROMATIC ADAPTATION · DISCOUNTING THE ILLUMINANT**, plus a small icon of a sodium street lamp labeled **CONSTANCY FAILS**. Bold uppercase labels with thin leader lines and arrowheads, flat vintage anatomy-plate look, no realism, no 3D, no watermark, no color beyond blue tones.
+![[Pasted image 20260809130837.png]]
 
 **Scope:** Cross-cutting page (Painting × Eye) covering perceptual phenomena critical for painters.
 

@@ -1,4 +1,4 @@
-> **Header image prompt (flat medical-textbook blue anatomy-plate style, wide banner, 16:9 proportion):** A monochrome blue line-art diagram on a pale blue background of the CIE observer functions. Center: a large graph — a horizontal **WAVELENGTH (nm)** axis from 380 to 780 with three overlapping curves labeled **x̄(λ) · 595–600 nm**, **ȳ(λ) = V(λ) · PEAK 555 nm**, **z̄(λ) · 445–450 nm**, their overlap zones hatched; a second smaller dashed curve labeled **V′(λ) SCOTOPIC · PEAK 507 nm** shifted left of the photopic peak, with a double arrow labeled **PURKINJE SHIFT**. Left: a small bipartite-field icon — **TEST λ** vs **R+G+B MIX** — with a minus sign noted on the test side labeled **NEGATIVE MATCHES**. Right: a small computation panel showing **X = k Σ P(λ)·x̄(λ)·R(λ)** feeding an xy diagram. Bold uppercase labels with thin leader lines and arrowheads, flat vintage anatomy-plate look, no realism, no 3D, no watermark, no color beyond blue tones.
+![[Pasted image 20260809130318.png]]
 
 **Scope:** Cross-cutting page (Light × Eye) exploring how physical light is weighted by human biological sensitivity.
 

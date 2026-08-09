@@ -8,4 +8,5 @@
 
 ## Cross-References
 - [[Movements & Painters]]
+- [[Intersections/Color Psychology & Symbolism]]
 

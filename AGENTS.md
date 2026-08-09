@@ -58,11 +58,11 @@ For each page:
 
 ## Header image prompts
 
-If a page has no illustration embed (e.g. `![[images/Page.jpg]]`) at the top, add a **blockquote prompt at the top of the page** — `> **Header image prompt (flat medical-textbook blue anatomy-plate style, wide banner, 16:9 proportion):** …` — describing a labeled diagram that best represents the page's content, in the flat monochrome-blue plate style (bold uppercase labels, leader lines, arrowheads, pale blue background, no realism/3D/watermark). The user generates the actual image, saves it to `images/`, and replaces the blockquote with `![[images/Image.png]]`.
+If a page has no illustration embed (e.g. `![[images/Page.jpg]]`) at the top, add a **blockquote prompt at the top of the page** — `> **Header image prompt (flat medical-textbook blue anatomy-plate style, wide banner, 16:9 proportion):** …` — describing a labeled diagram that best represents the page's content, in the flat monochrome-blue plate style (bold uppercase labels, leader lines, arrowheads, pale blue background, no realism/3D/watermark), with **subtle chromatic accents**: sparse touches of the page's key hues (e.g., a spectral band, warm amber/gold, red–green or yellow–blue accent pairs) used only to highlight whatever the page is about, keeping the overall pale-blue plate aesthetic dominant. The user generates the actual image, saves it to `images/`, and replaces the blockquote with `![[images/Image.png]]`.
 
 ## Image banners
 
-When the user requests header images: produce detailed prompts in the **flat medical-textbook blue anatomy-plate style** (monochrome blue line art, pale blue background, bold uppercase labels with leader lines and arrows, no realism/3D/watermark). Wide banner ratio. One prompt per page, embedding the page's key content as labeled diagram elements. For montage/index pages, combine insets (spectrum band, sensitivity curves, opponent axes) in the same plate style.
+When the user requests header images: produce detailed prompts in the **flat medical-textbook blue anatomy-plate style** (monochrome blue line art, pale blue background, bold uppercase labels with leader lines and arrows, no realism/3D/watermark), adding **subtle chromatic accents** in the page's key hues — used sparingly (thin colored strokes, small filled swatches, a spectral band or gradient wash) so the blue-plate aesthetic stays dominant. Wide banner ratio. One prompt per page, embedding the page's key content as labeled diagram elements. For montage/index pages, combine insets (spectrum band, sensitivity curves, opponent axes) in the same plate style.
 
 ## Operating rules
 

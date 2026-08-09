@@ -1,4 +1,4 @@
-> **Header image prompt (flat medical-textbook blue anatomy-plate style, wide banner, 16:9 proportion):** A monochrome blue line-art diagram on a pale blue background contrasting the two mixture modes. Left: **PHYSICAL (SUBTRACTIVE) MIXTURE** — two pigment particles (red and blue) merging into a dull violet patch, with downward arrows of absorbed light labeled **ABSORPTION · SUBTRACTION**, and a caption **R + B → DULL VIOLET**. Right: **OPTICAL (ADDITIVE) MIXTURE** — tiny red, green, and blue dots viewed through a magnifier with arrows converging on an eye icon, merging into a bright field labeled **SPATIAL AVERAGING IN THE EYE**, and a caption **R + G → YELLOW**. Below center: a small palette of tiny unmixed color dots (pointillism) with caption **SEURAT · POINTILLISM**. Bold uppercase labels with thin leader lines and arrowheads, flat vintage anatomy-plate look, no realism, no 3D, no watermark, no color beyond blue tones.
+![[Pasted image 20260809183825.png]]
 
 **Scope:** The distinction between visual/optical mixing (additive) and physical paint mixing (subtractive), specifically addressing the complementary color and primary color fallacies.
 

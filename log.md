@@ -1,5 +1,14 @@
 # Ingest Log
 
+## [2026-08-09] ingest | Color Psychology & Symbolism (new Intersections page)
+- New page `Intersections/Color Psychology & Symbolism.md` (Painting × Eye cross-cutting node) — per user suggestion, since the topic is neither pure biology nor pure technique.
+- NotebookLM queries (6, user-pasted browser answers due to auth failure/`setup_auth` timeout at session start): (1) evidence quality behind color-emotion claims (controlled vs tradition vs anecdote), (2) cultural variation in symbolism (white/red/blue/yellow inversions), (3) Kandinsky's synesthetic doctrine + "pseudo-synesthete", (4) warm/cool physics vs learned vs convention, (5) hue vs value vs chroma separation in research, (6) appetite/retail/branding evidence base.
+- Page content: evidence pyramid (red-light replication failure, pink-cell 15-min dose window, mink/red-car anecdotes), cultural symbolism (China/Japan/Africa mourning-white, imperial yellow → machinery safety), Kandinsky sound/form maps + Bauhaus dissent, warm/cool 5–7° rooms + Carlson fire/ice + ~200-year convention, dockworkers' value story, Reinhardt close-valued fields, Gage "circular arguments of opinion polls".
+- Handprint Perspectives: color12 (warm/cool depth-mood effects = lightness/chroma, Ruskin 1862 quote, violet-light reversal) + color18b (universal color psychology tested ~1890–present, "consistent physiological effects don't exist", SAD white-light exception, light+chroma dominant vs hue weak, Gage no consistent color meanings in world art).
+- Contradiction flag: Notebook corpus's hue-leaning color-mood claims vs Handprint's lightness/chroma attribution; both partially agree (Query 1's own red-light finding failed to replicate).
+- Note: `setup_auth` failed to recover session; per AGENTS.md fallback, user pasted all 6 browser answers (no per-claim source chips preserved — attribution follows answer text + Bibliography titles). Created header-image prompt blockquote (user generates `images/` file).
+- Updated `page-status.md` (→ done), `index.md`, `log.md`; backfilled Cross-References from Bauhaus + Romanticism-Turner.
+
 ## [2026-08-08] ingest | Section hub pages (Eye/Light/Colors/Painting)
 - User defined final hub format in `Eye_Test.md`: no-H1, `**Scope:**`, one linked `### [[Subpage|path]]` content section per subpage, `## Related Intersections`, `## Sources` last — no Handprint, no header image, no Subpages list.
 - Replicated to `Eye.md` (added missing rods/visual acuity sections per user), wrote `Light.md`, `Colors.md`, `Painting.md` from the corresponding `raw_sources/notebooklm_*_notes.md` dumps, all facts grounded in the dumps + existing deep pages, Sources canonical per Bibliography.
