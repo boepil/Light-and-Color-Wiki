@@ -1,28 +1,75 @@
-# The Visible Spectrum
+> **Header image prompt (flat medical-textbook blue anatomy-plate style, wide banner, 16:9 proportion):** A triangular glass prism drawn in pale-blue line art at center, a thin white arrow labeled **WHITE LIGHT** entering from the left, and exiting the right face a diverging fan of six thin colored bands — violet, blue, green, yellow, orange, red — each with a bold uppercase label and a small wavelength tick (380/440/490/575/610/780 nm) along a horizontal ruler below. A thin dashed line connects the violet and red bands behind the prism with the label **MAGENTA (NON-SPECTRAL MIX)**. Plate labels: **PRISM DISPERSION**, **HETEROGENEOUS WHITE LIGHT — "COMPONENTS, NOT MODIFICATIONS"**. Pale blue background, bold uppercase labels, leader lines, flat line art, no 3D, no watermark.
 
-**Scope:** Defines the visible spectrum purely as a physical range of electromagnetic wavelengths.
+**Scope:** The visible spectrum as the narrow physical band of electromagnetic wavelengths the eye can detect — its Newtonian discovery, the hue ranges within it, and its fuzzy biological limits.
 
-## Subtopics
-- Visible Range limits
-- Infrared and Ultraviolet Boundaries
+### A Narrow Window on the Electromagnetic Spectrum
 
-## Cross-References
-- [[Wave Nature]]
+Visible light is only a sliver of the full electromagnetic spectrum, which runs from radio waves (meters long) to X-rays and gamma rays (nanometers and fractions of a nanometer) (*The Science of Paintings*).
 
-## Synthesized Content
+- Sources define the band differently: "the human visual system is sensitive only to photons with wavelengths between about **400 and 700 nanometers**" (*Vision Science: Photons to Phenomenology*); elsewhere "visible light, called the visible spectrum, is that portion of the electromagnetic spectrum having wavelengths from about **380 nm ... to 780 nm**" (*The Measurement of Colour*).
+- The endpoints are not sharp physical boundaries but fuzzy, observer-dependent limits — see below.
 
-The visible spectrum is a narrow window within the broader electromagnetic spectrum, which includes everything from radio waves (meters long) to X-rays and gamma rays (nanometers and smaller).
+### Newton's Prism — White Light Decomposed
 
-*   **Spectral Range:** Sources define the visible band as approximately **380–400 nm up to 700–780 nm**.
-    *   **"vision-science-photons-to-pheno":** "In fact, the human visual system is sensitive only to photons with wavelengths between about 400 and 700 nanometers."
-    *   **"The Measurement of Color":** "Visible light, called the visible spectrum, is that portion of the electromagnetic spectrum having wavelengths from about 380 nm... to 780 nm."
-*   **Prismatic Dispersion:** Sir Isaac Newton demonstrated that "white" sunlight is a heterogeneous mixture of component wavelengths. Passing light through a prism causes **refraction**, where different wavelengths bend at different angles, separating the beam into its constituent spectral hues.
-    *   **"The Science of Paintings":** "Newton showed experimentally that a beam of white light, when passed through a glass prism, is decomposed into a spectrum consisting of a large number of colors... these colors are components, not modifications, of white light."
-*   **Nonspectral Lights:** Certain lights, such as **purple or magenta**, do not have a single corresponding monochromatic wavelength; they are physical mixtures of red and violet wavelengths.
-    *   **"The Science of Paintings":** "No single wavelength exists for the color purple. Purple can be created with a mixture of wavelengths in both the red and the violet."
+Newton's 1666 experiment with a triangular glass prism established that white sunlight is **not a simple, pure entity** but a **"heterogeneous mixture of differently refrangible rays"** (*Color for Science, Art, and Technology*).
+
+- A narrow beam of sunlight entering the prism is **refracted (bent)**; because different colors bend at different angles, the beam spreads into an oblong **spectrum** — a term **coined by Newton** — instead of remaining a circular white spot (*A Comprehensive Overview of Color Vision Mechanisms, Color Spaces, and the Munsell System*).
+- The sequence of hues is **continuous** because sunlight contains "a smooth continuum of wavelengths, which the glass separates according to their individual refractive properties" (*The Science of Paintings*, *A Comprehensive Overview...*).
+- The decisive finding: the colors "are **components, not modifications**, of white light" (*The Science of Paintings*).
+
+### Approximate Wavelength Ranges of the Spectral Hues
+
+Ranges vary slightly between sources — two conventions below (*A Comprehensive Overview of Color Vision Mechanisms, Color Spaces, and the Munsell System*; *The Science of Paintings*):
+
+| Hue | Range (nm) | Alternate convention |
+|---|---|---|
+| Violet | 380–440 | — |
+| Blue | 440–490 | 450–500 |
+| Green | 490–575 | 500–560 |
+| Yellow | 575–585 | 560–590 |
+| Orange | 585–610 | 590–610 |
+| Red | 610–760 | 610–750 |
+
+> [!NOTE] **Conventional, not physical, boundaries:** the hue cutoffs above are conventions, not physical divisions — the spectrum is a continuous gradient, and books pick different boundary wavelengths (yellow alone spans 575–585 nm or 560–590 nm depending on the source).
+
+### Fuzzy Boundaries — Where Vision Fails
+
+The ~380–400 nm / ~700–780 nm bracket is fuzzy because human sensitivity "depends on the individual observer, light intensity, and eye adaptation" (*The Measurement of Colour*).
+
+- **UV limit:** the short-wavelength end is set by the **cornea and lens, which absorb ultraviolet** radiation; some individuals can perceive near-UV light after cataract surgery removes the lens (*A Comprehensive Overview...*).
+- **IR limit:** at the long-wavelength end, infrared photons carry **too little energy (less than ~1.8 eV)** to trigger the chemical changes in retinal photoreceptors needed for vision (*A Comprehensive Overview...*, *Color for Science, Art, and Technology*).
+
+### Nonspectral Colors — the Spectrum's Missing Hues
+
+Some colors — **purple and magenta** — have **no single corresponding wavelength**: "No single wavelength exists for the color purple. Purple can be created with a mixture of wavelengths in both the red and the violet" (*The Science of Paintings*). These nonspectral hues are created exclusively by mixing light from the two opposite ends of the spectrum, and "the visual system 'invents' these hues to bridge the gap between red and violet, effectively bending the linear physical spectrum into a perceptual **color circle**" (*A Comprehensive Overview...*, see [[Spectral Locus & Excitation Purity]] for the line of purples).
+
+### Why the Prism Spreads Blue More Than Red
+
+Dispersion is wavelength-dependent because **the speed of light in glass depends on wavelength**. All light travels at c in a vacuum, but in a denser medium "short wavelengths (blue/violet) are slowed significantly more than long wavelengths (red)"; since the bending angle is set by the velocity change, "the more-sluggish blue waves are deflected at a sharper angle than the faster-moving red waves" (*The Science of Paintings*, *Illusions of Seeing*).
 
 ## Handprint Perspectives
 
-When discussing the visible spectrum, MacEvoy stresses that the spectral band is not uniform in its perceptual impact. Our biological sensitivity is heavily biased toward the middle of the spectrum (greens and yellows), meaning that equal physical increments in wavelength do not produce equal perceptual shifts in hue. 
+MacEvoy's taxonomy of hues cuts the visible spectrum into just **six** names — the five *spectrum hues* **red, orange, yellow, green, blue** plus the extraspectral **violet (or purple)** — noting that "the extraspectral range includes many hues commonly labeled red." For painters the spectrum is also perceptually uneven: because the color receptors differ in sensitivity across wavelengths, "reflected 'green' light always appears much brighter than the same amount of 'blue' light" — equal physical energy in the middle of the spectrum reads as far more luminous than at the ends, so a spectrum drawn at equal physical intervals is not a perceptually equal scale *(Source: [[raw_sources/handprint/color18a.md|color18a.html]], [[raw_sources/handprint/color11.md|color11.html]])*.
 
-This physical reality contradicts the perfectly symmetrical geometry often taught in traditional art classes. It underscores why understanding [[Wavelength Perception]] and the biological [[Anatomy]] of the eye is necessary to explain why we see the spectrum the way we do, rather than assuming light itself is symmetrically divided. *(Source: [[raw_sources/handprint/color18a.md|color18a.html]])*
+## Subtopics
+- The visible band (≈380–400 to 700–780 nm) inside the full electromagnetic spectrum
+- Newton 1666: heterogeneous white light, prismatic refraction, the coining of "spectrum," components not modifications
+- Hue wavelength ranges (violet 380–440 / blue 440–490 / green 490–575 / yellow 575–585 / orange 585–610 / red 610–760 nm, with alternate conventions)
+- Fuzzy limits: cornea/lens UV absorption vs. sub-1.8 eV infrared photons
+- Nonspectral purple/magenta and the perceptual color circle
+- Wavelength-dependent dispersion: blue slowed more than red in glass
+
+## Cross-References
+- [[Wave Nature]] — wavelength, frequency, SPD physics behind the spectrum
+- [[Spectral Locus & Excitation Purity]] — the spectrum as the outer boundary of color space; line of purples
+- [[Wavelength Perception]] — how the eye converts the 380–780 nm band into hues
+- [[Reflection vs. Emission]] — prismatic refraction and dispersion as light–matter interaction
+- [[Illuminants & Correlated Color Temperature]] — the SPDs that real sources place inside the band
+
+## Sources
+* "The Science of Paintings" — W. Stanley Taft Jr. and James W. Mayer
+* "Vision Science: Photons to Phenomenology" — Stephen E. Palmer
+* "The Measurement of Colour" — R.W.G. Hunt
+* "Illusions of Seeing" — Thomas Ditzinger
+* "Color for Science, Art, and Technology" — Kurt Nassau (editor)
+* "A Comprehensive Overview of Color Vision Mechanisms, Color Spaces, and the Munsell System"

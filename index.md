@@ -4,9 +4,9 @@
 
 ## Appendix
 - [[Appendix/Bibliography|Bibliography]]: A bibliography organized by section linking back to supporting pages.
-- [[Appendix/Data & Methodology|Data & Methodology]]: Details on sourcing spectral data, the CIE integration pipeline, and citation practices.
+- [[Appendix/Data & Methodology|Data & Methodology]]: Instruments (spectrophotometers, spectroradiometers, colorimeters), sampling protocols (1–20 nm, 380–780 nm, 2°/10° observers), the CIE integration pipeline (X = k·Σ P·x̄·R·Δλ), and the classic datasets behind this wiki.
 - [[Appendix/History & Key Figures|History & Key Figures]]: Short biographies and core contributions of key figures: Munsell, Schrödinger, MacAdam, Pointer, Chevreul, and the CIE committee.
-- [[Appendix/Project Notes|Project Notes]]: Personal project notes on building a 3D color visualization, detailing the Three.js implementation and coordinate conventions.
+- [[Appendix/Project Notes|Project Notes]]: Notebook-grounded notes for a 3D color viewer — CIELAB spindle, Munsell Color Tree, gamut hulls, L\*/a\*/b\*/C\*/h conventions, and navigation techniques (constant-L\* slices, hue wedges).
 
 ## Colors
 **[[Colors|Colors]]**: Standardization of color — CIE XYZ/xy/CIELAB with imaginary primaries and 2°/10° observers, MacAdam just-noticeable differences, Munsell's Hue/Value/Chroma and 1943 Renotation, and the gamut boundaries of real, optimal, and device colors.
@@ -43,25 +43,25 @@
 - [[Light/Illuminants & Correlated Color Temperature|Illuminants & Correlated Color Temperature]]: Explores standard illuminants and the concept of Correlated Color Temperature (CCT).
 - [[Light/Natural Daylight Variation & Hyperspectral Scene Data|Natural Daylight Variation & Hyperspectral Scene Data]]: Analyzes the physical variations of natural daylight and the use of hyperspectral scene data.
 - [[Light/Reflection vs. Emission|Reflection vs. Emission]]: Compares physical emission of light versus reflection and absorption.
-- [[Light/Spectral Locus & Excitation Purity|Spectral Locus & Excitation Purity]]: Defines the physical concept of the spectral locus and excitation purity.
-- [[Light/The Visible Spectrum|The Visible Spectrum]]: Defines the visible spectrum purely as a physical range of electromagnetic wavelengths.
-- [[Light/Wave Nature|Wave Nature]]: Details the physical wave nature of light, covering wavelength, frequency, and spectral power distributions.
+- [[Light/Spectral Locus & Excitation Purity|Spectral Locus & Excitation Purity]]: The spectral locus as the horseshoe boundary of monochromatic colors (380–780 nm) plus the line of purples, dominant and complementary wavelengths, and excitation purity as the lever-ratio 100·a/(a+w).
+- [[Light/The Visible Spectrum|The Visible Spectrum]]: Newton's prismatic decomposition (heterogeneous white light, "components, not modifications"), hue wavelength ranges (violet 380–440 → red 610–760 nm), fuzzy 380–400/700–780 nm limits, and nonspectral purple/magenta.
+- [[Light/Wave Nature|Wave Nature]]: Electromagnetic waves (λ/f/amplitude/c, c = f·λ), photons (E = hf, E(eV) = 1240/λ(nm)), frequency-as-color vs amplitude-as-intensity, dual nature in vision-relevant interactions, and spectral power distributions.
 
 ## Painting
 **[[Painting|Painting]]**: Abstract color theory meeting applied pigment — composition (contrast, mostly/some/bit, mother color), the art-history arc from Vermeer/Impressionism to Color Field, pigment chemistry and high-chroma synthetics, and objective spectral pigment analysis.
 
-- [[Painting/Composition|Composition]]: Focuses on color composition, harmony, and structural use of color in painting.
+- [[Painting/Composition|Composition]]: Harmony as "analogy of opposites," Itten's seven contrasts, mostly/some/bit proportions (Itten 3:6:8, Munsell balance), mother color and neutrals, warm/cool depth structuring — and the Albers/Gage/Munsell critique of geometric harmony rules.
 - [[Painting/Movements & Painters/Bauhaus|Bauhaus]]: Discusses color theory and pedagogy at the Bauhaus (Itten, Klee, Kandinsky).
 - [[Painting/Movements & Painters/Color Field|Color Field]]: Analyzes the immersive use of color in the Color Field movement (Rothko, Newman).
 - [[Painting/Movements & Painters/Fauvism|Fauvism]]: Examines Fauvism (Matisse, Derain) and the liberation of color from descriptive realism.
 - [[Painting/Movements & Painters/Impressionism|Impressionism]]: Explores Impressionism (Monet, Renoir, Pissarro) and their focus on capturing fleeting light through en plein air painting, broken-color optical mixtures, and colored complementary shadows.
-- [[Painting/Movements & Painters/Movements & Painters|Movements & Painters]]: Parent page covering the historical evolution of color use across art movements and specific painters.
+- [[Painting/Movements & Painters/Movements & Painters|Movements & Painters]]: The arc from descriptive to autonomous color — Vermeer to Riley — with the theory texts (Goethe, Chevreul, Rood, Munsell, Albers) that fed each movement.
 - [[Painting/Movements & Painters/Neo-Impressionism-Pointillism|Neo-Impressionism-Pointillism]]: Details Neo-Impressionism and Pointillism (Seurat, Signac) and their scientific application of optical mixing.
 - [[Painting/Movements & Painters/Newton's Influence on Painters|Newton's Influence on Painters]]: Examines the impact of Isaac Newton's optical theories on subsequent painters and color theory.
 - [[Painting/Movements & Painters/Op Art|Op Art]]: Explores Op Art (Vasarely, Riley) and its high-contrast perceptual effects.
 - [[Painting/Movements & Painters/Post-Impressionism|Post-Impressionism]]: Covers Post-Impressionist use of color as structure and emotion (Van Gogh, Cézanne).
 - [[Painting/Movements & Painters/Romanticism-Turner|Romanticism-Turner]]: Discusses color use in Romanticism, with a focus on J.M.W. Turner's expressive light.
-- [[Painting/Movements & Painters/Vermeer-Dutch Golden Age|Vermeer-Dutch Golden Age]]: Analyzes the use of color by Vermeer and during the Dutch Golden Age.
+- [[Painting/Movements & Painters/Vermeer-Dutch Golden Age|Vermeer-Dutch Golden Age]]: Vermeer's ultramarine blue-yellow "sonata," Dutch color-envelope tonal unity, "diffraction" edge mastery, and interior light keyed to white — anticipating Goethe/Maxwell and Impressionist optics.
 - [[Painting/Pigments/Chemistry|Chemistry]]: Discusses the chemical basis of painting pigments.
 - [[Painting/Pigments/High-Chroma Synthetics|High-Chroma Synthetics]]: Explores the introduction and impact of high-chroma synthetic pigments like PG7, PG36, PB15:3, PR122, and PV23.
 - [[Painting/Pigments/Natural vs. Synthetic|Natural vs. Synthetic]]: Compares historical natural earth/mineral pigments with modern synthetic alternatives.
