@@ -1,22 +1,31 @@
-# Color Field
+> **Header image prompt (flat medical-textbook blue anatomy-plate style, wide banner, 16:9 proportion):** A flat-blue anatomy plate of Color Field structure: a large near-monochrome pale-blue rectangle field with three stacked soft-edged horizontal bands, each band's boundary blurred and labeled **VANISHING BOUNDARY / FLUTING**; a thin vertical stripe labeled **NEWMAN'S "ZIP"** dividing the field, with a note strip **WALL SCALE — SPACE AS SUBJECT**; a side inset labeled **REINHARDT: DARK LIGHT** showing a near-black square with a faint nine-square grid outline and label **NO LIGHT, NO COLOR — GRID BY SIMULTANEOUS CONTRAST**; a bottom note **DURATIONAL EXPERIENCE — EYE FATIGUE**. Pale blue plate, bold uppercase labels, one narrow band in faint warm gray for contrast, flat line art, no 3D, no watermark.
 
-**Scope:** Analyzes the immersive use of color in the Color Field movement (Rothko, Newman).
+**Scope:** Color Field painting — Rothko, Newman, and Reinhardt using large color fields and simultaneous contrast to make color the subject and the viewer's time the medium.
 
-## Subtopics
-- Large Scale Color
-- Emotional Resonance
-- Rothko, Newman
+### Structure and the Durational Experience
 
-## Cross-References
-- [[Movements & Painters]]
+Color Field painting, a major branch of Abstract Expressionism, used color as both subject and primary structural element, moving from gestural "action" to immersive, atmospheric environments (*A Comprehensive Overview..., Modern Art*).
 
-## Synthesized Content
+- **Large single-hue areas** and **closely-valued fields**; by juxtaposing hues "of very similar value and saturation" the painters exploit **simultaneous contrast** to create "**vanishing boundaries**" where edges "appear to vibrate, dissolve, or shift" (*Color for Science, Art and Technology*).
+- **Durational viewing:** "because the human eye tires during fixation, the visual organization of the image changes over time" — including the **"fluting effect"**, where afterimages along color boundaries make flat areas "seemingly gain volume or move" (*Color for Science, Art and Technology*, *A Comprehensive Overview...*).
 
-Art history reflects an evolving understanding of color science, from the limited mineral palettes of the Old Masters to the optical experiments of the 20th century.
+### Barnett Newman: The "Zip" and Space
 
-*   **Vermeer and the Dutch Golden Age:** Vermeer is noted for his scrupulous use of expensive **natural ultramarine** (ground lapis lazuli) and was a master of **diffraction** (the understanding of edges). His palette often relied on a blue-and-yellow "sonata" that mirrored optical theories of his time (**Color in Art**, **Carlson's Guide to Landscape Pa**).
-*   **Impressionism (Monet, Renoir, Pissarro):** These artists abandoned local color to study the "vibrations" produced by light. They utilized **complementary-color shadows** (e.g., blue shadows for orange light) based on the writings of Goethe and painted the same subject at different times of day to capture the changing illuminant (**The Art of Color**, **Contemporary Color**, **Carlson's Guide to Landscape Pa**).
-*   **Neo-Impressionism / Pointillism (Seurat, Signac):** Seurat explicitly applied **Michel-Eugène Chevreul's law of simultaneous contrast**. He used dots of pure color that mix optically in the observer’s eye, creating chromatic grays and luminous effects through **additive mixture** rather than palette mixing (**The Science of Paintings**, **The Art of Color**).
-*   **Post-Impressionism:** **Van Gogh** used bold complementary pairs (orange/blue) to create emotional intensity, while **Cézanne** used color temperature "modulations" (shifting from warm to cool) to construct form and depth instead of using traditional lines (**Contemporary Color**, **The Art of Color**).
-*   **Bauhaus (Itten, Albers):** **Johannes Itten** formalized color theory through the study of seven distinct color contrasts (hue, value, cold-warm, etc.). **Josef Albers** experimented with the **relativity of color**, showing how the same pigment can appear different depending on its surroundings (**The Art of Color**, **Interaction of Color**).
-*   **Color Field and Abstract Color:** Abstract color painters like **Piet Mondrian** or **Ad Reinhardt** select colors from defined relationships within a system to create a purely pictorial structure, often using **simultaneous contrast** between closely-valued hues to induce a "durational" experience of color change in the viewer (**Color for Science, Art and Technology**).
+- Newman's signature is the **"zip"** — a vertical stripe cutting a vast color field (*A Comprehensive Overview...*).
+- **Space as subject:** massive "wall"-scale works investigated "the relationship between scale, figure, and field," designed to "affect the actual space of the viewer directly" — "a phenomenological encounter with the canvas," beyond traditional pictorial space (*A Comprehensive Overview..., Modern Art*).
+
+### Mark Rothko: Luminous Rectangles and Emotion
+
+- **Stacked rectangular "clouds"** of saturated color with soft, "vanishing" contours (*Color in Art*).
+- **Luminous film color:** many layers of thin glazes plus soft edges produce "inner light"; the rectangles "float in an indefinite plane rather than sitting on the canvas surface" (*A Comprehensive Overview..., Color in Art*).
+- **Emotion:** Rothko treated color as a "language of the soul" seeking "basic human emotions" and the "tragic" — a sublimity "akin to the space of a chapel" (*A Comprehensive Overview..., Color in Art*).
+
+### Ad Reinhardt: The Black Paintings
+
+- In the 1950s–60s Reinhardt arrived at the "black paintings" — "the ultimate statement of artistic negation" (*Modern Art*).
+- His aesthetic rules: **"No colors"** (because "color blinds") — color as a "distracting embellishment" (*A Comprehensive Overview..., Contemporary Color*).
+- **Dark light:** nearly monochromatic "off-black" gray areas where, "through protracted, meditative viewing," a subtle **nine-square grid** emerges "through the activity of simultaneous contrast" — "dark light" (*A Comprehensive Overview...*, *Contemporary Color*).
+
+## Handprint Perspectives
+
+MacEvoy reads the Color Field generation through the psychology-of-color evidence: "colors must have a universal significance because they arouse our physiology or psychology in consistent ways" — green calms and red excites, "yellow makes cheerful and blue makes introspective" — "have been extensively tested by academic color research from around 1890 up to the present day... the net result? Just hundreds of publications to show that" no consistent emotional effects can be tied to hues. The Rothko program — color as "language of the soul" — is thus, in MacEvoy's terms, a claim about a "chromatic Esperanto" whose symbolic power is fixed once and for all; such theories "haven't gained wide support because people much prefer to use the color codes that grow from their culture." What survives his scrutiny is perceptual, not semantic: his hue-to-value mapping note that "dark valued areas cannot be rendered as a pure saturated green or orange" and his championing of the spatial-contrast devices (Albers-style squares, simultaneous-contrast boundaries) that Reinhardt's nine-square grid and Rothko's vanishing edges exploit *(Source: [[raw_sources/handprint/color18b.md|color18b.html]], [[raw_sources/handprint/color18a.md|color18a.html]])*.

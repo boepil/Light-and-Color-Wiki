@@ -61,7 +61,7 @@ MacEvoy opens his color-theory primer with the question "Is the color in a paint
 - [[Illuminants & Correlated Color Temperature]] — standard SPDs as illuminants
 - [[Spectral Locus & Excitation Purity]] — single-wavelength lights as the boundary of color space
 - [[Reflection vs. Emission]] — scattering and absorption at surfaces
-- [[Painting/Pigments/Chemistry|Chemistry]] — photon interactions at the pigment surface
+- [[Pigments/Chemistry|Chemistry]] — photon interactions at the pigment surface
 
 ## Sources
 * "The Science of Paintings" — W. Stanley Taft Jr. and James W. Mayer

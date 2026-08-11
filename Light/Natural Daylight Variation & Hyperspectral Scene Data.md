@@ -1,4 +1,4 @@
-> **Header image prompt (flat medical-textbook blue anatomy-plate style, wide banner, 16:9 proportion):** A flat-blue anatomy plate of daylight phases: a horizon band with a low sun disk labeled **SUNRISE / SUNSET · ~2000 K** (thin red-orange glow streak), a high noon sun labeled **NOON SUN · 4800–5500 K**, and a cloud bank labeled **OVERCAST · 10000 K+**; beneath, a compact CCT scale bar (2000 K → 12000 K) thick at the blue end. Two small inset diagrams: one showing **RAINBOW/RAYLEIGH** scattering — short blue arrows deflected sideways by molecule dots while a long red arrow passes straight — and one **SPECTRAL FINGERPRINT** box showing two reflectance curves (one smooth, one with absorption dips) labeled "two surfaces, one RGB triple". Bold uppercase labels, leader lines, pale blue plate with a thin chromatic CCT strip accent, flat line art, no 3D, no watermark.
+![[Pasted image 20260811113914.png]]
 
 **Scope:** Daylight as a continuously varying spectral environment and the high-resolution hyperspectral measurements that capture it.
 
@@ -32,7 +32,7 @@ Physical light data is captured as **spectral reflectance curves** — the perce
 
 ### Spectral Fingerprints — Why Three RGB Numbers Are Not Enough
 
-- Every substance has "a unique pattern of wavelength reflectance and intensity that acts as a characteristic 'fingerprint', allowing for precise identification of pigments or materials" (*A Comprehensive Overview...* — see [[Painting/Pigments/Sourcing Real Spectral Data]]).
+- Every substance has "a unique pattern of wavelength reflectance and intensity that acts as a characteristic 'fingerprint', allowing for precise identification of pigments or materials" (*A Comprehensive Overview...* — see [[Pigments/Sourcing Real Spectral Data]]).
 - Full SPD information is required because **RGB values are device-dependent summaries** that cannot predict **metamerism** — two surfaces can match under one light but differ under another because their underlying reflectance curves are different (*A Comprehensive Overview..., Contemporary Color*; see [[Natural Light Gamut vs. Pigment Gamut - Metamerism]]).
 
 ## Handprint Perspectives
@@ -50,7 +50,7 @@ MacEvoy compresses several painter-relevant daylight facts: the **dominant wavel
 - [[Illuminants & Correlated Color Temperature]] — D65, the daylight locus, and CCT
 - [[Wave Nature]] — SPDs as the dataset's raw material
 - [[The Visible Spectrum]] — the 380–780 nm measurement band
-- [[Painting/Pigments/Sourcing Real Spectral Data]] — grand spectral data for pigments
+- [[Pigments/Sourcing Real Spectral Data]] — grand spectral data for pigments
 - [[Natural Light Gamut vs. Pigment Gamut - Metamerism]] — metamerism from full-SPD data
 - [[CIE Systems]] — tristimulus integration of hyperspectral data
 

@@ -1,35 +1,60 @@
-# Reflection vs. Emission
+![[Pasted image 20260811114559.png]]
 
-**Scope:** Compares physical emission of light versus reflection and absorption.
+**Scope:** Reflection versus emission — self-luminous sources and reflecting surfaces, specular/diffuse optics, and why emissive displays and reflective paint diverge in gamut and black point.
 
-## Subtopics
-- Emission Physics
-- Reflection and Absorption
+### Emission: Radiant Light
 
-## Cross-References
-- [[The Visible Spectrum]]
+Natural and artificial sources — sun, stars, fire, lamps — "generate energy and release it into the environment as electromagnetic waves"; these are **radiant** or **self-luminous** sources (*Contemporary Color*). Heated solids emit a **blackbody spectrum** (Planck's law) whose peak shifts to shorter wavelengths with temperature — **Wien's law**, λ_m = 2897/T(K) (*Contemporary Color*).
 
-## Synthesized Content
+### Reflection: Modification of Incident Light
 
-Light interaction with objects is categorized by whether the energy is directly generated or bounced off a surface.
+Reflection occurs when light waves "bounce off an object": the **incident beam** is modified by the surface's molecular structure — some wavelengths absorbed and converted to heat, others "cast back as the reflected beam, which defines the object's perceived color" (*A Comprehensive Overview..., vision-science*).
 
-*   **Emission (Radiant Light):** Light directly emitted from an energy source such as the sun, chemical fire, or electrical filaments.
-    *   **"Contemporary Color":** "All bulbs or lamps are sources of radiant light, which means that the light is directly emitted from an energy source."
-    *   **Incandescence (Blackbody Radiation):** When solid objects are heated, they emit a predictable spectrum of light following Planck’s blackbody equation. The peak wavelength ($\lambda_m$) of this radiation shifts to shorter wavelengths as temperature ($T$) increases, a relationship known as **Wien's Law** ($\lambda_m = 2897/T$).
-*   **Reflection:** Light waves that bounce off an object rather than being absorbed or transmitted.
-    *   **Specular Reflection:** Occurs on smooth, polished surfaces where light reflects in a single direction; the **angle of incidence equals the angle of reflection**.
-    *   **Diffuse Reflection:** Occurs on rough surfaces where light penetrates slightly, bounces between particles, and is scattered in many different directions.
-    *   **"vision-science-photons-to-pheno":** "If the surface is highly polished, or specular... the angle of incidence is equal to the angle of reflection... On the other hand, if the surface is dull or matte... the light is scattered diffusely in many directions."
+- **Specular reflection:** smooth, polished surfaces (mirrors, varnished paintings) reflect in a single direction with **angle of incidence = angle of reflection**, giving a clear image or bright **highlight**; "they move when the viewer moves" and often reveal the source's shape (circular bulb, tube-shaped fluorescent) (*A Comprehensive Overview..., vision-science*).
+- **Diffuse reflection:** rough or matte surfaces "penetrate, scatter in many directions, and then exit" — appearance independent of the viewer's position (*vision-science*).
 
-*   **Absorption:** Matter selectively removes specific wavelengths from the incident light. The energy of the photon is transferred to an electron, which is then excited to a higher energy state; the "lost" energy often appears as heat.
-    *   **"The Science of Paintings":** "A photon transfers all of its energy to the absorbing pigment and is 'lost,' absorbed, that is, from the light beam."
-*   **Refraction:** The bending of light as it passes between media of different densities and refractive indices (N), calculated by the ratio $N = \sin(i)/\sin(r)$.
-    *   **"The Science of Paintings":** "Refraction refers to the change in direction of light resulting from the change in the velocity as light passes from one medium into another."
-*   **Fluorescence:** A physical process where a substance absorbs high-energy (short wavelength) photons and re-emits them as lower-energy (longer wavelength) photons.
-    *   **"The Science of Paintings":** "The absorption of light photons of high energy and reemission of photons of lower energy... is called fluorescence."
+### Why Emissive and Reflective Media Diverge
+
+- **Primary systems:** emissive displays add light (**RGB**; full intensity → white); reflective paint/print subtract (**CMY**; ideal full mix → black) (*A Comprehensive Overview..., Color Management*).
+- **Gamut:** additive displays "typically offer a larger color gamut than subtractive print" — projected light looks "more saturated, vivid, and 'vibrant'" than light reflected off a surface (*A Comprehensive Overview..., Color Management*).
+- **Black point:** emissive black is the absence of light (**R=G=B=0** — though ambient light on screens limits the practical darkest black); reflective black requires absorbing all incident light — yet traditional pigments "can generally only 'cancel' color to a dull, dark gray," and the paper substrate's reflectance caps the print black point (*A Comprehensive Overview..., Color Management*).
+
+### Perceiving Luminous vs. Non-Luminous Color
+
+- **Object vs. illuminant mode:** colorimetry distinguishes perceiving reflected light (object mode — **lightness**) from viewing a source directly (illuminant mode — **brightness**) (*vision-science*).
+- **Constancy:** lightness constancy preserves perceived surface reflectance across illumination changes — "white paper looks white both indoors and in bright sunlight" (*vision-science*).
+- **Luminosity beats physics:** spatial configuration can make a reflecting patch look self-luminous — "a small light region surrounded by a large dark region (like the moon)" (*vision-science*, *Interaction of Color*).
+
+### Measurement and the Artist's Use
+
+- **Colorimetry:** reflective surfaces measured with bidirectional geometries (e.g., 45/0) to account for gloss and texture; self-luminous displays measured with radiometers imaging the source directly (*Color Management*).
+- **Artists:** highlights are used "to 'dance down the form' where planes meet," expressing 3D structure; **vibrational color** (separate dots or touches of pigment) simulates "the iridescent quality of light" (*Plein Air Techniques*, *Carlson's Guide*).
 
 ## Handprint Perspectives
 
-MacEvoy draws a hard line between additive (emitted) and subtractive (reflected or transmitted) light, arguing that confusing the two is the root of many traditional color theory fallacies. Additive color mixing is mathematically linear and predictable, forming the basis of monitor displays and opponent-color theory. 
+MacEvoy draws a hard line between additive (emitted) and subtractive (reflected or transmitted) light, arguing that confusing the two is the root of many traditional color-theory fallacies: additive mixing is "mathematically linear and predictable," the basis of displays and opponent-color theory, while paint mixtures are bound by "multiplicative reflectance overlap" — the combined absorption curves of pigments. **Contradiction flag:** because geometric color wheels model additive light, they fail to predict the physical behavior of reflected paint mixtures — "one of the primary reasons color wheels aren't reliable for paint mixing" *(Source: [[raw_sources/handprint/color18b.md|color18b.html]])*.
 
-Conversely, paint mixtures are bound by multiplicative reflectance overlap—a complex physical interaction where the absorption curves of pigments combine. **Contradiction Flag:** MacEvoy explicitly notes that because of this difference, traditional geometric color wheels (which model additive light) fail to accurately predict the physical behavior of reflected paint mixtures. This is deeply explored in [[Optical vs. Physical Mixture]]. *(Source: [[raw_sources/handprint/color18b.md|color18b.html]])*
+## Subtopics
+- Radiant/self-luminous sources; blackbody + Wien's law λ_m = 2897/T
+- Specular (i = r, viewer-dependent highlights) vs. diffuse scattering
+- RGB additive vs. CMY subtractive; gamut and black-point asymmetry (ambient limit vs. dull gray + paper)
+- Object mode (lightness) vs. illuminant mode (brightness); constancy; the moon's apparent self-luminance
+- 45/0 reflectance geometry vs. radiometric display measurement; highlights and vibrational color in painting
+
+## Cross-References
+- [[The Visible Spectrum]] — what the source emits
+- [[Wave Nature]] — photons and their interactions
+- [[Simultaneous Contrast, Color Constancy, Afterimages, Subtractive vs. Additive Mixing]] — constancy and additive/subtractive regimes
+- [[Optical vs. Physical Mixture]] — additive vs. subtractive mixing consequences
+- [[Device Gamuts]] — emissive display limits
+- [[Natural Light Gamut vs. Pigment Gamut - Metamerism]] — reflective surface comparisons
+
+## Sources
+* "Contemporary Color: Theory and Use" — Steven Bleicher
+* "Vision Science: Photons to Phenomenology" — Stephen E. Palmer
+* "A Comprehensive Overview of Color Vision Mechanisms, Color Spaces, and the Munsell System"
+* "Color Management: A Comprehensive Guide for Graphic Designers" — John T. Drew and Sarah A. Meyer
+* "The Science of Paintings" — W. Stanley Taft Jr.
+* "Plein Air Techniques for Artists" — Aimee Erickson
+* "Carlson's Guide to Landscape Painting" — John F. Carlson
+* "Interaction of Color" — Josef Albers

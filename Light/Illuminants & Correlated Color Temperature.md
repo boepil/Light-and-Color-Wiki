@@ -1,4 +1,4 @@
-> **Header image prompt (flat medical-textbook blue anatomy-plate style, wide banner, 16:9 proportion):** A flat-blue anatomy plate showing light source standardization: a small incandescent bulb labeled **ILLUMINANT A · 2856 K** and a sun-like disk labeled **D65 · 6500 K**, each with a small SPD bar-graph inset (bulb: rising red-heavy curve; sun: flat curve); between them a horizontal **BLACKBODY LOCUS** curve with temperature ticks (~1000 K red → 2500 K yellow → 4500 K white → 6500 K+ bluish) and a note box **Wien: λm = 2897/T**. A small color-temperature thermometer strip across the bottom running dark red → orange → yellow → white → pale blue with labeled ticks (Candle 1900 K · Tungsten 2850 K · Noon sun 5500 K · D65 6500 K · Overcast 10000 K+). Pale blue plate, bold uppercase labels, thin chromatic temperature strip as the only color accent, flat line art, no 3D, no watermark.
+![[Pasted image 20260811113607.png]]
 
 **Scope:** Standardized mathematical descriptions of light sources — the CIE illuminants — and the blackbody/correlated-color-temperature scale that characterizes them.
 

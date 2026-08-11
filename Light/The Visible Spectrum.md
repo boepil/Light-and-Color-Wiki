@@ -1,4 +1,4 @@
-> **Header image prompt (flat medical-textbook blue anatomy-plate style, wide banner, 16:9 proportion):** A triangular glass prism drawn in pale-blue line art at center, a thin white arrow labeled **WHITE LIGHT** entering from the left, and exiting the right face a diverging fan of six thin colored bands — violet, blue, green, yellow, orange, red — each with a bold uppercase label and a small wavelength tick (380/440/490/575/610/780 nm) along a horizontal ruler below. A thin dashed line connects the violet and red bands behind the prism with the label **MAGENTA (NON-SPECTRAL MIX)**. Plate labels: **PRISM DISPERSION**, **HETEROGENEOUS WHITE LIGHT — "COMPONENTS, NOT MODIFICATIONS"**. Pale blue background, bold uppercase labels, leader lines, flat line art, no 3D, no watermark.
+![[Pasted image 20260811113250.png]]
 
 **Scope:** The visible spectrum as the narrow physical band of electromagnetic wavelengths the eye can detect — its Newtonian discovery, the hue ranges within it, and its fuzzy biological limits.
 

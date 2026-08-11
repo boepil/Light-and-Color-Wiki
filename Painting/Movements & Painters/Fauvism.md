@@ -1,4 +1,4 @@
-> **Header image prompt (flat medical-textbook blue anatomy-plate style, wide banner, 16:9 proportion):** A flat-blue anatomy plate of Fauvist color structure: a simple face in profile outline (pale blue line art) split by a bold vertical line labeled **THE GREEN LINE** — one hemisphere filled pale yellow (labeled **HARSH YELLOWS**), the other plain (labeled **NATURAL OCHRE**); a small eyebrow dot labeled **VIOLET EYEBROW** accenting a labeled yellow field **COMPLEMENTARY VIBRATION**. A label banner at bottom: **1905 SALON D'AUTOMNE — "LES FAUVES"** and motto strip **"PLUS C'EST PLAT, PLUS C'EST DE L'ART"**. Pale blue plate, bold uppercase labels, the yellow hemisphere and violet dot as the only chromatic accents, flat line art, no 3D, no watermark.
+![[Pasted image 20260811095431.png]]
 
 **Scope:** Fauvism — the "wild beasts" who liberated color from description at the 1905 Salon d'Automne, its flat high-chroma style, and Matisse's philosophy of color as expression and equilibrium.
 

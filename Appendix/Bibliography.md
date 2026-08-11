@@ -62,6 +62,7 @@
 * "Mastering Atmosphere & Mood in Watercolor" — Joseph Zbukvic
 * "Modern Art: A Very Short Introduction" — David Cottington
 * "Plein Air Techniques for Artists" — Aimee Erickson
+* "The Case Against Color Bias" — Color Nerd (web/video source)
 * "The Simple Secret to Better Painting" — Greg Albert
 * "The Student's Guide to Painting" — Jack Faragasso
 * "The Art of Painting in Oil, and in Fresco" — Jean-François-Léonor Mérimée

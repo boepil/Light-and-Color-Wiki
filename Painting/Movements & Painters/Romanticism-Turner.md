@@ -49,7 +49,7 @@ MacEvoy's painterly verdict on Turner is double: as a **color-materials man** �
 - [[Composition]] — the balance doctrine Turner broke
 - [[Impressionism]] — the optical color that follows
 - [[Natural Daylight Variation & Hyperspectral Scene Data]] — the atmospheric physics behind the veil
-- [[Painting/Pigments/Chemistry|Chemistry]] — fugitive pigments and lightfastness
+- [[Pigments/Chemistry|Chemistry]] — fugitive pigments and lightfastness
 - [[Color Psychology & Symbolism]] — psychico-expressive claims and their evidence status
 
 ## Sources

@@ -53,7 +53,7 @@ MacEvoy lists Vermeer among the great painters he most admires for "an incredibl
 - [[Composition]] — mother color, key, balance
 - [[Simultaneous Contrast, Color Constancy, Afterimages, Subtractive vs. Additive Mixing]] — drapery/skin interplay
 - [[Impressionism]] — where his optical practice leads
-- [[Painting/Pigments/Natural vs. Synthetic|Natural vs. Synthetic]] — ultramarine as a natural pigment
+- [[Pigments/Natural vs. Synthetic|Natural vs. Synthetic]] — ultramarine as a natural pigment
 
 ## Sources
 * "Color in Art" — John Gage

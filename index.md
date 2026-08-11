@@ -42,7 +42,7 @@
 
 - [[Light/Illuminants & Correlated Color Temperature|Illuminants & Correlated Color Temperature]]: Explores standard illuminants and the concept of Correlated Color Temperature (CCT).
 - [[Light/Natural Daylight Variation & Hyperspectral Scene Data|Natural Daylight Variation & Hyperspectral Scene Data]]: Analyzes the physical variations of natural daylight and the use of hyperspectral scene data.
-- [[Light/Reflection vs. Emission|Reflection vs. Emission]]: Compares physical emission of light versus reflection and absorption.
+- [[Light/Reflection vs. Emission|Reflection vs. Emission]]: Self-luminous sources (blackbody, Wien) against specular/diffuse reflection — and why emissive RGB displays and reflective CMY paint diverge in gamut, vibrancy, and black point.
 - [[Light/Spectral Locus & Excitation Purity|Spectral Locus & Excitation Purity]]: The spectral locus as the horseshoe boundary of monochromatic colors (380–780 nm) plus the line of purples, dominant and complementary wavelengths, and excitation purity as the lever-ratio 100·a/(a+w).
 - [[Light/The Visible Spectrum|The Visible Spectrum]]: Newton's prismatic decomposition (heterogeneous white light, "components, not modifications"), hue wavelength ranges (violet 380–440 → red 610–760 nm), fuzzy 380–400/700–780 nm limits, and nonspectral purple/magenta.
 - [[Light/Wave Nature|Wave Nature]]: Electromagnetic waves (λ/f/amplitude/c, c = f·λ), photons (E = hf, E(eV) = 1240/λ(nm)), frequency-as-color vs amplitude-as-intensity, dual nature in vision-relevant interactions, and spectral power distributions.
@@ -51,21 +51,44 @@
 **[[Painting|Painting]]**: Abstract color theory meeting applied pigment — composition (contrast, mostly/some/bit, mother color), the art-history arc from Vermeer/Impressionism to Color Field, pigment chemistry and high-chroma synthetics, and objective spectral pigment analysis.
 
 - [[Painting/Composition|Composition]]: Harmony as "analogy of opposites," Itten's seven contrasts, mostly/some/bit proportions (Itten 3:6:8, Munsell balance), mother color and neutrals, warm/cool depth structuring — and the Albers/Gage/Munsell critique of geometric harmony rules.
-- [[Painting/Movements & Painters/Bauhaus|Bauhaus]]: Discusses color theory and pedagogy at the Bauhaus (Itten, Klee, Kandinsky).
-- [[Painting/Movements & Painters/Color Field|Color Field]]: Analyzes the immersive use of color in the Color Field movement (Rothko, Newman).
-- [[Painting/Movements & Painters/Fauvism|Fauvism]]: Examines Fauvism (Matisse, Derain) and the liberation of color from descriptive realism.
+- [[Painting/Movements & Painters/Bauhaus|Bauhaus]]: The Vorkurs "color in a vacuum," Itten's seven contrasts and Runge-derived sphere, Kandinsky's color-form coordinates and pseudo-synaesthesia, Klee's middle-point-gray keystone, and Albers's "color deceives continually".
+- [[Painting/Movements & Painters/Color Field|Color Field]]: Rothko's luminous film color, Newman's zip and wall-scale space, Reinhardt's black-painting grid — closely-valued fields as durational simultaneous-contrast experiences.
+- [[Painting/Movements & Painters/Fauvism|Fauvism]]: The 1905 "wild beasts" — flat high-chroma anti-local color, Matisse's Green Line and "Plus c'est plat, plus c'est de l'art", and the yield to Cubism.
 - [[Painting/Movements & Painters/Impressionism|Impressionism]]: Explores Impressionism (Monet, Renoir, Pissarro) and their focus on capturing fleeting light through en plein air painting, broken-color optical mixtures, and colored complementary shadows.
 - [[Painting/Movements & Painters/Movements & Painters|Movements & Painters]]: The arc from descriptive to autonomous color — Vermeer to Riley — with the theory texts (Goethe, Chevreul, Rood, Munsell, Albers) that fed each movement.
-- [[Painting/Movements & Painters/Neo-Impressionism-Pointillism|Neo-Impressionism-Pointillism]]: Details Neo-Impressionism and Pointillism (Seurat, Signac) and their scientific application of optical mixing.
-- [[Painting/Movements & Painters/Newton's Influence on Painters|Newton's Influence on Painters]]: Examines the impact of Isaac Newton's optical theories on subsequent painters and color theory.
-- [[Painting/Movements & Painters/Op Art|Op Art]]: Explores Op Art (Vasarely, Riley) and its high-contrast perceptual effects.
-- [[Painting/Movements & Painters/Post-Impressionism|Post-Impressionism]]: Covers Post-Impressionist use of color as structure and emotion (Van Gogh, Cézanne).
-- [[Painting/Movements & Painters/Romanticism-Turner|Romanticism-Turner]]: Discusses color use in Romanticism, with a focus on J.M.W. Turner's expressive light.
+- [[Painting/Movements & Painters/Neo-Impressionism-Pointillism|Neo-Impressionism-Pointillism]]: Seurat's "impressioniste-luministe" divisionism — touching dots of pure color, Chevreul/Rood foundations, chromatic grays, dotted frames, and the gray-sum critique.
+- [[Painting/Movements & Painters/Newton's Influence on Painters|Newton's Influence on Painters]]: Opticks 1704 — the seven-hue unequal wheel, diatonic analogy, and Newton's Rings complementarity — feeding Le Blon, Moses Harris, and the Chevreul-Rood-Munsell dynasty against Goethe's reaction.
+- [[Painting/Movements & Painters/Op Art|Op Art]]: Vibrating boundaries, moiré and saccadic displacement, Kitaoka drift — Riley's method of instability turning eye fatigue and simultaneous contrast into a medium.
+- [[Painting/Movements & Painters/Post-Impressionism|Post-Impressionism]]: Van Gogh's complementary soul-language, Cézanne's warm-cool passages, Gauguin's flat symbolist color, and Seurat's reconstituted light — past the fleeting moment toward structure and abstraction.
+- [[Painting/Movements & Painters/Romanticism-Turner|Romanticism-Turner]]: Turner's atmospheric veil and psychico-expressive color — controverting the warm-tonality doctrine, engaging Newton against Goethe, dissolving form toward the "first abstractionist".
 - [[Painting/Movements & Painters/Vermeer-Dutch Golden Age|Vermeer-Dutch Golden Age]]: Vermeer's ultramarine blue-yellow "sonata," Dutch color-envelope tonal unity, "diffraction" edge mastery, and interior light keyed to white — anticipating Goethe/Maxwell and Impressionist optics.
-- [[Painting/Pigments/Chemistry|Chemistry]]: Discusses the chemical basis of painting pigments.
-- [[Painting/Pigments/High-Chroma Synthetics|High-Chroma Synthetics]]: Explores the introduction and impact of high-chroma synthetic pigments like PG7, PG36, PB15:3, PR122, and PV23.
-- [[Painting/Pigments/Natural vs. Synthetic|Natural vs. Synthetic]]: Compares historical natural earth/mineral pigments with modern synthetic alternatives.
-- [[Painting/Pigments/Particle Size-Tinting-Polymorphism|Particle Size-Tinting-Polymorphism]]: Examines how pigment particle size, tinting strength, and crystal polymorphism affect color.
-- [[Painting/Pigments/Pigments|Pigments]]: Parent page for the study of pigments, their material nature, and application.
-- [[Painting/Pigments/Sourcing Real Spectral Data|Sourcing Real Spectral Data]]: Methodologies for sourcing and measuring real spectral reflectance of pigments.
+
+## Pigments
+**[[Pigments|Pigments]]**: The corporeal agents of surface color — pigment versus dye, the four pigment families, the color tree's irregular gamut, and the historical arc from cave earths to forensic pigment dating.
+
+- [[Pigments/Chemistry|Chemistry]]: Pigments as insoluble crystal-retaining particulates — ligand-field and π→π\* mechanisms, narrow-band chroma, and the fading reactions (photo-oxidation, PbS blackening, zinc soaps).
+- [[Pigments/Natural vs. Synthetic|Natural vs. Synthetic]]: Earths, madder, indigo, kermes and mango-leaf Indian yellow versus the 1828–1868 synthetic revolution — ultramarine, chrome and cadmium, Perkin's mauve — and today's subtle-granular versus narrow-band trade-offs.
+- [[Pigments/High-Chroma Synthetics|High-Chroma Synthetics]]: Phthalocyanines (PB15/PG7/PG36), quinacridones (PR122/PV19) and PV23 — narrow-band chroma at dark values, the cyan and red-violet gamut gains, and 50–75% "let-downs" for tinctorial power.
+- [[Pigments/Particle Size-Tinting-Polymorphism|Particle Size-Tinting-Polymorphism]]: Grinding shifts hue, refractive-index gaps drive opacity, granulation textures washes, rub-out tests measure strength — and crystals polymorph (PB15 α/β, vermilion to metacinnabar).
+- [[Pigments/Sourcing Real Spectral Data|Sourcing Real Spectral Data]]: Reflectance spectrophotometry of paint films (380–780 nm fingerprints, the drying shift), RIT MCSL libraries and Munsell Renotation reference data, and how curves date paintings and map gamuts.
+
+### Pigment Reference (data sheets)
+- [[Pigments/Reference/PW6 - Titanium White|PW6 - Titanium White]]: Rutile/anatase TiO₂, 1919–1957 entry, refractive index 2.55/2.71 — the most opaque pigment ever.
+- [[Pigments/Reference/PBk6 - Carbon Black|PBk6 - Carbon Black]]: Amorphous carbon — lampblack/bone/vine, Lascaux to Reinhardt, granulating weak tints vs. intense furnace blacks.
+- [[Pigments/Reference/PY35 - Cadmium Yellow|PY35 - Cadmium Yellow]]: CdS lemon solid solution, Stromeyer 1817, 1846 market — with Cu/Pb incompatibility warnings.
+- [[Pigments/Reference/PY97 - Hansa Yellow|PY97 - Hansa Yellow]]: Monoarylide azo, 1962 Paint Standard, the non-poisonous gamboge substitute.
+- [[Pigments/Reference/PY43 - Yellow Ochre|PY43 - Yellow Ochre]]: Goethite earth from Lascaux to Roussillon — opaque, low-chroma, granulating.
+- [[Pigments/Reference/PR108 - Cadmium Red|PR108 - Cadmium Red]]: CdS·xCdSe sulfoselenide, ~1910–1919, vermilion's lightfast replacement — toxic-dust warning.
+- [[Pigments/Reference/PR101 - Mars Red|PR101 - Mars Red]]: Synthetic hematite α-Fe₂O₃, the brilliant pure controlled red earth.
+- [[Pigments/Reference/PBr7 - Burnt Sienna|PBr7 - Burnt Sienna]]: Raw sienna roasted — goethite to hematite, the classic transparent glaze red-brown.
+- [[Pigments/Reference/PBr7 - Raw Umber|PBr7 - Raw Umber]]: Manganese-bearing darkest earth — the rapid-drying grounder of the limited palette.
+- [[Pigments/Reference/PBr7 - Burnt Umber|PBr7 - Burnt Umber]]: The roasted umber — deep warm reddish transparent brown of shadow darks.
+- [[Pigments/Reference/PV101 - Violet Iron Oxides|PV101 - Violet Iron Oxides]]: Protocrystalline hematite on clay — the furnace-made violet endpoint of the sienna ladder.
+- [[Pigments/Reference/PG18 - Viridian|PG18 - Viridian]]: Hydrated Cr₂O₃, Guignet 1859, the stable cool emerald that replaced verdigris.
+- [[Pigments/Reference/PG7 - Phthalo Green|PG7 - Phthalo Green]]: Chlorinated copper phthalocyanine, 1938 — extreme tinctorial strength and the alizarin "chromatic black".
+- [[Pigments/Reference/PB29 - Ultramarine Blue|PB29 - Ultramarine Blue]]: Lazurite from lapis — Mary's robe, Vermeer, Guimet's 1828 furnace price collapse.
+- [[Pigments/Reference/PB28 - Cobalt Blue|PB28 - Cobalt Blue]]: Thénard's 1802 aluminate — the smalt-replacing standard sky blue of Renoir, Monet, Turner.
+- [[Pigments/Reference/PB35 - Cerulean Blue|PB35 - Cerulean Blue]]: Cobalt stannate, Rowney ~1860 — the pale greenish Impressionist sky blue.
+- [[Pigments/Reference/PR83 - Alizarin Crimson|PR83 - Alizarin Crimson]]: First synthesized natural dye (1868) — Cézanne's glazing red, now rated fugitive.
+- [[Pigments/Reference/PV23 - Dioxazine Violet|PV23 - Dioxazine Violet]]: Carbazole dioxazine, 1928–1950s — the staining deep violet of extreme darks.
 
