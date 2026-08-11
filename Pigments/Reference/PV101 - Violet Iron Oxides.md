@@ -1,6 +1,7 @@
 ---
 title: PV101 - Violet Iron Oxides
 swatchColor: "#5E2A4E"
+sequence: 57
 ---
 <div style="float:left;width:64px;height:64px;background:#5E2A4E;margin:4px 16px 8px 0;border-radius:2px;"></div>
 

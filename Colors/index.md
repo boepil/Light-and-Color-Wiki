@@ -1,6 +1,7 @@
 ---
 title: Colors
 aliases: [Colors]
+sequence: 6
 ---
 
 **Scope:** The mathematical and empirical frameworks that standardize, measure, and reproduce color — the CIE's XYZ and Lab systems, the MacAdam ellipses of just-noticeable differences, Munsell's perceptual ordering, and the gamut boundaries of real and optimal colors.
@@ -14,7 +15,7 @@ Albert H. Munsell (1905) organized color into three perceptual dimensions: **Hue
 ### [[MacAdam Ellipses|Colors/MacAdam Ellipses]]
 **MacAdam ellipses** are regions on the chromaticity diagram within which colors are visually indistinguishable from the central color. Their widely varying sizes across the diagram quantify the diagram's **lack of visual uniformity**: a given geometric distance in xy space does not correspond to a constant perceived difference. This non-uniformity motivated perceptually uniform spaces such as CIELAB and CIELUV, whose metric distance (**ΔE**) is designed so that equal steps correspond to equal just-noticeable differences (*Color Science*).
 
-### [[Gamuts|Colors/Gamuts/Gamuts]]
+### [[Gamuts|Colors/Gamuts]]
 A **gamut** is the full range of colors a system or material can reproduce. Real-world color is bounded by a hierarchy: the eye's ~7 million distinguishable levels, the theoretical **Optimal Color Solid (MacAdam limits)** of 0/100% step-function reflecting surfaces, real-surface **Pointer's Gamut**, and the smaller device gamuts of RGB displays and CMYK printers. Because the human luminosity function V(λ) peaks near **555 nm**, the optimal color solid is **lopsided**: green hues can achieve chroma at high lightness, while red hues must trade lightness for purity (*Why Material Reality Favors Green Over Red*). Device gamuts are triangular (RGB) or irregular (CMYK) and are bridged by **ICC profiles** that translate native coordinates through device-independent CIELAB (*Contemporary Color*).
 
 ### [[Device Gamuts|Colors/Gamuts/Device Gamuts]]

@@ -1,3 +1,7 @@
+---
+title: Composition
+sequence: 28
+---
 > **Header image prompt (flat medical-textbook blue anatomy-plate style, wide banner, 16:9 proportion):** A flat-blue anatomy plate of compositional color structure: a small landscape rectangle divided by a bold horizon line labeled **COOL / RECEDES** (upper area, thin blue wash) and **WARM / ADVANCES** (lower area, thin red-orange wash), with a small focal square at the intersection labeled **TEMPERATURE MAGNET**. Beside it, a balance diagram: one large pale patch (labeled **LARGE FIELD · WEAK CHROMA**) balanced by a tiny saturated square (labeled **SMALL AREA · HIGH INTENSITY**), with a center pivot labeled **NEUTRAL BALANCE POINT**. A strip below: **MOTHER COLOR** — three small swatch squares each containing a faint common tint dot. Pale blue plate, bold uppercase labels, thin chromatic washes as the only color accents, flat line art, no 3D, no watermark.
 
 **Scope:** The painter's toolkit of color composition — harmony, balance, dominance, proportion frameworks, contrast types, unifying neutrals, temperature structure, and the critique of geometric harmony schemes.

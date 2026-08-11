@@ -1,4 +1,8 @@
-> **Header image prompt (flat medical-textbook blue anatomy-plate style, wide banner, 16:9 proportion):** A flat-blue anatomy plate of pigment provenance: three labeled source panels — **MINERAL/EARTH:** a small clay scoop with ochre wedge labeled **OCHRE · SIENNA · UMBER — IRON & MANGANESE OXIDE CLAYS** (used since ~10,500 BC) with a note **FINEST FROM FRANCE/ITALY**; **PLANT:** a root glyph labeled **MADDER — RUBIA TINCTORIUM** (ancient Egypt/Greece) and a block labeled **INDIGO (MISTAKEN FOR MINERAL)**; **ANIMAL:** a scale-insect dot labeled **KERMES/COCHINEAL** and note **INDIAN YELLOW — MANGO-LEAF URINE (BANNED 1908)**. A timeline strip at bottom: **1828 Guimet-Gmelin SYNTHETIC ULTRAMARINE → 1856 PERKIN'S MAUVE → 1868 ALIZARIN CRIMSON**. A small warning panel: **CHROME YELLOW — DARKENS/GREENS WITH AGE**. Pale blue plate, bold uppercase labels, ochre and crimson dots as the only chromatic accents, flat line art, no 3D, no watermark.
+---
+title: Natural vs. Synthetic
+sequence: 42
+---
+![[Pasted image 20260811165152.png]]
 
 **Scope:** Natural vs. synthetic pigments — the geological/biological origins of natural colorants, the 19th-century manufactured revolution, and today's trade-offs of subtlety against chroma.
 

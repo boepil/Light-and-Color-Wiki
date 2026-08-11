@@ -1,4 +1,8 @@
-> **Header image prompt (flat medical-textbook blue anatomy-plate style, wide banner, 16:9 proportion):** A flat-blue anatomy plate of pigment physics: a scatter of circles of three sizes with labels — **FINE GRIND (LIGHTER, UNIFORM COATING)** / **COARSE (DEEPER ORANGE — CdS)** and a note **OVERGRINDING: CHROME ORANGE MASSTONE → MORE YELLOW**; an optics inset: a beam entering a film labeled **REFRACTIVE INDEX Δ — TiO2 2.5–2.7 vs OIL 1.5 → OPACITY** and a second beam passing through labeled **ULTRAMARINE ~1.5 ≈ OIL → TRANSPARENT**; a paper-valley strip labeled **GRANULATION — HEAVY PARTICLES SETTLE INTO PAPER GRAIN**; a crystal panel with two lattice glyphs labeled **PB15 α RED-SHADE (UNSTABLE) / β GREEN-SHADE (STABLE)** and note **VERMILION RED ↔ BLACK METACINNABAR**. Pale blue plate, bold uppercase labels, one white dot and one blue dot as chromatic accents, flat line art, no 3D, no watermark.
+---
+title: Particle Size-Tinting-Polymorphism
+sequence: 44
+---
+![[Pasted image 20260811174415.png]]
 
 **Scope:** The physical optics of pigment powders — particle size, refractive index, tinting strength, and crystal polymorphism.
 

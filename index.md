@@ -1,3 +1,7 @@
+---
+title: Wiki Index
+sequence: 0
+---
 # Wiki Index
 
 [[Home|Home]]: Landing page tracing the unified 5-stage chain from physical light, through the subtractive limits of pigment, the S/M/L transduction of the eye, opponent-process perception, to V1–V4 cortical plasticity — with a suggested reading order across the four sections.
@@ -13,7 +17,7 @@
 
 - [[Colors/CIE Systems|CIE Systems]]: Overview of CIE coordinate systems including the xy diagram, XYZ, and Lab spaces.
 - [[Colors/Gamuts/Device Gamuts|Device Gamuts]]: Examines device-specific color gamuts such as those of displays and printers.
-- [[Colors/Gamuts/Gamuts|Gamuts]]: Parent page introducing gamuts and limits of reproducible color spaces.
+- [[Colors/Gamuts|Gamuts]]: Parent page introducing gamuts and limits of reproducible color spaces.
 - [[Colors/Gamuts/Optimal Color Solid-MacAdam Limits|Optimal Color Solid-MacAdam Limits]]: Discusses the Optimal Color Solid and MacAdam Limits of maximum achievable reflecting colors.
 - [[Colors/Gamuts/Pointer's Gamut|Pointer's Gamut]]: Analyzes Pointer's Gamut of real surface colors.
 - [[Colors/MacAdam Ellipses|MacAdam Ellipses]]: Details MacAdam ellipses and their mapping of just-noticeable differences in color.
@@ -29,6 +33,8 @@
 - [[Eye/Wavelength Perception|Wavelength Perception]]: Details how cones biologically encode physical wavelengths into a neural signal.
 
 ## Intersections
+**[[Intersections|Intersections]]**: Cross-cutting pages where the sections meet — the causal chain from pigment reflectance through CIE colorimetry to perception, natural-vs-pigment gamuts and metamerism, optical vs. physical mixture, perceptual phenomena (contrast, constancy, afterimages), perceptual-uniformity spaces, color psychology, and the neuroscience of color.
+
 - [[Intersections/Causal Chain - Pigments to Perception|Causal Chain - Pigments to Perception]]: Traces the causal flow from physical surface reflectance to human biological response ($V(\lambda)$) and perceptual experience.
 - [[Intersections/Color Psychology & Symbolism|Color Psychology & Symbolism]]: Cross-cutting page (Painting × Eye) on color's emotional, symbolic, and commercial claims — evidence quality (controlled studies vs. doctrine vs. anecdote), cultural relativity of meaning, Kandinsky's synesthetic doctrine, warm/cool physics-and-convention, and the hue/value/chroma conflation in color-mood research.
 - [[Intersections/Color Matching Functions and the Photopic Luminosity Function|Color Matching Functions and the Photopic Luminosity Function]]: Cross-cutting page (Light × Eye) exploring how physical light is weighted by human biological sensitivity.
@@ -36,6 +42,7 @@
 - [[Intersections/Optical vs. Physical Mixture|Optical vs. Physical Mixture]]: The distinction between visual/optical mixing (additive) and physical paint mixing (subtractive), specifically addressing the complementary color and primary color fallacies.
 - [[Intersections/Simultaneous Contrast, Color Constancy, Afterimages, Subtractive vs. Additive Mixing|Simultaneous Contrast, Color Constancy, Afterimages, Subtractive vs. Additive Mixing]]: Cross-cutting page (Painting × Eye) covering perceptual phenomena critical for painters.
 - [[Intersections/Why Lab-Munsell Were Built for Perceptual Uniformity|Why Lab-Munsell Were Built for Perceptual Uniformity]]: Cross-cutting page (Eye × Colors) explaining the necessity of mathematically bending color spaces to match non-linear human perception.
+- [[Intersections/The Neuroscience Behind Why Colours Rewire Your Brain|The Neuroscience Behind Why Colours Rewire Your Brain]]: Cross-cutting page (Eye × Mind): colour's dedicated-but-plastic cortical circuits (V1 blobs and double-opponent cells → hV4/VO → anterior colour regions) — how practice, language, memory, and synaesthesia measurably reshape the neural colour space, and the limits of the "rewires your brain" claim (Firestone–Scholl critique).
 
 ## Light
 **[[Light|Light]]**: The physics of light before the eye — electromagnetic duality, E=1240/λ(nm) energy, the 380–780 nm visible band, emission/reflection, standard illuminants and correlated color temperature, Rayleigh scattering, and spectral locus boundaries.
@@ -55,7 +62,7 @@
 - [[Painting/Movements & Painters/Color Field|Color Field]]: Rothko's luminous film color, Newman's zip and wall-scale space, Reinhardt's black-painting grid — closely-valued fields as durational simultaneous-contrast experiences.
 - [[Painting/Movements & Painters/Fauvism|Fauvism]]: The 1905 "wild beasts" — flat high-chroma anti-local color, Matisse's Green Line and "Plus c'est plat, plus c'est de l'art", and the yield to Cubism.
 - [[Painting/Movements & Painters/Impressionism|Impressionism]]: Explores Impressionism (Monet, Renoir, Pissarro) and their focus on capturing fleeting light through en plein air painting, broken-color optical mixtures, and colored complementary shadows.
-- [[Painting/Movements & Painters/Movements & Painters|Movements & Painters]]: The arc from descriptive to autonomous color — Vermeer to Riley — with the theory texts (Goethe, Chevreul, Rood, Munsell, Albers) that fed each movement.
+- [[Painting/Movements & Painters|Movements & Painters]]: The arc from descriptive to autonomous color — Vermeer to Riley — with the theory texts (Goethe, Chevreul, Rood, Munsell, Albers) that fed each movement.
 - [[Painting/Movements & Painters/Neo-Impressionism-Pointillism|Neo-Impressionism-Pointillism]]: Seurat's "impressioniste-luministe" divisionism — touching dots of pure color, Chevreul/Rood foundations, chromatic grays, dotted frames, and the gray-sum critique.
 - [[Painting/Movements & Painters/Newton's Influence on Painters|Newton's Influence on Painters]]: Opticks 1704 — the seven-hue unequal wheel, diatonic analogy, and Newton's Rings complementarity — feeding Le Blon, Moses Harris, and the Chevreul-Rood-Munsell dynasty against Goethe's reaction.
 - [[Painting/Movements & Painters/Op Art|Op Art]]: Vibrating boundaries, moiré and saccadic displacement, Kitaoka drift — Riley's method of instability turning eye fatigue and simultaneous contrast into a medium.
@@ -73,6 +80,7 @@
 - [[Pigments/Sourcing Real Spectral Data|Sourcing Real Spectral Data]]: Reflectance spectrophotometry of paint films (380–780 nm fingerprints, the drying shift), RIT MCSL libraries and Munsell Renotation reference data, and how curves date paintings and map gamuts.
 
 ### Pigment Reference (data sheets)
+- [[Pigments/Reference|Reference]]: Index page for the 18 pigment data sheets — swatch, chemistry, history, handling, and handprint perspective per pigment.
 - [[Pigments/Reference/PW6 - Titanium White|PW6 - Titanium White]]: Rutile/anatase TiO₂, 1919–1957 entry, refractive index 2.55/2.71 — the most opaque pigment ever.
 - [[Pigments/Reference/PBk6 - Carbon Black|PBk6 - Carbon Black]]: Amorphous carbon — lampblack/bone/vine, Lascaux to Reinhardt, granulating weak tints vs. intense furnace blacks.
 - [[Pigments/Reference/PY35 - Cadmium Yellow|PY35 - Cadmium Yellow]]: CdS lemon solid solution, Stromeyer 1817, 1846 market — with Cu/Pb incompatibility warnings.

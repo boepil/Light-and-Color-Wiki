@@ -1,3 +1,7 @@
+---
+title: Op Art
+sequence: 36
+---
 > **Header image prompt (flat medical-textbook blue anatomy-plate style, wide banner, 16:9 proportion):** A flat-blue anatomy plate of Op Art mechanisms: a panel of vertical black-and-white stripes (thin blue-line stripes) with one boundary drawn as zigzag labeled **VIBRATING BOUNDARY — CONTRASTING HUES, EQUAL LIGHT INTENSITY**; beside it a circular array of wedges labeled **KITAOKA "ROTATING SNAKES" — PERIPHERAL DRIFT** with an arrow showing rotation; a small grid labeled **OUCHI ILLUSION — OPPOSING STRIPES**; and a viewer-eye glyph labeled **SACCADES — MOIRÉ / DISPLACEMENT**. Bottom strip: **RILEY 1964 "CURRENT" — BENHAM EFFECT (INDUCED COLOR FROM B/W)**. Pale blue plate, bold uppercase labels, stripes in blue with two red accent stripes, flat line art, no 3D, no watermark.
 
 **Scope:** Op Art — Vasarely and Riley's precise geometries and high-contrast patterns that turn retinal fatigue, simultaneous contrast, and saccades into the medium itself.

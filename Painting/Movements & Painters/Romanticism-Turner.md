@@ -1,3 +1,7 @@
+---
+title: Romanticism-Turner
+sequence: 38
+---
 > **Header image prompt (flat medical-textbook blue anatomy-plate style, wide banner, 16:9 proportion):** A flat-blue anatomy plate of Turner's color system: a horizon band with a glowing sun disk dissolving into thin horizontal veil lines labeled **ATMOSPHERIC VEIL — AIR AS CURTAINS**, each veil tinted slightly bluer as it layers toward the horizon (thin blue-grey washes); beside it a small composition rectangle labeled **FIRE PAINTED COOL** with cool blue-grey strokes and a single small dot labeled **ONE POINT OF RICH CRIMSON**. A label strip below: **CONTRA HEAT — "BALANCE OF COLORS" DOCTRINE**. Pale blue plate, bold uppercase labels, cool blue-grey washes with one tiny crimson dot as the only saturated accent, flat line art, no 3D, no watermark.
 
 **Scope:** Turner and Romanticism's revolutionary color — the atmospheric veil, the controversion of the warm-tone academic doctrine, the Newton/Goethe engagement, and the late dissolution of form into light.

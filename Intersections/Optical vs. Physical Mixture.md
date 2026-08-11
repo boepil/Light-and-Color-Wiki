@@ -1,3 +1,7 @@
+---
+title: Optical vs. Physical Mixture
+sequence: 70
+---
 ![[Pasted image 20260809183825.png]]
 
 **Scope:** The distinction between visual/optical mixing (additive) and physical paint mixing (subtractive), specifically addressing the complementary color and primary color fallacies.

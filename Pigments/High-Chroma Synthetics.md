@@ -1,4 +1,8 @@
-> **Header image prompt (flat medical-textbook blue anatomy-plate style, wide banner, 16:9 proportion):** A flat-blue anatomy plate of modern synthetic chroma: three structural glyphs with labels — a large square macrocycle ring labeled **PHTHALOCYANINE — TETRABENZOTETRAAZAPORPHIN** with a center dot **Cu** and two subtitles **PG7 = CHLORINE (BLUE-SHADE) · PG36 = CL+BR (YELLOW-SHADE)**; a linear chain of fused rings labeled **QUINACRIDONE — TRANS-LINEAR HETEROCYCLE** with notes **PR122 MAGENTA · PV19 ROSE/VIOLET**; a double-hexagon glyph labeled **PV23 DIOXAZINE / CARBAZOLE VIOLET**. A comparative gamut strip: **HUES REFLECTED IN A NARROW BAND → HIGH CHROMA EVEN DARK** and a small warning swatch **TINTING STRENGTH — "LET DOWN" 50–75% INERT FILLER**. Pale blue plate, bold uppercase labels, a thin magenta and thin cyan band as the only chromatic accents, flat line art, no 3D, no watermark.
+---
+title: High-Chroma Synthetics
+sequence: 43
+---
+![[Pasted image 20260811164755.png]]
 
 **Scope:** High-chroma synthetics — the phthalocyanine, quinacridone, and dioxazine families that pushed the painter's gamut into the cyan and red-violet sectors.
 

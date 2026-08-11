@@ -1,3 +1,7 @@
+---
+title: Munsell Notation
+sequence: 8
+---
 ![[images/ChatGPT Image Aug 6, 2026, 02_36_26 PM.png]]
 
 **Scope:** Explores the Munsell notation system, its structure, the 1943 Renotation, and its open-ended chroma.

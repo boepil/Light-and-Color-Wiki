@@ -1,3 +1,7 @@
+---
+title: Data & Methodology
+sequence: 3
+---
 ![[Pasted image 20260810110552.png]]
 
 **Scope:** The instruments, protocols, datasets, and calculation pipelines that turn physical reflectance and emission spectra into CIE colorimetry — and the caveats that limit them.

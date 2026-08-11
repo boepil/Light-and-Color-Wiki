@@ -207,3 +207,16 @@
 - Updated index.md to include dynamic 1-line summaries for all pages.
 - Embedded newly flagged Handprint contradictions into Eye/Anatomy.md and Painting/Pigments/Particle Size-Tinting-Polymorphism.md.
 
+## [2026-08-11] chore | Frontmatter sequence pass (1–71)
+- Added `sequence` frontmatter to all 71 content pages (section hubs + every page, incl. the 18 Pigment Reference sheets) for deterministic Quartz sidebar ordering.
+- Re-applied frontmatter lost in a workspace revert on 19 pages (Home, Appendix×4, Colors×8, Eye×6).
+- Added the missing `index.md` one-liner for `Intersections/The Neuroscience Behind Why Colours Rewire Your Brain`.
+
+## [2026-08-11] fix | Continuous navigation + Intersections hub
+- Created `Intersections/index.md` hub (NotebookLM query session `28d4c19d`, sources requested) — Scope + 8 linked subsections + Sources + header image prompt; `sequence: 65`.
+- Created `Pigments/Reference/index.md` (18 data sheets grouped by color family, `sequence: 46`).
+- Renamed `Colors/Gamuts/Gamuts.md` → `Colors/Gamuts/index.md` and `Painting/Movements & Painters/Movements & Painters.md` → `Painting/Movements & Painters/index.md` so every folder is a real sequenced page (no Quartz auto-folder dead ends).
+- Renumbered Reference sheets 46–63 → 47–64 and Intersections pages 64–71 → 66–73; final contiguous `sequence` 1–73.
+- Fixed links: `index.md` (2 paths + Intersections/Reference hub one-liners), `Colors/index.md`, `Painting/index.md`, `Impressionism.md`, `page-status.md`.
+- Website build (`website/`, per user request): `contentIndex.tsx` emits `sequence` into `ContentDetails`; `quartz.layout.ts` Explorer `sortFn` now orders by `sequence` (sidebar = prev/next order); `ignorePatterns` += `page-status.md`, `AGENTS.md`, `.agents` (hidden from sidebar/search).
+

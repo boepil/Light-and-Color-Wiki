@@ -1,4 +1,8 @@
-> **Header image prompt (flat medical-textbook blue anatomy-plate style, wide banner, 16:9 proportion):** A flat-blue anatomy plate of pigment spectral measurement: a sample square labeled **DRIED PAINT FILM** under a beam from a device glyph labeled **SPECTROPHOTOMETER — 380–780 nm** whose output trace shows a labeled spectral reflectance curve with a peak at the long-wavelength end labeled **"FINGERPRINT"**; beside it two small swatch pairs labeled **WET (translucent) → DRY (darker, deeper — REFRACTIVE INDEX AIR 1.00 vs OIL ≈1.48)**; a chip card labeled **MUNSELL RENOTATION 1943 (Y, x, y)**; and a verification strip: **SMALT vs COBALT BLUE — COBALT REFLECTS MORE RED / CADMIUM RED c.1910 → FORGERY DATING**. Pale blue plate, bold uppercase labels, curve and swatches thin blue with one red peak dot, flat line art, no 3D, no watermark.
+---
+title: Sourcing Real Spectral Data
+sequence: 45
+---
+![[Pasted image 20260811174721.png]]
 
 **Scope:** Sourcing real spectral data — how reflectance curves of paint films are measured, archived, and used to fingerprint pigments and map gamuts.
 

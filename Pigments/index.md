@@ -1,4 +1,9 @@
-> **Header image prompt (flat medical-textbook blue anatomy-plate style, wide banner, 16:9 proportion):** A flat-blue anatomy plate of the pigment universe: a central tree-like irregular solid labeled **"COLOR TREE" — REAL PIGMENT GAMUT (UNWANTED ABSORPTIONS)** with labeled branches **CHROMA** and **VALUE**; around it four panels — **INORGANIC EARTHS** (ochre wedge, cave-wall glyph, note "since prehistory"), **SYNTHETIC INORGANICS** (cadmium/yellow-white chips, "made with strong heat"), **ORGANIC LAKES** (dye droplet alighting on an inert base labeled **PRECIPITATED ONTO ALUMINA HYDRATE/BLANC FIXE**), **MODERN ORGANICS** (macrocycle ring labeled **CONJUGATED π-CLOUD**). A bottom timeline: **1704 PRUSSIAN BLUE → 19th c. CADMIUM/CHROME/SYNTHETIC ULTRAMARINE → TODAY: TITANIUM WHITE/CADMIUM RED = FORGERY DATING → NON-TOXIC FRONTIERS**. Pale blue plate, bold uppercase labels, ochre/red minimal accents, flat line art, no 3D, no watermark.
+---
+title: Pigments
+aliases: [Pigments]
+sequence: 40
+---
+![[Pasted image 20260811150718.png]]
 
 **Scope:** Pigments — the corporeal agents of surface color: definition, the four families, their place in color science, and the natural-to-synthetic arc.
 

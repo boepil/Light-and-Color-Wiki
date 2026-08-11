@@ -1,3 +1,7 @@
+---
+title: Impressionism
+sequence: 33
+---
 ![[impressionizm.jpg]]
 
 **Scope:** Explores the Impressionist movement (Claude Monet, Pierre-Auguste Renoir, Camille Pissarro) and their focus on capturing the transient nature of light through en plein air techniques, broken color optical mixtures, and colored complementary shadows.
@@ -43,7 +47,7 @@ Bruce MacEvoy notes that the shift in natural light from dawn to dusk—the focu
 - Monet's serial canvases and diurnal spectral changes
 
 ## Cross-References
-- [[Painting/Movements & Painters/Movements & Painters]]
+- [[Painting/Movements & Painters]]
 - [[Painting/Movements & Painters/Neo-Impressionism-Pointillism]]
 - [[Intersections/Simultaneous Contrast, Color Constancy, Afterimages, Subtractive vs. Additive Mixing]]
 - [[Intersections/Optical vs. Physical Mixture]]

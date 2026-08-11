@@ -1,3 +1,7 @@
+---
+title: Pointer's Gamut
+sequence: 12
+---
 ![[images/ChatGPT Image Aug 6, 2026, 02_48_23 PM.png]]
 
 **Scope:** Analyzes Pointer's Gamut of real surface colors.

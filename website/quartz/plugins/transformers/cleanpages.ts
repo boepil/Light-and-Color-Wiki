@@ -13,8 +13,8 @@ export const CleanPages: QuartzTransformerPlugin = () => {
           return (tree: Root, _file) => {
             const toRemove: number[] = []
 
-            visit(tree, "heading", (node: Heading, index: number, parent) => {
-              if (!parent || index === null) return
+            visit(tree, "heading", (node: Heading, index: number | undefined, parent) => {
+              if (!parent || index === undefined) return
               const text = ((node.children ?? []) as Array<{ value?: string }>)
                 .map((c) => c.value ?? "")
                 .join("")

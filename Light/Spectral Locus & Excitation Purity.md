@@ -1,3 +1,7 @@
+---
+title: Spectral Locus & Excitation Purity
+sequence: 23
+---
 ![[Pasted image 20260810103513.png]]
 
 **Scope:** The spectral locus as the physical boundary of all real colors on the CIE chromaticity diagram, and excitation purity as the colorimetric measure of how close a color lies to that boundary.

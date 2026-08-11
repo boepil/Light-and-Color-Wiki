@@ -1,3 +1,7 @@
+---
+title: Bauhaus
+sequence: 30
+---
 > **Header image prompt (flat medical-textbook blue anatomy-plate style, wide banner, 16:9 proportion):** A flat-blue anatomy plate of Bauhaus color pedagogy: a large 12-hue color circle centered on a gray dot labeled **MIDDLE-POINT GRAY — "KEYSTONE"**; around it three simple shape glyphs each with a leader line: a yellow triangle labeled **TRIANGLE = YELLOW** (small pale-yellow fill), a blue circle labeled **CIRCLE = BLUE** (small pale-blue fill), a red square labeled **SQUARE = RED** (small pale-red fill). A right-hand panel labeled **VORKURS — PRELIMINARY COURSE** showing a small square-within-square motif labeled **ALBERS / COLOR-AID** (two tiny gray squares on a paler ground). Pale blue plate, bold uppercase labels, yellow/blue/red fills kept tiny and sparse, flat line art, no 3D, no watermark.
 
 **Scope:** The Bauhaus and its color pedagogy — the Vorkurs, Itten's seven contrasts and color sphere, Kandinsky's synesthetic color-music, Klee's keystone gray, and Albers's experimental divergence.

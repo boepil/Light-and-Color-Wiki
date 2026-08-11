@@ -151,6 +151,8 @@ declare module "vfile" {
         cssclasses: string[]
         socialImage: string
         comments: boolean | string
+        swatchColor: string
+        sequence: number
       }>
   }
 }

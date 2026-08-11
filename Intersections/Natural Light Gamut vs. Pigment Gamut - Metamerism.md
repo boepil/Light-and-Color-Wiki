@@ -1,3 +1,7 @@
+---
+title: Natural Light Gamut vs. Pigment Gamut - Metamerism
+sequence: 69
+---
 ![[Pasted image 20260809130521.png]]
 
 **Scope:** Cross-cutting page (Painting × Light) comparing the range of colors in nature to those achievable with pigments, and addressing metamerism.

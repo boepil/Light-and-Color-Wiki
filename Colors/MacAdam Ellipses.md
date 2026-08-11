@@ -1,3 +1,7 @@
+---
+title: MacAdam Ellipses
+sequence: 9
+---
 ![[images/ChatGPT Image Aug 6, 2026, 02_29_42 PM.png]]
 
 **Scope:** Details MacAdam ellipses and their mapping of just-noticeable differences in color.

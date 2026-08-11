@@ -20,6 +20,7 @@ export type ContentDetails = {
   date?: Date
   description?: string
   swatchColor?: string
+  sequence?: number
 }
 
 interface Options {
@@ -117,6 +118,7 @@ export const ContentIndex: QuartzEmitterPlugin<Partial<Options>> = (opts) => {
             date: date,
             description: file.data.description ?? "",
             swatchColor: file.data.frontmatter?.swatchColor,
+            sequence: file.data.frontmatter?.sequence,
           })
         }
       }

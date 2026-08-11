@@ -1,3 +1,7 @@
+---
+title: Device Gamuts
+sequence: 11
+---
 ![[images/ChatGPT Image Aug 6, 2026, 02_39_45 PM.png]]
 
 **Scope:** Examines device-specific color gamuts such as those of displays and printers.

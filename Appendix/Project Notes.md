@@ -1,3 +1,7 @@
+---
+title: Project Notes
+sequence: 5
+---
 ![[Pasted image 20260810111019.png]]
 
 **Scope:** Working notes for building an interactive 3D color-space viewer — the color solids to render, the coordinate conventions that define them, and the visualization techniques that make them navigable. Content is drawn from the notebook corpus and complements the deeper pages on [[CIE Systems]], [[Munsell Notation]], and [[Optimal Color Solid-MacAdam Limits]].

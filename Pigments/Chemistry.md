@@ -1,4 +1,8 @@
-> **Header image prompt (flat medical-textbook blue anatomy-plate style, wide banner, 16:9 proportion):** A flat-blue anatomy plate of pigment chemistry: left panel labeled **INORGANIC** — a small crystal lattice glyph with labeled dots **TRANSITION-METAL d/f ORBITALS** (Fe, Co, Cd) and two mechanisms listed **LIGAND FIELD / CHARGE TRANSFER (PRUSSIAN BLUE)**; middle panel labeled **ORGANIC** — a conjugated zigzag chain with alternating single/double bonds labeled **π→π\* TRANSITION** and two ring glyphs labeled **PHTHALOCYANINE (MACROCYCLE)** and **QUINACRIDONE (HETEROCYCLE)**; right panel labeled **FADING** — a UV photon arrow labeled **UV → PHOTO-OXIDATION** breaking a double bond into two single bonds, and a small mixing swatch labeled **CdS + Pb → PbS (BLACK)**. A banner strip: **NARROW REFLECTANCE BAND = HIGH CHROMA — GREEN WINDOW EASIER THAN RED SPIKE**. Pale blue plate, bold uppercase labels, thin amber UV arrow the only chromatic accent, flat line art, no 3D, no watermark.
+---
+title: Chemistry
+sequence: 41
+---
+![[Pasted image 20260811164420.png]]
 
 **Scope:** The chemistry of painters' pigments — why pigments are crystalline solids, how inorganic and organic colorants absorb light, and the reactions that make them fade.
 

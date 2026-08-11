@@ -1,6 +1,7 @@
 ---
 title: PBr7 - Raw Umber
 swatchColor: "#3E3A2C"
+sequence: 55
 ---
 <div style="float:left;width:64px;height:64px;background:#3E3A2C;margin:4px 16px 8px 0;border:1px solid #888;border-radius:2px;"></div>
 

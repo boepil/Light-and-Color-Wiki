@@ -1,3 +1,7 @@
+---
+title: Home
+sequence: 1
+---
 ![[home.jpg]]
 
 **Scope:** Landing page explaining how the four main sections ([[Light]], [[Eye]], [[Colors]], [[Painting]]) fit into a single causal chain — from physical photons, through the subtractive limits of pigments, the biological transduction of the retina, and the constructive processing of the brain — plus a suggested reading order.

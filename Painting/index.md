@@ -1,6 +1,7 @@
 ---
 title: Painting
 aliases: [Painting]
+sequence: 27
 ---
 
 **Scope:** The painting section bridges abstract color theory and the physical reality of applied pigments — how color sustains composition, the chemistry and optics of natural and synthetic pigments, objective pigment analysis via spectral data, and the historical arc of color use from the Old Masters to abstract painting.
@@ -8,7 +9,7 @@ aliases: [Painting]
 ### [[Composition|Painting/Composition]]
 Painting composition treats color as an abstract language supporting the artist's intention rather than merely describing objects. **Contrast** is fundamental: a neutral gray appears warm next to a cool color and cool next to a warm one. The "**mostly, some, and a bit**" formula — one dominant hue or temperature, a supporting secondary hue, and a small contrasting "discord" color — avoids boring equal distributions. A **mother color** (one hue added to every mixture) unifies the canvas, and warm, saturated, light colors **advance** while cool, neutralized, dark colors **recede**, building the illusion of space. Value is the foundation: correct **value structure** precedes successful color transitions.
 
-### [[Movements & Painters|Painting/Movements & Painters/Movements & Painters]]
+### [[Movements & Painters|Painting/Movements & Painters]]
 Art history tracks an evolving understanding of color science, from the mineral palettes of the Old Masters to 20th-century optical experiments. Vermeer used costly natural **ultramarine** and mastered edges (diffraction); the **Impressionists** abandoned local color for the "vibrations" of light, painted complementary-color shadows from Goethe's theory, and serial studies of changing illuminants; **Seurat and Pointillism** applied Chevreul's law of simultaneous contrast with optical dot mixing; **Van Gogh** used bold complementary pairs for emotion while **Cézanne** modulated temperature to construct form; the **Bauhaus** (Itten, Albers) systematized contrasts and demonstrated color relativity; and **Color Field** painters selected colors from defined systems for purely pictorial structure.
 
 ### [[Pigments|Pigments]]

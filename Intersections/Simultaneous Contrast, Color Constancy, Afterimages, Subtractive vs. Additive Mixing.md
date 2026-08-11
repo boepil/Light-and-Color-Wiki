@@ -1,3 +1,7 @@
+---
+title: Simultaneous Contrast, Color Constancy, Afterimages, Subtractive vs. Additive Mixing
+sequence: 71
+---
 ![[Pasted image 20260809130837.png]]
 
 **Scope:** Cross-cutting page (Painting × Eye) covering perceptual phenomena critical for painters.
