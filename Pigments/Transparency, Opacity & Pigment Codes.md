@@ -2,7 +2,7 @@
 title: Transparency, Opacity & Pigment Codes
 sequence: 47
 ---
-> **Header image prompt (flat medical-textbook blue anatomy-plate style, wide banner, 16:9 proportion):** A paint tube label exploded into its notational fields: the tube body labeled **COMMON NAME**, a strip reading **COLOR INDEX: PR108 · CI 77196**, a box labeled **SERIES 3**, a row of four squares (filled, half-filled, empty, outlined) labeled **OPACITY KEY**, and a lightfastness star row labeled **ASTM I–II**. Beside the tube, a stack of three paint layers with light rays: rays scattering off the top opaque layer, passing through the middle semi-transparent layer, and through the clear bottom layer onto a ruled grid labeled **HIDING**. Subtle chromatic accents: a cadmium-red swatch strip and a thin phthalo-blue wash, keeping the pale blue plate dominant. Flat line art, bold uppercase labels, leader lines, no 3D, no watermark.
+![[Pasted image 20260811210450.png]]
 
 **Scope:** How paints are classified as transparent, semi-transparent, semi-opaque, or opaque; the label vocabulary (masstone, undertone, tinting strength); and the complete decoding of everything printed on a tube of artist paint — Color Index names, constitution numbers, series numbers, and lightfastness ratings.
 

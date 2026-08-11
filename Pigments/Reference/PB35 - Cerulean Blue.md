@@ -1,7 +1,7 @@
 ---
 title: PB35 - Cerulean Blue
 swatchColor: "#4FA8C8"
-sequence: 65
+sequence: 66
 ---
 <div style="float:left;width:64px;height:64px;background:#4FA8C8;margin:4px 16px 8px 0;border-radius:2px;"></div>
 

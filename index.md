@@ -81,9 +81,10 @@ sequence: 0
 - [[Pigments/Media, Vehicles & Solvents|Media, Vehicles & Solvents]]: The binders and solvents behind each medium — gum arabic, chalk-filled gouache, oxidizing linseed oil, acrylic emulsion, shellac inks, yolk/casein/pastel — and the refractive-index physics that changes the same pigment's color across media.
 - [[Pigments/Transparency, Opacity & Pigment Codes|Transparency, Opacity & Pigment Codes]]: Refractive-index physics of hiding power, transparent/semi/opaque paint classes, masstone vs. undertone, and how to decode a pigment label — CI generic names, constitution numbers, series, ASTM and Blue Wool ratings.
 - [[Pigments/The artist's color wheel|Pigment Color Wheel]]: MacEvoy's artist's color wheel (PDF) plots real pigments by measured hue angle and chroma — a landscape of clusters and gaps, not the idealized RYB circle.
+- [[Pigments/Florent Farges' Color Theory for Artists|Florent Farges' Color Theory]]: Farges' Color Wheel System (©2020 PDF) — three chroma-tier wheels (high/medium/low) on a fixed 360° hue scaffold with six main hues (R Y G C B M), pigments placed by measured hue angle, and the "color strings" mixing workflow.
 
 ### Pigment Reference (data sheets)
-- [[Pigments/Reference|Reference]]: Index page for the 21 pigment data sheets — swatch, chemistry, history, handling, and handprint perspective per pigment.
+- [[Pigments/Reference/index|Reference]]: Index page for the 21 pigment data sheets — swatch, chemistry, history, handling, and handprint perspective per pigment.
 - [[Pigments/Reference/PW6 - Titanium White|PW6 - Titanium White]]: Rutile/anatase TiO₂, 1919–1957 entry, refractive index 2.55/2.71 — the most opaque pigment ever.
 - [[Pigments/Reference/PBk6 - Carbon Black|PBk6 - Carbon Black]]: Amorphous carbon — lampblack/bone/vine, Lascaux to Reinhardt, granulating weak tints vs. intense furnace blacks.
 - [[Pigments/Reference/PY35 - Cadmium Yellow|PY35 - Cadmium Yellow]]: CdS lemon solid solution, Stromeyer 1817, 1846 market — with Cu/Pb incompatibility warnings.

@@ -1,7 +1,7 @@
 ---
 title: PY35 - Cadmium Yellow
 swatchColor: "#FFD02A"
-sequence: 52
+sequence: 53
 ---
 <div style="float:left;width:64px;height:64px;background:#FFD02A;margin:4px 16px 8px 0;border-radius:2px;"></div>
 
@@ -51,7 +51,7 @@ For MacEvoy, cadmium yellow is the high-chroma, high-opacity anchor of the "prim
 - [[Pigments/index|Pigments]] — the section hub
 - [[Pigments/Chemistry|Chemistry]] — sulfide chemistry
 - [[Pigments/Reference/PY97 - Hansa Yellow|PY97 - Hansa Yellow]] — the transparent bandmate
-- [[Pigments/Reference/PYR108 - Cadmium Red|PYR108 - Cadmium Red]] — the red anchor of the same family
+- [[Pigments/Reference/PR108 - Cadmium Red|PR108 - Cadmium Red]] — the red anchor of the same family
 - [[Pigments/Reference/PY43 - Yellow Ochre|PY43 - Yellow Ochre]] — muted earth partner
 
 ## Sources

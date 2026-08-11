@@ -1,7 +1,7 @@
 ---
 title: PV23 - Dioxazine Violet
 swatchColor: "#4A2B6B"
-sequence: 70
+sequence: 71
 ---
 <div style="float:left;width:64px;height:64px;background:#4A2B6B;margin:4px 16px 8px 0;border-radius:2px;"></div>
 

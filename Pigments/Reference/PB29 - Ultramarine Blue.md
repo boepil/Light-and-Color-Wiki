@@ -1,7 +1,7 @@
 ---
 title: PB29 - Ultramarine Blue
 swatchColor: "#27358E"
-sequence: 63
+sequence: 64
 ---
 <div style="float:left;width:64px;height:64px;background:#27358E;margin:4px 16px 8px 0;border-radius:2px;"></div>
 
@@ -41,7 +41,7 @@ sequence: 63
 
 ## Handprint Perspectives
 
-Ultramarine is the keystone of MacEvoy's palette — the single blue of the complete primary triangle, valued for its warm violet cast, transparency, and granulation in watercolor; his neutral-gray doctrine is built on ultramarine-plus-its-complement (or carbon black), and his scumbling guidance uses it for atmospheric perspective. He notes the synthetic (Guimet) product has been standard since 1828 and that the pigment's oil behavior needs stabilizers *(Source: [[raw_sources/handprint/palette1.md|palette1.html]], [[raw_sources/handprint/pigmt3.md|pigmt3.html]], [[raw_sources/handprint/granul.md|granul.html]])*.
+Ultramarine is the keystone of MacEvoy's palette — the single blue of the complete primary triangle, valued for its warm violet cast, transparency, and granulation in watercolor; his neutral-gray doctrine is built on ultramarine-plus-its-complement (or carbon black), and his scumbling guidance uses it for atmospheric perspective. He notes the synthetic (Guimet) product has been standard since 1828 and that the pigment's oil behavior needs stabilizers *(Source: [[raw_sources/handprint/palette1.md|palette1.html]], [[raw_sources/handprint/pigmt3.md|pigmt3.html]], [[raw_sources/handprint/pigmt8.md|pigmt8.html]])*.
 
 ## Subtopics
 - Lazurite from lapis; Badakhshan, Afghanistan

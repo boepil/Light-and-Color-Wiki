@@ -1,7 +1,7 @@
 ---
 title: Reference
 aliases: [Pigment Reference]
-sequence: 49
+sequence: 50
 ---
 
 > **Header image prompt (flat medical-textbook blue anatomy-plate style, wide banner, 16:9 proportion):** A montage plate of pigment swatches: a 21-cell grid of small labeled squares, each with a tiny dot in its pigment hue (white, black, yellows, reds, browns, violet, greens, blues) and a leader line to a bold uppercase label below the grid: **COLOR INDEX — PW / PBK / PY / PR / PBR / PV / PG / PB**, with a note strip at the bottom: **SWATCH · CHEMISTRY · HISTORY · HANDLING · HANDPRINT**. One swatch cell (PR83) outlined with a warning triangle labeled **FUGITIVE**. Pale blue plate, bold uppercase labels, the tiny chromatic swatch dots as the only color accents, flat line art, no 3D, no watermark.

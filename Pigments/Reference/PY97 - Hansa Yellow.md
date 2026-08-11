@@ -1,7 +1,7 @@
 ---
 title: PY97 - Hansa Yellow
 swatchColor: "#F7D117"
-sequence: 53
+sequence: 54
 ---
 <div style="float:left;width:64px;height:64px;background:#F7D117;margin:4px 16px 8px 0;border-radius:2px;"></div>
 

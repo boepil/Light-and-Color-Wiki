@@ -1,7 +1,7 @@
 ---
 title: PR108 - Cadmium Red
 swatchColor: "#D22A2C"
-sequence: 55
+sequence: 56
 ---
 <div style="float:left;width:64px;height:64px;background:#D22A2C;margin:4px 16px 8px 0;border-radius:2px;"></div>
 
@@ -34,7 +34,7 @@ Produced by **coprecipitating cadmium and selenium compounds**, then **calcining
 
 ### Relation to Art and Painters
 
-- Became the stable high-chroma red of the 20th century — a non-fugitive alternative to "aniline" dyes — serving movements that demanded intense, permanent reds. On the modern palette it holds the vermilion niche (the red anchor with cadmium yellow and ultramarine) — see [[Pigments/Pigments|the section hub]] and the mixing triangles in [[Pigments/Palettes|Palettes]].
+- Became the stable high-chroma red of the 20th century — a non-fugitive alternative to "aniline" dyes — serving movements that demanded intense, permanent reds. On the modern palette it holds the vermilion niche (the red anchor with cadmium yellow and ultramarine) — see [[Pigments|the section hub]] and the mixing triangles in [[Pigments/The artist's color wheel|Pigment Color Wheel]].
 
 ## Handprint Perspectives
 
@@ -50,7 +50,7 @@ MacEvoy's cadmium reds (PR108) are the red anchor of both his full palette and h
 ## Cross-References
 - [[Pigments/index|Pigments]] — the section hub
 - [[Pigments/Reference/PY35 - Cadmium Yellow|PY35 - Cadmium Yellow]] — cadmium family anchor
-- [[Pigments/Reference/PYR101 - Mars Red|PYR101 - Mars Red]] — the modern substitute option
+- [[Pigments/Reference/PR101 - Mars Red|PR101 - Mars Red]] — the modern substitute option
 - [[Pigments/Reference/PBR7 - Burnt Sienna|PBR7 - Burnt Sienna]] — transparent earth counterpart
 
 ## Sources

@@ -1,7 +1,7 @@
 ---
 title: PBr7 - Burnt Umber
 swatchColor: "#5A3A22"
-sequence: 59
+sequence: 60
 ---
 <div style="float:left;width:64px;height:64px;background:#5A3A22;margin:4px 16px 8px 0;border-radius:2px;"></div>
 

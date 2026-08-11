@@ -1,6 +1,6 @@
 ---
 title: Optical vs. Physical Mixture
-sequence: 76
+sequence: 77
 ---
 ![[Pasted image 20260809183825.png]]
 

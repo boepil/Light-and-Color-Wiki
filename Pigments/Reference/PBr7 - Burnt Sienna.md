@@ -1,7 +1,7 @@
 ---
 title: PBr7 - Burnt Sienna
 swatchColor: "#8A3B1F"
-sequence: 57
+sequence: 58
 ---
 <div style="float:left;width:64px;height:64px;background:#8A3B1F;margin:4px 16px 8px 0;border-radius:2px;"></div>
 
@@ -33,11 +33,11 @@ Raw sienna is **calcined or roasted in furnaces**; the dehydration converts goet
 
 ### Relation to Art and Painters
 
-- "One of the most widely used pigments in landscape painting" — for **shadows, broken earth tones, and warm underpaintings**; essential for deep, non-chalky mixtures (*A Comprehensive Overview...*, *Contemporary Color*). The historical workflow Chiaroscuro and Venetian glazing (see [[Painting/Movements & Painters/Baroque|Baroque]]) rested on exactly this transparent warmth.
+- "One of the most widely used pigments in landscape painting" — for **shadows, broken earth tones, and warm underpaintings**; essential for deep, non-chalky mixtures (*A Comprehensive Overview...*, *Contemporary Color*). The historical workflow Chiaroscuro and Venetian glazing (see [[Painting/Movements & Painters|Movements & Painters]]) rested on exactly this transparent warmth.
 
 ## Handprint Perspectives
 
-Burnt sienna is a pillar of MacEvoy's limited palettes: use PBr7 where a warm transparent red-brown is wanted, pair it with ultramarine for warm blacks and shadow mixtures (the classic "utility" murky mix), and rely on it as the fourier-friendly earth in transparent watercolor — his opacity charts class it transparent and granulating. He contrasts it with the opaque reds: its job is glazing warmth, not mass-tone chroma *(Source: [[raw_sources/handprint/palette1.md|palette1.html]], [[raw_sources/handprint/granul.md|granul.html]], [[raw_sources/handprint/pigmt3.md|pigmt3.html]])*.
+Burnt sienna is a pillar of MacEvoy's limited palettes: use PBr7 where a warm transparent red-brown is wanted, pair it with ultramarine for warm blacks and shadow mixtures (the classic "utility" murky mix), and rely on it as the fourier-friendly earth in transparent watercolor — his opacity charts class it transparent and granulating. He contrasts it with the opaque reds: its job is glazing warmth, not mass-tone chroma *(Source: [[raw_sources/handprint/palette1.md|palette1.html]], [[raw_sources/handprint/pigmt8.md|pigmt8.html]], [[raw_sources/handprint/pigmt3.md|pigmt3.html]])*.
 
 ## Subtopics
 - Goethite → hematite by calcination; manganese-bearing clay
@@ -48,7 +48,7 @@ Burnt sienna is a pillar of MacEvoy's limited palettes: use PBr7 where a warm tr
 
 ## Cross-References
 - [[Pigments/index|Pigments]] — the section hub
-- [[Pigments/Reference/PYR101 - Mars Red|PYR101 - Mars Red]] — the hematite-mars family
+- [[Pigments/Reference/PR101 - Mars Red|PR101 - Mars Red]] — the hematite-mars family
 - [[Pigments/Reference/PR108 - Cadmium Red|PR108 - Cadmium Red]] — the opaque counterpart
 - [[Pigments/Particle Size-Tinting-Polymorphism|Particle Size-Tinting-Polymorphism]] — granulation mechanics
 

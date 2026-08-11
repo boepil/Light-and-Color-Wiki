@@ -1,6 +1,6 @@
 ---
 title: Natural Light Gamut vs. Pigment Gamut - Metamerism
-sequence: 75
+sequence: 76
 ---
 ![[Pasted image 20260809130521.png]]
 

@@ -1,7 +1,7 @@
 ---
 title: PBr7 - Raw Umber
 swatchColor: "#3E3A2C"
-sequence: 58
+sequence: 59
 ---
 <div style="float:left;width:64px;height:64px;background:#3E3A2C;margin:4px 16px 8px 0;border:1px solid #888;border-radius:2px;"></div>
 
@@ -36,11 +36,11 @@ sequence: 58
 
 ### Relation to Art and Painters
 
-- The low-key anchor of the limited palette from Baroque underpainting (see [[Painting/Movements & Painters/Baroque|Baroque]]) through plein-air practice: umber grounds, umber-darks, and umber-olives recur in every era's landscape and portrait tradition (*Plein Air Techniques for Artists*, *Artists' Pigments*).
+- The low-key anchor of the limited palette from Baroque underpainting (see [[Painting/Movements & Painters|Movements & Painters]]) through plein-air practice: umber grounds, umber-darks, and umber-olives recur in every era's landscape and portrait tradition (*Plein Air Techniques for Artists*, *Artists' Pigments*).
 
 ## Handprint Perspectives
 
-MacEvoy's limited-palette doctrine names the earth neutral "utility" pair: raw sienna/umber for warm darks and *frottage* glazes, plus umber+ultramarine as his preferred **"warm black"** — the shadow mixture that keeps chroma alive where tube black kills it. He sternly repeats the rule that umber must not be used full-strength in oil underpainting on account of the manganese siccative, and his granulation charts list PBr7 among the classic granulating watercolor earths *(Source: [[raw_sources/handprint/pigmt3.md|pigmt3.html]], [[raw_sources/handprint/palette1.md|palette1.html]], [[raw_sources/handprint/granul.md|granul.html]])*.
+MacEvoy's limited-palette doctrine names the earth neutral "utility" pair: raw sienna/umber for warm darks and *frottage* glazes, plus umber+ultramarine as his preferred **"warm black"** — the shadow mixture that keeps chroma alive where tube black kills it. He sternly repeats the rule that umber must not be used full-strength in oil underpainting on account of the manganese siccative, and his granulation ratings list PBr7 among the classic granulating watercolor earths *(Source: [[raw_sources/handprint/pigmt3.md|pigmt3.html]], [[raw_sources/handprint/palette1.md|palette1.html]], [[raw_sources/handprint/pigmt8.md|pigmt8.html]])*.
 
 ## Subtopics
 - Goethite + MnO₂; darkest, most neutral earth

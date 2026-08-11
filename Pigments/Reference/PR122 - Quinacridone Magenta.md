@@ -1,7 +1,7 @@
 ---
 title: PR122 - Quinacridone Magenta
 swatchColor: "#A52A6E"
-sequence: 68
+sequence: 69
 ---
 <div style="float:left;width:64px;height:64px;background:#A52A6E;margin:4px 16px 8px 0;border:1px solid #999;border-radius:2px;"></div>
 

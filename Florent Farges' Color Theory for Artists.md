@@ -1,1 +1,0 @@
-![[Color-Theory-for-Artists-Color-Wheel-System.pdf]]

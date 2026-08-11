@@ -1,7 +1,7 @@
 ---
 title: PY43 - Yellow Ochre
 swatchColor: "#C68A33"
-sequence: 54
+sequence: 55
 ---
 <div style="float:left;width:64px;height:64px;background:#C68A33;margin:4px 16px 8px 0;border-radius:2px;"></div>
 
@@ -35,7 +35,7 @@ Obtained by mining native clay deposits, which are **thoroughly washed and refin
 
 ## Handprint Perspectives
 
-Yellow ochre is MacEvoy's recommended single yellow for a **limited palette** — his doctrine pairs it with the arylide (Hansa) yellow as the transparent high-chroma addition, reserving ochre for muted, natural yellows and skin and landscape mixing. His granulation charts list PY43 among the granulating watercolor pigments, and his opaque-pigment guidance places it with the other iron oxides as the stable low-chroma workhorse *(Source: [[raw_sources/handprint/palette1.md|palette1.html]], [[raw_sources/handprint/granul.md|granul.html]], [[raw_sources/handprint/intstud.md|intstud.html]])*.
+Yellow ochre is MacEvoy's recommended single yellow for a **limited palette** — his doctrine pairs it with the arylide (Hansa) yellow as the transparent high-chroma addition, reserving ochre for muted, natural yellows and skin and landscape mixing. His granulation ratings list PY43 among the granulating watercolor pigments, and his opaque-pigment guidance places it with the other iron oxides as the stable low-chroma workhorse *(Source: [[raw_sources/handprint/palette1.md|palette1.html]], [[raw_sources/handprint/pigmt8.md|pigmt8.html]], [[raw_sources/handprint/intstud.md|intstud.html]])*.
 
 ## Subtopics
 - Goethite FeO·xH₂O + clay + silica
