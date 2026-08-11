@@ -1,3 +1,7 @@
+---
+title: PY43 - Yellow Ochre
+swatchColor: "#C68A33"
+---
 <div style="float:left;width:64px;height:64px;background:#C68A33;margin:4px 16px 8px 0;border-radius:2px;"></div>
 
 > Color swatch: closest approximation of the pigment's hue (not measured spectral data — see [[Pigments/Sourcing Real Spectral Data|Sourcing Real Spectral Data]]).

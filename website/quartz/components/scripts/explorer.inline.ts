@@ -88,6 +88,13 @@ function createFileNode(currentSlug: FullSlug, node: FileTrieNode): HTMLLIElemen
   a.dataset.for = node.slug
   a.textContent = node.displayName
 
+  if (node.data?.swatchColor && node.data?.filePath?.startsWith("Pigments/Reference/")) {
+    const swatch = document.createElement("span")
+    swatch.className = "explorer-swatch"
+    swatch.style.backgroundColor = node.data.swatchColor
+    a.insertBefore(swatch, a.firstChild)
+  }
+
   if (currentSlug === node.slug) {
     a.classList.add("active")
   }

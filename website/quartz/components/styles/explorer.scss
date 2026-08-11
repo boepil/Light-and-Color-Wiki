@@ -132,6 +132,17 @@ button.desktop-explorer {
     }
   }
 
+  .explorer-swatch {
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    border-radius: 2px;
+    margin-right: 6px;
+    vertical-align: middle;
+    border: 1px solid var(--lightgray);
+    flex-shrink: 0;
+  }
+
   .folder-outer {
     display: grid;
     grid-template-rows: 0fr;
