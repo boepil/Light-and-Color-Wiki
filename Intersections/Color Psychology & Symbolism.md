@@ -1,10 +1,10 @@
 ---
 title: Color Psychology & Symbolism
-sequence: 67
+sequence: 73
 ---
 ![[Pasted image 20260809132128.png]]
 
-**Scope:** Cross-cutting page (Painting × Eye) on how color acquires emotional, symbolic, and commercial power — the evidence quality behind those claims, the cultural relativity of symbolism, Kandinsky's synesthetic doctrine, and the warm/cool tradition.
+**Scope:** Cross-cutting page (Painting ֳ— Eye) on how color acquires emotional, symbolic, and commercial power — the evidence quality behind those claims, the cultural relativity of symbolism, Kandinsky's synesthetic doctrine, and the warm/cool tradition.
 
 ### The Evidence Landscape: Doctrine vs. Experiment vs. Anecdote
 Sources sort claims about color's psychological effects into three tiers; most popular beliefs live in the weakest tiers.

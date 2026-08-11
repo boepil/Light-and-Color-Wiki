@@ -46,6 +46,10 @@ MacEvoy's entire color website is an argument that pigments — "the color mater
 - [[High-Chroma Synthetics]] — the modern frontier
 - [[Particle Size-Tinting-Polymorphism]] — the physics of powders
 - [[Sourcing Real Spectral Data]] — how pigments are measured
+- [[Media, Vehicles & Solvents]] — the binders and solvents that carry them
+- [[Transparency, Opacity & Pigment Codes]] — hiding power and how to read a label
+- [[The artist's color wheel|Pigment Color Wheel]] — real pigments plotted by measured hue/chroma
+- [[Pigments/Reference/index|Pigment Reference]] — the 21 data sheets
 - [[Pointer's Gamut]] — real pigment limits in CIE space
 
 ## Sources

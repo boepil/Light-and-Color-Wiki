@@ -1,10 +1,10 @@
 ---
 title: Intersections
 aliases: [Intersections]
-sequence: 65
+sequence: 71
 ---
 
-> **Header image prompt (flat medical-textbook blue anatomy-plate style, wide banner, 16:9 proportion):** A montage plate of the wiki's cross-cutting links. Four inset panels joined by leader lines: **LIGHT × EYE** — a small CIE horseshoe locus with the spectral band curving along it and a labeled **V(λ) 555 nm** peak; **PAINTING × LIGHT** — a prism beam meeting a pigment swatch row labeled **NATURAL GAMUT vs PIGMENT GAMUT — METAMERISM**; **PAINTING × EYE** — an eye glyph beside a checkerboard of tiny dots labeled **OPTICAL vs PHYSICAL MIX** and a two-patch **SIMULTANEOUS CONTRAST** square; **EYE × COLORS** — a Munsell-style hue circle distorted into a **CIELAB/MUNSELL UNIFORM SPACE** grid. A bottom strip: **CAUSAL CHAIN: REFLECTANCE → CMF · V(λ) → PERCEPTION**. Pale blue plate, bold uppercase labels, a thin spectral band and two small red/green swatches as the only chromatic accents, flat line art, no 3D, no watermark.
+![[Pasted image 20260811184728.png]]
 
 **Scope:** The cross-cutting pages where the four sections meet — the causal chain from pigment reflectance through CIE colorimetry to perception, gamut and metamerism comparisons, mixture physics, perceptual phenomena, uniform color spaces, color psychology, and the neuroscience of color.
 

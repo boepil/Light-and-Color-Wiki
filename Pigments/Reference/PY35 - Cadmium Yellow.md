@@ -1,7 +1,7 @@
 ---
 title: PY35 - Cadmium Yellow
 swatchColor: "#FFD02A"
-sequence: 49
+sequence: 52
 ---
 <div style="float:left;width:64px;height:64px;background:#FFD02A;margin:4px 16px 8px 0;border-radius:2px;"></div>
 

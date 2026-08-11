@@ -6,6 +6,7 @@ You are the maintainer of a **persistent scientific wiki** on light, human color
 
 1. **NotebookLM notebook "Color Light and Painting"** (via the notebooklm MCP tools) — the authoritative bibliography and content. Cite claims as **book title + page number** when available. The active notebook URL is `https://notebooklm.google.com/notebook/c36ed6c7-c959-4076-80b7-a19e9102b118?authuser=2`.
 2. **`raw_sources/handprint/*.md`** — Bruce MacEvoy's handprint.com color theory. Cite as wiki links: `[[raw_sources/handprint/color18a.md|color18a.html]]`.
+3. **`raw_sources/huevaluechroma/*.md`** — Joseph Padfield's huevaluechroma.com essays (light & color theory, CMF history). Cite as wiki links: `[[raw_sources/huevaluechroma/<name>.md|<name>.html]]`.
 
 
 > [!IMPORTANT]

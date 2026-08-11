@@ -78,9 +78,12 @@ sequence: 0
 - [[Pigments/High-Chroma Synthetics|High-Chroma Synthetics]]: Phthalocyanines (PB15/PG7/PG36), quinacridones (PR122/PV19) and PV23 — narrow-band chroma at dark values, the cyan and red-violet gamut gains, and 50–75% "let-downs" for tinctorial power.
 - [[Pigments/Particle Size-Tinting-Polymorphism|Particle Size-Tinting-Polymorphism]]: Grinding shifts hue, refractive-index gaps drive opacity, granulation textures washes, rub-out tests measure strength — and crystals polymorph (PB15 α/β, vermilion to metacinnabar).
 - [[Pigments/Sourcing Real Spectral Data|Sourcing Real Spectral Data]]: Reflectance spectrophotometry of paint films (380–780 nm fingerprints, the drying shift), RIT MCSL libraries and Munsell Renotation reference data, and how curves date paintings and map gamuts.
+- [[Pigments/Media, Vehicles & Solvents|Media, Vehicles & Solvents]]: The binders and solvents behind each medium — gum arabic, chalk-filled gouache, oxidizing linseed oil, acrylic emulsion, shellac inks, yolk/casein/pastel — and the refractive-index physics that changes the same pigment's color across media.
+- [[Pigments/Transparency, Opacity & Pigment Codes|Transparency, Opacity & Pigment Codes]]: Refractive-index physics of hiding power, transparent/semi/opaque paint classes, masstone vs. undertone, and how to decode a pigment label — CI generic names, constitution numbers, series, ASTM and Blue Wool ratings.
+- [[Pigments/The artist's color wheel|Pigment Color Wheel]]: MacEvoy's artist's color wheel (PDF) plots real pigments by measured hue angle and chroma — a landscape of clusters and gaps, not the idealized RYB circle.
 
 ### Pigment Reference (data sheets)
-- [[Pigments/Reference|Reference]]: Index page for the 18 pigment data sheets — swatch, chemistry, history, handling, and handprint perspective per pigment.
+- [[Pigments/Reference|Reference]]: Index page for the 21 pigment data sheets — swatch, chemistry, history, handling, and handprint perspective per pigment.
 - [[Pigments/Reference/PW6 - Titanium White|PW6 - Titanium White]]: Rutile/anatase TiO₂, 1919–1957 entry, refractive index 2.55/2.71 — the most opaque pigment ever.
 - [[Pigments/Reference/PBk6 - Carbon Black|PBk6 - Carbon Black]]: Amorphous carbon — lampblack/bone/vine, Lascaux to Reinhardt, granulating weak tints vs. intense furnace blacks.
 - [[Pigments/Reference/PY35 - Cadmium Yellow|PY35 - Cadmium Yellow]]: CdS lemon solid solution, Stromeyer 1817, 1846 market — with Cu/Pb incompatibility warnings.
@@ -97,6 +100,9 @@ sequence: 0
 - [[Pigments/Reference/PB29 - Ultramarine Blue|PB29 - Ultramarine Blue]]: Lazurite from lapis — Mary's robe, Vermeer, Guimet's 1828 furnace price collapse.
 - [[Pigments/Reference/PB28 - Cobalt Blue|PB28 - Cobalt Blue]]: Thénard's 1802 aluminate — the smalt-replacing standard sky blue of Renoir, Monet, Turner.
 - [[Pigments/Reference/PB35 - Cerulean Blue|PB35 - Cerulean Blue]]: Cobalt stannate, Rowney ~1860 — the pale greenish Impressionist sky blue.
+- [[Pigments/Reference/PB15 - Phthalo Blue|PB15 - Phthalo Blue]]: Copper phthalocyanine, Scottish Dyes 1927–28 — the intense cyan that replaced Prussian blue, alpha/beta polymorphism.
 - [[Pigments/Reference/PR83 - Alizarin Crimson|PR83 - Alizarin Crimson]]: First synthesized natural dye (1868) — Cézanne's glazing red, now rated fugitive.
+- [[Pigments/Reference/PR122 - Quinacridone Magenta|PR122 - Quinacridone Magenta]]: Dimethyl quinacridone, du Pont 1950s — the permanent transparent magenta that replaced aniline magentas and alizarin.
+- [[Pigments/Reference/PR254 - Pyrrole Red|PR254 - Pyrrole Red]]: Diketopyrrolo-pyrrole — the non-toxic cadmium substitute, opaque when formulated, automotive-grade fastness.
 - [[Pigments/Reference/PV23 - Dioxazine Violet|PV23 - Dioxazine Violet]]: Carbazole dioxazine, 1928–1950s — the staining deep violet of extreme darks.
 

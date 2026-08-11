@@ -1,12 +1,12 @@
 ---
 title: Color Matching Functions and the Photopic Luminosity Function
-sequence: 68
+sequence: 74
 ---
 ![[Pasted image 20260809130318.png]]
 
-**Scope:** Cross-cutting page (Light × Eye) exploring how physical light is weighted by human biological sensitivity.
+**Scope:** Cross-cutting page (Light ֳ— Eye) exploring how physical light is weighted by human biological sensitivity.
 
-In mathematical colorimetry, **color matching functions (CMFs)** and the **luminosity function** are the essential bridge between the physical spectrum of light and the human perception of color and brightness. Established by the **Commission Internationale de l'Éclairage (CIE)** in **1931**, they allow the visual effect of any light source to be calculated from its spectral power distribution.
+In mathematical colorimetry, **color matching functions (CMFs)** and the **luminosity function** are the essential bridge between the physical spectrum of light and the human perception of color and brightness. Established by the **Commission Internationale de l'ֳ‰clairage (CIE)** in **1931**, they allow the visual effect of any light source to be calculated from its spectral power distribution.
 
 ### 1. Color Matching Functions (CMFs) and the RGB Experiments
 

@@ -1,7 +1,7 @@
 ---
 title: PBr7 - Burnt Sienna
 swatchColor: "#8A3B1F"
-sequence: 54
+sequence: 57
 ---
 <div style="float:left;width:64px;height:64px;background:#8A3B1F;margin:4px 16px 8px 0;border-radius:2px;"></div>
 

@@ -212,6 +212,11 @@
 - Re-applied frontmatter lost in a workspace revert on 19 pages (Home, Appendix×4, Colors×8, Eye×6).
 - Added the missing `index.md` one-liner for `Intersections/The Neuroscience Behind Why Colours Rewire Your Brain`.
 
+## [2026-08-11] feat | New page: Media, Vehicles & Solvents (Pigments)
+- Added `Pigments/Media, Vehicles & Solvents.md` (NotebookLM session `8f1b391e`, sources requested) — gum arabic/honey/glycerin/ox gall watercolor, chalk-filled gouache, oxidizing linseed oils, acrylic emulsion, shellac/dye/pigment inks, egg tempera/casein/pastel, and the refractive-index physics (air 1.00 vs pigment 2.0–2.7 vs oil 1.48) behind per-medium chroma; header image prompt; handprint perspectives (color18a transparent-vehicle law, intstud vehicle dilution, pigmt7 gouache, pigmt5 vehicle history).
+- Renumbered for insertion: Reference index 46→47, sheets 47–64→48–65, Intersections hub 65→66, Intersections pages 66–73→67–74; chain contiguous 1–74.
+- Synced `index.md` one-liner, `Pigments/index.md` cross-reference, `page-status.md` (74 pages), `log.md`.
+
 ## [2026-08-11] fix | Continuous navigation + Intersections hub
 - Created `Intersections/index.md` hub (NotebookLM query session `28d4c19d`, sources requested) — Scope + 8 linked subsections + Sources + header image prompt; `sequence: 65`.
 - Created `Pigments/Reference/index.md` (18 data sheets grouped by color family, `sequence: 46`).
@@ -219,4 +224,17 @@
 - Renumbered Reference sheets 46–63 → 47–64 and Intersections pages 64–71 → 66–73; final contiguous `sequence` 1–73.
 - Fixed links: `index.md` (2 paths + Intersections/Reference hub one-liners), `Colors/index.md`, `Painting/index.md`, `Impressionism.md`, `page-status.md`.
 - Website build (`website/`, per user request): `contentIndex.tsx` emits `sequence` into `ContentDetails`; `quartz.layout.ts` Explorer `sortFn` now orders by `sequence` (sidebar = prev/next order); `ignorePatterns` += `page-status.md`, `AGENTS.md`, `.agents` (hidden from sidebar/search).
+
+## [2026-08-11] feat | Transparency/codes page + artist's color wheel + 3 new pigment sheets
+- Added `Pigments/Transparency, Opacity & Pigment Codes.md` (NotebookLM session `8f1b391e`, sources requested) — Δn hiding-power physics (ultramarine n≈1.50 vs oil 1.48 transparent; TiO₂ 2.71 opaque), particle-size scattering ~500 nm, transparent/semi/opaque classes + glazing/scumbling, masstone/undertone/tinting strength (rub-out 0.1 g/2.0 g ZnO; 50:1 for phthalos), label anatomy (CI generic PR108, constitution 77196, series, ASTM I–IV, Blue Wool 1–8, ACMI/D4236), CI structure P+hue-letter+number (77000–77999 inorganics; PB15:3 vs PB15:6), trust hierarchy (ASTM > manufacturer; handprint litetest skepticism); handprint pigmt8 one-line summaries + Sharpie opacity test + ASTM-D5067 demand. `sequence: 47`.
+- Filled `Pigments/The artist's color wheel.md` (renamed from `color wheel pigment.md` by user; Obsidian) — the artistColorWheel.pdf (image-only scan, Photoshop CS2 Mac 2009): CIECAM hue angle/chroma placements, complements opposite, neutral center (titanium white/carbon black/sepia), italics convenience mixes, bold common pigments, numbered sectors 1–6 with degree marks; Munsell placements from notebook query (8.0Y 9.2/9.0 cadmium yellow, 0.8YR 6.4/13.4 pyrrole red, 3.5PB 4.6/14.0 phthalo blue, 5.0PB 6.3/10.0 ultramarine, 1.5Y 8.7/5.0 yellow ochre, 1.0Y 7.6/4.5 raw sienna, 1.5Y 6.9/2.0 raw umber, 7.5BG 7.3/4.5 viridian), chroma ceilings (green 34 vs red 20; V(λ) 555 nm), pigment vs light wheel, darkness-kills-chroma; handprint color14 wheel-as-landscape + asymmetry-follows-luminosity. `sequence: 48`.
+- Added 3 sheets: `PB15 - Phthalo Blue` (66 — Cu phthalocyanine, Scottish Dyes 1927–28, marketed 1936, α/β forms, 50–75% let-down, replaced Prussian blue, CMY cyan), `PR122 - Quinacridone Magenta` (68 — dimethyl trans-linear quinacridone, lab 1930s Germany → du Pont 1950s, replaced aniline magentas, lightfast over PR83), `PR254 - Pyrrole Red` (69 — diketopyrrolo-pyrrole, non-toxic cadmium substitute, formulable opacity; handprint pigmt8 "very lightfast, semiopaque, highly staining, dark valued").
+- Renumbered for insertion: Reference index 47→49, sheets 48–65→50–67 + PR83 64→67 + PV23 65→70, Intersections hub 66→71, Intersections pages 67–74→72–79; chain contiguous 1–79 (21 sheets + 2 new essays).
+- Synced `index.md` one-liners, `Pigments/index.md`, `Reference/index.md` (21 sheets grouped by family), `page-status.md` (80 pages), `log.md`.
+
+## [2026-08-11] fix | Mojibake pass 2 (CP1255 double-decode) + BOM strip
+- Root cause: text written as UTF-8 then byte-decoded as the Hebrew code page CP1255 — each correct character became a Hebrew-letter + Latin artifact sequence (e.g. `—` → `ג€”`, `–` → `ג€“`, `→` → `ג†'`, `₂` → `ג‚‚`, `₃` → `ג‚ƒ`, `₄` → `ג‚„`, `α` → `־±`, `Σ` → `־£`, `λ` → `־»`, `Δ` → `־”`, `λ̄`-macron → `ּ„`, `ȳ` → `ָ³`, `é` → `׳©`, `°` → `ג°`, `·` → `ג·`, `′` → `ג€²`, `≡` → `ג‰¡`, `≈` → `ג‰ˆ`, `−` → `גˆ'`, `…` → `ג€¦`, `≠` → `ג‰ `).
+- Pass 1 had fixed 28 files' em-dashes; pass 2 replaced all remaining variant sequences via literal-code-point table in 25+10 wiki files (Reference sheets, Intersections pages, hub pages), pass 3 caught `é`-prefix variant U+05B3. Verified by re-scan: zero Hebrew/CP1255 artifacts remain; remaining U+2013/U+00B7/U+2019 hits are legitimate typography.
+- Stripped UTF-8 BOMs from 27 files (Intersections pages + Reference index + 18 sheets).
+
 
