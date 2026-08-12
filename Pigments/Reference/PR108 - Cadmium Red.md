@@ -1,7 +1,7 @@
 ---
 title: PR108 - Cadmium Red
 swatchColor: "#D22A2C"
-sequence: 56
+sequence: 60
 ---
 <div style="float:left;width:64px;height:64px;background:#D22A2C;margin:4px 16px 8px 0;border-radius:2px;"></div>
 

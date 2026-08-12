@@ -1,7 +1,7 @@
 ---
 title: PB28 - Cobalt Blue
 swatchColor: "#2B4FA3"
-sequence: 65
+sequence: 69
 ---
 <div style="float:left;width:64px;height:64px;background:#2B4FA3;margin:4px 16px 8px 0;border-radius:2px;"></div>
 

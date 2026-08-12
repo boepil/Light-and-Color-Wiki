@@ -1,8 +1,7 @@
 ---
 title: History & Key Figures
-sequence: 4
+sequence: 5
 ---
-# History & Key Figures
 
 **Scope:** Short biographies and core contributions of the key figures behind color science: Munsell, Chevreul, Schrödinger, MacAdam, Pointer, and the CIE committee.
 

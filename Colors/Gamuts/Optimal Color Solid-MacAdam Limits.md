@@ -1,6 +1,6 @@
 ---
 title: Optimal Color Solid-MacAdam Limits
-sequence: 13
+sequence: 14
 ---
 ![[images/ChatGPT Image Aug 6, 2026, 02_46_29 PM.png]]
 

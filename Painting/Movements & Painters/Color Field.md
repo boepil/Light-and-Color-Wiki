@@ -1,6 +1,6 @@
 ---
 title: Color Field
-sequence: 31
+sequence: 35
 ---
 > **Header image prompt (flat medical-textbook blue anatomy-plate style, wide banner, 16:9 proportion):** A flat-blue anatomy plate of Color Field structure: a large near-monochrome pale-blue rectangle field with three stacked soft-edged horizontal bands, each band's boundary blurred and labeled **VANISHING BOUNDARY / FLUTING**; a thin vertical stripe labeled **NEWMAN'S "ZIP"** dividing the field, with a note strip **WALL SCALE — SPACE AS SUBJECT**; a side inset labeled **REINHARDT: DARK LIGHT** showing a near-black square with a faint nine-square grid outline and label **NO LIGHT, NO COLOR — GRID BY SIMULTANEOUS CONTRAST**; a bottom note **DURATIONAL EXPERIENCE — EYE FATIGUE**. Pale blue plate, bold uppercase labels, one narrow band in faint warm gray for contrast, flat line art, no 3D, no watermark.
 

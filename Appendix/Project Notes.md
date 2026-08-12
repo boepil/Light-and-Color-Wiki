@@ -1,6 +1,6 @@
 ---
 title: Project Notes
-sequence: 5
+sequence: 6
 ---
 ![[Pasted image 20260810111019.png]]
 

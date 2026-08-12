@@ -1,6 +1,6 @@
 ---
 title: Color Psychology & Symbolism
-sequence: 74
+sequence: 78
 ---
 ![[Pasted image 20260809132128.png]]
 

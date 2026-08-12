@@ -1,6 +1,6 @@
 ---
 title: Causal Chain - Pigments to Perception
-sequence: 73
+sequence: 77
 ---
 ![[Pasted image 20260808153904.png]]
 

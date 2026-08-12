@@ -1,6 +1,6 @@
 ---
 title: High-Chroma Synthetics
-sequence: 43
+sequence: 47
 ---
 ![[Pasted image 20260811164755.png]]
 

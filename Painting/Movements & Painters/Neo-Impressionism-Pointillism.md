@@ -1,6 +1,6 @@
 ---
 title: Neo-Impressionism-Pointillism
-sequence: 34
+sequence: 38
 ---
 > **Header image prompt (flat medical-textbook blue anatomy-plate style, wide banner, 16:9 proportion):** A flat-blue anatomy plate of Neo-Impressionist technique: a large magnifier circle over a patch of evenly spaced dots labeled **POINTILLE — DOTS OF PURE COLOR**, with a two-column comparison — left column labeled **PALETTE MIX (SUBTRACTIVE)**: two swatches converging to a dark muddy cross-hatch; right column labeled **OPTICAL MIX (EYE):** two swatch dots merging into a lighter labeled **LUSTRE / FLICKER**; a bottom strip of paired red/green and blue/orange microdots labeled **CHROMATIC GRAYS**. A small inset canvas frame edge labeled **DOTTED FRAME** (dots along the border) and label **SEURAT "IMPRESSIONISTE-LUMINISTE"**. Pale blue plate, bold uppercase labels, red/green/orange/blue microdots kept sparse, flat line art, no 3D, no watermark.
 

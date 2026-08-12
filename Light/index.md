@@ -1,7 +1,7 @@
 ---
 title: Light
 aliases: [Light]
-sequence: 20
+sequence: 21
 ---
 
 **Scope:** The physical nature of light before it enters the human eye or interacts with paint — electromagnetic duality, wavelength/energy quantization, prismatic dispersion, emission vs. reflection, refraction and scattering, standard illuminants and correlated color temperature, and the spectral-locus boundaries of physical color space.

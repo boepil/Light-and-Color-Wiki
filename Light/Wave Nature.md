@@ -1,6 +1,6 @@
 ---
 title: Wave Nature
-sequence: 21
+sequence: 22
 ---
 ![[Pasted image 20260810103655.png]]
 

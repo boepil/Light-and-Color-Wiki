@@ -1,6 +1,6 @@
 ---
 title: The Visible Spectrum
-sequence: 22
+sequence: 23
 ---
 ![[Pasted image 20260811113250.png]]
 

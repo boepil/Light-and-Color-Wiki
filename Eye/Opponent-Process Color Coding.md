@@ -1,6 +1,6 @@
 ---
 title: Opponent-Process Color Coding
-sequence: 19
+sequence: 20
 ---
 ![[images/Pasted image 20260806114022.png]]
 

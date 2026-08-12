@@ -1,6 +1,6 @@
 ---
 title: Pigment Color Wheel (Munsell Placement)
-sequence: 48
+sequence: 52
 ---
 ![[artistColorWheel.pdf]]
 

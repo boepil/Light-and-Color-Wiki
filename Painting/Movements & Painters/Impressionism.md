@@ -1,6 +1,6 @@
 ---
 title: Impressionism
-sequence: 33
+sequence: 37
 ---
 ![[impressionizm.jpg]]
 

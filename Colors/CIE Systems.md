@@ -1,6 +1,6 @@
 ---
 title: CIE Systems
-sequence: 7
+sequence: 8
 ---
 
 ![[images/ChatGPT Image Aug 6, 2026, 02_26_10 PM.png]]

@@ -1,7 +1,7 @@
 ---
 title: PR83 - Alizarin Crimson
 swatchColor: "#9C1B30"
-sequence: 68
+sequence: 72
 ---
 <div style="float:left;width:64px;height:64px;background:#9C1B30;margin:4px 16px 8px 0;border-radius:2px;"></div>
 

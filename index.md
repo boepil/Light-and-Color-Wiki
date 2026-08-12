@@ -7,6 +7,8 @@ sequence: 0
 [[Home|Home]]: Landing page tracing the unified 5-stage chain from physical light, through the subtractive limits of pigment, the S/M/L transduction of the eye, opponent-process perception, to V1–V4 cortical plasticity — with a suggested reading order across the four sections.
 
 ## Appendix
+**[[Appendix|Appendix]]**: The project's meta-layer — the unified citation map, the data-and-methodology grounding, the history of color science, and the working notes behind the corpus.
+
 - [[Appendix/Bibliography|Bibliography]]: A bibliography organized by section linking back to supporting pages.
 - [[Appendix/Data & Methodology|Data & Methodology]]: Instruments (spectrophotometers, spectroradiometers, colorimeters), sampling protocols (1–20 nm, 380–780 nm, 2°/10° observers), the CIE integration pipeline (X = k·Σ P·x̄·R·Δλ), and the classic datasets behind this wiki.
 - [[Appendix/History & Key Figures|History & Key Figures]]: Short biographies and core contributions of key figures: Munsell, Schrödinger, MacAdam, Pointer, Chevreul, and the CIE committee.
@@ -55,9 +57,12 @@ sequence: 0
 - [[Light/Wave Nature|Wave Nature]]: Electromagnetic waves (λ/f/amplitude/c, c = f·λ), photons (E = hf, E(eV) = 1240/λ(nm)), frequency-as-color vs amplitude-as-intensity, dual nature in vision-relevant interactions, and spectral power distributions.
 
 ## Painting
-**[[Painting|Painting]]**: Abstract color theory meeting applied pigment — composition (contrast, mostly/some/bit, mother color), the art-history arc from Vermeer/Impressionism to Color Field, pigment chemistry and high-chroma synthetics, and objective spectral pigment analysis.
+**[[Painting|Painting]]**: Abstract color theory meeting applied pigment — composition (contrast, mostly/some/bit, mother color), the physical stage (supports, grounds, brushes), the art-history arc from Vermeer/Impressionism to Color Field, pigment chemistry and high-chroma synthetics, and objective spectral pigment analysis.
 
 - [[Painting/Composition|Composition]]: Harmony as "analogy of opposites," Itten's seven contrasts, mostly/some/bit proportions (Itten 3:6:8, Munsell balance), mother color and neutrals, warm/cool depth structuring — and the Albers/Gage/Munsell critique of geometric harmony rules.
+- [[Painting/Supports & Materials|Supports & Materials]]: What you paint on and on top of — watercolor paper (weights, HP/CP/rough finishes, cotton fiber, sizing, acidity), oil canvas (linen vs. cotton duck, animal-glue size, gesso vs. oil ground, stretching), and medium-specific grounds (acrylic primer, pastel tooth, tempera panels); the white ground as "internal light".
+- [[Painting/Brushes|Brushes]]: Brush anatomy and hair types (kolinsky sable, squirrel, hog bristle, nylon), shapes and their jobs (round, flat, bright, filbert, fan, liner, mop), and medium rules — soft reservoirs for watercolor, bristle/sable split for oil, submerged synthetics for acrylic; sizes and care.
+- [[Painting/Pigment Sources, Composition & Toxicity Reference|Pigment Sources, Composition & Toxicity Reference]]: Which pigments are hazardous and why — family-by-family toxicity, the three exposure routes, ASTM D4236/ACMI labeling, historical poisons vs. modern replacements, and the binder/solvent risk profile.
 - [[Painting/Movements & Painters/Bauhaus|Bauhaus]]: The Vorkurs "color in a vacuum," Itten's seven contrasts and Runge-derived sphere, Kandinsky's color-form coordinates and pseudo-synaesthesia, Klee's middle-point-gray keystone, and Albers's "color deceives continually".
 - [[Painting/Movements & Painters/Color Field|Color Field]]: Rothko's luminous film color, Newman's zip and wall-scale space, Reinhardt's black-painting grid — closely-valued fields as durational simultaneous-contrast experiences.
 - [[Painting/Movements & Painters/Fauvism|Fauvism]]: The 1905 "wild beasts" — flat high-chroma anti-local color, Matisse's Green Line and "Plus c'est plat, plus c'est de l'art", and the yield to Cubism.

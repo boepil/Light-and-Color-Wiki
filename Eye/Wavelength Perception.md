@@ -1,6 +1,6 @@
 ---
 title: Wavelength Perception
-sequence: 16
+sequence: 17
 ---
 ![[images/ChatGPT Image Aug 6, 2026, 12_36_58 PM 1.png]]
 

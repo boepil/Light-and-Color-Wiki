@@ -1,13 +1,22 @@
 ---
 title: Painting
 aliases: [Painting]
-sequence: 27
+sequence: 28
 ---
 
-**Scope:** The painting section bridges abstract color theory and the physical reality of applied pigments — how color sustains composition, the chemistry and optics of natural and synthetic pigments, objective pigment analysis via spectral data, and the historical arc of color use from the Old Masters to abstract painting.
+**Scope:** The painting section bridges abstract color theory and the physical reality of applied pigments — how color sustains composition, the chemistry and optics of natural and synthetic pigments, the physical stage (supports, grounds, and brushes), objective pigment analysis via spectral data, and the historical arc of color use from the Old Masters to abstract painting.
 
 ### [[Composition|Painting/Composition]]
 Painting composition treats color as an abstract language supporting the artist's intention rather than merely describing objects. **Contrast** is fundamental: a neutral gray appears warm next to a cool color and cool next to a warm one. The "**mostly, some, and a bit**" formula — one dominant hue or temperature, a supporting secondary hue, and a small contrasting "discord" color — avoids boring equal distributions. A **mother color** (one hue added to every mixture) unifies the canvas, and warm, saturated, light colors **advance** while cool, neutralized, dark colors **recede**, building the illusion of space. Value is the foundation: correct **value structure** precedes successful color transitions.
+
+### [[Supports & Materials|Painting/Supports & Materials]]
+The physical stage of painting: **watercolor paper** (weights 72–400 lb, HP/CP/rough finishes, cotton fiber, sizing, acidity), **oil canvas** (linen vs. cotton duck, animal-glue size, oil ground vs. gesso, stretching keys), and grounds for other media (acrylic primer, pastel tooth, tempera panels, scratchboard). The support is an **"internal light"** — a brilliant white ground reflects photons back through translucent paint for luminosity — while an imprimatura kills the disturbing white to set the value key.
+
+### [[Brushes|Painting/Brushes]]
+Brush anatomy (hair, ferrule, handle) and hair types — **kolinsky sable** (snap, sharp point, ~$1,500/lb), squirrel, hog bristle with flags, nylon for acrylics. Shapes map to jobs: round, flat, bright, filbert, fan, liner/rigger, mop, badger blender. Medium rules: soft reservoirs with pointed tips for **watercolor**, bristle scrub-in plus sable glazes for **oil**, submerged synthetics for **acrylic**, fine sable for tempera. Brushes are also measuring instruments — MacEvoy's 1" flat is a calibrated water measure.
+
+### [[Pigment Sources, Composition & Toxicity Reference|Painting/Pigment Sources, Composition & Toxicity Reference]]
+Toxicity follows **chemistry, not color**: cadmiums and cobalts are the flagged families, lead white/verdigris/emerald green the historical poisons. The three exposure routes are behavioral — ingestion (licking brushes), inhalation (spray, sanding, pastel dust), skin (Cu/Ni/Mn/Co sensitizers). **ASTM D4236** and the **ACMI AP/CL seals** regulate labeling, while binders and solvents (turpentine, benzene) often carry more day-to-day risk than the pigment itself.
 
 ### [[Movements & Painters|Painting/Movements & Painters]]
 Art history tracks an evolving understanding of color science, from the mineral palettes of the Old Masters to 20th-century optical experiments. Vermeer used costly natural **ultramarine** and mastered edges (diffraction); the **Impressionists** abandoned local color for the "vibrations" of light, painted complementary-color shadows from Goethe's theory, and serial studies of changing illuminants; **Seurat and Pointillism** applied Chevreul's law of simultaneous contrast with optical dot mixing; **Van Gogh** used bold complementary pairs for emotion while **Cézanne** modulated temperature to construct form; the **Bauhaus** (Itten, Albers) systematized contrasts and demonstrated color relativity; and **Color Field** painters selected colors from defined systems for purely pictorial structure.

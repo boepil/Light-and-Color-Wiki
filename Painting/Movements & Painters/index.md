@@ -1,7 +1,7 @@
 ---
 title: Movements & Painters
 aliases: [Movements & Painters]
-sequence: 29
+sequence: 33
 ---
 > **Header image prompt (flat medical-textbook blue anatomy-plate style, wide banner, 16:9 proportion):** A flat-blue anatomy plate of the color-in-painting timeline: a horizontal arrow labeled **DESCRIPTIVE → OPTICAL → EXPRESSIVE → AUTONOMOUS** with eight evenly spaced station markers, each a small rectangle containing a one-line label: **DUTCH GOLDEN AGE** (Vermeer), **ROMANTICISM** (Turner), **IMPRESSIONISM** (Monet), **POST-IMPRESSIONISM** (Van Gogh), **NEO-IMPRESSIONISM** (Seurat), **FAUVISM** (Matisse), **BAUHAUS** (Kandinsky), **COLOR FIELD** (Rothko) + **OP ART** (Riley). A thin chromatic strip beneath the arrow fades from local muted earth tones to pure saturated primaries, and a small book-stack inset labels the theory texts: **GOETHE 1810 · CHEVREUL 1839 · ROOD 1879 · MUNSELL 1905 · ALBERS 1963**. Pale blue plate, bold uppercase labels, thin spectral strip accent, flat line art, no 3D, no watermark.
 

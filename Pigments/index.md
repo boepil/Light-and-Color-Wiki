@@ -1,7 +1,7 @@
 ---
 title: Pigments
 aliases: [Pigments]
-sequence: 40
+sequence: 44
 ---
 ![[Pasted image 20260811150718.png]]
 

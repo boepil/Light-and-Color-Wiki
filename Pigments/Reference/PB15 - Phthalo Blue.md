@@ -1,7 +1,7 @@
 ---
 title: PB15 - Phthalo Blue
 swatchColor: "#00308F"
-sequence: 67
+sequence: 71
 ---
 <div style="float:left;width:64px;height:64px;background:#00308F;margin:4px 16px 8px 0;border:1px solid #999;border-radius:2px;"></div>
 

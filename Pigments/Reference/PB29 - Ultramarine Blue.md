@@ -1,7 +1,7 @@
 ---
 title: PB29 - Ultramarine Blue
 swatchColor: "#27358E"
-sequence: 64
+sequence: 68
 ---
 <div style="float:left;width:64px;height:64px;background:#27358E;margin:4px 16px 8px 0;border-radius:2px;"></div>
 

@@ -1,6 +1,6 @@
 ---
 title: Reflection vs. Emission
-sequence: 24
+sequence: 25
 ---
 ![[Pasted image 20260811114559.png]]
 

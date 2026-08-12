@@ -1,8 +1,7 @@
 ---
 title: Bibliography
-sequence: 2
+sequence: 3
 ---
-# Bibliography
 
 **Scope:** The unified citation map of this wiki — every book, paper, video, and web resource used across the project. Sources are listed by title and author; page-level citations appear on the individual wiki pages where they are used.
 

@@ -1,6 +1,6 @@
 ---
 title: Florent Farges' Color Theory for Artists
-sequence: 49
+sequence: 53
 ---
 ![[Color-Theory-for-Artists-Color-Wheel-System.pdf]]
 

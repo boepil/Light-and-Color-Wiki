@@ -1,6 +1,6 @@
 ---
 title: Post-Impressionism
-sequence: 37
+sequence: 41
 ---
 > **Header image prompt (flat medical-textbook blue anatomy-plate style, wide banner, 16:9 proportion):** A flat-blue anatomy plate of Post-Impressionist color strategy: a central tree silhouette divided into four labeled zones — **VAN GOGH: COMPLEMENT PAIRS** (blue outline strokes + orange dots as labeled counterpoints **BLUE SHADOW / ORANGE FIRE**), **CÉZANNE: WARM→COOL PASSAGES** (a band of small hatched tiles labeled **PASSAGES** oscillating warm-cool), **GAUGUIN: FLAT SYMBOLIC FIELD** (a plain outlined region labeled **FLAT COLOR / JAPONISME**), and a corner inset **SEURAT: RECONSTITUTED LIGHT** (dot grid) — plus a floor strip labeled **PLEIN-AIR NATURALISM ABANDONED**. Pale blue plate, bold uppercase labels, orange/blue accents kept sparse, flat line art, no 3D, no watermark.
 

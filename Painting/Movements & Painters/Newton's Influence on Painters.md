@@ -1,6 +1,6 @@
 ---
 title: Newton's Influence on Painters
-sequence: 35
+sequence: 39
 ---
 > **Header image prompt (flat medical-textbook blue anatomy-plate style, wide banner, 16:9 proportion):** A flat-blue anatomy plate of Newton's color system: a glass prism on the left dispersing a beam into a labeled spectrum band **1666 — "DIFFERENTLY REFRANGIBLE RAYS"** (violet→red in thin blue-line hatching); beside it Newton's asymmetric 7-segment wheel labeled **OPTICKS 1704 — UNEQUAL SECTIONS** with center dot labeled **WHITE = SYNTHESIS**, one segment noted **DIATONIC ANALOGY**; opposite the wheel a small thin-film ring diagram labeled **NEWTON'S RINGS — FIRST COMPLEMENTARITY** (two arcs labeled **BLUE + ORANGE → WHITE-GRAY**); at right a thin-line bustless palette strip labeled **LE BLON → HARRIS 1766 → CHEVREUL → ROOD → MUNSELL**. Pale blue plate, bold uppercase labels, blue and orange arcs the only chromatic accents, flat line art, no 3D, no watermark.
 

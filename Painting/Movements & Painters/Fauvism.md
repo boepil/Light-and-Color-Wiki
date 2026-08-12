@@ -1,6 +1,6 @@
 ---
 title: Fauvism
-sequence: 32
+sequence: 36
 ---
 ![[Pasted image 20260811095431.png]]
 

@@ -1,7 +1,7 @@
 ---
 title: Colors
 aliases: [Colors]
-sequence: 6
+sequence: 7
 ---
 
 **Scope:** The mathematical and empirical frameworks that standardize, measure, and reproduce color — the CIE's XYZ and Lab systems, the MacAdam ellipses of just-noticeable differences, Munsell's perceptual ordering, and the gamut boundaries of real and optimal colors.

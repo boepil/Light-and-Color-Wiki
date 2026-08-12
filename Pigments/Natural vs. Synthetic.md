@@ -1,6 +1,6 @@
 ---
 title: Natural vs. Synthetic
-sequence: 42
+sequence: 46
 ---
 ![[Pasted image 20260811165152.png]]
 
