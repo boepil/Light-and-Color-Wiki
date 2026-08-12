@@ -99,6 +99,23 @@ Handprint (handprint.com) is Bruce MacEvoy's color theory and watercolor resourc
 * "handprint : color harmony & design" — [[raw_sources/handprint/tech13.md|tech13.html]]
 * "handprint : watercolor fundamentals" — [[raw_sources/handprint/waterfs.md|waterfs.html]]
 
+## Huevaluechroma (web sources)
+
+Huevaluechroma (huevaluechroma.com) is David Briggs' "The Dimensions of Colour" on colour perception, mixing and painter-applied colour theory for traditional and digital media. Raw copies live in `raw_sources/huevaluechroma/`. File names are page numbers of the site's table of contents (e.g. `062.md` = 6.2 Primary Colours, `034.md` = 3.4 Colour Constancy).
+
+* "The Dimensions of Colour : the dimensions introduced" — [[raw_sources/huevaluechroma/011.md|011.html]] … [[raw_sources/huevaluechroma/018.md|018.html]]
+* "The Dimensions of Colour : basics of light and shade" — [[raw_sources/huevaluechroma/021.md|021.html]] … [[raw_sources/huevaluechroma/023.md|023.html]]
+* "The Dimensions of Colour : basics of colour vision" — [[raw_sources/huevaluechroma/031.md|031.html]] … [[raw_sources/huevaluechroma/037.md|037.html]]
+* "The Dimensions of Colour : additive mixing" — [[raw_sources/huevaluechroma/041.md|041.html]] … [[raw_sources/huevaluechroma/045.md|045.html]]
+* "The Dimensions of Colour : subtractive mixing" — [[raw_sources/huevaluechroma/051.md|051.html]] … [[raw_sources/huevaluechroma/053.md|053.html]]
+* "The Dimensions of Colour : mixing of paints" — [[raw_sources/huevaluechroma/061.md|061.html]] … [[raw_sources/huevaluechroma/063.md|063.html]]
+* "The Dimensions of Colour : hue" — [[raw_sources/huevaluechroma/071.md|071.html]] … [[raw_sources/huevaluechroma/077.md|077.html]]
+* "The Dimensions of Colour : lightness and chroma" — [[raw_sources/huevaluechroma/081.md|081.html]] … [[raw_sources/huevaluechroma/083.md|083.html]]
+* "The Dimensions of Colour : brightness and saturation" — [[raw_sources/huevaluechroma/091.md|091.html]] … [[raw_sources/huevaluechroma/094.md|094.html]]
+* "The Dimensions of Colour : principles of colour" — [[raw_sources/huevaluechroma/101.md|101.html]] … [[raw_sources/huevaluechroma/109.md|109.html]]
+* "The Dimensions of Colour : afterthoughts" — [[raw_sources/huevaluechroma/111.md|111.html]] … [[raw_sources/huevaluechroma/1118.md|1118.html]]
+* "The Dimensions of Colour : glossary" — [[raw_sources/huevaluechroma/121.md|121.html]]
+
 ## Cross-References
 
 - [[History & Key Figures]]

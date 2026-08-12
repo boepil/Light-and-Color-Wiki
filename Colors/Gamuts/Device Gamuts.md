@@ -61,11 +61,24 @@ MacEvoy notes that a color reproduction system is itself a way of specifying a s
 
 He also contrasts gamut shapes: the printing industry relies on standardized primary inks, mixture recipes (Pantone), and halftone screens of different densities, while a "millions of colors" RGB monitor gamut contains purples, reds, and greens that are **unmixable in the CMYK system** — monitor colors are created by tiny colored lights, so they achieve greater luminance contrasts and higher saturation than reflective prints. *(Source: [[raw_sources/handprint/color13.md|color13.html]])*
 
+## HueValueChroma Perspectives
+
+Briggs supplies the geometry and the caveats behind the page's device-gamut summary:
+
+- **A cube, whichever model you use.** RGB space is "a cubic volume enclosing all possible screen colours, with black at the origin and white at the opposite corner"; CMY space is "identical to RGB space, apart from the fact that the origin of the C, M and Y axes is at the point representing white." (Strictly, RGB is a *model* "which can be embodied in various defined colour spaces, such as sRGB or AdobeRGB.") A standing trap: "these RGB values sometimes refer to **linear** units of light energy... and sometimes to **nonlinear** units of perceived brightness... Often no care is taken to show which" *(Source: [[raw_sources/huevaluechroma/092.md|092.html]])*.
+- **Why CMYK needs K — discovered by Le Blon.** "Most actual colour printing uses black ink in addition" to CMY, partly because the three inks "may not yield a black that is neutral enough, or dark enough," partly to spare expensive colored ink and speed drying. Briggs dates the practice to the birth of color printing itself: "the need for a black component was recognized right from the invention of colour printing by the German artist J.C. Le Blon in the early 1700's" — and notes the charming dispute in which Le Blon's pupil **Jacques Gautier D'Agoty** denied the master ever used four plates, while Le Blon's supporters "replied that their master kept quiet about his use of the fourth plate because he used it in spite of himself" *(Source: [[raw_sources/huevaluechroma/092.md|092.html]])*.
+- **The "S" in HSB and the "L" in HSL are not saturation and lightness.** HSB's B "measures the brightness of a colour compared to the maximum possible for a colour of the same hue and saturation" — so all pure colors, tints and white register B = 100 even though their *lightness* runs from L = 100 (white) down to L = 30 (Monitor Blue). Its S measures "the proportion of the coloured component to the whole" of a color's light. HLS's L is "even more tenuous": "all fully saturated colours, irrespective of how light or dark they look," get L = 0.5, and HLS S is "the degree of saturation compared to the maximum possible **at a given value of L**" — so "a very pale pink can have an S of 100." Neither space "has a true lightness or chroma dimension," which matters whenever "desaturate" or saturation sliders are treated as value-preserving *(Source: [[raw_sources/huevaluechroma/093.md|093.html]], [[raw_sources/huevaluechroma/094.md|094.html]])*.
+- **The real gamut difference between lights and paints is *chroma*, not just range.** The page's lists of coordinates describe footprint; the material difference sits in where each gamut peaks. Digital "full-chroma" colors reach Munsell chromas of **24 in the violet-blue to magenta range, down to 18 at red**; artist paints instead "exceed the gamut of standard (sRGB) digital colours where these are relatively poor in the vicinity of yellow and cyan." And the highest-chroma *pigments* are themselves "a miscellaneous collection of substances united only by the fact that the combination of saturation and brightness of their reflectances gives the highest chroma known... for their hue" — all "fall short of the maximum chroma that is theoretically possible, and much more so for blues, greens and purples than for reds, oranges and yellows" *(Source: [[raw_sources/huevaluechroma/015.md|015.html]], [[raw_sources/huevaluechroma/045.md|045.html]])*.
+- **Saturated yellow is additive structure, not a "yellow pigment."** A bright yellow paint "reflects most of the red, orange, yellow and green parts of the spectrum," and "much more of its yellow colour is due to additive mixture of the red and green wavelengths than to the wavelengths that are yellow in themselves." The claim that greenish/orange-tinged yellows reflect "yellow with impurities" is "an old misunderstanding that has been revived" by popular books on color mixing: "no paints that actually do this exist, and if they did they would reflect much less light than a bright yellow paint, and so would be dark brown or olive in appearance" *(Source: [[raw_sources/huevaluechroma/045.md|045.html]])*.
+
 ## Subtopics
 - Device Primaries
 - Display Standards
 - Printer Limits
 - Gamut Mapping & ICC
+- RGB/CMY cube geometry; the linear vs nonlinear units trap (Briggs)
+- HSB/HSL "brightness" and "saturation" as relative, not perceptual, dimensions (Briggs)
+- Paint vs display chroma peaks: violet-blue/magenta 24 vs red 18 for RGB; yellow/cyan where paints win (Briggs)
 
 ## Cross-References
 - [[Gamuts]]
@@ -81,3 +94,6 @@ He also contrasts gamut shapes: the printing industry relies on standardized pri
 * "Color Management"
 * "Color for Science, Art, and Technology" — Kurt Nassau (Editor)
 * "The Science of Paintings" — W. Stanley Taft Jr. and James W. Mayer
+* "The Dimensions of Colour : chroma" — [[raw_sources/huevaluechroma/015.md|015.html]]
+* "The Dimensions of Colour : additive mixing" — [[raw_sources/huevaluechroma/045.md|045.html]]
+* "The Dimensions of Colour : brightness and saturation" — [[raw_sources/huevaluechroma/092.md|092.html]], [[raw_sources/huevaluechroma/093.md|093.html]], [[raw_sources/huevaluechroma/094.md|094.html]]

@@ -3,7 +3,7 @@ title: Pigment Sources, Composition & Toxicity Reference
 aliases: [Pigment Toxicity, Toxicity, Pigment Sources, Composition & Toxicity]
 sequence: 32
 ---
-> **Header image prompt (flat medical-textbook blue anatomy-plate style, wide banner, 16:9 proportion):** A labeled anatomy plate of studio safety. Center: a paint tube cut open showing three labeled layers — BINDER / PIGMENT PARTICLES / ADDITIVES — with three route icons radiating from it: a LUNG (INHALATION: spray, sanding, dust), a HAND and mouth (INGESTION: licking brushes, eating) and a SKIN patch (CONTACT: sensitizers). Top row: a labeled label diagram of a paint tube showing the "CONFORMS TO ASTM D4236" line, the ACMI AP seal (circle with "AP" + "NONTOXIC") and a CL caution seal, with a magnifier over the COLOUR INDEX name (PR108). Bottom strip: three historical-poison bottles crossed out — ORPIMENT (arsenic), EMERALD GREEN (copper acetoarsenite), VERMILION (mercury) — replaced by modern tubes (HANSA YELLOW, PHTHALO GREEN, CADMIUM RED). Chromatic accents: green bottle accent, amber cadmium swatch, red mercury dot. Bold uppercase labels with leader lines, pale blue background, no realism.
+![[Pasted image 20260812113122.png]]
 
 **Scope:** Which pigments are hazardous and why — toxicity by chemical family, the three exposure routes (ingestion, inhalation, skin), the labeling system that regulates art materials (ASTM D4236, ACMI AP/CL), the historical poisons replaced by modern pigments, the separate risk profile of binders and solvents, and sensible studio practice.
 
@@ -16,10 +16,10 @@ Toxicity tracks **chemistry, not color** — a bright red may be inert pyrrole o
 | | Raw/Burnt Umber | Iron oxide + manganese oxide + clay | Low (manganese dust hazard if inhaled) |
 | | Ultramarine (historical) | Ground lapis lazuli | Low |
 | | Indigo, Sepia | Plant / cuttlefish ink | Low |
-| **Synthetic inorganic (metal)** | Cadmium Yellow/Orange/Red | Cadmium sulfide/selenide | **High** — do not inhale dust or ingest; insoluble in binder, but **cadmium vapor above 700 °C** (brazing, ceramics) |
+| **Synthetic inorganic (metal)** | Cadmium Yellow/Orange/Red | Cadmium sulfide/selenide | **High** — do not inhale dust or ingest; insoluble in binder, but **cadmium vapor above 700 °C** (brazing, ceramics). Oral LD50 in rat feeding tests **>10 g/kg** — less toxic by ingestion than ethyl alcohol (13.7 g/kg) or boric acid (5.14 g/kg) (*Artists' Pigments*) |
 | | Cobalt Blue/Violet, Cerulean | Cobalt compounds; some cobalt violets contain arsenic | **Moderate–high** — sensitizer; arsenical cobalts handled with extreme caution |
 | | Chromium Oxide Green | Chromium(III) oxide | Moderate — Cr(III) far safer than Cr(VI); dust hazard |
-| | Chrome Yellow/Orange (historical) | Lead chromate | **High** — dual lead + chromate threat; soluble chromates cause respiratory lesions and cancer |
+| | Chrome Yellow/Orange (historical) | Lead chromate; ASTM D211-67 grades by PbCrO₄ content — Type I primrose ≥50%, Type II lemon ≥65%, Type III medium ≥87% | **High** — dual lead + chromate threat; soluble chromates cause respiratory lesions and cancer (*Artists' Pigments*) |
 | | Manganese Violet/Blue | Manganese pyrophosphate / compounds | Moderate — manganese dioxide is a powerful oil drier; do not ingest |
 | | Ultramarine (modern) | Synthetic sodium aluminosilicate | Low |
 | | Titanium White | Titanium dioxide | Low (inhalation of fine dust debated) |
@@ -41,8 +41,8 @@ The toxicity of pigments arises almost entirely from **how they are used**, not 
 
 ### Labeling & Standards
 - **ASTM D4236** (Standard Practice for Labeling Art Materials for Chronic Health Hazards) — the US rule that a paint must carry health information if "in the opinion of a toxicologist" it can produce a chronic health effect under "reasonable foreseeable use or misuse"; the tube line reads **"Conforms to ASTM D4236"** (*Ralph Mayer*, *(Source: [[raw_sources/handprint/pigmt6.md|pigmt6.html]])*).
-- **ACMI seals** — the Art and Creative Materials Institute certifies products: **AP** (Approved Product, non-toxic) and **CL** (Cautionary Label: safe if used per the specific instructions) (*Ralph Mayer*).
-- **CS98-62 Paint Standard** — the voluntary agreement between manufacturers and artists for standard nomenclature and grouping of pigments, preventing "fancy names" for toxic or fugitive mixtures (*Ralph Mayer*).
+- **ACMI seals** — the Art and Creative Materials Institute certifies virtually all paints sold today: **AP** (Approved Product, non-toxic) and **CL** (Cautionary Label: safe if used per the specific instructions) (*Contemporary Color*).
+- **CS98-62 Paint Standard** — the voluntary agreement between manufacturers and artists defining standard nomenclature and composition, protecting artists from secret or inferior ingredients and preventing "fancy names" for toxic or fugitive mixtures (*Ralph Mayer*).
 - **Colour Index (CI) names** — essential for identifying a pigment's true chemistry on labels and MSDS sheets (e.g. PB29, PR108); see the pigment reference sheets for per-pigment data (*Ralph Mayer*).
 
 > [!WARNING] **Warning Inflation:** Handprint argues the D4236 chain — "opinion" → "adverse" → "foreseeable misuse" → "toxic exposure" — is loose enough that a paint may be labeled toxic if it can produce *any* chronic effect, regardless of dose or likelihood, which is why "health warnings often overstate the risks of using watercolor paints" (*(Source: [[raw_sources/handprint/pigmt6.md|pigmt6.html]])*).
@@ -50,7 +50,7 @@ The toxicity of pigments arises almost entirely from **how they are used**, not 
 ### Historical Poisons & Modern Replacements
 The artist's life was once genuinely risky: **mercuric sulfide (vermilion), lead oxide (lead white), and emerald green (copper acetoarsenite, "Schweinfurt green")** were toxic to manufacture and toxic to use — "toxic meant it could kill you" (*(Source: [[raw_sources/handprint/pigmt6.md|pigmt6.html]])*). Also poisonous: **orpiment and realgar** (arsenic sulfides, King's Yellow — highly poisonous with an offensive odor), **iodine scarlet** (mercuric iodide — "extremely poisonous"), and **verdigris** (copper acetate) (*Artists' Pigments*, *Ralph Mayer*). Manufacturing could be hazardous too — manganese blue generates severe toxic wastes when made by unregulated processes, and PG21 is the poisonous copper acetoarsenite (*(Source: [[raw_sources/handprint/pigmt6.md|pigmt6.html]])*).
 
-Modern replacements: **cadmium yellow and Hansa yellows** replaced chrome yellows and orpiment; **phthalocyanine green + synthetic yellows** give a non-toxic emerald green; **cadmium red** has supplanted genuine vermilion since its commercialization ~1919 (*Ralph Mayer*, *Artists' Pigments*). Manufacturers have abandoned pigments containing **lead, strontium, or mercury** and curtailed the heavy metals nickel and cadmium; the EU has considered banning cadmium art products entirely — while several European governments (including France) still permit encapsulated cadmium colorants in toys and food containers (*(Source: [[raw_sources/handprint/pigmt6.md|pigmt6.html]])*).
+Modern replacements: **cadmium yellow and Hansa yellows** replaced chrome yellows and orpiment; **phthalocyanine green + synthetic yellows** give a non-toxic emerald green; **cadmium red** has supplanted genuine vermilion since its commercialization ~1919 (*Ralph Mayer*, *Artists' Pigments*). Manufacturers have abandoned pigments containing **lead, strontium, or mercury** and curtailed the heavy metals nickel and cadmium; the EU has considered banning cadmium art products entirely (*(Source: [[raw_sources/handprint/pigmt6.md|pigmt6.html]])*), while several European governments (including France) still permit **encapsulated cadmium** colorants in toys and food containers — cadmium locked in a plastic matrix that isolates it from contact (*Artists' Pigments*). Some lead persists only as trace impurity: commercial zinc white may carry traces of lead, iron, and cadmium, and emission spectrography detects lead in cadmium yellow/orange samples (*Artists' Pigments*; *(Source: [[raw_sources/handprint/pigmt6.md|pigmt6.html]])*).
 
 ### Binders & Solvents: a separate risk profile
 The vehicle often carries **more immediate hazard than the pigment** — you breathe solvent fumes daily, while pigment risk is tied to handling raw powder:

@@ -58,6 +58,17 @@ The method of mixture fundamentally dictates the achievable **gamut**:
 >
 > **2. The Myth of "Primary Colors" and Geometric Harmonies.** Strict geometric categories — three "primary colors" that must not be crossed, rigid triadic/split-complementary harmonies — are artificial 18th-century dogmas, not physical laws. Real paint behavior and visual harmony are governed by **continuous properties** (hue-circle distance, value, chroma): using only three "primary" paints unnecessarily restricts the painter's gamut, since saturation costs depend on the distance between paints on the hue circle and their individual chroma; and harmony is not achieved by picking hues forming a perfect triangle, but by managing values and saturations. *(Source: [[raw_sources/handprint/color14.md|color14.html]], [[raw_sources/handprint/color16.md|color16.html]], [[raw_sources/handprint/tech13.md|tech13.html]])*
 
+## HueValueChroma Perspectives
+
+Briggs gives the mixing taxonomy its missing precision. **Four — not two — kinds of stimulus mixing exist**: *simple additive* (lights add power; screen subpixels; overlapping beams), *additive-averaging* (finely interspersed stimuli averaged over area or time — spinning discs, fine halftone dots, unresolved pointillist dots), *subtractive* (filters/colourants successively remove wavelengths; results are computed by *multiplying* the percent transmittance/reflectance wavelength by wavelength), and the *complex mixing of paints*, which is a **compound of subtractive + additive-averaging**. Physical mixing of opaque paints is never purely subtractive: light back-scattered off particles of a single component alone contributes an additive-averaging term, which is exactly why "it is impossible to mix a deep black" from near-complementary opaque paints. *(Source: [[raw_sources/huevaluechroma/041.md|041.html]], [[raw_sources/huevaluechroma/051.md|051.html]], [[raw_sources/huevaluechroma/061.md|061.html]])*. This four-fold structure sharpens each of the page's fallacies:
+
+- **The "green made of yellow + blue" idea is inverted.** Subtractive mixing produces green from yellow/cyan filters not because the components contain green but because they *both transmit* it — "if any colour can be said to be 'made of' yellow and blue, it's white!" (051). The RYB red+blue→dull-violet and R+G→black surprises follow from multiplying real (imperfect) reflectance curves, not from mixing "colours."
+- **Additive primaries are optimal, not arbitrary.** "To be effective as additive primaries the three stimuli must remain within the basic hue categories of red to orange-red, yellow-green to green, and blue to violet" (041) — they are neither perfect (they cannot mix all hues at full saturation) nor arbitrary. Zone theory explains why additive mixing is *vector* addition in which opponent dispositions add or cancel: R+G light yields a *pure yellow* whose perceived colour "does not contain" red or green (041).
+- **Metamerism bounds the prediction.** Because two colourants can match in colour yet differ in reflectance curves, "the exact results of subtractive mixing of real colourants can not be predicted merely from their colour" — though all common cyan+yellow colourants will make some green (051).
+- **Ideal colourant primaries are YMC, not RYB.** The combined analysis of additive-averaging + subtractive mixing in paint mixes revealed "that the ideal primaries for colourant mixing are not in fact yellow, red and blue, but yellow, magenta and cyan" (041).
+
+> [!NOTE] On "optical mixtures are more vibrant": the page's §4 claim (after the older Seka/pointillist literature) that optical mixtures are "perceived as more vibrant and luminous than palette mixtures" is what Briggs says was *misinterpreted* from Rood (see [[Neo-Impressionism-Pointillism]]): optical mixing of the *same* paints can be lighter than their physical mixture, but pointillist dots are *additive-averaged* and necessarily sit intermediate in brightness between their components — no free "luminosity" bonus follows.
+
 ## Subtopics
 - Additive vs Subtractive Mixing
 - Primary Color Fallacies
@@ -78,3 +89,4 @@ The method of mixture fundamentally dictates the achievable **gamut**:
 * "A Comprehensive Overview of Color Vision Mechanisms, Color Spaces, and the Munsell System"
 * "Contemporary Color" — Steven Bleicher
 * "The Science of Paintings" — W. Stanley Taft Jr. and James W. Mayer
+* "The Dimensions of Colour : additive mixing" — [[raw_sources/huevaluechroma/041.md|041.html]] et seq.

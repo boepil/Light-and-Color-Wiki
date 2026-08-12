@@ -55,6 +55,17 @@ Standardized labeling follows the **CS98-62 Paint Standard** and **ASTM D4236** 
 
 MacEvoy's paint guides are built on exactly the information this page decodes: every pigment evaluation he publishes begins with a one-line behavior summary — "pyrrole red PR254 is a very lightfast, semiopaque, highly staining, dark valued, intense medium red pigment" — combining opacity, staining, value, and strength in a single sentence. He is scathing about the label's trustworthiness, however: many reputable brands omit pigment info or lightfastness ratings entirely, and he requires "conforms to ASTM-D5067" labeling assurance before he trusts any rating. His opacity tests use an indelible black line under the paint film — the difference between painted and unpainted line is the true measure of hiding *(Source: [[raw_sources/handprint/pigmt8.md|pigmt8.html]], [[raw_sources/handprint/pigmt7.md|pigmt7.html]], [[raw_sources/handprint/intstud.md|intstud.html]])*.
 
+## HueValueChroma Perspectives
+
+Briggs lays the physical mechanism under the transparency classes and turns opacity into a *mixing* quantity:
+
+- **Why transparent paints always darken a mixture.** "Opaque colours may lighten or darken a mixture, but transparent colours always darken": a transparent colourant works purely by subtractively removing light and never scatters it back, while an opaque paint's *conditional* effect balances wavelength absorption against its role as an added reflector. This is the same physics as the page's Δn rule, recast as a rule of mixture outcome *(Source: [[raw_sources/huevaluechroma/063.md|063.html]])*.
+- **A transparent paint has no single Munsell notation.** Used as a glaze, a transparent colour "glazed over white can have any value from its body colour (very dark for most of them) up to near white" — it is not a point but a path in colour space. Jacketing stops claiming one masstone/undertone pair captures it: the perceived hue *also* drifts with layer thickness toward the pigment's **undertone** (a magenta reads bluish thin / reddish thick) *(Source: [[raw_sources/huevaluechroma/063.md|063.html]])*.
+- **Glazed purity beats white-dilution.** Transparent colour glazed over white reaches a **higher maximum chroma** than the same colour physically mixed with white paint, because glazing keeps light travelling through pure colourant rather than interspersing scattering white particles. This is the measured justification for the glazing-first workflow this page describes *(Source: [[raw_sources/huevaluechroma/063.md|063.html]])*.
+- **Opaque = high-chroma near-neighbours only.** Opacity also shapes the pigment's *mixing gamut*: paints far from the ideal subtractive (CMY) primaries — e.g. opaque cadmium red and cobalt blue — "make high-chroma mixtures with only a few adjacent hues," whereas paints close to the primaries mix high-chroma across distant hues. An opaque class is therefore not just a hiding-power label but a predictor of how the colour behaves in chromatic mixtures *(Source: [[raw_sources/huevaluechroma/061.md|061.html]], [[raw_sources/huevaluechroma/063.md|063.html]])*.
+
+> [!NOTE] The page's masstone/undertone pair (after *The Science of Paintings*, *Ralph Mayer*) describes a *snapshot* of the paint; Briggs' glaze-path account explains how a single transparent pigment can legitimately populate the whole span between them — the two vocabularies describe the same phenomenon at different scales.
+
 ## Subtopics
 - Refractive-index physics: Δn (pigment vs. vehicle) and particle size ~500 nm
 - Classes: transparent / semi-transparent / semi-opaque / opaque; glazing vs. scumbling
@@ -82,3 +93,4 @@ MacEvoy's paint guides are built on exactly the information this page decodes: e
 * "A Comprehensive Overview of Color Vision Mechanisms, Color Spaces, and the Munsell System"
 * "Color Management — A Comprehensive Guide for Graphic Designers"
 * Handprint paint and pigment pages — Bruce MacEvoy
+* "The Dimensions of Colour : mixing of paints" — [[raw_sources/huevaluechroma/061.md|061.html]] et seq.

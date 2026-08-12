@@ -3,7 +3,7 @@ title: Brushes
 aliases: [Brushes, Paintbrushes, Paint Brushes]
 sequence: 31
 ---
-> **Header image prompt (flat medical-textbook blue anatomy-plate style, wide banner, 16:9 proportion):** A labeled anatomy diagram of a paintbrush. Top row: three full brush shapes on pegs — ROUND (pointed tip), FLAT (straight edge), FILBERT (rounded corners) — each with leader lines to labeled parts: HAIR / FERRULE / HANDLE. Second row: hair-type samples in labeled boxes — KOLINSKY SABLE (thin amber hairs, one sharp point), SQUIRREL (gray, soft), HOG BRISTLE (white with split "flags"), NYLON (blue synthetic) — with small circle insets magnifying each hair. Bottom: three mini-scenes — a wash of blue flowing from a large ROUND MOP brush over paper (WATERCOLOR), a stiff flat BRISTLE brush scrubbing amber paint on canvas (OIL), a bright brush loading vivid magenta acrylic (ACRYLIC). Chromatic accents: pale blue water wash, amber oil stroke, magenta acrylic dot. Bold uppercase labels with leader lines, pale blue background, no realism.
+![[Pasted image 20260812111916.png]]
 
 **Scope:** The artist's delivery system — brush anatomy, hair types, and shapes organized by medium: watercolor, oil, and other media, with sizes and care practices.
 

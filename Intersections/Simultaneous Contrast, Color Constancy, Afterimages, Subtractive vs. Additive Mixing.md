@@ -1,4 +1,4 @@
-﻿---
+---
 title: Simultaneous Contrast, Color Constancy, Afterimages, Subtractive vs. Additive Mixing
 sequence: 82
 ---

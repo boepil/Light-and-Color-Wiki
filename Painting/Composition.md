@@ -2,7 +2,7 @@
 title: Composition
 sequence: 29
 ---
-> **Header image prompt (flat medical-textbook blue anatomy-plate style, wide banner, 16:9 proportion):** A flat-blue anatomy plate of compositional color structure: a small landscape rectangle divided by a bold horizon line labeled **COOL / RECEDES** (upper area, thin blue wash) and **WARM / ADVANCES** (lower area, thin red-orange wash), with a small focal square at the intersection labeled **TEMPERATURE MAGNET**. Beside it, a balance diagram: one large pale patch (labeled **LARGE FIELD · WEAK CHROMA**) balanced by a tiny saturated square (labeled **SMALL AREA · HIGH INTENSITY**), with a center pivot labeled **NEUTRAL BALANCE POINT**. A strip below: **MOTHER COLOR** — three small swatch squares each containing a faint common tint dot. Pale blue plate, bold uppercase labels, thin chromatic washes as the only color accents, flat line art, no 3D, no watermark.
+![[Pasted image 20260812225647.png]]
 
 **Scope:** The painter's toolkit of color composition — harmony, balance, dominance, proportion frameworks, contrast types, unifying neutrals, temperature structure, and the critique of geometric harmony schemes.
 
@@ -46,6 +46,17 @@ The geometric schemes (complementary pairs, triads, tetrads inscribed in the 12-
 ## Handprint Perspectives
 
 MacEvoy frames the same critique from inside the palette: harmony formulas drawn from geometry fail because the color solid itself is irregular — chroma capabilities differ by hue, lightness binds chroma unevenly, and complements are not visual equals (afterimages are paler than their stimuli, so the complement relationship "is not symmetrical"). His working alternative to formulaic harmony is quantity control in a real color space: "colors that provide the largest contrast are widely separated in lightness and chromaticity," and the durable advice is to build compositions from strong value structure plus carefully rationed chroma rather than wheel geometry *(Source: [[raw_sources/handprint/tech13.md|tech13.html]], [[raw_sources/handprint/intstud.md|intstud.html]])*.
+
+## HueValueChroma Perspectives
+
+Briggs supplies the composition page's sharpest dissection of the **temperature vocabulary**, the one "contrast" whose meanings have never been fixed:
+
+- **Warm/cool is a psychological association, not a physical property.** The labels "warm yellow"/"cool yellow" for reddish vs. greenish yellows are perceptions, "clearly psychological rather than physical," and held so strongly by some individuals as to be "perhaps considered a mild form of synesthesia." Two painters can feel opposite associations with equal conviction — the ultramarine-is-warm-blue versus ultramarine-is-cool-blue camps being the standing example. Historically, the hue-based pairing arrived only after Newton's circle: first recorded in a **1727 German lexicon** (bluish = cold, yellowish = warm), already described as "generally used very indefinitely" by **Robert Dossie (1758)**, with dividers placed anywhere from within red/green (Hiler 1934) to within yellow/violet (Ross 1919) — in short, "as a descriptor of hue distinctions, 'warmer/cooler' is ambiguous in relation to six to eight hues of the traditional 12-hue circle" *(Source: [[raw_sources/huevaluechroma/077.md|077.html]])*.
+- **Nor is it a clean hue term.** "Warm/cool" is often used vaguely to refer to *chroma* too (a teacher's "that needs to be warmer" can mean either more saturated or a hue change) — a confusion that "probably means that the teacher is not thinking clearly in terms of a three-dimensional space of colours." And it must not be conflated with CIE **colour temperature**, where red/orange/yellow *lights* have *lower* Kelvin temperatures than bluish ones *(Source: [[raw_sources/huevaluechroma/077.md|077.html]])*.
+- **The advance/recede effect has a real but partial basis.** "Warm colours advance" does stand on a perceptual phenomenon — **chromostereopsis**: the different focal planes of long- vs. short-wavelength light put a red object on a nearer plane than an equidistant blue one for most observers. But not everyone experiences it, and the second factor is genuinely *untemperature*: high-chroma, high-lightness areas (which orange-red/orange/yellow paints attain in higher chroma-lightness combinations) simply "come forward" as more visually insistent *(Source: [[raw_sources/huevaluechroma/077.md|077.html]])*.
+- **Practical verdict:** since no legislated definition survives contact with the students (a "warm blue" splits the room), Briggs advises **precise hue language in teaching — "reddish blue" vs. "greenish blue"** — while accepting warm/cool as legitimate "for questions touching on the psychological associations of colour, including expression and composition" *(Source: [[raw_sources/huevaluechroma/077.md|077.html]])*.
+
+> [!NOTE] This does not overturn the page's temperature-as-structure section (*Contemporary Color*); it relocates it. The compositional effects (advance/recede, atmospheric cooling, focal "temperature magnets") are real outcomes of chromostereopsis + chroma/lightness salience; what Briggs rejects is *hue classification by temperature*, not the painterly use of temperature-like structure.
 
 ## Subtopics
 - Harmony as analogy of opposites; balance by neutral point or quantity compensation; dominance and high/low key

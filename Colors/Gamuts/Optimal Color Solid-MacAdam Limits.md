@@ -54,11 +54,23 @@ The optimal color solid is the **standard reference** against which the efficien
 
 MacEvoy organizes all of material color into **three chromaticity spaces** defined by maximum achievable hue purity: (1) the **physiological limits** of the retinal photoreceptors, produced by monochromatic lights (spectral hues); (2) the **ideal limits of perfectly reflecting colored materials**, defined as theoretical optimal colors; and (3) the **actual limits of the most saturated pure pigments or dyes** displayed in a transparent medium — the media gamut. The optimal color solid is thus the middle domain: real pigments can never escape it, and spectral lights are the only colors outside it. *(Source: [[raw_sources/handprint/tech13.md|tech13.html]])*
 
+## HueValueChroma Perspectives
+
+Briggs translates the theoretical solid into paint terms, and supplies the data that ties it to the Munsell clipboard:
+
+- **The optimal solid is the "home value" template.** For any hue the range of possible chroma "becomes progressively more restricted as one approaches white and black respectively," with a maximum "at some intermediate value that depends on the hue, being high for yellow and low for violet and blue" — the value at which this occurs being "sometimes known to artists as the *home value* or the *peak-chroma value*." This "general pattern is repeated... in the matte and glossy editions of the *Munsell Book of Color*, in digital colours, and in the colour range of *optimal colour stimuli*," the theoretical 100%/0% reflectors that "mark the theoretical limits of colour for non-luminous objects" *(Source: [[raw_sources/huevaluechroma/015.md|015.html]])*.
+- **Yellows almost *are* optimal colors — greens and blues never get close.** The ideal optimal yellow would reflect the red and green arms of the spectrum and absorb the blue-violet. Real high-chroma yellows "closely approach an *optimal* yellow colour," so bright yellow surfaces are "the lightest of all high chroma materials." The reverse holds for the blue-green sector: "none of our green or blue paints attain the near-optimal plateau-shaped reflectance curves seen in many red, orange and yellow paints" — the best blue-green pigments, the phthalocyanines, reach "a maximum chroma of about 12 Munsell units... moderate compared to the chroma of 14 to 16 of many red, orange and yellow paints." Even the best reds fall short of the ideal: cadmium red "reflects less light from the red part of the spectrum than does a bright white pigment like titanium white," and cadmium red deep drops in chroma as well as value *(Source: [[raw_sources/huevaluechroma/045.md|045.html]])*.
+- **"Fullest chroma" pigments are a historical miscellany, and the ceiling varies by hue.** The highest-chroma pigments "are a miscellaneous collection of substances united only by the fact that the combination of saturation and brightness of their reflectances gives the highest chroma known for their hue among acceptably lightfast materials," and they "all fall short of the maximum chroma that is theoretically possible, and much more so for blues, greens and purples than for reds, oranges and yellows." The solid is the reason substances near it "tend to appear *fluorent* (fluorescent-looking)" — including genuinely fluorescent materials and some intense dyes *(Source: [[raw_sources/huevaluechroma/045.md|045.html]])*.
+- **The measured numbers that fill the solid.** In the Munsell terms of the modern *Book of Color*, "the highest chromas (16 Munsell chroma units)... are attained in the hue range from orange-yellow to orange-red, while the lowest maximum chromas (10 units) are reached in the hue range from cyan to green," with peak-chroma value from 8–8.5 (5Y) down to 3–4 (7.5PB). Digital full-chroma colors poke far past paint into the violet-blue/magenta (chroma 24) regions the solid reserves as theoretical. And because the range of *common object colors* is limited in essentially the same way, the lop-sidedness "does not really present a problem" for painters *(Source: [[raw_sources/huevaluechroma/015.md|015.html]])*.
+- **The solid is why "impurities in yellow" is a fallacy.** Briggs's direct correction to popular color books: a bright yellow paint "must reflect most of the spectrum, because it is so close to white in value," and its green and orange reflectances "are not impurities in the yellow; they are *additive components* of the yellow." A hypothetical paint reflecting only "yellow wavelengths plus impurities" would be dark brown or olive — impossible near the optimal solid's yellow apex *(Source: [[raw_sources/huevaluechroma/045.md|045.html]])*.
+
 ## Subtopics
 - Optimal Colors
 - Schrödinger & MacAdam
 - Solid Shape
 - Gamut Hierarchy
+- The peak-chroma "home value" template and the near-optimal yellows (Briggs)
+- Phthalocyanines at 12 vs red/orange/yellow at 14–16; yellow "impurities" fallacy (Briggs)
 
 ## Cross-References
 - [[Pointer's Gamut]]
@@ -74,3 +86,5 @@ MacEvoy organizes all of material color into **three chromaticity spaces** defin
 * "Color Management"
 * "Color for Science, Art, and Technology" — Kurt Nassau (Editor)
 * "The Science of Paintings" — W. Stanley Taft Jr. and James W. Mayer
+* "The Dimensions of Colour : chroma" — [[raw_sources/huevaluechroma/015.md|015.html]]
+* "The Dimensions of Colour : additive mixing" — [[raw_sources/huevaluechroma/045.md|045.html]]

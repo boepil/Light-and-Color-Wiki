@@ -3,7 +3,7 @@ title: Movements & Painters
 aliases: [Movements & Painters]
 sequence: 33
 ---
-> **Header image prompt (flat medical-textbook blue anatomy-plate style, wide banner, 16:9 proportion):** A flat-blue anatomy plate of the color-in-painting timeline: a horizontal arrow labeled **DESCRIPTIVE → OPTICAL → EXPRESSIVE → AUTONOMOUS** with eight evenly spaced station markers, each a small rectangle containing a one-line label: **DUTCH GOLDEN AGE** (Vermeer), **ROMANTICISM** (Turner), **IMPRESSIONISM** (Monet), **POST-IMPRESSIONISM** (Van Gogh), **NEO-IMPRESSIONISM** (Seurat), **FAUVISM** (Matisse), **BAUHAUS** (Kandinsky), **COLOR FIELD** (Rothko) + **OP ART** (Riley). A thin chromatic strip beneath the arrow fades from local muted earth tones to pure saturated primaries, and a small book-stack inset labels the theory texts: **GOETHE 1810 · CHEVREUL 1839 · ROOD 1879 · MUNSELL 1905 · ALBERS 1963**. Pale blue plate, bold uppercase labels, thin spectral strip accent, flat line art, no 3D, no watermark.
+![[Pasted image 20260812224220.png]]
 
 **Scope:** The arc of color in Western painting — from descriptive local color, through optical and expressive color, to autonomous abstract color — with the movements, painters, and theory texts that drove it.
 
@@ -27,6 +27,7 @@ The sources trace a single journey "from representing the physical world to expl
 - **Bauhaus (Kandinsky, Itten, Albers):** color investigated as "an autonomous, formal element that interacts dynamically with form and human perception"; Kandinsky's synesthetic color-music — color set up "vibrations" in the soul, blue linked to circles (*The Art of Color*, *Interaction of Color*).
 - **Color Field (Rothko, Newman):** color as the sole subject, "massive scale and soft edges to create immersive, spiritual environments"; Rothko's layered thin glazes gave an "inner light" with "vanishing boundaries."
 - **Op Art (Riley):** physiological eye effects — movement and "supplementary colors" through simultaneous contrast; Riley's hard-edge repeated shapes create "a film of transformed color" hovering before the canvas.
+- **Newton's influence across all of it:** *Opticks* (1704) replaced the linear light–dark ordering with the circular arrangement of hues — the ancestor of every painter's color wheel, from Le Blon and Moses Harris to Chevreul, Rood, and Munsell (*Color in Art*, *A Comprehensive Overview...*; see [[Newton's Influence on Painters]]).
 
 ### The Theory Texts That Fed the Movements
 

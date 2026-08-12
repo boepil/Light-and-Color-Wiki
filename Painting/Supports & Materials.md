@@ -3,7 +3,7 @@ title: Supports & Materials
 aliases: [Supports & Materials, Supports, Grounds, Painting Supports]
 sequence: 30
 ---
-> **Header image prompt (flat medical-textbook blue anatomy-plate style, wide banner, 16:9 proportion):** A labeled diagram of a painting support cross-section. Left inset: watercolor paper stack — three sheets labeled ROUGH, COLD PRESSED (CP), HOT PRESSED (HP) with a magnified fiber-detail circle showing SIZING coating over COTTON FIBERS. Center: stretched oil canvas on a wooden stretcher frame — layers peeled open in a wedge: VARNISH / PAINT FILM / GROUND (PRIMER) / ANIMAL-GLUE SIZE / LINEN THREADS, with corner KEY wedge detail. Right inset: rigid panel (gesso on masonite) and pastel paper with granular TOOTH dots. Chromatic accents: a thin amber-gold stroke on the oil ground, a pale blue wash on the watercolor sheet, a violet tint on the pastel paper. Bold uppercase labels with leader lines, pale blue background, no realism.
+![[Pasted image 20260812112449.png]]
 
 **Scope:** The physical stage of painting — supports (paper, canvas, panels) and grounds (sizing, gesso, primers) organized by medium: watercolor, oil, and other media, and how the support's tone, absorbency, and texture determine color appearance.
 

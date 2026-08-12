@@ -62,11 +62,23 @@ MacEvoy uses CIELAB (or CIECAM) as the objective frame of reference for judging 
 
 He also stresses that a gamut is **always three-dimensional and context-sensitive**: the gamut of a television shrinks when sunlight falls on the screen, just as a printer's gamut shrinks on gray paper, with coarse halftones, or in dim viewing light. *(Source: [[raw_sources/handprint/color13.md|color13.html]])*
 
+## HueValueChroma Perspectives
+
+Briggs connects the gamut concept to its own history and to the arithmetic that makes paint gamuts behave the way they do:
+
+- **"Gamut" thinking is older than colorimetry.** Robert Boyle (1664), the writer who introduced the term "primary colour" in English, "shows an awareness of the concept of a *gamut*": the primaries suffice to mix a full range of hues, "but some colours will, by their greater 'splendor' (we would say *chroma*), lie outside this gamut." The mismatch of range vs. top-chroma — the core of the page's hierarchy — was thus noted at the very origin of primary-color language *(Source: [[raw_sources/huevaluechroma/062.md|062.html]])*.
+- **The paint gamut is computed by multiplication, not addition.** Subtractive results "are calculated by multiplying together the percentage of light energy passed on by both colourants, for each wavelength," which is why the page's pigment gamuts are "irregular and bounded by curves": shape is set wavelength-by-wavelength by the overlap of reflectance curves, not by three primary coordinates. And metamerism means "the **exact** results of subtractive mixing of real colourants can not be predicted merely from their colour" — though "all common cyan and yellow colourants combined subtractively will make a green" *(Source: [[raw_sources/huevaluechroma/051.md|051.html]])*.
+- **The lop-sidedness is shared with nature, so it is not a defect.** The paint gamut's bulge between orange-yellow and orange-red (16 Munsell units maximum chroma) against its cyan-green trough (10 units) "does not really present a problem because the range of common object colours is restricted in essentially the same way, for the same combination of physical and physiological reasons." What is a defect — and entirely avoidable — is shrinking the gamut by using a psychologically-pure RYB trio: "if the red paint is a *psychologically* pure red... it is found to be impossible to mix purples above a very low chroma," a problem printers solved with the **YMC subtractive primaries** while many traditional teachers still escape it via the "split-primary" palette, whose recurring rationale Briggs judges "entirely discredited" *(Source: [[raw_sources/huevaluechroma/015.md|015.html]], [[raw_sources/huevaluechroma/062.md|062.html]])*.
+- **Digital "subtractive" mixing is an idealization that can leave the real gamut.** Multiply-mode blending in graphics programs "gives a realistic representation of what subtractive mixing involving comparably coloured lights and materials **might** result in," but "unrealistic effects may result from subtractively mixing very bright and/or very saturated digital colours that are outside the range of real object colours." Even Painter — which simulates the appearance and behavior of paints — "nevertheless" mixes by ideal subtractive rules: "Monitor yellow" and "Monitor blue" mix to black or grey, "while paints of similar hues would mix to a dull green" *(Source: [[raw_sources/huevaluechroma/051.md|051.html]])*.
+- **Where screen gamuts beat paints and where they lose.** Digital full-chroma colors reach "Munsell chromas of **24 in the violet-blue to magenta range, down to 18 at red**" — far past paints — "while artist's paints... exceed the gamut of standard (sRGB) digital colours where these are relatively poor in the vicinity of yellow and cyan" *(Source: [[raw_sources/huevaluechroma/015.md|015.html]], [[raw_sources/huevaluechroma/045.md|045.html]])*.
+
 ## Subtopics
 - Gamut Representation
 - Gamut Hierarchy
 - Additive vs Subtractive
 - Gamut Mapping
+- Boyle 1664 and the origin of "gamut" thinking; the multiplicative, metamerism-bound paint gamut (Briggs)
+- Shared lop-sidedness with common object colors; ideal-subtractive digital mixing vs real paint mixtures (Briggs)
 
 ## Cross-References
 - [[Device Gamuts]]
@@ -82,3 +94,7 @@ He also stresses that a gamut is **always three-dimensional and context-sensitiv
 * "Color Management"
 * "Color for Science, Art, and Technology" — Kurt Nassau (Editor)
 * "The Science of Paintings" — W. Stanley Taft Jr. and James W. Mayer
+* "The Dimensions of Colour : chroma" — [[raw_sources/huevaluechroma/015.md|015.html]]
+* "The Dimensions of Colour : additive mixing" — [[raw_sources/huevaluechroma/045.md|045.html]]
+* "The Dimensions of Colour : subtractive mixing" — [[raw_sources/huevaluechroma/051.md|051.html]]
+* "The Dimensions of Colour : primary colours" — [[raw_sources/huevaluechroma/062.md|062.html]]

@@ -6,7 +6,7 @@ You are the maintainer of a **persistent scientific wiki** on light, human color
 
 1. **NotebookLM notebook "Color Light and Painting"** (via the notebooklm MCP tools) — the authoritative bibliography and content. Cite claims as **book title + page number** when available. The active notebook URL is `https://notebooklm.google.com/notebook/c36ed6c7-c959-4076-80b7-a19e9102b118?authuser=2`.
 2. **`raw_sources/handprint/*.md`** — Bruce MacEvoy's handprint.com color theory. Cite as wiki links: `[[raw_sources/handprint/color18a.md|color18a.html]]`.
-3. **`raw_sources/huevaluechroma/*.md`** — Joseph Padfield's huevaluechroma.com essays (light & color theory, CMF history). Cite as wiki links: `[[raw_sources/huevaluechroma/<name>.md|<name>.html]]`.
+3. **`raw_sources/huevaluechroma/*.md`** — David Briggs' "The Dimensions of Colour" (huevaluechroma.com) — colour perception, mixing, hue systems, CMF history, painter-applied colour theory. Cite as wiki links: `[[raw_sources/huevaluechroma/062.md|062.html]]` (file name = page number, e.g. 062 = 6.2 Primary Colours).
 
 
 > [!IMPORTANT]
@@ -46,7 +46,8 @@ MacEvoy's viewpoint, paraphrased, with *(Source: [[raw_sources/handprint/xxx.md|
 
 - NotebookLM sources: **"Exact Book Title"** — with page/chapter when the notebook gives it.
 - Handprint: `[[raw_sources/handprint/<file>.md|<file>.html]]`.
-- `Appendix/Bibliography.md` is the unified citation map: `* "Title" — Author` per entry, grouped Light / Mind / Colors / Painting, plus a Handprint block. No year/edition/publisher.
+- Huevaluechroma: `[[raw_sources/huevaluechroma/<page>.md|<page>.html]]`, where `<page>` is the section number (e.g. `062.md` = 6.2 Primary Colours).
+- `Appendix/Bibliography.md` is the unified citation map: `* "Title" — Author` per entry, grouped Light / Mind / Colors / Painting, plus a Handprint block and a Huevaluechroma block. No year/edition/publisher.
 
 ## Query workflow (NotebookLM MCP)
 
