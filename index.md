@@ -7,91 +7,91 @@ sequence: 0
 [[Home|Home]]: Landing page tracing the unified 5-stage chain from physical light, through the subtractive limits of pigment, the S/M/L transduction of the eye, opponent-process perception, to V1–V4 cortical plasticity — with a suggested reading order across the four sections.
 
 ## Appendix
-**[[Appendix|Appendix]]**: The project's meta-layer — the unified citation map, the data-and-methodology grounding, the history of color science, and the working notes behind the corpus.
+**[[Appendix|Appendix]]**: The support layer beside the main sections — sources, history, measurement methods, and builder notes. Most visitors need Bibliography (look up a source) or History & Key Figures (the big story); Data & Methodology and Project Notes are optional depth.
 
-- [[Appendix/Bibliography|Bibliography]]: A bibliography organized by section linking back to supporting pages.
-- [[Appendix/Data & Methodology|Data & Methodology]]: Instruments (spectrophotometers, spectroradiometers, colorimeters), sampling protocols (1–20 nm, 380–780 nm, 2°/10° observers), the CIE integration pipeline (X = k·Σ P·x̄·R·Δλ), and the classic datasets behind this wiki.
-- [[Appendix/History & Key Figures|History & Key Figures]]: The intertwined arc of pigments, light science and painting — prehistoric ochre and antiquity's small palette, oil and Vermeer's ultramarine luminosity, Newton/Goethe and the 1828–1868 synthetic boom, Impressionism's tubes and plein-air colored shadows, and the Chevreul→Rood→Munsell→CIE trickle-down to today's Colour Index and archival practice.
-- [[Appendix/Project Notes|Project Notes]]: Notebook-grounded notes for a 3D color viewer — CIELAB spindle, Munsell Color Tree, gamut hulls, L\*/a\*/b\*/C\*/h conventions, and navigation techniques (constant-L\* slices, hue wedges).
+- [[Appendix/Bibliography|Bibliography]]: Every book, paper, and web source the wiki uses — grouped by section, title and author only.
+- [[Appendix/History & Key Figures|History & Key Figures]]: One narrative from cave ochre to modern pigments — how art, craft, chemistry, and color science kept pushing each other forward.
+- [[Data & Methodology|Data & Methodology]]: How color is measured in the lab — instruments, protocols, datasets, and caveats (optional; for verification-minded readers).
+- [[Appendix/Project Notes|Project Notes]]: Design notes for a planned 3D color-space viewer (optional; for builders, not general readers).
 
 ## Colors
-**[[Colors|Colors]]**: Standardization of color — CIE XYZ/xy/CIELAB with imaginary primaries and 2°/10° observers, MacAdam just-noticeable differences, Munsell's Hue/Value/Chroma and 1943 Renotation, and the gamut boundaries of real, optimal, and device colors.
+**[[Colors|Colors]]**: The systems humans built to measure and describe color with numbers — like rulers for temperature or distance — so a paint factory, a printer, and a screen can agree on the same blue. Start here for orientation; then choose CIE (scientific) or Munsell (artist-friendly), or explore gamuts and human color sensitivity.
 
-- [[Colors/CIE Systems|CIE Systems]]: Overview of CIE coordinate systems including the xy diagram, XYZ, and Lab spaces — plus Briggs on XYZ's virtual primaries, the three-vs-four primaries distinction, and RGB labels as misnomers.
-- [[Colors/Gamuts/Device Gamuts|Device Gamuts]]: Examines device-specific color gamuts such as those of displays and printers — plus Briggs on RGB/CMY cube geometry, HSB/HSL relative dimensions, CMYK's origins with Le Blon, and where paints beat screens.
-- [[Colors/Gamuts|Gamuts]]: Parent page introducing gamuts and limits of reproducible color spaces — with Briggs on the multiplicative, metamerism-bound paint gamut and the YMC vs RYB gamut gap.
-- [[Colors/Gamuts/Optimal Color Solid-MacAdam Limits|Optimal Color Solid-MacAdam Limits]]: Discusses the Optimal Color Solid and MacAdam Limits of maximum achievable reflecting colors — with Briggs on the peak-chroma "home value," near-optimal yellows, and the phthalocyanine vs red/orange/yellow chroma gap.
-- [[Colors/Gamuts/Pointer's Gamut|Pointer's Gamut]]: Analyzes Pointer's Gamut of real surface colors.
-- [[Colors/MacAdam Ellipses|MacAdam Ellipses]]: Details MacAdam ellipses and their mapping of just-noticeable differences in color.
-- [[Colors/Munsell Notation|Munsell Notation]]: Explores the Munsell notation system, its structure, the 1943 Renotation, and its open-ended chroma — with Briggs on the 16-vs-10 chroma maxima, the skewed double cone vs the Runge-Itten sphere, and the Helmholtz-Kohlrausch effect.
+- [[Colors/CIE Systems|CIE Systems]]: The international foundation — how the average human eye's response to light was turned into shared numbers any lab can read.
+- [[Colors/Munsell Notation|Munsell Notation]]: Colors organized by hue, lightness, and vividness — the intuitive, painter-oriented alternative to raw math.
+- [[Colors/Gamuts|Gamuts]]: What a gamut is (the range of colors a thing can produce) and how device, physical, and real-world limits compare.
+- [[Colors/Gamuts/Device Gamuts|Device Gamuts]]: Why screens and printers show different colors — and how images are adapted when moving between them.
+- [[Colors/Gamuts/Optimal Color Solid-MacAdam Limits|Optimal Color Solid-MacAdam Limits]]: The physical ceiling — the theoretical limit of what any light-reflecting material could ever achieve.
+- [[Colors/Gamuts/Pointer's Gamut|Pointer's Gamut]]: The real-world record — a 1980 survey of 4,000+ measured surfaces mapping the most colorful things ever documented.
+- [[Colors/MacAdam Ellipses|MacAdam Ellipses]]: How big a color difference must be before a person notices — and why that threshold varies across the spectrum.
 
 ## Eye
-**[[Eye|Eye]]**: The light-to-perception machinery — anatomy of the visual pathway, the rods/cones systems and their distribution, the receptor-spacing limits of visual acuity, trichromatic S/M/L wavelength coding, and opponent re-encoding in the retina and LGN.
+**[[Eye|Eye]]**: How the eye turns physical light into the experience of color — from the anatomy of the visual pathway through rods and cones, sharpness limits, three-cone color vision, and the brain's opponent re-encoding. Start with Anatomy for the physical tour, or Wavelength Perception for how light becomes color.
 
-- [[Eye/Anatomy|Anatomy]]: Covers the biological anatomy of the eye, specifically the cornea, lens, and retina.
-- [[Eye/Opponent-Process Color Coding|Opponent-Process Color Coding]]: Explains the neural opponent-process theory of color coding.
-- [[Eye/Rods vs. Cones - Density & Distribution|Rods vs. Cones - Density & Distribution]]: Analyzes the density and spatial distribution of rods and cones across the retina.
-- [[Eye/Visual Acuity & Receptor Spacing|Visual Acuity & Receptor Spacing]]: Relates visual acuity to the physical spacing of photoreceptors in the eye.
-- [[Eye/Wavelength Perception|Wavelength Perception]]: Details how cones biologically encode physical wavelengths into a neural signal.
+- [[Eye/Anatomy|Anatomy]]: The pathway light travels — cornea, pupil, lens, retina, and the fovea where your sharpest vision lives.
+- [[Eye/Rods vs. Cones - Density & Distribution|Rods vs. Cones - Density & Distribution]]: Two detector systems — gray night vision at the edges, color and detail at the center of your gaze.
+- [[Eye/Visual Acuity & Receptor Spacing|Visual Acuity & Receptor Spacing]]: Why some details look sharp and others blur — packing limits, the night-sky blind spot, and why eyes never hold perfectly still.
+- [[Eye/Wavelength Perception|Wavelength Perception]]: Three overlapping cone types whose relative signals create color from light.
+- [[Eye/Opponent-Process Color Coding|Opponent-Process Color Coding]]: How the brain repackages color as red–green, blue–yellow, and light–dark — and why afterimages appear.
 
 ## Intersections
-**[[Intersections|Intersections]]**: Cross-cutting pages where the sections meet — the causal chain from pigment reflectance through CIE colorimetry to perception, natural-vs-pigment gamuts and metamerism, optical vs. physical mixture, perceptual phenomena (contrast, constancy, afterimages), perceptual-uniformity spaces, color psychology, and the neuroscience of color.
+**[[Intersections|Intersections]]**: Where Light, Eye, Colors, and Painting meet — cross-cutting pages on the full chain from surface to perception, metamerism, mixing rules, light on form, perceptual tricks, measurement uniformity, color psychology, and color neuroscience. Start with Causal Chain for the big picture, Color Mixing if you paint, or Simultaneous Contrast for perceptual surprises.
 
-- [[Intersections/Causal Chain - Pigments to Perception|Causal Chain - Pigments to Perception]]: Traces the causal flow from physical surface reflectance to human biological response ($V(\lambda)$) and perceptual experience.
-- [[Intersections/Color Psychology & Symbolism|Color Psychology & Symbolism]]: Cross-cutting page (Painting × Eye) on color's emotional, symbolic, and commercial claims — evidence quality (controlled studies vs. doctrine vs. anecdote), cultural relativity of meaning, Kandinsky's synesthetic doctrine, warm/cool physics-and-convention, and the hue/value/chroma conflation in color-mood research.
-- [[Intersections/Color Matching Functions and the Photopic Luminosity Function|Color Matching Functions and the Photopic Luminosity Function]]: Cross-cutting page (Light × Eye) exploring how physical light is weighted by human biological sensitivity.
-- [[Intersections/Natural Light Gamut vs. Pigment Gamut - Metamerism|Natural Light Gamut vs. Pigment Gamut - Metamerism]]: Cross-cutting page (Painting × Light) comparing the range of colors in nature to those achievable with pigments, and addressing metamerism.
-- [[Intersections/Optical vs. Physical Mixture|Optical vs. Physical Mixture]]: The distinction between visual/optical mixing (additive) and physical paint mixing (subtractive), specifically addressing the complementary color and primary color fallacies.
-- [[Intersections/Color Mixing, Prediction & Color Schemes|Color Mixing, Prediction & Color Schemes]]: Subtractive $R_1 \times R_2$ multiplicative filtering and curved mixing paths, physical prediction failures ("mud", value dominance, $\Delta n$ opacity/transparency, metamerism), geometric scheme families vs. Munsell 3D value-neutrality balance, and practical studio systems (verdaccio, limited palettes, color strings).
-- [[Intersections/Light Falloff, Inverse-Square Law & Color Accentuation|Light Falloff, Inverse-Square Law & Color Accentuation]]: The inverse-square law ($E = I / r^2$) and light falloff across a painted scene, the form principle (why peak chroma lives in the halftone, not highlights or shadows), chiaroscuro/tenebrism (Caravaggio, Rembrandt) vs. sfumato (Leonardo), sky-fill colored shadows, and edge control (penumbra, Vermeer's halation).
-- [[Intersections/Simultaneous Contrast, Color Constancy, Afterimages, Subtractive vs. Additive Mixing|Simultaneous Contrast, Color Constancy, Afterimages, Subtractive vs. Additive Mixing]]: Cross-cutting page (Painting × Eye) covering perceptual phenomena critical for painters.
-- [[Intersections/Why Lab-Munsell Were Built for Perceptual Uniformity|Why Lab-Munsell Were Built for Perceptual Uniformity]]: Cross-cutting page (Eye × Colors) explaining the necessity of mathematically bending color spaces to match non-linear human perception.
-- [[Intersections/The Neuroscience Behind Why Colours Rewire Your Brain|The Neuroscience Behind Why Colours Rewire Your Brain]]: Cross-cutting page (Eye × Mind): colour's dedicated-but-plastic cortical circuits (V1 blobs and double-opponent cells → hV4/VO → anterior colour regions) — how practice, language, memory, and synaesthesia measurably reshape the neural colour space, and the limits of the "rewires your brain" claim (Firestone–Scholl critique).
+- [[Intersections/Causal Chain - Pigments to Perception|Causal Chain - Pigments to Perception]]: The end-to-end story — from light bouncing off a surface to what you actually see.
+- [[Intersections/Color Matching Functions and the Photopic Luminosity Function|Color Matching Functions and the Photopic Luminosity Function]]: How the eye's uneven sensitivity to wavelengths connects biology to color measurement.
+- [[Intersections/Natural Light Gamut vs. Pigment Gamut - Metamerism|Natural Light Gamut vs. Pigment Gamut - Metamerism]]: When nature outruns paint — and when two colors match in one light but not another.
+- [[Intersections/Optical vs. Physical Mixture|Optical vs. Physical Mixture]]: Palette mixing vs. eye blending — and why RYB school primaries differ from CMY printing primaries.
+- [[Intersections/Color Mixing, Prediction & Color Schemes|Color Mixing, Prediction & Color Schemes]]: Why paint mixing is hard to predict, and the studio strategies painters use anyway.
+- [[Intersections/Light Falloff, Inverse-Square Law & Color Accentuation|Light Falloff, Inverse-Square Law & Color Accentuation]]: Why the strongest color usually lives in the halftone, not the highlight or shadow.
+- [[Intersections/Simultaneous Contrast, Color Constancy, Afterimages, Subtractive vs. Additive Mixing|Simultaneous Contrast, Color Constancy, Afterimages, Subtractive vs. Additive Mixing]]: Simultaneous contrast, color constancy, afterimages — how context reshapes what you see.
+- [[Intersections/Why Lab-Munsell Were Built for Perceptual Uniformity|Why Lab-Munsell Were Built for Perceptual Uniformity]]: Why Munsell and Lab spaces were built so equal number-steps feel equal to the eye.
+- [[Intersections/Color Psychology & Symbolism|Color Psychology & Symbolism]]: What color is claimed to mean emotionally and symbolically — and what the evidence supports.
+- [[Intersections/The Neuroscience Behind Why Colours Rewire Your Brain|The Neuroscience Behind Why Colours Rewire Your Brain]]: Color circuits in the brain, learning, language, synesthesia — and the limits of "rewires your brain" headlines.
 
 ## Light
-**[[Light|Light]]**: The physics of light before the eye — electromagnetic duality, E=1240/λ(nm) energy, the 380–780 nm visible band, emission/reflection, standard illuminants and correlated color temperature, Rayleigh scattering, and spectral locus boundaries.
+**[[Light|Light]]**: The physics of light before the eye — waves and photons, the visible rainbow band, glowing vs. reflecting, standard illuminants and warm/cool color temperature, daylight variation, and the outer boundary of physical color. Start with Wave Nature for foundations, Visible Spectrum for the rainbow, or Reflection vs. Emission for screens vs. paint.
 
-- [[Light/Illuminants & Correlated Color Temperature|Illuminants & Correlated Color Temperature]]: Explores standard illuminants and the concept of Correlated Color Temperature (CCT).
-- [[Light/Natural Daylight Variation & Hyperspectral Scene Data|Natural Daylight Variation & Hyperspectral Scene Data]]: Analyzes the physical variations of natural daylight and the use of hyperspectral scene data.
-- [[Light/Reflection vs. Emission|Reflection vs. Emission]]: Self-luminous sources (blackbody, Wien) against specular/diffuse reflection — and why emissive RGB displays and reflective CMY paint diverge in gamut, vibrancy, and black point.
-- [[Light/Spectral Locus & Excitation Purity|Spectral Locus & Excitation Purity]]: The spectral locus as the horseshoe boundary of monochromatic colors (380–780 nm) plus the line of purples, dominant and complementary wavelengths, and excitation purity as the lever-ratio 100·a/(a+w).
-- [[Light/The Visible Spectrum|The Visible Spectrum]]: Newton's prismatic decomposition (heterogeneous white light, "components, not modifications"), hue wavelength ranges (violet 380–440 → red 610–760 nm), fuzzy 380–400/700–780 nm limits, and nonspectral purple/magenta.
-- [[Light/Wave Nature|Wave Nature]]: Electromagnetic waves (λ/f/amplitude/c, c = f·λ), photons (E = hf, E(eV) = 1240/λ(nm)), frequency-as-color vs amplitude-as-intensity, dual nature in vision-relevant interactions, and spectral power distributions.
+- [[Light/Wave Nature|Wave Nature]]: What light is — electromagnetic waves, photons, wavelength, frequency, and energy.
+- [[Light/The Visible Spectrum|The Visible Spectrum]]: The narrow band the eye sees — Newton's prism, the rainbow, and colors like magenta that have no single wavelength.
+- [[Light/Reflection vs. Emission|Reflection vs. Emission]]: Light from a source vs. light bouncing off a surface — and why screens and paint behave differently.
+- [[Light/Illuminants & Correlated Color Temperature|Illuminants & Correlated Color Temperature]]: Standard ways to describe and compare types of light — and why the same object looks different under candle, window, and monitor.
+- [[Light/Natural Daylight Variation & Hyperspectral Scene Data|Natural Daylight Variation & Hyperspectral Scene Data]]: How daylight shifts from sunrise to noon to blue sky — and how complete spectral measurements capture a surface's fingerprint.
+- [[Light/Spectral Locus & Excitation Purity|Spectral Locus & Excitation Purity]]: The horseshoe boundary of pure spectral colors — the bridge from physics to color measurement.
 
 ## Painting
-**[[Painting|Painting]]**: Abstract color theory meeting applied pigment — composition (contrast, mostly/some/bit, mother color), the physical stage (supports, grounds, brushes), the art-history arc from Vermeer/Impressionism to Color Field, pigment chemistry and high-chroma synthetics, and objective spectral pigment analysis.
+**[[Painting|Painting]]**: Color as painters actually use it — composing on the canvas, preparing supports and grounds, choosing brushes, handling toxic pigments safely, and five centuries of art history. Pigment science lives in Pigments; start with Composition for design, Supports/Brushes for the studio, or Movements & Painters for history.
 
-- [[Painting/Composition|Composition]]: Harmony as "analogy of opposites," Itten's seven contrasts, mostly/some/bit proportions (Itten 3:6:8, Munsell balance), mother color and neutrals, warm/cool depth structuring — and the Albers/Gage/Munsell critique of geometric harmony rules.
-- [[Painting/Supports & Materials|Supports & Materials]]: What you paint on and on top of — watercolor paper (weights, HP/CP/rough finishes, cotton fiber, sizing, acidity), oil canvas (linen vs. cotton duck, animal-glue size, gesso vs. oil ground, stretching), and medium-specific grounds (acrylic primer, pastel tooth, tempera panels); the white ground as "internal light".
-- [[Painting/Brushes|Brushes]]: Brush anatomy and hair types (kolinsky sable, squirrel, hog bristle, nylon), shapes and their jobs (round, flat, bright, filbert, fan, liner, mop), and medium rules — soft reservoirs for watercolor, bristle/sable split for oil, submerged synthetics for acrylic; sizes and care.
-- [[Painting/Pigment Sources, Composition & Toxicity Reference|Pigment Sources, Composition & Toxicity Reference]]: Which pigments are hazardous and why — family-by-family toxicity, the three exposure routes, ASTM D4236/ACMI labeling, historical poisons vs. modern replacements, and the binder/solvent risk profile.
-- [[Painting/Movements & Painters/Bauhaus|Bauhaus]]: The Vorkurs "color in a vacuum," Itten's seven contrasts and Runge-derived sphere, Kandinsky's color-form coordinates and pseudo-synaesthesia, Klee's middle-point-gray keystone, and Albers's "color deceives continually" — with Briggs on Hoelzel's diagrams, Itten's obsolete mixing model, and the "creation science" verdict.
-- [[Painting/Movements & Painters/Color Field|Color Field]]: Rothko's luminous film color, Newman's zip and wall-scale space, Reinhardt's black-painting grid — closely-valued fields as durational simultaneous-contrast experiences.
-- [[Painting/Movements & Painters/Fauvism|Fauvism]]: The 1905 "wild beasts" — flat high-chroma anti-local color, Matisse's Green Line and "Plus c'est plat, plus c'est de l'art", and the yield to Cubism.
-- [[Painting/Movements & Painters/Impressionism|Impressionism]]: Explores Impressionism (Monet, Renoir, Pissarro) and their focus on capturing fleeting light through en plein air painting, broken-color optical mixtures, and colored complementary shadows.
-- [[Painting/Movements & Painters|Movements & Painters]]: The arc from descriptive to autonomous color — Vermeer to Riley — with the theory texts (Goethe, Chevreul, Rood, Munsell, Albers) that fed each movement.
-- [[Painting/Movements & Painters/Neo-Impressionism-Pointillism|Neo-Impressionism-Pointillism]]: Seurat's "impressioniste-luministe" divisionism — touching dots of pure color, Chevreul/Rood foundations, chromatic grays, dotted frames, and the gray-sum critique.
-- [[Painting/Movements & Painters/Newton's Influence on Painters|Newton's Influence on Painters]]: Opticks 1704 — the seven-hue unequal wheel, diatonic analogy, and Newton's Rings complementarity — feeding Le Blon, Moses Harris, and the Chevreul-Rood-Munsell dynasty against Goethe's reaction; Briggs dates the first artists' wheel to the 1708 Hague pastel manual.
-- [[Painting/Movements & Painters/Op Art|Op Art]]: Vibrating boundaries, moiré and saccadic displacement, Kitaoka drift — Riley's method of instability turning eye fatigue and simultaneous contrast into a medium.
-- [[Painting/Movements & Painters/Post-Impressionism|Post-Impressionism]]: Van Gogh's complementary soul-language, Cézanne's warm-cool passages, Gauguin's flat symbolist color, and Seurat's reconstituted light — past the fleeting moment toward structure and abstraction.
-- [[Painting/Movements & Painters/Romanticism-Turner|Romanticism-Turner]]: Turner's atmospheric veil and psychico-expressive color — controverting the warm-tonality doctrine, engaging Newton against Goethe, dissolving form toward the "first abstractionist".
-- [[Painting/Movements & Painters/Vermeer-Dutch Golden Age|Vermeer-Dutch Golden Age]]: Vermeer's ultramarine blue-yellow "sonata," Dutch color-envelope tonal unity, "diffraction" edge mastery, and interior light keyed to white — anticipating Goethe/Maxwell and Impressionist optics.
+- [[Painting/Composition|Composition]]: How color works in a painting — contrast, proportion, mother color, warm/cool depth, and why value comes first.
+- [[Painting/Supports & Materials|Supports & Materials]]: What you paint on — paper, canvas, grounds — and why the white ground acts as built-in light.
+- [[Painting/Brushes|Brushes]]: Hair types, shapes, and the different rules for watercolor, oil, and acrylic.
+- [[Painting/Pigment Sources, Composition & Toxicity Reference|Pigment Sources, Composition & Toxicity Reference]]: Which pigments are hazardous, how exposure happens, and how to read safety labels.
+- [[Painting/Movements & Painters|Movements & Painters]]: How Western painters used color from Vermeer to Op Art — matching nature, chasing light, expressing feeling, and finally making color the subject itself. Start with Impressionism, Vermeer for the early story, or Newton's Influence for the theory backstory.
+- [[Painting/Movements & Painters/Newton's Influence on Painters|Newton's Influence on Painters]]: How Newton's spectrum and the color wheel fed every later painter's theory — and Goethe's rival account of color.
+- [[Painting/Movements & Painters/Vermeer-Dutch Golden Age|Vermeer-Dutch Golden Age]]: Dutch Golden Age realism — Vermeer's blue-and-yellow light, quiet interiors, and luminous edges.
+- [[Painting/Movements & Painters/Romanticism-Turner|Romanticism-Turner]]: Turner's atmospheric color — storms, veils of cool tone, and emotion over accurate local hue.
+- [[Painting/Movements & Painters/Impressionism|Impressionism]]: Monet and the Impressionists — outdoor light, broken color, colored shadows, and painting the same subject at different hours.
+- [[Painting/Movements & Painters/Neo-Impressionism-Pointillism|Neo-Impressionism-Pointillism]]: Seurat's dots of pure color — optical mixing in the viewer's eye instead of on the palette.
+- [[Painting/Movements & Painters/Post-Impressionism|Post-Impressionism]]: Van Gogh, Gauguin, and Cézanne — color as symbol, structure, and inner life beyond fleeting light.
+- [[Painting/Movements & Painters/Fauvism|Fauvism]]: Matisse and the Fauves — arbitrary high-chroma color freed from what things "really" look like.
+- [[Painting/Movements & Painters/Bauhaus|Bauhaus]]: Itten, Kandinsky, Klee, and Albers — color taught as formal design, contrast, and deception.
+- [[Painting/Movements & Painters/Color Field|Color Field]]: Rothko, Newman, Reinhardt — vast fields of color with nothing else to look at.
+- [[Painting/Movements & Painters/Op Art|Op Art]]: Riley and Op Art — patterns that make color vibrate, shift, and afterimage through how the eye works.
 
 ## Pigments
-**[[Pigments|Pigments]]**: The corporeal agents of surface color — pigment versus dye, the four pigment families, the color tree's irregular gamut, and the historical arc from cave earths to forensic pigment dating.
+**[[Pigments|Pigments]]**: The physical particles behind surface color — chemistry, natural vs. synthetic history, modern high-chroma paints, grinding and binders, reading labels, spectral measurement, and reference sheets for individual pigments. Start with Natural vs. Synthetic for history, Chemistry for science, or Reference to look up one pigment.
 
-- [[Pigments/Chemistry|Chemistry]]: Pigments as insoluble crystal-retaining particulates — ligand-field and π→π\* mechanisms, narrow-band chroma, and the fading reactions (photo-oxidation, PbS blackening, zinc soaps).
-- [[Pigments/Natural vs. Synthetic|Natural vs. Synthetic]]: Earths, madder, indigo, kermes and mango-leaf Indian yellow versus the 1828–1868 synthetic revolution — ultramarine, chrome and cadmium, Perkin's mauve — and today's subtle-granular versus narrow-band trade-offs.
-- [[Pigments/High-Chroma Synthetics|High-Chroma Synthetics]]: Phthalocyanines (PB15/PG7/PG36), quinacridones (PR122/PV19) and PV23 — narrow-band chroma at dark values, the cyan and red-violet gamut gains, and 50–75% "let-downs" for tinctorial power.
-- [[Pigments/Particle Size-Tinting-Polymorphism|Particle Size-Tinting-Polymorphism]]: Grinding shifts hue, refractive-index gaps drive opacity, granulation textures washes, rub-out tests measure strength — and crystals polymorph (PB15 α/β, vermilion to metacinnabar).
-- [[Pigments/Sourcing Real Spectral Data|Sourcing Real Spectral Data]]: Reflectance spectrophotometry of paint films (380–780 nm fingerprints, the drying shift), RIT MCSL libraries and Munsell Renotation reference data, and how curves date paintings and map gamuts.
-- [[Pigments/Media, Vehicles & Solvents|Media, Vehicles & Solvents]]: The binders and solvents behind each medium — gum arabic, chalk-filled gouache, oxidizing linseed oil, acrylic emulsion, shellac inks, yolk/casein/pastel — and the refractive-index physics that changes the same pigment's color across media.
-- [[Pigments/Transparency, Opacity & Pigment Codes|Transparency, Opacity & Pigment Codes]]: Refractive-index physics of hiding power, transparent/semi/opaque paint classes, masstone vs. undertone, and how to decode a pigment label — CI generic names, constitution numbers, series, ASTM and Blue Wool ratings.
-- [[Pigments/The artist's color wheel|Pigment Color Wheel]]: MacEvoy's artist's color wheel (PDF) plots real pigments by measured hue angle and chroma — a landscape of clusters and gaps, not the idealized RYB circle.
-- [[Pigments/Florent Farges' Color Theory for Artists|Florent Farges' Color Theory]]: Farges' Color Wheel System (©2020 PDF) — three chroma-tier wheels (high/medium/low) on a fixed 360° hue scaffold with six main hues (R Y G C B M), pigments placed by measured hue angle, and the "color strings" mixing workflow.
+- [[Pigments/Chemistry|Chemistry]]: Why a pigment is the color it is — electron transitions, fading, and incompatible mixtures.
+- [[Pigments/Natural vs. Synthetic|Natural vs. Synthetic]]: From cave ochre and lapis lazuli to the 19th-century synthetic boom.
+- [[Pigments/High-Chroma Synthetics|High-Chroma Synthetics]]: Phthalocyanines and quinacridones — the vivid modern backbone of artist paint.
+- [[Pigments/Particle Size-Tinting-Polymorphism|Particle Size-Tinting-Polymorphism]]: How grinding, tinting strength, and crystal form change what you see on the canvas.
+- [[Pigments/Media, Vehicles & Solvents|Media, Vehicles & Solvents]]: Gum, oil, acrylic, egg — how the binder changes the same pigment's appearance.
+- [[Pigments/Transparency, Opacity & Pigment Codes|Transparency, Opacity & Pigment Codes]]: Covering power, tube labels, and Colour Index codes.
+- [[Pigments/Sourcing Real Spectral Data|Sourcing Real Spectral Data]]: Measuring a pigment's spectral fingerprint — for matching, gamut maps, and dating paintings.
+- [[Pigments/The artist's color wheel|Pigment Color Wheel]]: MacEvoy's wheel of real tube pigments plotted by measured hue and vividness.
+- [[Pigments/Florent Farges' Color Theory for Artists|Florent Farges' Color Theory]]: Farges' three-tier hue wheel and color-strings mixing workflow for studio painters.
 
 ### Pigment Reference (data sheets)
-- [[Pigments/Reference/index|Reference]]: Index page for the 21 pigment data sheets — swatch, chemistry, history, handling, and handprint perspective per pigment.
+- [[Pigments/Reference/index|Reference]]: Index to twenty-one pigment data sheets — open this to pick a specific color.
 - [[Pigments/Reference/PW6 - Titanium White|PW6 - Titanium White]]: Rutile/anatase TiO₂, 1919–1957 entry, refractive index 2.55/2.71 — the most opaque pigment ever.
 - [[Pigments/Reference/PBk6 - Carbon Black|PBk6 - Carbon Black]]: Amorphous carbon — lampblack/bone/vine, Lascaux to Reinhardt, granulating weak tints vs. intense furnace blacks.
 - [[Pigments/Reference/PY35 - Cadmium Yellow|PY35 - Cadmium Yellow]]: CdS lemon solid solution, Stromeyer 1817, 1846 market — with Cu/Pb incompatibility warnings.

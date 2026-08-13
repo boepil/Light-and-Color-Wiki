@@ -3,62 +3,63 @@ title: Movements & Painters
 aliases: [Movements & Painters]
 sequence: 33
 ---
+
 ![[Pasted image 20260812224220.png]]
 
-**Scope:** The arc of color in Western painting — from descriptive local color, through optical and expressive color, to autonomous abstract color — with the movements, painters, and theory texts that drove it.
+### What this section is about
 
-### The Arc: Descriptive → Optical → Expressive → Autonomous
+Painters did not always treat color the same way. Early masters tried to **match what things looked like**. Impressionists chased **how light changes color from moment to moment**. Post-Impressionists and Fauves used color to **express feeling**, not just appearance. Modern painters often treated color as **the subject itself** — large fields of hue with no landscape or figure required.
 
-The sources trace a single journey "from representing the physical world to exploring the autonomous power of light and the human psyche" (*A Comprehensive Overview of Color Vision Mechanisms, Color Spaces, and the Munsell System*):
+**This section follows that journey** through individual movements and painters, from Vermeer's quiet Dutch interiors to Riley's eye-tricking Op Art. Each page below goes deep on one chapter; this hub only explains what each one is *for* and where to start.
 
-1. **Descriptive/local color:** pigment as a tool "for matching the appearances of minerals and plants" (*A Comprehensive Overview...*).
-2. **Optical color:** the Impressionists saw "color as a function of light rather than an inherent property of objects" (*Contemporary Color*).
-3. **Expressive/emotional color:** the Post-Impressionists made color "a 'language of the soul' to convey internalized experiences" (*Contemporary Color*).
-4. **Autonomous abstract color:** modern movements treat color as a material subject "in its own right," freed from its "imprisonment in the world of object" (*A Comprehensive Overview...*).
+### The pages, one by one
 
-### Movement-by-Movement
+#### [[Newton's Influence on Painters|Painting/Movements & Painters/Newton's Influence on Painters]] — where the color wheel came from
 
-- **Dutch Golden Age (Vermeer):** naturalistic matching of textures, often "organized around a red-yellow-blue triad or specific optical theories of light"; Vermeer's quiet palette was "constructed around blue and yellow notes (specifically natural ultramarine)," mirroring contemporary theories that these were the constituents of light (*A Comprehensive Overview..., Color in Art*).
-- **Romanticism (Turner):** color became a **"psychico-expressive"** medium establishing atmospheric mood and internal light — Turner's "atmospheric veil" of "delicately graduated cool tones" for fire and water abandoned "the academic requirement for warm tonalities" (*Color in Art*).
-- **Impressionism (Monet):** the ephemeral effects of natural light and colored shadows; Monet's **series** technique — abandoning one canvas and starting another as the sun shifted — to capture "the atmosphere of a specific moment" (*A Comprehensive Overview..., The Science of Paintings*). The movement rejected academic smooth application and black, "preferring to darken hues by mixing their complements."
-- **Post-Impressionism (Van Gogh, Gauguin, Cézanne):** symbolic and expressive saturated color over realism; Van Gogh's expressive complementary pairs (orange firelight vs. blue shadows) and enlarged pointillé dots for rhythmic texture. Cézanne rejected the Pointillist dot as "too static," returning to continuous open brushstrokes for structure.
-- **Neo-Impressionism (Seurat):** "reconstitute light" with dots of pure, unmixed color blending optically in the viewer's eye — fed by Chevreul and by **Ogden Rood's *Modern Chromatics* (1879)**, whose spinning-disc color mixing Seurat and Pissarro adopted (*Color in Art*).
-- **Fauvism (Matisse):** color "fully liberated" from reality, used arbitrarily "for its purely dramatic and emotional impact"; Matisse's flat decorative color areas in subjective equilibrium — a "green line" or central hue structuring the canvas without modeling. Reacted against local color: events on canvas need not tie to the natural world.
-- **Bauhaus (Kandinsky, Itten, Albers):** color investigated as "an autonomous, formal element that interacts dynamically with form and human perception"; Kandinsky's synesthetic color-music — color set up "vibrations" in the soul, blue linked to circles (*The Art of Color*, *Interaction of Color*).
-- **Color Field (Rothko, Newman):** color as the sole subject, "massive scale and soft edges to create immersive, spiritual environments"; Rothko's layered thin glazes gave an "inner light" with "vanishing boundaries."
-- **Op Art (Riley):** physiological eye effects — movement and "supplementary colors" through simultaneous contrast; Riley's hard-edge repeated shapes create "a film of transformed color" hovering before the canvas.
-- **Newton's influence across all of it:** *Opticks* (1704) replaced the linear light–dark ordering with the circular arrangement of hues — the ancestor of every painter's color wheel, from Le Blon and Moses Harris to Chevreul, Rood, and Munsell (*Color in Art*, *A Comprehensive Overview...*; see [[Newton's Influence on Painters]]).
+Before the movements, there was a scientific shift: Newton showed that white light splits into a spectrum, and painters inherited the **circular color wheel** that replaced older light-to-dark ladders. This page traces how *Opticks* (1704) fed every later theory — from Moses Harris's symmetrical wheel to Chevreul, Rood, and Munsell — and how Goethe pushed back with a rival, subjective account of color. Start here if you want the **theory backstory** before the painters.
 
-### The Theory Texts That Fed the Movements
+#### [[Vermeer-Dutch Golden Age|Painting/Movements & Painters/Vermeer-Dutch Golden Age]] — color in service of quiet realism
 
-- **Goethe, *Theory of Colours* (1810):** opposed Newton with the subjective reading of color and colored shadows; deeply influenced **Van Gogh's blue–orange complements** (*Theory of Colours*).
-- **Chevreul, *Principles of Harmony and Contrast of Colors* (1839):** codified simultaneous contrast — "the scientific foundation for Impressionist luminosity and Seurat's Pointillist dots" (*Color in Art*).
-- **Rood, *Modern Chromatics* (1879):** visual mixing by spinning discs → Seurat, Pissarro (*Color in Art*).
-- **Munsell, *A Color Notation* (1905):** replaced "color anarchy" with the precise 3D Hue/Value/Chroma system (*A Color Notation*).
-- **Albers, *Interaction of Color* (1963):** "color as the most relative medium in art" — perception of a hue changes radically with its neighbor (*Interaction of Color*).
+In the Dutch Golden Age, color served **naturalistic illusion** — matching textures, organizing rooms around blue-and-yellow light notes, and building luminous whites and soft edges. Vermeer's ultramarine and ochre palette anticipated later optical color theories without abandoning the goal of believable space. If you want the **earliest chapter** — color as careful observation — start here.
 
-## Handprint Perspectives
+#### [[Romanticism-Turner|Painting/Movements & Painters/Romanticism-Turner]] — color as atmosphere and emotion
 
-MacEvoy's reading of the same history is less heroic: the "emancipation of color" he identifies with Newtonian prism theory, and the arc he emphasizes runs from 18th-century color theory (which "substituted paint mixtures for light mixtures and replaced factual color relationships with simplified, symmetrical and idealized" ones) toward the 20th-century realization that color systems must describe real pigment and eye behavior — a course that turned the painter's hue circle from a geometrical ideal into "an instrument of perception," with each great painter's palette as a personal, empirical color system rather than an application of doctrine *(Source: [[raw_sources/handprint/color13.md|color13.html]], [[raw_sources/handprint/color18a.md|color18a.html]])*.
+Turner turned color into **weather, fire, and feeling** — veils of cool tone over distant forms, storms of light that dissolve solid objects. He broke academic rules about warm shadows and local color, treating hue as the language of the sublime rather than a report of surfaces. The bridge from descriptive painting to **expressive atmosphere**.
 
-## Subtopics
-- The four-stage arc: descriptive → optical → expressive → autonomous color
-- One-line profiles: Vermeer, Turner, Monet, Van Gogh, Seurat, Matisse, Kandinsky, Rothko, Riley
-- Theory pipeline: Goethe 1810 → Chevreul 1839 → Rood 1879 → Munsell 1905 → Albers 1963
-- Signature ideas: ultramarine blue-yellow, atmospheric veil, series, complements, pointillé, green line, color-music, vanishing boundaries, optical film
-- Rejections: black ban (Impressionism), mimesis (Post-Impressionism), local color (Fauvism), warm-tonality requirement (Turner)
+#### [[Impressionism|Painting/Movements & Painters/Impressionism]] — capturing fleeting light outdoors
 
-## Cross-References
-- [[Vermeer-Dutch Golden Age]] · [[Romanticism-Turner]] · [[Impressionism]] · [[Post-Impressionism]] · [[Neo-Impressionism-Pointillism]] · [[Fauvism]] · [[Bauhaus]] · [[Color Field]] · [[Op Art]] · [[Newton's Influence on Painters]]
-- [[Composition]] — the principles the movements applied
-- [[Optical vs. Physical Mixture]] — the science behind the dots
+The Impressionists painted **en plein air**, chasing the hour-by-hour shift of sunlight with broken color and complementary shadows instead of black. Monet's haystack and cathedral **series** — many canvases of the same subject at different times — made color a record of light itself, not an inherent property of objects. The most famous entry point if you wonder **"why did painters stop mixing mud on the palette?"**
 
-## Sources
-* "A Comprehensive Overview of Color Vision Mechanisms, Color Spaces, and the Munsell System"
-* "Contemporary Color: Theory and Use" — Steven Bleicher
-* "Color in Art" — John Gage
-* "Theory of Colours" — Johann Wolfgang von Goethe
-* "The Art of Color: The Subjective Experience and Objective Rationale of Color" — Johannes Itten
-* "Interaction of Color" — Josef Albers
-* "A Color Notation" — Albert Henry Munsell
-* "The Science of Paintings" — W. Stanley Taft Jr. and James W. Mayer
+#### [[Neo-Impressionism-Pointillism|Painting/Movements & Painters/Neo-Impressionism-Pointillism]] — dots of pure color mixed in the eye
+
+Seurat placed **tiny touches of unmixed pigment** side by side so the viewer's eye blended them — optical mixture instead of palette mud. Fed by Chevreul's contrast laws and Rood's spinning-disc experiments, Pointillism tried to **reconstruct light scientifically** on the canvas. Essential if you want to understand why dots of blue and yellow can read brighter than the same colors stirred together.
+
+#### [[Post-Impressionism|Painting/Movements & Painters/Post-Impressionism]] — structure, symbol, and the language of the soul
+
+Van Gogh, Gauguin, and Cézanne pushed past Impressionism's moment-to-moment light. Color became **symbol, structure, and inner life** — complementary pairs as emotional force, flat symbolic hues, warm-and-cool modulations that build solid form. The pivot from **recording light** to **using color deliberately**.
+
+#### [[Fauvism|Painting/Movements & Painters/Fauvism]] — color freed from what things "really" look like
+
+The "wild beasts" of 1905 placed **arbitrary, high-chroma color** on trees, faces, and skies — not to describe nature but for dramatic impact. Matisse's flat areas and his famous green line showed that a canvas could find its own color logic. The moment color is **fully liberated from local realism**.
+
+#### [[Bauhaus|Painting/Movements & Painters/Bauhaus]] — color taught as a formal system
+
+At the Bauhaus, Itten, Kandinsky, Klee, and later Albers treated color as an **autonomous design element** — contrasts, spheres, color-to-form assignments, and Albers's lesson that color **deceives continually** depending on its neighbor. A schoolroom chapter: color as **curriculum**, not just expression.
+
+#### [[Color Field|Painting/Movements & Painters/Color Field]] — color as the whole subject
+
+Rothko, Newman, and Reinhardt stripped painting down to **large fields of closely related hue** — soft edges, wall-scale canvases, layered glazes that seem to glow from within. Color is no longer describing anything; it **is** the experience. For anyone who asks **"when did color become the painting?"**
+
+#### [[Op Art|Painting/Movements & Painters/Op Art]] — color that moves because your eye moves
+
+Riley and others built precise patterns that **exploit how the visual system works** — vibrating edges, moiré flicker, afterimages, colors that seem to shift as you look. Color as **physiological event**, not pigment on a subject. The chapter where painting meets **Eye** section science directly.
+
+### How the pieces fit together
+
+Read chronologically and the arc is clear: **match nature** (Vermeer) → **atmosphere and feeling** (Turner) → **light as the subject** (Impressionism, Neo-Impressionism) → **color as expression and structure** (Post-Impressionism, Fauvism) → **color as system and pure experience** (Bauhaus, Color Field, Op Art). **Newton's Influence** runs underneath all of it as the scientific origin of the color wheel and the theory texts — Goethe, Chevreul, Rood, Munsell, Albers — that each generation argued with or adopted.
+
+If you are visiting for the first time: start with **[[Impressionism|Painting/Movements & Painters/Impressionism]]** if you know that name already, **[[Vermeer-Dutch Golden Age|Painting/Movements & Painters/Vermeer-Dutch Golden Age]]** if you want the story from the beginning, or **[[Newton's Influence on Painters|Painting/Movements & Painters/Newton's Influence on Painters]]** if the color wheel and color theory are what brought you here.
+
+## Related pages
+- [[Composition|Painting/Composition]] — the compositional principles these movements applied on the canvas.
+- [[Optical vs. Physical Mixture|Intersections/Optical vs. Physical Mixture]] — why Impressionist broken color and Seurat's dots behave differently from palette mixing.

@@ -3,53 +3,41 @@ title: Painting
 aliases: [Painting]
 sequence: 28
 ---
+### What this section is about
 
-**Scope:** The painting section bridges abstract color theory and the physical reality of applied pigments — how color sustains composition, the chemistry and optics of natural and synthetic pigments, the physical stage (supports, grounds, and brushes), objective pigment analysis via spectral data, and the historical arc of color use from the Old Masters to abstract painting.
+Color theory lives in books and diagrams, but **painters meet color in the studio** — on a prepared surface, with a loaded brush, inside a composition that has to hold together. **This section is about that applied side**: how artists arrange color on a canvas, what they paint on, which brushes do which jobs, which pigments need caution, and how five centuries of painters changed what color could do.
 
-### [[Composition|Painting/Composition]]
-Painting composition treats color as an abstract language supporting the artist's intention rather than merely describing objects. **Contrast** is fundamental: a neutral gray appears warm next to a cool color and cool next to a warm one. The "**mostly, some, and a bit**" formula — one dominant hue or temperature, a supporting secondary hue, and a small contrasting "discord" color — avoids boring equal distributions. A **mother color** (one hue added to every mixture) unifies the canvas, and warm, saturated, light colors **advance** while cool, neutralized, dark colors **recede**, building the illusion of space. Value is the foundation: correct **value structure** precedes successful color transitions.
+The science of pigments themselves lives in the separate **[[Pigments|Pigments]]** section. Each page below goes deep on one studio or history topic; this hub only explains what each one is *for* and where to start.
 
-### [[Supports & Materials|Painting/Supports & Materials]]
-The physical stage of painting: **watercolor paper** (weights 72–400 lb, HP/CP/rough finishes, cotton fiber, sizing, acidity), **oil canvas** (linen vs. cotton duck, animal-glue size, oil ground vs. gesso, stretching keys), and grounds for other media (acrylic primer, pastel tooth, tempera panels, scratchboard). The support is an **"internal light"** — a brilliant white ground reflects photons back through translucent paint for luminosity — while an imprimatura kills the disturbing white to set the value key.
+### The pages, one by one
 
-### [[Brushes|Painting/Brushes]]
-Brush anatomy (hair, ferrule, handle) and hair types — **kolinsky sable** (snap, sharp point, ~$1,500/lb), squirrel, hog bristle with flags, nylon for acrylics. Shapes map to jobs: round, flat, bright, filbert, fan, liner/rigger, mop, badger blender. Medium rules: soft reservoirs with pointed tips for **watercolor**, bristle scrub-in plus sable glazes for **oil**, submerged synthetics for **acrylic**, fine sable for tempera. Brushes are also measuring instruments — MacEvoy's 1" flat is a calibrated water measure.
+#### [[Composition|Painting/Composition]] — how color is arranged on the canvas
 
-### [[Pigment Sources, Composition & Toxicity Reference|Painting/Pigment Sources, Composition & Toxicity Reference]]
-Toxicity follows **chemistry, not color**: cadmiums and cobalts are the flagged families, lead white/verdigris/emerald green the historical poisons. The three exposure routes are behavioral — ingestion (licking brushes), inhalation (spray, sanding, pastel dust), skin (Cu/Ni/Mn/Co sensitizers). **ASTM D4236** and the **ACMI AP/CL seals** regulate labeling, while binders and solvents (turpentine, benzene) often carry more day-to-day risk than the pigment itself.
+Color in a painting is not just "what hue is the sky" — it is **relationships**: warm against cool, dominant against accent, light against dark. This page covers contrast, proportion (mostly / some / a bit), the **mother color** trick for unifying a canvas, and why value structure usually has to work before color can. If you want the **design side** of color — how to make a painting hold together — start here.
 
-### [[Movements & Painters|Painting/Movements & Painters]]
-Art history tracks an evolving understanding of color science, from the mineral palettes of the Old Masters to 20th-century optical experiments. Vermeer used costly natural **ultramarine** and mastered edges (diffraction); the **Impressionists** abandoned local color for the "vibrations" of light, painted complementary-color shadows from Goethe's theory, and serial studies of changing illuminants; **Seurat and Pointillism** applied Chevreul's law of simultaneous contrast with optical dot mixing; **Van Gogh** used bold complementary pairs for emotion while **Cézanne** modulated temperature to construct form; the **Bauhaus** (Itten, Albers) systematized contrasts and demonstrated color relativity; and **Color Field** painters selected colors from defined systems for purely pictorial structure.
+#### [[Supports & Materials|Painting/Supports & Materials]] — what you paint on and on top of
 
-### [[Pigments|Pigments]]
-Pigments are finely divided particulate solids, insoluble in their binding medium, that retain their crystal structure and color by **selective absorption and reflection** — the subtractive mechanism. Their optical performance depends on chemistry, particle size, tinting strength, and crystal form, explored in the pigment pages (see the [[Pigments|Pigments]] section hub for the full index and reference data sheets).
+Before pigment touches canvas, there is a **physical stage**: watercolor paper (weight, texture, cotton vs. cellulose), oil canvas (linen, sizing, gesso vs. oil ground), and the white or tinted **ground** that acts as the painting's built-in light source. The support changes how color looks — a brilliant white ground sends light back through translucent paint; a toned ground sets the value key from the first stroke. Essential if you wonder **why the same blue looks different on different papers**.
 
-### [[Chemistry|Pigments/Chemistry]]
-Pigment chemistry governs optical behavior. The **refractive index** difference between pigment and binder controls opacity — a large difference (Titanium White in oil) creates high scattering and opacity, a small difference (Ultramarine in oil) gives transparency. Grinding **particle size** shifts color: cadmium sulfide is light yellow when finely ground and orange when coarse. Chemical instability is real — sulfur-bearing cadmium pigments can react with lead-based whites to form **black lead sulfides** (*Artists' Pigments*, *The Artist's Handbook*).
+#### [[Brushes|Painting/Brushes]] — the tools that put color down
 
-### [[Natural vs. Synthetic|Pigments/Natural vs. Synthetic]]
-Pigments are either **natural** — minerals (ochre, sienna, earths), plants (madder, indigo), animals (carmine, Indian yellow) — or **synthetic**, the modern "superbrilliant" organics from coal-tar chemistry such as **quinacridones** and **phthalocyanines**, which give higher intensity and permanence than most natural extracts (*The Artist's Handbook*, *A Comprehensive Overview*).
+Brushes differ in hair (sable, hog bristle, synthetic), shape (round, flat, filbert, mop), and the rules each **medium** demands — soft pointed tips for watercolor, stiff bristle for oil scrub-in, synthetics kept wet for acrylic. Brushes are not just applicators; they are measuring and handling instruments. Start here if the **practical toolkit** is what you need before theory.
 
-### [[High-Chroma Synthetics|Pigments/High-Chroma Synthetics]]
-Modern organic colorants like **Phthalocyanine Green (PG7)** and **Quinacridone Magenta (PR122)** achieve very high chroma even at dark levels because their reflectance falls in a narrow spectral band. Their intense tinting strength can overwhelm a mixture and must be managed carefully (*A Comprehensive Overview*, *Color for Science*).
+#### [[Pigment Sources, Composition & Toxicity Reference|Painting/Pigment Sources, Composition & Toxicity Reference]] — which pigments are hazardous and how to work safely
 
-### [[Particle Size-Tinting-Polymorphism|Pigments/Particle Size-Tinting-Polymorphism]]
-Pigment **particle size**, **tinting strength**, and crystal **polymorphism** are the physical variables that set how a pigment appears, scatters light, and drives mixtures in masking and layering.
+Not all paints are equal risk. Cadmiums, cobalts, lead whites, and historical pigments like vermilion and emerald green carry real hazards — but **risk follows chemistry and handling**, not color name. This page maps toxicity by pigment family, the three exposure routes (mouth, lungs, skin), label systems (ASTM, ACMI), and safe studio habits. Visit before assuming "artist grade" means harmless.
 
-### [[Sourcing Real Spectral Data|Pigments/Sourcing Real Spectral Data]]
-Pigments are measured objectively by **reflectance spectrophotometry** (reflectance intensity across 400–700 nm forming a spectral reflectance curve), **elemental analysis** (X-ray fluorescence, XRF, and Proton-Induced X-ray Emission, PIXE), and reference libraries such as the **Munsell Renotation data** that anchor real pigment gamut limits (*The Science of Paintings*, *Artists' Pigments*).
+#### [[Movements & Painters|Painting/Movements & Painters]] — five centuries of painters changing what color could do
 
-## Related Intersections
-* [[Optical vs. Physical Mixture|Intersections/Optical vs. Physical Mixture]]
-* [[Natural Light Gamut vs. Pigment Gamut - Metamerism|Intersections/Natural Light Gamut vs. Pigment Gamut - Metamerism]]
+From Vermeer's quiet realism through Impressionist light, Fauvist liberation, Bauhaus systems, and Color Field abstraction — **how Western painters used color** across movements. This folder has its own orientation hub plus ten movement pages. Start there for **art history**; start with Composition or Supports if you paint yourself.
 
-## Sources
-* "The Principles of Harmony and Contrast of Colours" — Chevreul
-* "Interaction of Color" — Josef Albers
-* "The Art of Color: The Subjective Experience and Objective Rationale of Color" — Johannes Itten
-* "Colour in Art" — John Gage
-* "Color and Meaning" — John Gage
-* "The Artist's Handbook of Materials and Techniques" — Ralph Mayer
-* "Artists' Pigments: A Handbook of Their History and Characteristics" — Robert L. Feller (editor)
-* "Color for Science, Art, and Technology" — Kurt Nassau (editor)
-* "The Science of Paintings" — W. Stanley Taft Jr. and James W. Mayer
+### How the pieces fit together
+
+Think of three layers: **studio practice** (Supports, Brushes, Toxicity) → **color design** (Composition) → **historical context** (Movements & Painters). Pigment chemistry, mixing physics, and spectral measurement live in **[[Pigments|Pigments]]** and **[[Intersections|Intersections]]** — this section assumes you will cross-link when a studio question turns scientific.
+
+If you are visiting for the first time: start with **[[Composition|Painting/Composition]]** if you compose or critique paintings, **[[Supports & Materials|Painting/Supports & Materials]]** or **[[Brushes|Painting/Brushes]]** if you are setting up a studio, **[[Movements & Painters|Painting/Movements & Painters]]** if art history is your entry point, or **[[Pigments|Pigments]]** if the materials themselves are what brought you here.
+
+## Related pages
+- [[Pigments|Pigments]] — the pigment science section: chemistry, natural vs. synthetic, spectral data, and reference sheets.
+- [[Optical vs. Physical Mixture|Intersections/Optical vs. Physical Mixture]] — why mixing on the palette behaves differently from placing colors side by side.
+- [[Color Mixing, Prediction & Color Schemes|Intersections/Color Mixing, Prediction & Color Schemes]] — why paint prediction fails and how painters work around it.

@@ -5,8 +5,6 @@ sequence: 54
 ---
 ![[Pasted image 20260813124251.png]]
 
-**Scope:** The 21 pigment data sheets — each a one-page reference with a swatch, the pigment's chemistry and history, handling attributes (opacity, tinting strength, granulation, drying), lightfastness warnings, and the handprint perspective on its behavior.
-
 ### Whites & Blacks
 - [[PW6 - Titanium White|PW6 — Titanium White]] — rutile/anatase TiO₂, refractive index 2.55/2.71, the most opaque pigment ever made
 - [[PBk6 - Carbon Black|PBk6 — Carbon Black]] — amorphous carbon from Lascaux to Reinhardt's black squares

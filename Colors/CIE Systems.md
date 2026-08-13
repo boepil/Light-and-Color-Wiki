@@ -9,6 +9,12 @@ sequence: 8
 
 The **Commission Internationale de l'Éclairage (CIE)**, or International Commission on Illumination, established the first international standards for the mathematical description of color in **1931**, replacing subjective color naming with a rigorous, coordinate-based framework that allows precise color matching across industries and devices (**Contemporary Color**, **Color Management**).
 
+### From measured light to CIE numbers
+
+These coordinate systems rest on **physical measurement**, not abstract math alone. A spectrophotometer or spectroradiometer records reflectance or emitted power across wavelengths; those spectra are then weighted by the standard observer's color matching functions and summed into **X, Y, Z** tristimulus values. That is why a single RGB swatch or masstone chip is never enough — the full **spectral fingerprint** carries the information that survives a change of illuminant or device.
+
+The complete pipeline — color matching experiments, the photopic luminosity function **V(λ)**, and the integration formula — is covered in **[[Color Matching Functions and the Photopic Luminosity Function|Color Matching Functions and the Photopic Luminosity Function]]**. The **instruments, reference datasets, and measurement caveats** catalogued for this wiki are in **[[Data & Methodology|Data & Methodology]]**.
+
 ### 1. The Founding of CIE 1931 and Color-Matching Experiments
 
 Before 1931, color specification relied on subjective visual identification, leading to inconsistent manufacturing standards. To resolve this, the CIE conducted **color-matching experiments** in which human observers viewed a split circular field:

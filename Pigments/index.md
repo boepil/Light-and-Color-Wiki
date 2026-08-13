@@ -5,58 +5,61 @@ sequence: 44
 ---
 ![[Pasted image 20260811150718.png]]
 
-**Scope:** Pigments — the corporeal agents of surface color: definition, the four families, their place in color science, and the natural-to-synthetic arc.
+### What this section is about
 
-### Defining Pigments
+Every color you see on a painted wall, a printed page, or a canvas comes from **pigment** — tiny solid particles that absorb some wavelengths of light and reflect others. Unlike dyes, which dissolve, pigments stay as particles suspended in a binder (oil, gum, acrylic emulsion, and so on). **This section is about those particles**: what they are made of, how natural earths differ from modern synthetics, why grinding and binder choice change the color, and how scientists measure a pigment's true fingerprint.
 
-Pigments are "the physical agents of color in art and industry" — the "corporeal" basis of surface color (*A Comprehensive Overview...*).
+Each page below goes deep on one topic. This hub only explains what each one is *for* and where to start.
 
-- **Pigment vs. dye:** a pigment is "a finely divided, colored particulate solid that is insoluble in the medium (vehicle) in which it is used"; unlike dyes, "pigments retain their crystal or particulate structure throughout the coloration process" (*A Comprehensive Overview..., The Science of Paintings*).
-- **The four families:**
-  - **Inorganic earths** — native minerals (ochre, umber, sienna), in use since prehistoric cave paintings (*The Science of Paintings*).
-  - **Synthetic inorganics** — artificially prepared mineral colors, often made with strong heat: cadmium yellow, zinc oxide, titanium white (*The Science of Paintings*).
-  - **Organic lakes** — a dye "precipitating or fixing" onto an inert base such as alumina hydrate or blanc fixe (*Ralph Mayer*).
-  - **Modern organics** — high-performance synthetics (phthalocyanines, quinacridones) whose conjugated systems make "a diffuse electron cloud capable of intense color transitions" (*A Comprehensive Overview...*).
+### The pages, one by one
 
-### Pigments in Color Science
+#### [[Chemistry|Pigments/Chemistry]] — why a pigment is the color it is
 
-- **Reflectance spectra:** pigments determine a surface's reflectance spectrum — "the invariant physical property defined by the percentage of incident light reflected at each wavelength"; a red pigment "absorbs most wavelengths while reflecting those at the long-wave end" (*The Science of Paintings*, *A Comprehensive Overview...*).
-- **Gamuts and the color tree:** real pigments are not "ideal" — "unwanted absorptions" make the mixed-color gamut "an irregularly shaped volume known as the 'color tree'", the "physical limits of achievable object colors" (*A Comprehensive Overview..., Color for Science, Art and Technology*).
-- **Metamerism:** pigments are "the reality behind metameric pairs" — two surfaces matching under one light and differing under another because their reflectance curves differ; "common when matching traditional pigments with modern synthetic counterparts during restoration" (*A Comprehensive Overview..., The Science of Paintings*).
+Pigment color comes from **chemistry** — how electrons in the crystal interact with light. Inorganic pigments use metal ions; modern organics use conjugated molecular structures that absorb sharply in one part of the spectrum. This page explains why some pigments fade, why cadmium can blacken next to lead white, and why **spectral purity** (reflecting only the wavelengths you want) is the secret of vivid color. Start here for the **molecular foundation**.
 
-### The Historical Arc
+#### [[Natural vs. Synthetic|Pigments/Natural vs. Synthetic]] — earths, plants, and the 19th-century color explosion
 
-- **Natural to synthetic:** from prehistoric earths and charred bone through **Prussian blue (1704)** and the 19th-century cadmium, chrome, and synthetic ultramarine — "brightness previously unattainable" (*The Science of Paintings*).
-- **Today:** pigment identification turned forensic — titanium white or cadmium red "instantly date a painting to the 20th century"; frontiers are high-performance organic lightfastness and "environmentally friendly, non-toxic materials" replacing lead white and mercury vermilion (*The Science of Paintings*, *A Comprehensive Overview...*).
+For most of history, painters used **ground minerals, plant extracts, and animal sources** — ochre from caves, ultramarine from lapis lazuli, madder root, cochineal insects. The 19th century brought **factory-made synthetics** — Prussian blue (1704), cadmium yellow, synthetic ultramarine, aniline dyes — colors brighter and cheaper than nature could supply. This page traces that transition and what was gained and lost.
 
-## Handprint Perspectives
+#### [[High-Chroma Synthetics|Pigments/High-Chroma Synthetics]] — the modern super-pigments
 
-MacEvoy's entire color website is an argument that pigments — "the color materials, the paints themselves" — are the discipline's true ground: the great painter is not the theorist of wheels but the master of materials' handling attributes, and every empirical claim he publishes (gamut charts, value scales, spectral data) is anchored in measured paint behavior rather than hue-label dogma. His historical arc matches the corpus: the 19th century's new chemicals answered "a rising demand for dramatically colored paintings," at first outrunning the lightfastness standards that later chapters enforced *(Source: [[raw_sources/handprint/color18b.md|color18b.html]], [[raw_sources/handprint/pigmt6.md|pigmt6.html]], [[raw_sources/handprint/pigmt8.md|pigmt8.html]])*.
+**Phthalocyanines** (intense blues and greens) and **quinacridones** (permanent magentas and violets) are the backbone of modern vivid paint — narrow absorption bands that stay saturated even at dark values. They also **overwhelm mixtures** if you use too much. Essential if you wonder why a speck of phthalo blue dominates a whole pile of yellow.
 
-## Subtopics
-- Pigment vs. dye: insoluble crystal-retaining particulate
-- The four families: earths, synthetic inorganics, lakes, modern organics
-- Reflectance spectra, the color tree, and pigment metamerism
-- Arc: prehistory → Prussian blue 1704 → cadmium/chrome/ultramarine → non-toxic frontiers
-- Forensic dating: titanium white / cadmium red as 20th-century fingerprints
+#### [[Particle Size-Tinting-Polymorphism|Pigments/Particle Size-Tinting-Polymorphism]] — grinding, opacity, and crystal form
 
-## Cross-References
-- [[Chemistry]] — the mechanisms behind the families
-- [[Natural vs. Synthetic]] — the material transition
-- [[High-Chroma Synthetics]] — the modern frontier
-- [[Particle Size-Tinting-Polymorphism]] — the physics of powders
-- [[Sourcing Real Spectral Data]] — how pigments are measured
-- [[Media, Vehicles & Solvents]] — the binders and solvents that carry them
-- [[Transparency, Opacity & Pigment Codes]] — hiding power and how to read a label
-- [[The artist's color wheel|Pigment Color Wheel]] — real pigments plotted by measured hue/chroma
-- [[Pigments/Reference/index|Pigment Reference]] — the 21 data sheets
-- [[Pointer's Gamut]] — real pigment limits in CIE space
+The same chemical can look different depending on **how finely it is ground**, how strongly it tints a mixture, and which **crystal form** it crystallizes in — fine cadmium yellow vs. coarse orange, transparent ultramarine vs. opaque titanium white. Physical variables that explain why two tubes labeled "the same pigment" can behave differently in the studio.
 
-## Sources
-* "A Comprehensive Overview of Color Vision Mechanisms, Color Spaces, and the Munsell System"
-* "The Science of Paintings" — W. Stanley Taft Jr.
-* "Ralph Mayer — The Artist's Handbook of Materials and Techniques" — Ralph Mayer
-* "Color for Science, Art and Technology"
-* "The Material Supremacy of Green Chroma"
-* "Why Material Reality Favors Green Over Red: The Physical Chemistry of Chromatic Limits"
-* "Contemporary Color: Theory and Use" — Steven Bleicher
+#### [[Media, Vehicles & Solvents|Pigments/Media, Vehicles & Solvents]] — the binders that carry pigment
+
+A pigment is never alone — it lives in a **medium**: gum arabic for watercolor, linseed oil for oil paint, polymer emulsion for acrylic, egg yolk for tempera. The binder changes refractive index, drying, transparency, and the final color. The same pigment reads differently in oil vs. watercolor because the **vehicle** changes how light travels through the film.
+
+#### [[Transparency, Opacity & Pigment Codes|Pigments/Transparency, Opacity & Pigment Codes]] — hiding power and how to read a label
+
+Some pigments cover everything beneath them (**opaque**); others let the ground shine through (**transparent**). Labels carry **Colour Index** codes (PB15, PR108), series numbers, and lightfastness ratings — but manufacturer claims vary. This page explains how to decode a tube and why opacity is a physics problem, not just a marketing word.
+
+#### [[Sourcing Real Spectral Data|Pigments/Sourcing Real Spectral Data]] — measuring a pigment's true fingerprint
+
+Instead of trusting a printed swatch, color science **measures reflectance** across the visible spectrum — a curve unique to each pigment batch. That data powers gamut maps, restoration matching, and even **forensic dating** (titanium white or cadmium red can place a painting in the 20th century). The bridge from studio material to the measurement systems in **Colors**.
+
+#### [[The artist's color wheel|Pigments/The artist's color wheel]] — real pigments on a wheel, not ideal primaries
+
+MacEvoy's artist color wheel plots **actual tube pigments** by measured hue and vividness — a landscape of clusters and gaps, not the tidy red-yellow-blue school diagram. Shows where real paints live relative to each other and why no wheel captures every pigment.
+
+#### [[Florent Farges' Color Theory for Artists|Pigments/Florent Farges' Color Theory for Artists]] — a modern pigment-placement system for painters
+
+Farges' system arranges pigments on a fixed hue circle at three chroma tiers, with a **color strings** mixing workflow built for the paints artists actually own. A contemporary studio-oriented complement to Munsell and the MacEvoy wheel.
+
+#### [[Reference|Pigments/Reference/index]] — twenty-one pigment data sheets
+
+Individual reference pages for common pigments — chemistry, history, handling notes, and lightfastness warnings per color (titanium white, cadmium yellow, ultramarine, phthalo blue, and others). Visit when you need **one pigment's full profile**, not the general theory.
+
+### How the pieces fit together
+
+Follow the material from nature to measurement: **Natural vs. Synthetic** (where pigments come from) → **Chemistry** (why they have their color) → **Particle Size** and **Media** (why the same pigment behaves differently in use) → **High-Chroma Synthetics** (the modern vivid end) → **Transparency & Codes** (choosing and reading tubes) → **Spectral Data** (objective measurement) → **Color wheels** (Farges, MacEvoy) and **Reference sheets** (individual pigments).
+
+If you are visiting for the first time: start with **[[Natural vs. Synthetic|Pigments/Natural vs. Synthetic]]** for the historical story, **[[Chemistry|Pigments/Chemistry]]** if you want the science foundation, **[[Transparency, Opacity & Pigment Codes|Pigments/Transparency, Opacity & Pigment Codes]]** if you are buying paint right now, or **[[Reference|Pigments/Reference/index]]** if you already know which pigment you need to look up.
+
+## Related pages
+- [[Painting|Painting]] — composition, supports, brushes, and the art-history arc.
+- [[Natural Light Gamut vs. Pigment Gamut - Metamerism|Intersections/Natural Light Gamut vs. Pigment Gamut - Metamerism]] — why pigments cannot reach every color nature shows, and when two paints match in one light but not another.
+- [[Pointer's Gamut|Colors/Gamuts/Pointer's Gamut]] — the measured record of the most colorful real-world surfaces.

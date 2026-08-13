@@ -6,51 +6,56 @@ sequence: 76
 
 ![[Pasted image 20260811184728.png]]
 
-**Scope:** The cross-cutting pages where the four sections meet — the causal chain from pigment reflectance through CIE colorimetry to perception, gamut and metamerism comparisons, mixture physics, perceptual phenomena, uniform color spaces, color psychology, and the neuroscience of color.
+### What this section is about
 
-### [[Causal Chain - Pigments to Perception|Intersections/Causal Chain - Pigments to Perception]]
-Perception begins with a surface's **reflectance spectrum** — the invariant physical property giving the percentage of photons reflected at each wavelength. The CIE system (established 1931) converts this infinite spectral data into three coordinates (X, Y, Z) by integrating it against the color-matching functions and the **photopic luminosity function V(λ)**, which peaks near **555 nm** in the yellow-green — human lightness perception is tied to the system's peak spectral efficiency. The chain runs reflectance → V(λ) → Pointer's Gamut bounds → opponent channels → the perceived asymmetry of chromatic experience (*A Comprehensive Overview of Color Vision Mechanisms, Color Spaces, and the Munsell System*, *The Science of Paintings*, *Why Material Reality Favors Green Over Red: The Physical Chemistry of Chromatic Limits*, *Vision Science: Photons to Phenomenology*).
+The wiki is organized into sections — **Light**, **Eye**, **Colors**, **Painting**, and **Pigments** — each going deep on one part of the story. **Real color questions almost never stay inside one section.** Why does mixed paint turn muddy but dots of pure color on a canvas can look bright? Why can two paints match under your studio lamp but look different in daylight? Why does a gray patch look pinkish next to green?
 
-### [[Color Psychology & Symbolism|Intersections/Color Psychology & Symbolism]]
-Color's emotional and symbolic claims divide sharply by evidence quality: controlled studies (with failed replications, e.g. the red-light effect) versus doctrine and anecdote. Warm/cool thermal response has thin but real physiological evidence — red-orange rooms felt cold only at 52 °F while blue-green rooms felt cold at 59 °F — yet "warm colors advance" has remained an unproven 200-year convention. Symbolism is strongly culture-bound: white means life in Ndembu ritual but ghosts and death elsewhere. Kandinsky's sound-color maps are pseudo-synesthetic doctrine, and much mood research conflates hue with value and chroma (*Color in Art*, *The Art of Color*, *color-for-science-art-and-technology.pdf*).
+**Intersections** holds the pages that follow those questions across section boundaries. Each page below connects two or more areas; this hub only explains what each one is *for* and where to start.
 
-### [[Color Matching Functions and the Photopic Luminosity Function|Intersections/Color Matching Functions and the Photopic Luminosity Function]]
-The 1931 CIE matching experiment used monochromatic primaries at **700 / 546.1 / 435.8 nm**; the red primary required negative matching amounts, forcing the imaginary X, Y, Z primaries. The photopic luminosity function **V(λ) ≡ ȳ** peaks at ~555 nm, was first measured by flicker photometry, and is deficient in the 1924 blue region (corrected by Judd–Vos 1988). Tristimulus integration X = k·Σ P·x̄·R·Δλ turns physical spectra into color coordinates (*A Comprehensive Overview...*, *Color Management*, *Vision Science: Photons to Phenomenology*).
+### The pages, one by one
 
-### [[Natural Light Gamut vs. Pigment Gamut - Metamerism|Intersections/Natural Light Gamut vs. Pigment Gamut - Metamerism]]
-Natural light occupies a spectral state space far larger than any pigment set, and material reality is systematically skewed: greens reach **Chroma ~34** in Munsell while reds peak near **20**, because the V(λ) peak at 555 nm lets greens hold high lightness and high purity together — physically impossible for reds. Because vision reduces spectra to three values, **metamerism** is unavoidable: different reflectance curves give identical cone responses under one illuminant but diverge under another — curves of metameric pairs intersect at three or more wavelengths, a reality central to art restoration (*A Comprehensive Overview...*, *Color Management*, *The Science of Paintings*, *Why Material Reality Favors Green Over Red*).
+#### [[Causal Chain - Pigments to Perception|Intersections/Causal Chain - Pigments to Perception]] — the full story in one chain
 
-### [[Optical vs. Physical Mixture|Intersections/Optical vs. Physical Mixture]]
-Additive mixture (RGB) superposes light to a lighter result (full intensity → white); subtractive mixture (CMY) removes wavelengths (ideally → black). The traditional **RYB** model is a historical approximation that fails against the optimal subtractive primaries (CMY), each absorbing exactly one-third of the spectrum for a wider gamut. Optical (spatial) mixture — the Pointillists' adjacent dots of pure color merging on the retina — preserves saturation that palette blending destroys (*A Comprehensive Overview...*, *Contemporary Color*, *Interaction of Color*, *The Art of Color*, *The Science of Paintings*).
+The end-to-end path from a physical surface to what you experience: light bouncing off a pigment, the eye's sensitivity to different wavelengths, the limits of real-world color, and the brain's opponent color channels. If you want one page that ties the whole wiki together, start here.
 
-### [[Color Mixing, Prediction & Color Schemes|Intersections/Color Mixing, Prediction & Color Schemes]]
-Paint mixing follows subtractive multiplicative filtering ($R_{mix} = R_1 \times R_2$), tracing **curved paths** inward toward gray. Physical prediction fails because of cumulative light absorption ("mud"), value/tinting strength dominance, refractive-index gaps ($\Delta n$), handling, and metamerism. Color scheme geometries (monochromatic, complementary, triadic) are descriptive conventions; Munsell proved true harmony requires 3D **value-neutrality** balancing at the neutral axis. In practice, painters manage prediction via complementary underpainting (verdaccio), limited palettes ("mother color"), and pre-mixed color strings (*Color for Science, Art and Technology*, *A Comprehensive Overview...*, *The Science of Paintings*, *Interaction of Color*, *The Art of Color*, *Color by Betty Edwards*, *A Color Notation*).
+#### [[Color Matching Functions and the Photopic Luminosity Function|Intersections/Color Matching Functions and the Photopic Luminosity Function]] — how the eye's sensitivity becomes a number
 
-### [[Light Falloff, Inverse-Square Law & Color Accentuation|Intersections/Light Falloff, Inverse-Square Law & Color Accentuation]]
-The **inverse-square law ($E = I / r^2$)** governs light falloff across a painted scene — steep falloff near point sources (candle, studio bulb) creates rapid value contrast, while extended sources (windows, skylight) diffuse soft, enveloping gradients. Under the **form principle**, peak chroma and local color identity live in the **halftone** (turning form), because highlights wash out color to specular white glare and deep shadows starve cone channels. Masters like Caravaggio (tenebrism) and Rembrandt (chiaroscuro) used dark grounds and steep falloff to make focal hues "pop," while Monet and Vermeer exploited **sky-fill colored shadows** and **edge halation/diffraction** to amplify chromatic resonance (*Carlson's Guide*, *Devin Korwin Creative Fundamentals*, *The Art of Color*, *The Science of Paintings*, *Illusions of Seeing*).
+Connects **Light** and **Eye**: physical light is not weighted equally by the human visual system — we are most sensitive to yellow-green, less to deep red and violet. This page explains how that uneven sensitivity was measured and why it sits at the center of every color-measurement standard in **Colors**.
 
-### [[Simultaneous Contrast, Color Constancy, Afterimages, Subtractive vs. Additive Mixing|Intersections/Simultaneous Contrast, Color Constancy, Afterimages, Subtractive vs. Additive Mixing]]
-Simultaneous contrast is physiological equilibrium-seeking: the eye generates the complement of a hue, shifting a neutral gray toward the background's complement. Color constancy recovers invariant reflectance (a rose reads red under blue sky and tungsten alike) despite massive illuminant shifts. Afterimages follow retinal fatigue — after 30–60 s fixation, "white minus the fatigue-color" appears. In painting these effects make color a durational experience as the eye tires and generates supplementary colors (*A Comprehensive Overview...*, *Illusions of Seeing*, *The Science of Paintings*, *Vision Science: Photons to Phenomenology*).
+#### [[Natural Light Gamut vs. Pigment Gamut - Metamerism|Intersections/Natural Light Gamut vs. Pigment Gamut - Metamerism]] — when nature outruns paint, and when two colors look the same but aren't
 
-### [[Why Lab-Munsell Were Built for Perceptual Uniformity|Intersections/Why Lab-Munsell Were Built for Perceptual Uniformity]]
-CIE xy is not visually uniform: in Munsell terms the blue gap **5B–5PB** spans 1.0 unit of xy distance while **5G–5GY** spans 3.86. Munsell (1905) built equal perceptual steps in Hue/Value/Chroma, later fixed numerically by the 1943 Renotation from millions of judgments; CIELAB (1976) supplies an opponent-color space where one unit ≈ one just-noticeable difference. Uniformity is uneven — human hue sensitivity exceeds lightness sensitivity, especially in dark blues — driving CMC/CIE94 refinements (*A Comprehensive Overview...*, *Ordering Colour: Albert Henry Munsell (1858–1918)*, *A Color Notation*, *Vision Science: Photons to Phenomenology*).
+Connects **Painting**, **Light**, and **Colors**: natural light and real surfaces can reach colors no pigment set can match — and greens often go further than reds for physical reasons, not artistic preference. **Metamerism** (say "meh-TAM-er-ism") is when two different materials look identical under one light but diverge under another, because the eye reads the whole spectrum down to three signals. Essential for anyone wondering why matching paint is harder than it looks.
 
-### [[The Neuroscience Behind Why Colours Rewire Your Brain|Intersections/The Neuroscience Behind Why Colours Rewire Your Brain]]
-Color flows through opponent channels (red–green, blue–yellow, luminance) into dedicated but plastic cortex: V1 color blobs and double-opponent cells → hV4/VO1-VO2 → anterior object-color regions. Perceptual learning changes early evoked responses, colour naming warps the population-level "neural color space" into categorical clusters, memory colors feed back onto perception, and synesthesia leaves structural traces in V4 — while Firestone–Scholl caution that strong top-down claims remain contested. Categorical color is biologically rooted: Berlin & Kay (1969) found languages add color terms in a universal sequence (black/white → red → …) (*vision-science-photons-to-pheno*, *color-for-science-art-and-technology.pdf*, *Color in Art*, *Carlson's Guide to Landscape Painting*).
+#### [[Optical vs. Physical Mixture|Intersections/Optical vs. Physical Mixture]] — mixing on the palette vs. mixing in the eye
 
-## Sources
-* "A Comprehensive Overview of Color Vision Mechanisms, Color Spaces, and the Munsell System"
-* "The Science of Paintings" — W. Stanley Taft Jr. and James W. Mayer
-* "Vision Science: Photons to Phenomenology" — Stephen E. Palmer
-* "Why Material Reality Favors Green Over Red: The Physical Chemistry of Chromatic Limits"
-* "Color Management: A Comprehensive Guide for Graphic Designers" — John Drew and Sarah Meyer
-* "Contemporary Color: Theory and Use" — Steven Bleicher
-* "Interaction of Color: 50th Anniversary Edition" — Josef Albers
-* "The Art of Color: The Subjective Experience and Objective Rationale of Color" — Johannes Itten
-* "Illusions of Seeing" — Thomas Ditzinger
-* "Color for Science, Art, and Technology" — Kurt Nassau (editor)
-* "Ordering Colour: Albert Henry Munsell (1858-1918)" — The Eclectic Light Company
-* "A Color Notation" — Albert H. Munsell
-* "Color in Art" — John Gage
-* "Carlson's Guide to Landscape Painting" — John F. Carlson
-* "Where did the Warm/Cool Thing Come From? (Color Theory History)"
+Connects **Painting** and **Eye**: stirring two paints together is not the same as placing two colors side by side so your eye blends them. Light mixing (screens, Pointillist dots) and paint mixing follow different rules — and the familiar red-yellow-blue school palette is not the same as the wider cyan-magenta-yellow system printers use. This page explains why your blue and yellow paint may not make the green you expect.
+
+#### [[Color Mixing, Prediction & Color Schemes|Intersections/Color Mixing, Prediction & Color Schemes]] — why paint mixing is hard to predict, and how painters cope
+
+Connects **Painting**, **Pigments**, and **Colors**: why three pigments often turn to mud, why a tiny amount of phthalo blue overwhelms a tube of cadmium yellow, and why geometric "color scheme" rules on a flat wheel miss the lightness dimension Munsell built in. Also covers practical studio strategies — limited palettes, underpainting, pre-mixed color strings — that artists use when the math stops being trustworthy.
+
+#### [[Light Falloff, Inverse-Square Law & Color Accentuation|Intersections/Light Falloff, Inverse-Square Law & Color Accentuation]] — why color lives in the middle tones, not the highlights
+
+Connects **Light** and **Painting**: light fades with distance, shadows are rarely empty black, and the most vivid local color usually sits in the **halftone** — the turning form between bright highlight and deep shadow — not in the glare or the dark. Covers chiaroscuro, colored shadows filled by sky light, and why masters from Caravaggio to Vermeer placed their strongest hues where the form turns.
+
+#### [[Simultaneous Contrast, Color Constancy, Afterimages, Subtractive vs. Additive Mixing|Intersections/Simultaneous Contrast, Color Constancy, Afterimages, Subtractive vs. Additive Mixing]] — the tricks perception plays on color
+
+Connects **Eye** and **Painting**: a gray looks different on a red ground than on a green one (**simultaneous contrast**); a white sheet still reads as white under warm tungsten and cool daylight (**color constancy**); staring at a strong hue leaves a ghost of its opposite (**afterimages**). These are not flaws — they are how the visual system works, and they matter enormously to anyone mixing or judging color.
+
+#### [[Why Lab-Munsell Were Built for Perceptual Uniformity|Intersections/Why Lab-Munsell Were Built for Perceptual Uniformity]] — when equal steps in the numbers don't look equal to the eye
+
+Connects **Eye** and **Colors**: early color charts distorted distance — a step in blue might look tiny while the same step in green looked huge. Munsell and later Lab spaces were engineered so that equal steps in the numbers feel like equal steps in appearance. This page explains why those systems exist and what "perceptual uniformity" actually means in everyday terms.
+
+#### [[Color Psychology & Symbolism|Intersections/Color Psychology & Symbolism]] — what color "means," and what the evidence actually supports
+
+Connects **Painting** and **Eye** (and culture): red rooms, mood branding, Kandinsky's color-to-sound maps, warm-versus-cool conventions — which claims hold up in controlled studies, which are cultural habit, and which conflate hue with lightness and vividness. A skeptical tour of color symbolism and emotion, not a doctrine page.
+
+#### [[The Neuroscience Behind Why Colours Rewire Your Brain|Intersections/The Neuroscience Behind Why Colours Rewire Your Brain]] — what actually changes in the brain when you live with color
+
+Connects **Eye** and higher-level perception: dedicated color circuits in the cortex, how practice and language can reshape color categories, memory colors feeding back on what you see, and synesthesia — alongside the limits of headline claims that color permanently "rewires" the brain.
+
+### How the pieces fit together
+
+These pages are not a linear course — they radiate from the same central question: **how does physical light become lived color, and where do materials, measurement, and perception pull apart?** The **Causal Chain** is the best single overview. **Color Mixing** and **Light Falloff** speak most directly to painters. **Simultaneous Contrast** and **Metamerism** answer the "why does this look different than I expected?" moments. **Lab-Munsell** and **Color Matching Functions** bridge biology to the number systems in **Colors**.
+
+If you are visiting for the first time: start with **[[Causal Chain - Pigments to Perception|Intersections/Causal Chain - Pigments to Perception]]** for the big picture, **[[Color Mixing, Prediction & Color Schemes|Intersections/Color Mixing, Prediction & Color Schemes]]** if you paint, or **[[Simultaneous Contrast, Color Constancy, Afterimages, Subtractive vs. Additive Mixing|Intersections/Simultaneous Contrast, Color Constancy, Afterimages, Subtractive vs. Additive Mixing]]** if perceptual surprises are what brought you here.
