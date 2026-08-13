@@ -1,6 +1,6 @@
 ---
 title: Simultaneous Contrast, Color Constancy, Afterimages, Subtractive vs. Additive Mixing
-sequence: 82
+sequence: 84
 ---
 ![[Pasted image 20260809130837.png]]
 
