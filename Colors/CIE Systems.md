@@ -5,68 +5,68 @@ sequence: 8
 
 ![[images/ChatGPT Image Aug 6, 2026, 02_26_10 PM.png]]
 
-**Scope:** Overview of CIE coordinate systems including the xy diagram, XYZ, and Lab spaces.
+**Scope:** The international number system for color — how the CIE turned "how the average human eye responds to light" into coordinates any lab, factory, or screen can share, from the classic xy map to the modern Lab space.
 
-The **Commission Internationale de l'Éclairage (CIE)**, or International Commission on Illumination, established the first international standards for the mathematical description of color in **1931**, replacing subjective color naming with a rigorous, coordinate-based framework that allows precise color matching across industries and devices (**Contemporary Color**, **Color Management**).
+The **Commission Internationale de l'Éclairage (CIE)** — the International Commission on Illumination — established the first international standards for putting color into numbers in **1931**, replacing subjective color names with a rigorous coordinate framework that allows precise color matching across industries and devices (**Contemporary Color**, **Color Management**). If there is an "official ruler" for color, this is it.
 
 ### From measured light to CIE numbers
 
-These coordinate systems rest on **physical measurement**, not abstract math alone. A spectrophotometer or spectroradiometer records reflectance or emitted power across wavelengths; those spectra are then weighted by the standard observer's color matching functions and summed into **X, Y, Z** tristimulus values. That is why a single RGB swatch or masstone chip is never enough — the full **spectral fingerprint** carries the information that survives a change of illuminant or device.
+These coordinates rest on **physical measurement**, not abstract math. A spectrophotometer or spectroradiometer records how much light a surface reflects (or a source emits) at each wavelength; those measurements are then weighted by the standard observer's color-matching functions and summed into the **X, Y, Z** tristimulus values. That is why a single RGB swatch or paint chip is never enough — the full **spectral fingerprint** is what survives a change of lighting or device.
 
-The complete pipeline — color matching experiments, the photopic luminosity function **V(λ)**, and the integration formula — is covered in **[[Color Matching Functions and the Photopic Luminosity Function|Color Matching Functions and the Photopic Luminosity Function]]**. The **instruments, reference datasets, and measurement caveats** catalogued for this wiki are in **[[Data & Methodology|Data & Methodology]]**.
+The complete pipeline — color-matching experiments, the photopic luminosity function **V(λ)**, and the integration formula — is covered in **[[Color Matching Functions and the Photopic Luminosity Function|Color Matching Functions and the Photopic Luminosity Function]]**. The **instruments, reference datasets, and measurement caveats** catalogued for this wiki are in **[[Data & Methodology|Data & Methodology]]**.
 
-### 1. The Founding of CIE 1931 and Color-Matching Experiments
+### 1. How the CIE built its standard (1931)
 
-Before 1931, color specification relied on subjective visual identification, leading to inconsistent manufacturing standards. To resolve this, the CIE conducted **color-matching experiments** in which human observers viewed a split circular field:
+Before 1931, specifying a color meant describing it by eye, which made manufacturing inconsistent. To fix this, the CIE ran **color-matching experiments** in which observers looked at a split circular field:
 
-- **The task:** one half displayed a "test" spectral color (a specific wavelength); the observer adjusted the intensities of three primary lights — **Red (700 nm)**, **Green (546.1 nm)**, and **Blue (435.8 nm)** — on the other half to create a visual match.
-- **The standardization:** averaging the results of multiple observers with normal color vision produced the **Color Matching Functions**, which define the amount of each primary required to match any wavelength of the visible spectrum.
+- **The task:** one half showed a "test" spectral color (one specific wavelength); the observer adjusted the intensities of three primary lights — **red (700 nm)**, **green (546.1 nm)**, and **blue (435.8 nm)** — on the other half until both sides matched.
+- **The result:** averaging many observers with normal color vision produced the **color-matching functions**, which state how much of each primary is needed to match any wavelength of the visible spectrum.
 
-### 2. The CIE XYZ System and Imaginary Primaries
+### 2. The XYZ system and its "imaginary" primaries
 
-A critical discovery of these experiments was that **real RGB primaries cannot match every spectral color**. For certain highly saturated wavelengths (particularly in the blue-green region), a primary had to be added to the *test color* side of the field to achieve a match — mathematically, **negative values** in the RGB color-matching functions.
+A critical discovery was that **real RGB primaries cannot match every spectral color**. For certain highly saturated wavelengths (especially in the blue-green region), a primary had to be added to the *test color* side to achieve a match — which mathematically meant **negative values**.
 
-- **Imaginary primaries (X, Y, Z):** to eliminate negative numbers and simplify industrial calculation, the CIE created a new set of **mathematical primaries**, X, Y, and Z. They are "imaginary" in that they cannot be physically produced, but they are positioned in color space so that all visible colors are described with positive values.
-- **Representations:**
-  - **Y (luminance):** the Y value is specifically defined to match the human eye's **luminous efficiency function (V(λ))**, representing the perceived lightness or "brightness" of a color.
-  - **X and Z:** the remaining chromatic information defining the color's hue and saturation.
+- **Imaginary primaries (X, Y, Z):** to eliminate negative numbers and simplify calculation, the CIE invented a new set of **mathematical primaries**, X, Y and Z. They are "imaginary" in the sense that no device can produce them directly, but they are positioned so that every visible color is described by positive values.
+- **What each one means:**
+  - **Y (luminance)** is deliberately set to match the eye's **luminous efficiency function V(λ)** — it carries the perceived *lightness* or brightness.
+  - **X and Z** carry the remaining chromatic information — the hue and vividness.
 
-### 3. Standard Observers: 2° (1931) vs. 10° (1964)
+### 3. The two standard observers: 2° (1931) and 10° (1964)
 
-The CIE defines "Standard Observers" according to the size of the visual field used in the matching experiments:
+The CIE defines "standard observers" according to how wide the visual field was in the matching experiments:
 
-- **1931 2° Standard Observer:** based on a field of view covering a **2° angle**, roughly the size of a **dime at arm's length**. This small field focuses the stimulus on the **fovea**, the retinal region with the highest cone concentration and no rods.
-- **1964 10° Supplemental Standard Observer:** added because humans often view color in larger fields where receptor distribution differs from the central fovea. It more closely approximates **industrial viewing conditions** and is the standard for most modern colorimetric calculations.
+- **1931 2° Standard Observer** — based on a field covering a **2° angle**, roughly the size of a **dime held at arm's length**. That small field lands on the **fovea**, the region of the retina with the densest cones and no rods.
+- **1964 10° Supplemental Standard Observer** — added because we usually look at larger color fields, where the receptor mix differs from the central fovea. It approximates **industrial viewing conditions** and is the standard for most modern colorimetry.
 
-### 4. The xy Chromaticity Diagram
+### 4. The xy chromaticity diagram (the "color map")
 
-The three-dimensional XYZ values are often projected into a two-dimensional **xy chromaticity diagram** to visualize color independent of lightness:
+The three XYZ numbers are often projected into a 2D **xy chromaticity diagram** so color can be visualized apart from lightness:
 
-- **Derivation:** the coordinates are calculated as ratios: **x = X/(X+Y+Z)** and **y = Y/(X+Y+Z)**.
-- **Spectral locus:** the curved, horseshoe-shaped boundary represents the **pure spectral colors** (monochromatic light), ranging from **380 nm** (violet) to **780 nm** (red).
-- **Line of purples:** the straight dashed line connecting the ends of the horseshoe represents **non-spectral purples**, which exist not as single wavelengths but as mixtures of red and violet light.
-- **White point:** the center contains the **Equal Energy (Point E)** white point, though standard illuminants like **D65** (average daylight at 6,500 K) are more commonly used in practice.
+- **How it's drawn:** the coordinates are ratios — **x = X/(X+Y+Z)** and **y = Y/(X+Y+Z)**.
+- **The spectral locus:** the curved, horseshoe-shaped boundary is the **pure rainbow** — monochromatic light from **380 nm** (violet) to **780 nm** (red).
+- **The line of purples:** the dashed line joining the horseshoe's ends represents **purples and magentas**, which exist only as mixtures of red and violet light, never as a single wavelength.
+- **The white point:** the center contains the **Equal Energy (Point E)** white, though real illuminants like **D65** (average daylight, 6,500 K) are more commonly used in practice.
 
-### 5. CIELAB (1976): Perceptual Uniformity and Device Independence
+### 5. CIELAB (1976): a more "honest" space
 
-One major flaw of XYZ is its lack of **perceptual uniformity** — equal distances on the xy diagram do not correspond to equal perceived color differences. To fix this, the CIE introduced **CIELAB** in **1976**:
+A major flaw of XYZ is its **non-uniformity** — equal distances on the xy diagram do not mean equal perceived differences. In **1976** the CIE introduced **CIELAB** to fix this:
 
-- **Opponent framework:** based on Ewald Hering's **opponent-process theory**, CIELAB uses three axes:
+- **Opponent framework:** built on Ewald Hering's **opponent-process theory**, with three axes:
   - **L\*** — lightness (0 = black, 100 = white);
   - **a\*** — redness–greenness;
   - **b\*** — yellowness–blueness.
-- **White point adaptation:** CIELAB calculations include a subscript *n* referring to the tristimulus values of a **standard white diffuser** under a specific illuminant, allowing the system to account for human chromatic adaptation.
-- **ΔE (color difference):** the distance between two points in this space provides a "color difference ruler"; a **ΔE of 1.0** is generally considered the threshold for a commercially acceptable match in the textile industry.
-- **Device independence:** CIELAB acts as a **universal translator** — its values are based on human perception rather than the specific phosphors or inks of a device (unlike RGB or CMYK).
+- **White-point adaptation:** CIELAB accounts for the way your eye adapts to lighting by referencing a **standard white** under the specific illuminant.
+- **ΔE (color difference):** the distance between two points in this space is a "color difference ruler"; a **ΔE of 1.0** is roughly the threshold for a commercially acceptable match in the textile industry.
+- **Device independence:** CIELAB is a **universal translator** — its values are based on human perception rather than any screen's phosphors or a printer's inks (unlike RGB or CMYK).
 
-### 6. Gamuts, MacAdam Ellipses, and Later Developments
+### 6. Gamuts, MacAdam ellipses, and later refinements
 
-- **Gamuts:** a device's **gamut** is the range of colors it can reproduce, often shown as a triangle within the chromaticity diagram.
-- **MacAdam ellipses:** regions on the chromaticity diagram where all colors are perceived as identical to the center color; the varying sizes of these ellipses in XYZ space were the primary motivation for creating more uniform spaces like CIELAB.
-- **Munsell connection:** in **1943**, the **Munsell Renotation** provided precise CIE (Y, x, y) coordinates for the Munsell Color Tree, anchoring that visual system to a mathematical standard.
-- **Later developments:**
-  - **CIELUV (1976):** a companion to CIELAB, primarily used in the **television and video display** industries because it retains a meaningful chromaticity diagram;
-  - **CIECAM:** advanced color appearance models (e.g., **CIECAM97**) further adjust for complex viewing environments and lighting conditions.
+- **Gamuts:** a device's **gamut** is the range of colors it can reproduce, often drawn as a triangle inside the chromaticity diagram.
+- **MacAdam ellipses:** regions on the diagram within which all colors look identical to the center color. Their wildly varying sizes were the primary motivation for building uniform spaces like CIELAB.
+- **The Munsell connection:** in **1943**, the **Munsell Renotation** anchored the Munsell Color Tree to precise CIE (Y, x, y) coordinates, tying that visual system to the mathematical standard.
+- **Later refinements:**
+  - **CIELUV (1976)** — CIELAB's sibling, used mainly in **television and video** because it keeps a meaningful chromaticity diagram;
+  - **CIECAM** — advanced appearance models (e.g., **CIECAM97**) that adjust for complex viewing environments and lighting conditions.
 
 ## Handprint Perspectives
 

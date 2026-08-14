@@ -26,6 +26,8 @@ The range of colors painters can mix is compressed by physical and chemical fact
 
 ### 3. Metamerism: The Consequence of Receptor Sampling
 
+![[Pasted image 20260813175705.png]]
+
 **Metamerism** is the phenomenon where two different spectral power distributions produce the same set of three neural signals (tristimulus values) and thus look identical under a specific light source:
 
 - **Information reduction:** color vision reduces the infinite complexity of the spectrum to just three scalar values (one per cone type — S, M, and L).

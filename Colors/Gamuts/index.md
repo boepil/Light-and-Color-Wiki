@@ -5,56 +5,56 @@ sequence: 11
 ---
 ![[images/ChatGPT Image Aug 6, 2026, 02_43_04 PM.png]]
 
-**Scope:** Parent page introducing gamuts and limits of reproducible color spaces.
+**Scope:** Parent page introducing gamuts — what "the range of colors a thing can produce" actually means, and how the different limits (physics, real objects, everyday devices, and the human eye) compare.
 
-A **color gamut** is the total range of color a specific device — monitor, scanner, or printer — can display or reproduce. Because every medium, whether projected light or reflected pigment, has unique physical and chemical constraints, no single device can capture or recreate the full breadth of colors visible to the human eye.
+A **gamut** (say "GAM-ut") is the range of colors a particular thing — a monitor, a scanner, a printer, or a paint — can actually display or reproduce. Every medium, whether it emits light like a screen or reflects it like a pigment, has its own physical and chemical limits, so **no single device can show the full range of colors the human eye can see**. This page explains what a gamut is, why some things have bigger gamuts than others, and what happens when a color doesn't fit.
 
-### 1. Representation of Gamuts (CIE and CIELAB)
+### 1. How we draw a gamut
 
-Color gamuts are mathematically visualized within standard color spaces to compare devices:
+Gamuts are drawn inside standard color maps so different devices can be compared:
 
-- **CIE chromaticity diagrams:** in the 1931 xy diagram, **additive display gamuts** are typically **triangles**. The apexes correspond to the coordinates of the device's red, green, and blue (RGB) primaries, and every reproducible color must lie within that triangle.
-- **Irregular pigment gamuts:** unlike displays, **subtractive gamuts** (paints and inks) are **irregular and bounded by curves**, because subtractive mixing results are not simple linear combinations of coordinates but depend on complex absorption and scattering spectra.
-- **CIELAB and 3D volume:** because color is three-dimensional (hue, value, chroma), a 2D diagram is often insufficient. In 3D space the pigment gamut forms an irregular **"color tree"** or lopsided solid, reflecting that different hues reach maximum saturation at different lightness levels.
+- **Screens are triangles.** On the classic 1931 CIE diagram, a display's gamut is typically a **triangle** whose three corners are the screen's red, green, and blue primaries — every color that screen can show lies inside that triangle.
+- **Paints and inks are lumpy.** Subtractive media (paints, inks, printed color) don't make triangles: their gamuts are **irregular shapes bounded by curves**, because pigment mixing isn't a simple combination of three coordinates — it depends on how pigments absorb and scatter light wavelength by wavelength.
+- **Color is really 3D.** Hue, lightness, and vividness are three independent dimensions, so a flat 2D map can't tell the whole story. In 3D, a paint gamut becomes an irregular lopsided solid (the "color tree"), reflecting that different hues reach peak vividness at different lightness levels.
 
-### 2. The Hierarchy of Gamuts
+### 2. The ladder of limits
 
-There is a clear hierarchy from theoretical ideals to practical limitations:
+From the largest possible set of colors to the smallest, the limits stack up in a clear order:
 
-- **Human vision:** the eye has the largest "color space," capable of discerning approximately **7 million different color levels**.
-- **Optimal Color Solid (MacAdam Limits):** the theoretical maximum saturation for material colors — surfaces that reflect light with 0% or 100% efficiency.
-- **Pointer's Gamut:** the range of **all real surface colors** (paints, textiles, flowers). Smaller than the MacAdam limits and markedly lopsided, favoring high chroma in the green-yellow region.
-- **Device spaces:** standards like **Adobe RGB 1998** cover a wide range but are still smaller than the eye's capacity. The standard **sRGB** (used for the Internet) is smaller still, restricted to approximately **256 distinct hues** in 8-bit web-safe palettes.
+- **The human eye** — the biggest "gamut" of all, able to distinguish roughly **7 million different color levels**.
+- **The theoretical ceiling for materials** — the *Optimal Color Solid* (MacAdam limits): the most vivid a real, light-reflecting surface could ever be, reached only by surfaces that reflect either 0% or 100% of light at every wavelength.
+- **The real-world record** — *Pointer's Gamut*: the range of colors actually measured across real surfaces (paints, textiles, flowers). Smaller than the theoretical ceiling, and lopsided — far roomier in green-yellow than in red.
+- **Everyday devices** — *Adobe RGB* covers a wide range but still less than the eye; the standard **sRGB** used for the internet is smaller still, restricted to about **256 distinct hues** in the classic 8-bit web palette.
 
-### 3. Additive vs. Subtractive Limitations
+### 3. Why screens can be more vivid than paint
 
-The fundamental gamut-size difference stems from how color is produced:
+The big difference comes down to emitting light versus reflecting it:
 
-- **Additive (displays):** monitors project light directly into the eye, bypassing the energy loss inherent in reflection, so displays can produce **saturated colors at high luminance**.
-- **Subtractive (reflective surfaces):** pigments must absorb (subtract) light from a source. Their gamut is limited by the **luminosity function V(λ)**, which peaks in the green (555 nm). A green pigment can therefore be both light and highly saturated; a red pigment, however, must reflect wavelengths where the eye is less sensitive — to make it "lighter," other wavelengths must be added, which inevitably **desaturates the red**.
-- **Unwanted absorptions:** real pigments are "impure," absorbing light in spectral regions where they should be transparent, further compressing the achievable gamut of mixed colors.
+- **Additive — screens emit light.** A monitor shines light straight into your eye, losing no energy to reflection, so it can produce **vivid colors and strong brightness at the same time**.
+- **Subtractive — paint must borrow light.** A pigment can only absorb (subtract) light from whatever lights the room, and its gamut is capped by how sensitive your eye is to each color — the *luminosity function* **V(λ)**, which peaks in the green near **555 nm**. Because your eye is most sensitive there, a **green** pigment can be both light and intensely saturated. A **red** pigment, though, must reflect wavelengths your eye finds dimmer — so to make a red lighter you have to add other wavelengths, which inevitably **drains the red's vividness**.
+- **Imperfect pigments.** Real pigments are "impure" — they absorb a little light in the regions where they should be transparent — which squeezes the gamut of any color mixed from them even further.
 
-### 4. Physical Gamut Boundaries
+### 4. The absolute boundaries of color
 
-- **The spectral locus:** the curved, horseshoe-shaped boundary of the CIE diagram represents **monochromatic light** (pure spectral hues) — the absolute physical limit of all real colors.
-- **The line of purples:** the dashed straight line connecting the 380 nm (violet) and 700 nm (red) endpoints represents non-spectral purples and magentas, created only by mixing red and blue light; they do not exist as single wavelengths.
-- **The monochromatic limit:** no real-world device can reproduce pure monochromatic light across the entire spectrum, because its primary light sources or pigments are **broadband** — they emit or reflect a range of wavelengths rather than a single "pure" ray.
+- **The rainbow is the outer wall.** The curved, horseshoe-shaped edge of the CIE diagram is the *spectral locus* — the colors of **pure spectral light** (the rainbow). It is the physical limit of every real color.
+- **Purples and magentas are not on the rainbow.** The dashed line across the bottom of the horseshoe — the *line of purples* — connects the violet (380 nm) and red (700 nm) ends. Purples and magentas exist only as **mixtures of red and blue light**; there is no single wavelength of light that is purple.
+- **No device reaches the wall.** No screen or printer can reproduce pure rainbow colors across the whole spectrum, because every practical light source and pigment is **broadband** — it emits or reflects a whole spread of wavelengths, not one perfect "pure" ray.
 
-### 5. Practical Consequences and Gamut Mapping
+### 5. What happens when a color doesn't fit
 
-When a color from one device must be reproduced on another with a smaller gamut (e.g., monitor to printer):
+When you move an image from one device to another with a smaller gamut (say, monitor to printer), some colors won't survive:
 
-- **Out-of-gamut colors:** colors that exist in the original image but cannot be physically reproduced by the target device.
-- **Clipping:** if out-of-gamut values are simply set to the device's maximum (e.g., any value > 255 becomes 255), **detail is lost** in the saturated regions.
-- **Gamut mapping and compression:** software substitutes the "nearest" reproducible hue for out-of-gamut colors, or **compresses the entire gamut** to preserve perceptual relationships between colors.
-- **The matching challenge:** matching colors across devices is difficult because each hardware component uses different color models and phosphors/inks, requiring **ICC profiles** to translate between them.
+- **Out-of-gamut colors** are the ones that exist in the original but the target device physically cannot produce.
+- **Clipping** is the crude fix — shoving every too-vivid value to the device's maximum (like turning anything above 255 into 255). It works, but **drops the detail** in the saturated areas.
+- **Gamut mapping** is the clever fix — software substitutes the nearest color the device *can* show, or gently compresses the whole gamut so the relationships between colors stay believable.
+- **ICC profiles** are the translators that let different devices — each with its own primaries, inks, and quirks — interpret the same numbers and land close to the same color.
 
-### 6. Human Discrimination vs. Device Quantization
+### 6. How sharp is your eye, really?
 
-The limits of the human eye dictate the requirements of digital color technology:
+Human sensitivity sets the bar for digital color:
 
-- **Distinguishable colors:** while a 24-bit system theoretically produces 16.7 million colors, the eye can distinguish only about **1.4 million unique colors** within the gamut of a standard HDTV.
-- **Geometry of gamuts:** additive gamuts are **triangular** because they rely on three discrete primaries. The **Pointer gamut** of real surface colors is **irregular** because of the visual system's evolutionary tuning: the eye is far more sensitive to changes in the green-yellow region, where natural reflectances (like vegetation) are most abundant, producing a surface-color gamut much larger in the green region than in the red.
+- **What you can actually tell apart:** a 24-bit system offers 16.7 million colors, but within a standard HDTV's gamut your eye can genuinely distinguish only about **1.4 million distinct colors** — the rest are duplicates your eye can't tell apart.
+- **Why shapes differ:** screens make **triangles** because three primaries define them. The **Pointer gamut** of real surfaces is **irregular** because your visual system was evolutionarily tuned for the natural world — it's far more sensitive to small changes in green-yellow (where vegetation lives), so real surfaces cover much more gamut in green than in red.
 
 ## Handprint Perspectives
 
@@ -94,6 +94,10 @@ Briggs connects the gamut concept to its own history and to the arithmetic that 
 * "Color Management"
 * "Color for Science, Art, and Technology" — Kurt Nassau (Editor)
 * "The Science of Paintings" — W. Stanley Taft Jr. and James W. Mayer
+* "Choosing Colors (Live)"
+* "The Case Against Color Bias"
+* "The Material Supremacy of Green Chroma"
+* "Illusions of Seeing"
 * "The Dimensions of Colour : chroma" — [[raw_sources/huevaluechroma/015.md|015.html]]
 * "The Dimensions of Colour : additive mixing" — [[raw_sources/huevaluechroma/045.md|045.html]]
 * "The Dimensions of Colour : subtractive mixing" — [[raw_sources/huevaluechroma/051.md|051.html]]

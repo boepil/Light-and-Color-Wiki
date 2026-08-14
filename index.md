@@ -7,12 +7,11 @@ sequence: 0
 [[Home|Home]]: Landing page tracing the unified 5-stage chain from physical light, through the subtractive limits of pigment, the S/M/L transduction of the eye, opponent-process perception, to V1–V4 cortical plasticity — with a suggested reading order across the four sections.
 
 ## Appendix
-**[[Appendix|Appendix]]**: The support layer beside the main sections — sources, history, measurement methods, and builder notes. Most visitors need Bibliography (look up a source) or History & Key Figures (the big story); Data & Methodology and Project Notes are optional depth.
+**[[Appendix|Appendix]]**: The support layer beside the main sections — sources, history, and measurement methods. Most visitors need Bibliography (look up a source) or History & Key Figures (the big story); Data & Methodology is optional depth for verification-minded readers.
 
 - [[Appendix/Bibliography|Bibliography]]: Every book, paper, and web source the wiki uses — grouped by section, title and author only.
 - [[Appendix/History & Key Figures|History & Key Figures]]: One narrative from cave ochre to modern pigments — how art, craft, chemistry, and color science kept pushing each other forward.
 - [[Data & Methodology|Data & Methodology]]: How color is measured in the lab — instruments, protocols, datasets, and caveats (optional; for verification-minded readers).
-- [[Appendix/Project Notes|Project Notes]]: Design notes for a planned 3D color-space viewer (optional; for builders, not general readers).
 
 ## Colors
 **[[Colors|Colors]]**: The systems humans built to measure and describe color with numbers — like rulers for temperature or distance — so a paint factory, a printer, and a screen can agree on the same blue. Start here for orientation; then choose CIE (scientific) or Munsell (artist-friendly), or explore gamuts and human color sensitivity.
@@ -24,6 +23,7 @@ sequence: 0
 - [[Colors/Gamuts/Optimal Color Solid-MacAdam Limits|Optimal Color Solid-MacAdam Limits]]: The physical ceiling — the theoretical limit of what any light-reflecting material could ever achieve.
 - [[Colors/Gamuts/Pointer's Gamut|Pointer's Gamut]]: The real-world record — a 1980 survey of 4,000+ measured surfaces mapping the most colorful things ever documented.
 - [[Colors/MacAdam Ellipses|MacAdam Ellipses]]: How big a color difference must be before a person notices — and why that threshold varies across the spectrum.
+- [[Colors/Why Material Reality Favors Green Over Red|Why Material Reality Favors Green Over Red]]: Why green alone among hues can be both bright and intensely saturated — the luminosity function, color-space geometry, and pigment chemistry working in its favor.
 
 ## Eye
 **[[Eye|Eye]]**: How the eye turns physical light into the experience of color — from the anatomy of the visual pathway through rods and cones, sharpness limits, three-cone color vision, and the brain's opponent re-encoding. Start with Anatomy for the physical tour, or Wavelength Perception for how light becomes color.

@@ -29,6 +29,10 @@ A **gamut** (say "GAM-ut") is simply **the range of colors a particular thing �
 
 **How big a color difference has to be before a person actually notices it.** The answer is not the same everywhere in the color spectrum: in some regions two colors must be fairly far apart to look different, while in others a tiny shift is immediately visible. Human eyes are not equally sensitive to small changes in every part of the rainbow — and any system that measures color has to account for that uneven sensitivity.
 
+#### [[Why Material Reality Favors Green Over Red|Colors/Why Material Reality Favors Green Over Red]] — why is green the most "colorful" color?
+
+**Why green, uniquely among hues, can be both bright and intensely vivid in real materials — while red is stuck with a "pure but dark, or light but dull" choice.** The eye's luminosity function peaks in the green (555 nm), the theoretical color solid bulges there, and green pigment chemistry is unusually sharp-edged. This page traces that green advantage through all three constraints — and why the same facts mean red-orange, not green, holds the real-pigment chroma record.
+
 ### How the pieces fit together
 
 These systems are not competing answers — they **build on one another**. CIE came first as the scientific foundation: numbers that define color in a way labs can share worldwide. Munsell offered a more visual, artistic alternative: the same idea, organized the way people actually see color (and later refined when the science caught up). The gamut pages and MacAdam ellipses then describe the **limits** — what physics allows, what the real world has actually achieved, what screens and printers can show, and how fine human color perception really is.

@@ -51,7 +51,7 @@ MacEvoy's cadmium reds (PR108) are the red anchor of both his full palette and h
 - [[Pigments/index|Pigments]] — the section hub
 - [[Pigments/Reference/PY35 - Cadmium Yellow|PY35 - Cadmium Yellow]] — cadmium family anchor
 - [[Pigments/Reference/PR101 - Mars Red|PR101 - Mars Red]] — the modern substitute option
-- [[Pigments/Reference/PBR7 - Burnt Sienna|PBR7 - Burnt Sienna]] — transparent earth counterpart
+- [[Pigments/Reference/PBr7 - Burnt Sienna|PBr7 - Burnt Sienna]] — transparent earth counterpart
 
 ## Sources
 * "Artists' Pigments: A Handbook of Their History and Characteristics" — Robert L. Feller
