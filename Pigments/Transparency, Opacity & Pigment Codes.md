@@ -1,6 +1,6 @@
 ---
 title: Transparency, Opacity & Pigment Codes
-sequence: 51
+sequence: 19
 ---
 ![[Pasted image 20260811210450.png]]
 

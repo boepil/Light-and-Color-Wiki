@@ -1,6 +1,6 @@
 ---
 title: Neo-Impressionism-Pointillism
-sequence: 38
+sequence: 70
 ---
 ![[Pasted image 20260812224458.png]]
 

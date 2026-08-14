@@ -1,6 +1,6 @@
 ---
 title: Munsell Notation
-sequence: 8
+sequence: 53
 ---
 ![[images/ChatGPT Image Aug 6, 2026, 02_36_26 PM.png]]
 

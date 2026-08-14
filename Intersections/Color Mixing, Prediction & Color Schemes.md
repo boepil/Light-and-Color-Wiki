@@ -79,7 +79,6 @@ Finally, Briggs stresses that paint mixing is a **compound of subtractive filter
 - [[Pointer's Gamut]]
 - [[Munsell Notation]]
 - [[Composition]]
-- [[Florent Farges' Color Theory for Artists]]
 - [[The artist's color wheel]]
 
 ## Sources

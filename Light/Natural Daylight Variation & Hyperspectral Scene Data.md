@@ -1,6 +1,6 @@
 ---
 title: Natural Daylight Variation & Hyperspectral Scene Data
-sequence: 27
+sequence: 11
 ---
 ![[Pasted image 20260811113914.png]]
 

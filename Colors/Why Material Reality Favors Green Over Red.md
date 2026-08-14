@@ -1,6 +1,6 @@
 ---
 title: Why Material Reality Favors Green Over Red
-sequence: 5
+sequence: 49
 ---
 ![[Pasted image 20260814112357.png]]
 

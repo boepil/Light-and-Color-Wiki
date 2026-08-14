@@ -1,6 +1,6 @@
 ---
 title: Op Art
-sequence: 40
+sequence: 72
 ---
 ![[Pasted image 20260812225139.png]]
 

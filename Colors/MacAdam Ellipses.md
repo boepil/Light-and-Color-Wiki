@@ -1,6 +1,6 @@
 ---
 title: MacAdam Ellipses
-sequence: 9
+sequence: 54
 ---
 ![[images/ChatGPT Image Aug 6, 2026, 02_29_42 PM.png]]
 

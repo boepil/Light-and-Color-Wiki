@@ -12,20 +12,8 @@ The support layer beside the main sections — sources and history. Most visitor
 - [[Appendix/Bibliography|Bibliography]]: Every book, paper, and web source the wiki uses — grouped by section, title and author only.
 - [[Appendix/History & Key Figures|History & Key Figures]]: One narrative from cave ochre to modern pigments — how art, craft, chemistry, and color science kept pushing each other forward.
 
-## [[Colors/index|Colors]]
-The systems humans built to measure and describe color with numbers — like rulers for temperature or distance — so a paint factory, a printer, and a screen can agree on the same blue. Start here for orientation; then choose CIE (scientific) or Munsell (artist-friendly), or explore gamuts and human color sensitivity.
-
-## [[Eye/index|Eye]]
-How the eye turns physical light into the experience of color — from the anatomy of the visual pathway through rods and cones, sharpness limits, three-cone color vision, and the brain's opponent re-encoding. Start with Anatomy for the physical tour, or Wavelength Perception for how light becomes color.
-
-## [[Intersections/index|Intersections]]
-Where Light, Eye, Colors, and Painting meet — cross-cutting pages on the full chain from surface to perception, metamerism, mixing rules, light on form, perceptual tricks, measurement uniformity, color psychology, and color neuroscience. Start with Causal Chain for the big picture, Color Mixing if you paint, or Simultaneous Contrast for perceptual surprises.
-
 ## [[Light/index|Light]]
 The physics of light before the eye — waves and photons, the visible rainbow band, glowing vs. reflecting, standard illuminants and warm/cool color temperature, daylight variation, and the outer boundary of physical color. Start with Wave Nature for foundations, Visible Spectrum for the rainbow, or Reflection vs. Emission for screens vs. paint.
-
-## [[Painting/index|Painting]]
-Color as painters actually use it — composing on the canvas, preparing supports and grounds, choosing brushes, handling toxic pigments safely, and five centuries of art history. Pigment science lives in Pigments; start with Composition for design, Supports/Brushes for the studio, or Movements & Painters for history.
 
 ## [[Pigments/index|Pigments]]
 The physical particles behind surface color — chemistry, natural vs. synthetic history, modern high-chroma paints, grinding and binders, reading labels, spectral measurement, and reference sheets for individual pigments. Start with Natural vs. Synthetic for history, Chemistry for science, or Reference to look up one pigment.
@@ -54,3 +42,14 @@ The physical particles behind surface color — chemistry, natural vs. synthetic
 - [[Pigments/Reference/PR254 - Pyrrole Red|PR254 - Pyrrole Red]]: Diketopyrrolo-pyrrole — the non-toxic cadmium substitute, opaque when formulated, automotive-grade fastness.
 - [[Pigments/Reference/PV23 - Dioxazine Violet|PV23 - Dioxazine Violet]]: Carbazole dioxazine, 1928–1950s — the staining deep violet of extreme darks.
 
+## [[Eye/index|Eye]]
+How the eye turns physical light into the experience of color — from the anatomy of the visual pathway through rods and cones, sharpness limits, three-cone color vision, and the brain's opponent re-encoding. Start with Anatomy for the physical tour, or Wavelength Perception for how light becomes color.
+
+## [[Colors/index|Colors]]
+The systems humans built to measure and describe color with numbers — like rulers for temperature or distance — so a paint factory, a printer, and a screen can agree on the same blue. Start here for orientation; then choose CIE (scientific) or Munsell (artist-friendly), or explore gamuts and human color sensitivity.
+
+## [[Painting/index|Painting]]
+Color as painters actually use it — composing on the canvas, preparing supports and grounds, choosing brushes, handling toxic pigments safely, and five centuries of art history. Pigment science lives in Pigments; start with Composition for design, Supports/Brushes for the studio, or Movements & Painters for history.
+
+## [[Intersections/index|Intersections]]
+Where Light, Eye, Colors, and Painting meet — cross-cutting pages on the full chain from surface to perception, metamerism, mixing rules, light on form, perceptual tricks, measurement uniformity, color psychology, and color neuroscience. Start with Causal Chain for the big picture, Color Mixing if you paint, or Simultaneous Contrast for perceptual surprises.

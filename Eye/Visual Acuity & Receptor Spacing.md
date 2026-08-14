@@ -1,6 +1,6 @@
 ---
 title: Visual Acuity & Receptor Spacing
-sequence: 18
+sequence: 46
 ---
 
 ![[images/ChatGPT Image Aug 6, 2026, 01_29_28 PM.png]]

@@ -4,7 +4,7 @@ sequence: 85
 ---
 ![[Pasted image 20260808154710.png]]
 
-**Scope:** Cross-cutting page (Eye ֳ— Colors) explaining the necessity of mathematically bending color spaces to match non-linear human perception.
+**Scope:** Cross-cutting page (Eye × Colors) explaining the necessity of mathematically bending color spaces to match non-linear human perception.
 
 The development of color spaces like **CIELAB** and the **Munsell system** was driven by the need for **perceptual uniformity** — a coordinate system where the mathematical distance between two points directly corresponds to the magnitude of the difference perceived by the human eye.
 

@@ -1,6 +1,6 @@
 ---
 title: Device Gamuts
-sequence: 11
+sequence: 56
 ---
 ![[images/ChatGPT Image Aug 6, 2026, 02_39_45 PM.png]]
 

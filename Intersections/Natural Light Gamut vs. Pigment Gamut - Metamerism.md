@@ -4,7 +4,7 @@ sequence: 80
 ---
 ![[Pasted image 20260809130521.png]]
 
-**Scope:** Cross-cutting page (Painting ֳ— Light) comparing the range of colors in nature to those achievable with pigments, and addressing metamerism.
+**Scope:** Cross-cutting page (Painting × Light) comparing the range of colors in nature to those achievable with pigments, and addressing metamerism.
 
 The relationship between the colors found in the natural world and those reproducible by artists' pigments is governed by the physics of light, the chemistry of materials, and the biological architecture of human vision. The "pigment gamut" is a restricted subset of perceptual reality, and **metamerism** explains why matches between them are often unstable.
 

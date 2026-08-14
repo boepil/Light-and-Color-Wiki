@@ -1,6 +1,6 @@
 ---
 title: Newton's Influence on Painters
-sequence: 39
+sequence: 71
 ---
 ![[Pasted image 20260812224929.png]]
 

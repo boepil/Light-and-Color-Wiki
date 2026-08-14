@@ -1,7 +1,7 @@
 ---
 title: Light
 aliases: [Light]
-sequence: 21
+sequence: 5
 ---
 ### What this section is about
 

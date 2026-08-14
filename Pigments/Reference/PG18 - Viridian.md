@@ -1,7 +1,7 @@
 ---
 title: PG18 - Viridian
 swatchColor: "#2E8B57"
-sequence: 66
+sequence: 33
 ---
 <div style="float:left;width:64px;height:64px;background:#2E8B57;margin:4px 16px 8px 0;border-radius:2px;"></div>
 

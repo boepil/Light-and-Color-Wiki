@@ -1,7 +1,7 @@
 ---
 title: Reference
 aliases: [Pigment Reference]
-sequence: 54
+sequence: 21
 ---
 ![[Pasted image 20260813124251.png]]
 

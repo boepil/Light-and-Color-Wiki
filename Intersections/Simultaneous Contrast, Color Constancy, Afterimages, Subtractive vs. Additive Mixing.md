@@ -4,13 +4,13 @@ sequence: 84
 ---
 ![[Pasted image 20260809130837.png]]
 
-**Scope:** Cross-cutting page (Painting ֳ— Eye) covering perceptual phenomena critical for painters.
+**Scope:** Cross-cutting page (Painting × Eye) covering perceptual phenomena critical for painters.
 
 The perception of color is not a passive recording of light wavelengths but an active, context-dependent construction by the visual system. Key phenomena — **simultaneous contrast**, **color constancy**, and **afterimages** — reveal the underlying biological mechanisms of the eye and brain; understanding the difference between **additive and subtractive mixing** is essential for mastering these effects in painting and digital media.
 
 ### 1. Simultaneous Contrast
 
-**Simultaneous contrast** is the phenomenon where a color's appearance is altered by adjacent or surrounding colors. It was famously codified in **1839 by Michel-Eugֳ¨ne Chevreul**, a French chemist who realized that the perception of a color's purity, value, and hue is relative to its environment:
+**Simultaneous contrast** is the phenomenon where a color's appearance is altered by adjacent or surrounding colors. It was famously codified in **1839 by Michel-Eugène Chevreul**, a French chemist who realized that the perception of a color's purity, value, and hue is relative to its environment:
 
 - **Mechanism:** driven by the **opponent-process mechanism** and **lateral inhibition**. In the retina and cortex, "double opponent" cells compare signals from neighboring regions; when a target is surrounded by a strong color, the background effectively "induces" its own **complement** into the target.
 - **Visual transformations:**

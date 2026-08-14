@@ -1,6 +1,6 @@
 ---
 title: Rods vs. Cones - Density & Distribution
-sequence: 19
+sequence: 47
 ---
 ![[images/Rods vs. Cones.jpg]]
 

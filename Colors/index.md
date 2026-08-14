@@ -1,13 +1,17 @@
 ---
 title: Colors
 aliases: [Colors]
-sequence: 6
+sequence: 50
 ---
 ### What this section is about
 
 We measure temperature in degrees and distance in meters so that everyone agrees on what "warm" or "a meter" means. Color needed the same kind of system. For most of history, describing a color meant something like "kind of a blue-green" — fine for conversation, but useless when a paint factory, a printer, and a computer screen all need to match the *same* blue. **This section collects the systems people built to pin color down with numbers** — to describe it, compare it, and reproduce it reliably. Each page below goes deep on one system; this page only explains what each one is *for* and where to start.
 
 ### The systems, one by one
+
+#### [[Color Wheel System]] — why every color wheel is a convention, not a discovery
+
+Colors have no natural order — wavelengths run together without inherent boundaries — so any wheel's geometry (which hues sit where, which lie "opposite") is a human decision judged by studio usefulness, not by symmetry. Surveys eight historical systems — Newton 1704, the RYB wheel, Goethe 1810, Itten, Munsell 1905, CIELAB, RGB/CMY, Ostwald — each built on a different organizing principle (light physics, pigment mixing, perceptual spacing, or subjective harmony); their disagreement is the proof that classification is a human choice, with Munsell's wheel the perceptual-uniformity benchmark.
 
 #### [[CIE Systems]] — the scientific foundation
 

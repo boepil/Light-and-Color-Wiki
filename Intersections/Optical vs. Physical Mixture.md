@@ -33,7 +33,7 @@ Artists have exploited optical mixing to achieve effects impossible with palette
 
 - **Seurat and pointillism:** Georges Seurat and the Neo-Impressionists applied small dots of pure, unmixed color so colors mix "in the eye."
 - **Brightness and chroma:** optical mixtures are perceived as more **vibrant and luminous** than palette mixtures. A physical blend of blue and yellow yields green by absorbing red and orange light; optical dots of blue and yellow preserve more reflected light, producing a green that appears "vibrating" and less diluted.
-- **Simultaneous contrast:** Michel-Eugֳ¨ne Chevreul's theory established that juxtaposed complementary colors enhance each other — red and green in proximity "amplify each other," creating heightened intensity that exceeds the inherent chroma of the individual pigments.
+- **Simultaneous contrast:** Michel-Eugène Chevreul's theory established that juxtaposed complementary colors enhance each other — red and green in proximity "amplify each other," creating heightened intensity that exceeds the inherent chroma of the individual pigments.
 
 ### 5. Non-Equivalence: Averaging vs. Absorption
 

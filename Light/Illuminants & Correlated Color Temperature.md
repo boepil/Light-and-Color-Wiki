@@ -1,6 +1,6 @@
 ---
 title: Illuminants & Correlated Color Temperature
-sequence: 26
+sequence: 10
 ---
 ![[Pasted image 20260811113607.png]]
 

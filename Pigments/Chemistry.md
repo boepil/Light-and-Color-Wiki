@@ -1,6 +1,6 @@
 ---
 title: Chemistry
-sequence: 45
+sequence: 13
 ---
 ![[Pasted image 20260811164420.png]]
 

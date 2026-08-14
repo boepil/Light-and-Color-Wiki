@@ -1,6 +1,6 @@
 ---
 title: Particle Size-Tinting-Polymorphism
-sequence: 48
+sequence: 16
 ---
 ![[Pasted image 20260811174415.png]]
 

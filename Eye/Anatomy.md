@@ -1,6 +1,6 @@
 ---
 title: Anatomy
-sequence: 16
+sequence: 44
 ---
 ![[images/Anatomy.jpg]]
 

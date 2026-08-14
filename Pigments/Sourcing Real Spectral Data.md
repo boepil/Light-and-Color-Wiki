@@ -1,6 +1,6 @@
 ---
 title: Sourcing Real Spectral Data
-sequence: 49
+sequence: 17
 ---
 ![[Pasted image 20260811174721.png]]
 

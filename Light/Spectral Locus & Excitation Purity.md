@@ -1,6 +1,6 @@
 ---
 title: Spectral Locus & Excitation Purity
-sequence: 24
+sequence: 8
 ---
 ![[Pasted image 20260810103513.png]]
 

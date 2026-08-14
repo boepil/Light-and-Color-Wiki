@@ -1,7 +1,7 @@
 ---
 title: Pigments
 aliases: [Pigments]
-sequence: 44
+sequence: 12
 ---
 ![[Pasted image 20260811150718.png]]
 
@@ -45,17 +45,13 @@ Instead of trusting a printed swatch, color science **measures reflectance** acr
 
 MacEvoy's artist color wheel plots **actual tube pigments** by measured hue and vividness — a landscape of clusters and gaps, not the tidy red-yellow-blue school diagram. Shows where real paints live relative to each other and why no wheel captures every pigment.
 
-#### [[Florent Farges' Color Theory for Artists]] — a modern pigment-placement system for painters
-
-Farges' system arranges pigments on a fixed hue circle at three chroma tiers, with a **color strings** mixing workflow built for the paints artists actually own. A contemporary studio-oriented complement to Munsell and the MacEvoy wheel.
-
 #### [[Pigments/Reference/index|Pigment Reference]] — twenty-one pigment data sheets
 
 Individual reference pages for common pigments — chemistry, history, handling notes, and lightfastness warnings per color (titanium white, cadmium yellow, ultramarine, phthalo blue, and others). Visit when you need **one pigment's full profile**, not the general theory.
 
 ### How the pieces fit together
 
-Follow the material from nature to measurement: **Natural vs. Synthetic** (where pigments come from) → **Chemistry** (why they have their color) → **Particle Size** and **Media** (why the same pigment behaves differently in use) → **High-Chroma Synthetics** (the modern vivid end) → **Transparency & Codes** (choosing and reading tubes) → **Spectral Data** (objective measurement) → **Color wheels** (Farges, MacEvoy) and **Reference sheets** (individual pigments).
+Follow the material from nature to measurement: **Natural vs. Synthetic** (where pigments come from) → **Chemistry** (why they have their color) → **Particle Size** and **Media** (why the same pigment behaves differently in use) → **High-Chroma Synthetics** (the modern vivid end) → **Transparency & Codes** (choosing and reading tubes) → **Spectral Data** (objective measurement) → **Color wheels** (MacEvoy) and **Reference sheets** (individual pigments).
 
 If you are visiting for the first time: start with **[[Natural vs. Synthetic]]** for the historical story, **[[Chemistry]]** if you want the science foundation, **[[Transparency, Opacity & Pigment Codes]]** if you are buying paint right now, or **[[Pigments/Reference/index|Pigment Reference]]** if you already know which pigment you need to look up.
 

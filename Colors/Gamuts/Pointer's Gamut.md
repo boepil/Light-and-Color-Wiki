@@ -1,6 +1,6 @@
 ---
 title: Pointer's Gamut
-sequence: 12
+sequence: 57
 ---
 ![[images/ChatGPT Image Aug 6, 2026, 02_48_23 PM.png]]
 
