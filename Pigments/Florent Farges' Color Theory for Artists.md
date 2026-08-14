@@ -4,58 +4,60 @@ sequence: 53
 ---
 ![[Color-Theory-for-Artists-Color-Wheel-System.pdf]]
 
-**Scope:** Florent Farges' Color Wheel System — a painter's wheel that plots actual pigments by hue angle on a fixed 360° scaffold, split into three chroma tiers (high, medium, low), with a mixing workflow built on "color strings."
+**Scope:** Florent Farges' bespoke "Homebrew" color-wheel system — a studio tool that flattens Munsell's three-dimensional color space into three chroma-tiered wheels so a painter can locate any target color, see where real pigments fall, and pick the paints to mix it.
 
-> [!NOTE] **Source provenance.** The NotebookLM corpus contains no information on Florent Farges — this page is transcribed from the embedded PDF itself (an image-only scan, text extracted by OCR, ©2020 Farges). Where the OCR of a pigment code is uncertain it is flagged; the PDF's own disclaimer (bottom of the sheet) warns that hue angles are approximate.
+### The bespoke "Homebrew" model
 
-### The System at a Glance
+Farges' system is a **"Homebrew" model**: a deliberate synthesis of the most useful elements of existing color theories into a single, easy-to-use visual guide for artists. It bridges abstract theory and practice by organizing colors around **human perception** rather than pigment-mixing logic or digital automation — a framework meant to be picked up at the palette, not in the laboratory.
 
-- **Three wheels, one scaffold:** the same **fixed 0–360° hue-angle circle** appears three times, once per **chroma tier** — **HIGH CHROMA**, **MEDIUM CHROMA**, **LOW CHROMA** — so a pigment's *hue* is its position around the circle (in degrees) and its *chroma* is which wheel it is printed on (*The Optimal Color Wheel System*, ©2020).
-- **Six main hues:** the legend states the scaffold rests on **Red (R), Yellow (Y), Green (G), Cyan (C), Blue (B), and Magenta (M)** — the modern additive/subtractive triad pair (RGB + CMY) rather than the traditional RYB trinity (*The Optimal Color Wheel System*).
-- **Degree marks around each wheel** (10, 20, 30 … 350) with hue-sector labels at the cardinal points: **R-O** (~20°), **O-Y** (~50°), **G-Y** (~110°), **G-C** (~150°), **B-C** (~210°), **R-M** (~340°) — a continuous, measurable hue space in which any mixture's result can in principle be located (*The Optimal Color Wheel System*).
+- The scaffold combines the **Munsell model** (hue, value, chroma) with the **CMYRGB model** (additive and subtractive primaries integrated), so one system carries both the painter's hue/value/chroma language and the additive-subtractive primary sets.
+- The system is explicitly framed as a **general framework that acknowledges color classification is arbitrary** — it is meant for intuitive, experience-based mixing, moving painters from rigid theoretical rules toward practiced judgment.
 
-### The Three Chroma Tiers
+### Structure: three wheels, nine values, thirty-six hues
 
-- **HIGH CHROMA wheel — the pure saturated pigments:** Cadmium Red (PR108), Pyrrole Red (PR254), Alizarin Crimson (perm.) (PR177), Quinacridone Magenta (code on scan unclear — PR122/PV19 family), Cadmium Orange (PO20), Cadmium Yellow (PY35), Hansa Yellow, Benzimidazolone Yellow (PY154), Phthalo Green Yellow Shade (PG36), Phthalo Green (PG7), Cobalt Turquoise Blue (PB36), Cobalt Teal Blue (PG50), Cerulean Blue (PB35), Cobalt Turquoise Deep (PG19), Ultramarine Blue Deep (PB29), Ultramarine Blue (PB29), Cobalt Blue (PB28), Prussian Blue (PB27), Ultramarine Violet (PV15), Cobalt Violet (PV14), Manganese Violet (PV16) (*as printed*).
-- **MEDIUM CHROMA wheel — the iron-oxide ochres:** Venetian Red (PR101), Transparent Red Oxide (PR101), Red Ochre (PR102), Burnt Sienna (PR101 or PBr7), Transparent Gold Ochre (PY42/43), Mars Yellow (PY42, "synth. ochre"), Yellow Ochre (PY43), Raw Sienna (PBr7), Oxide of Chromium (PG17), Paynes Grey (marked "(m)" multiple pigments) (*as printed*).
-- **LOW CHROMA wheel — the earths and darks:** Van Dyck Brown, Raw Umber (PBr7), Burnt Umber (PBr7), Olive Green (m), Green Earth (PG23), Ivory Black, Paynes Grey (m) (*as printed*).
-- **White reference:** the sheet's footnotes list the three standard whites — Lead White (PW1), Zinc White (PW4), Titanium White (PW6) — the mixing references for the value of each wheel's colors (*The Optimal Color Wheel System*).
+Because Munsell's full three-dimensional solid is hard to use directly for mixing, Farges represents the three dimensions of color on a flat surface with three key design choices:
 
-### Mixing: "Color Strings"
+- **Three chroma wheels** — one for **high**, one for **medium**, and one for **low** chroma — so the third dimension (saturation) is carried by choosing the right wheel, not by mental rotation of a 3D solid.
+- **Nine value steps** — every hue on each wheel is divided into **nine steps from very light to very dark**, showing the graduations needed to paint volume (light, halftone, shadow).
+- **36 specific hues** — the system starts from **six main hues** (red, yellow, green, cyan, blue, magenta), expands them into **12 primary and secondary hues**, and subdivides each into three, giving **36 hues** total.
+- **Perceptual alignment** — unlike a digital or schematic model, the wheel is adjusted for human vision: **yellow is placed further from red**, and **orange is added** to keep green from dominating the wheel. The geometry is tuned to how the eye actually organizes hue, not to mathematical symmetry.
+- **972 individual shades** — the complete atlas (36 hues × 9 values × 3 chroma tiers) fits on a single sheet, making the whole system glanceable in the studio.
 
-- The workflow printed at the bottom: **"PICK COLOR STRINGS IN THE WHEELS, MIX AND ADJUST ON YOUR PALETTE"** — a **color string** is a set of hues selected together from the wheels (typically a short run of neighboring pigments spanning the hue range a painting needs), chosen before mixing rather than improvised tube-by-tube (*The Optimal Color Wheel System*).
-- The tier structure predicts mixture behavior: strings drawn from the **high-chroma** wheel keep saturation; stepping down through **medium** to **low** wheels (or mixing across the circle through complements, e.g. R-M against G-C) walks a mixture down in chroma toward neutral (*The Optimal Color Wheel System*).
-- **Complements sit opposite each other** on the fixed scaffold — mixing across the circle neutralizes; the wheel's degrees make the complement of any hue readable directly as the angle + 180° (*The Optimal Color Wheel System*).
+### How it bridges theory and practice
 
-### Reading the Legend
+The system answers a common complaint: traditional color theory often feels disconnected from the actual process of painting. Farges closes that gap with four practical mechanisms:
 
-- **HUE** — six main hues: R, Y, G, C, B, M (see above).
-- **CHROMA** — "peak chroma value (value allows the highest chroma for a given pigment)": the wheel marks the hue angle at which each pigment reaches its most intense form; chroma of the printed placement is governed by the pigment's own value ceiling, not by the wheel's geometry (*The Optimal Color Wheel System*).
-- **VALUE** — the sheet's third legend entry; the dark/light axis that the wheel itself does not encode, carried implicitly by each pigment's placement and white reference (*The Optimal Color Wheel System*).
-- **Provenance and disclaimer:** ©2020 Florent Farges, "FREE (SD) VERSION, PRINTING ALLOWED FOR PERSONAL USE"; the full-resolution 87-page PDF and a 9-hour painting course ("The Art and Practice of Color") are promoted at florentfarges.com/education. The printed note: "Pigment hue angles are a rough estimate based on an average of several brands for different media. The composition and appearance may vary considerably from one manufacturer to another. Adjust with your own pigments." — a practical, measured-hue philosophy rather than a claim of exact science (*as printed*).
+- **Pigment mapping** — real pigments (**Cadmium Yellow, Yellow Ochre, Ultramarine Blue**, and others) are placed around the wheels by hue angle, so the artist sees exactly where their physical paints fall inside the conceptual color space.
+- **Mixing framework for target colors** — to paint a yellow ball, the painter locates the object's color on the wheel (e.g. **"60 OY"**) and identifies the **two closest pigments** to mix to reach that exact hue — a lookup path from perceived color to palette action.
+- **Simplification of 3D concepts** — complex 3D systems like Munsell are "chaotic" to use for mixing; the three-tiered flat wheel turns that into a **practical studio reference**.
+- **Value-scale creation** — the nine value steps per hue double as a guide for mixing value scales with **titanium white, burnt umber, or ivory black**, giving an accurate impression of light and shadow across a form.
+
+The legend labels the wheel's dimensions as **HUE / CHROMA (peak chroma) / VALUE**, and the printed workflow instructs the painter to **"pick color strings in the wheels, mix and adjust on your palette"** — mixing colors across the circle neutralizes them, with complements placed opposite each other.
 
 ## Handprint Perspectives
 
-Farges' system converges strikingly with MacEvoy's measured-pigment approach — and diverges in exactly one place. Both reject the idealized RYB wheel: Farges plots **real pigments by measured hue angle** on a graduated circle and tells the painter to "adjust with your own pigments," while MacEvoy's artist's color wheel likewise plots pigments by their measured hue and chroma, a "landscape of clusters and gaps" rather than a symmetric ideal *(Source: [[raw_sources/handprint/color16.md|color16.html]], [[raw_sources/handprint/color14.md|color14.html]])*.
+MacEvoy's measured artist's color wheel is built the opposite way: pigment positions are determined by **spectrophotometric measurement**, then mapped to the wheel, rather than placed on a fixed scaffold of degrees. *(Source: [[raw_sources/handprint/color13.md|color13.html]])*
 
-> [!WARNING] **Contradiction Flag: fixed even scaffold vs. measured geometry.** Farges' wheel divides the circle into **six evenly spaced main hues (R Y G C B M)** on a fixed 360° grid. Handprint argues the traditional, equally spaced color wheel "misrepresents the actual distance between paint colors": because real pigments are unevenly distributed and mix along curved lines in color space, a fixed even scaffold predicts mixtures (especially dull or dark ones) that the real paints do not deliver — the same error Castel's 1740 equally spaced wheel made, and the reason MacEvoy insists the wheel "is not a color theory … just a crude way to anticipate" mixing. Farges' own tier system and "adjust with your own pigments" caveat partially answer this criticism — the tiered chroma wheels carry the information the even circle throws away — but the fixed scaffold remains a geometric ideal, not a map of attainable mixture color *(Source: [[raw_sources/handprint/color13.md|color13.html]], [[raw_sources/handprint/color14.md|color14.html]])*.
+On this point the two projects agree on a deeper principle: MacEvoy calls the color wheel "a helpful but arbitrary construction that distorts as much as it clarifies the facts of color" *(Source: [[raw_sources/handprint/color13.md|color13.html]])*, and notes that arranging dull or dark colors into concentric rings closer to the center is "somewhat arbitrary" — which is essentially what Farges' three-chroma-tier design does, systematized into a single print. *(Source: [[raw_sources/handprint/color13.md|color13.html]])*
+
+> [!WARNING] **Contradiction Flag: fixed even scaffold vs. measured geometry.** Farges places pigments on a fixed 0–360° wheel with even degree marks (and prints a disclaimer that his hue angles are rough averages across brands and media). MacEvoy's wheel rejects exactly this tidying step: measured paint locations in CIELAB "do not correspond exactly to geometrical symmetry," so forcing them onto evenly spaced "spokes" is a manipulation of the data *(Source: [[raw_sources/handprint/color13.md|color13.html]])*. The same tension appears in mixing logic — MacEvoy shows it is **impossible to create a subtractive color wheel where every color opposite another mixes to gray**, because mixing complements depend on the specific pigments used *(Source: [[raw_sources/handprint/color16.md|color16.html]])*. Farges' "mix across the circle to neutralize" shortcut is therefore a practical approximation, not a physical law — and his own disclaimer concedes the angles are averages.
+
+Both systems, however, push the same studio message: rules are a starting scaffold, and experience is the real guide — MacEvoy notes that conscious planning and alternative paint choices "will eventually be replaced by your habitual palette and mixing experience." *(Source: [[raw_sources/handprint/color14.md|color14.html]])*
 
 ## Subtopics
-- Three chroma tiers (high / medium / low wheels) sharing one 0–360° hue scaffold
-- Six main hues: R, Y, G, C, B, M — RGB + CMY rather than RYB
-- Pigment placements by hue angle (PR108, PR254, PO20, PY35, PY154, PG7, PG36, PB29, PB28, PB27, PB35, PB36, PG50, PG19, PV14/15/16, PR177, PR101, PR102, PY42/43, PG17, PG23, PBr7, PW1/4/6)
-- Color strings: pick a string in the wheels, mix and adjust on the palette
-- Complements opposite; mixing across the circle neutralizes toward the low-chroma wheel
-- Legend: HUE / CHROMA (peak chroma at each pigment's value ceiling) / VALUE
-- ©2020 Florent Farges; free SD version; 87-page PDF + 9-hour course upsell
+- Munsell + CMYRGB hybrid scaffold, organized by perception rather than by mixing logic or automation.
+- Three chroma tiers (high / medium / low) as a flat substitute for the 3D color solid.
+- Nine value steps per hue and the value-scale mixing workflow (titanium white / burnt umber / ivory black).
+- 36 hues from six main hues; 972 shades on a single sheet.
+- Pigment mapping and the "color strings" mixing workflow for locating target colors.
 
 ## Cross-References
-- [[Pigments/The artist's color wheel|The artist's color wheel]] — MacEvoy's measured-hue wheel, the same philosophy from handprint.com
-- [[Pigments/Transparency, Opacity & Pigment Codes|Transparency, Opacity & Pigment Codes]] — decoding every CI code printed on the wheels
-- [[Pigments/Reference/index|Pigment Reference]] — the data sheets for the pigments Farges places (PR108, PB29, PG7, PBr7…)
-- [[Intersections/Optical vs. Physical Mixture]] — why mixing across a hue circle behaves non-geometrically
-- [[Painting/index|Painting]] — the painterly context for the system
-- [[Intersections/Simultaneous Contrast, Color Constancy, Afterimages, Subtractive vs. Additive Mixing]] — the Color Wheel Fallacy and additive vs. subtractive mixing
+- [[The artist's color wheel]] — MacEvoy's measured wheel: clusters and gaps, not a tidy scaffold.
+- [[Munsell Notation]] — the hue/value/chroma model Farges borrows and flattens.
+- [[Color Mixing, Prediction & Color Schemes]] — mixing across the circle and the limits of wheel prediction.
+- [[Optical vs. Physical Mixture]] — why subtractive mixing resists geometric prediction.
+- [[Chemistry]] — why a pigment lands where it does on the wheel.
+- [[Colors/Gamuts/index|Gamuts]] — the range of colors a pigment set can actually produce.
 
 ## Sources
-* "Color Theory for Artists — The Optimal Color Wheel System for Painting" — Florent Farges (embedded PDF, ©2020; image-only scan transcribed by OCR)
+* "ALL-IN-ONE Color Wheel System for Painters — Color Theory Resources for Artists" — Florent Farges (video, YouTube)
