@@ -44,7 +44,7 @@ MacEvoy's history places Fauvism inside the Newtonian "emancipation of color": m
 - Critical shock → canonization; dogma cycles
 
 ## Cross-References
-- [[Movements & Painters]] — the arc page
+- [[Painting/Movements & Painters/index|Movements & Painters]] — the arc page
 - [[Post-Impressionism]] — the immediate ancestry
 - [[Composition]] — simultaneous contrast and balance
 - [[Neo-Impressionism-Pointillism]] — the movement Fauvism supersedes

@@ -35,11 +35,11 @@ MacEvoy's practice is the artist-facing half of this methodology: he has "conduc
 - Gamut maps, the color tree, and the Pointer Gamut reference (4,000+ surfaces)
 
 ## Cross-References
-- [[Pigments]] — the cluster hub
+- [[Pigments/index|Pigments]] — the cluster hub
 - [[Data & Methodology]] — instruments and protocols behind these measurements
 - [[High-Chroma Synthetics]] — the pigments the data must tame
 - [[Pointer's Gamut]] — the reference hull for real surface colors
-- [[Gamuts]] — from pigment data to gamut volume
+- [[Colors/Gamuts/index|Gamuts]] — from pigment data to gamut volume
 
 ## Sources
 * "Artists' Pigments: A Handbook of Their History and Characteristics" — Robert L. Feller

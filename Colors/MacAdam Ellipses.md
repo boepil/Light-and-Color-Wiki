@@ -1,6 +1,6 @@
 ---
 title: MacAdam Ellipses
-sequence: 10
+sequence: 9
 ---
 ![[images/ChatGPT Image Aug 6, 2026, 02_29_42 PM.png]]
 
@@ -69,7 +69,7 @@ MacEvoy's hue-circle analyses independently confirm MacAdam's pattern of discrim
 - [[CIE Systems]]
 - [[Munsell Notation]]
 - [[Why Lab-Munsell Were Built for Perceptual Uniformity]]
-- [[Gamuts]]
+- [[Colors/Gamuts/index|Gamuts]]
 - [[Color Matching Functions and the Photopic Luminosity Function]]
 
 ## Sources

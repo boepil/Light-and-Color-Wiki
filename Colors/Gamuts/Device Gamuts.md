@@ -1,6 +1,6 @@
 ---
 title: Device Gamuts
-sequence: 12
+sequence: 11
 ---
 ![[images/ChatGPT Image Aug 6, 2026, 02_39_45 PM.png]]
 
@@ -81,7 +81,7 @@ Briggs supplies the geometry and the caveats behind the page's device-gamut summ
 - Paint vs display chroma peaks: violet-blue/magenta 24 vs red 18 for RGB; yellow/cyan where paints win (Briggs)
 
 ## Cross-References
-- [[Gamuts]]
+- [[Colors/Gamuts/index|Gamuts]]
 - [[Pointer's Gamut]]
 - [[Optimal Color Solid-MacAdam Limits]]
 - [[CIE Systems]]

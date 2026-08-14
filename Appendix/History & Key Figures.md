@@ -1,6 +1,6 @@
 ---
 title: History & Key Figures
-sequence: 5
+sequence: 4
 ---
 ![[Pasted image 20260813123927.png]]
 
@@ -10,10 +10,10 @@ Color did not get its modern systems in a laboratory first and reach painters la
 
 This page tells that story as **one loop with four engines** running at once:
 
-- **Art practice** — what painters and cultures wanted to show (see [[Painting/index.md|Painting]])
-- **Pigment production** — what craftspeople and factories could manufacture (see [[Pigments/index.md|Pigments]])
-- **Science of light** — how physicists and physiologists explained what was happening (see [[Light/index.md|Light]] and [[Eye/index.md|Eye]])
-- **Culture** — economics, status, and meaning, why lapis and Tyrian purple mattered (see [[Intersections/index.md|Intersections]] and [[Color Psychology & Symbolism]])
+- **Art practice** — what painters and cultures wanted to show (see [[Painting/index|Painting]])
+- **Pigment production** — what craftspeople and factories could manufacture (see [[Pigments/index|Pigments]])
+- **Science of light** — how physicists and physiologists explained what was happening (see [[Light/index|Light]] and [[Eye/index|Eye]])
+- **Culture** — economics, status, and meaning, why lapis and Tyrian purple mattered (see [[Intersections/index|Intersections]] and [[Color Psychology & Symbolism]])
 
 Different eras were led by different engines. Prehistory was culture and trade; the oil age was refined studio practice; the 19th century was chemistry; the 20th brought factory-born colorimetry back into the studio; today preservation and forensic science close the loop.
 
@@ -88,12 +88,12 @@ Briggs compresses the intellectual arc into the **"late 19th century Helmholtz�
 - The standardized present: legible tubes, archival X-ray/IR examination, and pigment chronology as forensic dating
 
 ## Cross-References
-- [[Painting/index.md|Painting]]
-- [[Pigments/index.md|Pigments]]
-- [[Light/index.md|Light]]
-- [[Eye/index.md|Eye]]
-- [[Colors/index.md|Colors]]
-- [[Intersections/index.md|Intersections]]
+- [[Painting/index|Painting]]
+- [[Pigments/index|Pigments]]
+- [[Light/index|Light]]
+- [[Eye/index|Eye]]
+- [[Colors/index|Colors]]
+- [[Intersections/index|Intersections]]
 - [[Newton's Influence on Painters]]
 - [[Vermeer-Dutch Golden Age]]
 - [[Impressionism]]

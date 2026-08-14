@@ -1,6 +1,6 @@
 ---
 title: Pointer's Gamut
-sequence: 13
+sequence: 12
 ---
 ![[images/ChatGPT Image Aug 6, 2026, 02_48_23 PM.png]]
 
@@ -60,7 +60,7 @@ He defines **optimal colors** as those with the highest hue purity possible for 
 
 ## Cross-References
 - [[Optimal Color Solid-MacAdam Limits]]
-- [[Gamuts]]
+- [[Colors/Gamuts/index|Gamuts]]
 - [[Device Gamuts]]
 - [[Natural Light Gamut vs. Pigment Gamut - Metamerism]]
 - [[MacAdam Ellipses]]

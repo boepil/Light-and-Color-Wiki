@@ -72,3 +72,10 @@ When the user requests header images: produce detailed prompts in the **flat med
 - Never write to `raw_sources/` (immutable).
 - Never commit unless explicitly asked.
 - Keep responses concise; deliver the page, not a lecture about the page.
+
+## Link style
+
+- **Link the title, don't repeat it:** when a heading names a page (section hubs in `index.md` and folder `index.md` files), make the heading itself the wikilink — `## [[Colors/index|Colors]]` — followed by plain descriptive text, and **don't re-list the section's pages as bullet links** under it (the hub page already links them). A flat data-sheet list (e.g. `### Pigment Reference (data sheets)`) may keep its bullets.
+- **Bare title links in hub page lists:** in "The pages, one by one" sections of a folder `index.md`, link each subpage by bare title — `#### [[Chemistry]] — why a pigment is the color it is` — not `[[Chemistry|Pigments/Chemistry]]`. Basenames are unique vault-wide, so the path prefix is redundant.
+- **Folder-note hubs must ALWAYS be explicit `[[Path/index|Title]]`** (e.g. `[[Colors/Gamuts/index|Gamuts]]`, `[[Pigments/Reference/index|Pigment Reference]]`). Never link a section hub by bare name (`[[Gamuts]]`), section name (`[[Pigments]]`), or folder path without `/index` (`[[Colors/Gamuts]]`) — those resolve to non-existent `.md` files. The no-`.md` form applies: `[[X/index|Title]]`, never `[[X/index.md|Title]]`.
+- Use the no-`.md` form in headings: `[[X/index|Title]]`, not `[[X/index.md|Title]]`.

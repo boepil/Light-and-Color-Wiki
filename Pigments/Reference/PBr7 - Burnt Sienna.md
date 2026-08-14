@@ -33,7 +33,7 @@ Raw sienna is **calcined or roasted in furnaces**; the dehydration converts goet
 
 ### Relation to Art and Painters
 
-- "One of the most widely used pigments in landscape painting" — for **shadows, broken earth tones, and warm underpaintings**; essential for deep, non-chalky mixtures (*A Comprehensive Overview...*, *Contemporary Color*). The historical workflow Chiaroscuro and Venetian glazing (see [[Painting/Movements & Painters|Movements & Painters]]) rested on exactly this transparent warmth.
+- "One of the most widely used pigments in landscape painting" — for **shadows, broken earth tones, and warm underpaintings**; essential for deep, non-chalky mixtures (*A Comprehensive Overview...*, *Contemporary Color*). The historical workflow Chiaroscuro and Venetian glazing (see [[Painting/Movements & Painters/index|Movements & Painters]]) rested on exactly this transparent warmth.
 
 ## Handprint Perspectives
 

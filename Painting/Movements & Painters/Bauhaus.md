@@ -58,7 +58,7 @@ Briggs supplies the documentary history behind Itten's pedagogy — and the shar
 - Itten's obsolete intermixture mixing model, missing cyan/magenta, and "creation science" verdict (Briggs)
 
 ## Cross-References
-- [[Movements & Painters]] — the arc page
+- [[Painting/Movements & Painters/index|Movements & Painters]] — the arc page
 - [[Composition]] — the seven contrasts applied
 - [[Intersections/Color Psychology & Symbolism|Color Psychology & Symbolism]] — "vibrations in the soul" vs. the evidence
 - [[Fauvism]] — the subjective-expression tradition Bauhaus formalizes

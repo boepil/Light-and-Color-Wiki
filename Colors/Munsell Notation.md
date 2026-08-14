@@ -1,6 +1,6 @@
 ---
 title: Munsell Notation
-sequence: 9
+sequence: 8
 ---
 ![[images/ChatGPT Image Aug 6, 2026, 02_36_26 PM.png]]
 
@@ -85,7 +85,7 @@ Briggs grounds the Munsell tree's famous irregularity — and several of the pag
 - [[CIE Systems]]
 - [[Why Lab-Munsell Were Built for Perceptual Uniformity]]
 - [[MacAdam Ellipses]]
-- [[Colors|Colors]]
+- [[Colors/index|Colors]]
 - [[History & Key Figures]]
 
 ## Sources

@@ -26,11 +26,11 @@ The range of colors painters can mix is compressed by physical and chemical fact
 
 ### 3. Metamerism: The Consequence of Receptor Sampling
 
-![[Pasted image 20260813175705.png]]
+
 
 **Metamerism** is the phenomenon where two different spectral power distributions produce the same set of three neural signals (tristimulus values) and thus look identical under a specific light source:
 
-- **Information reduction:** color vision reduces the infinite complexity of the spectrum to just three scalar values (one per cone type — S, M, and L).
+- **Information reduction:** color vision reduces the infinite complexity of the spectrum to just three scalar values (one per cone type — S, M, and L).![[Pasted image 20260813175705.png]]
 - **The cause:** the same activation pattern across the three cone types can be triggered by many physically distinct wavelength combinations. For example, a **monochromatic yellow light (580 nm)** can look identical to a **mixture of red and green light**.
 
 ### 4. Practical Consequences for Painters
@@ -68,7 +68,7 @@ He adds that metameric colors are **commonly grays and dull (unsaturated) hues**
 - Illuminant & Observer Shifts
 
 ## Cross-References
-- [[Gamuts]]
+- [[Colors/Gamuts/index|Gamuts]]
 - [[Pointer's Gamut]]
 - [[Optimal Color Solid-MacAdam Limits]]
 - [[Color Matching Functions and the Photopic Luminosity Function]]

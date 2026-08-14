@@ -35,7 +35,7 @@ MacEvoy builds his modern palette on these organics — PB15, PG7, PR122, PV19 a
 - Tinctorial power: "let down" 50–75% with inert fillers; mixture caution
 
 ## Cross-References
-- [[Pigments]] — the cluster hub
+- [[Pigments/index|Pigments]] — the cluster hub
 - [[Chemistry]] — macrocycle/heterocycle and π→π\* mechanisms
 - [[Natural vs. Synthetic]] — what these replaced
 - [[Particle Size-Tinting-Polymorphism]] — strength and crystal phases

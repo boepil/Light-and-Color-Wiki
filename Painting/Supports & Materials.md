@@ -51,11 +51,11 @@ MacEvoy treats the support as one half of the watercolor equation: the paint's a
 
 ## Cross-References
 - [[Painting/Composition]]
-- [[Painting/Movements & Painters]]
+- [[Painting/Movements & Painters/index|Movements & Painters]]
 - [[Pigments/Media, Vehicles & Solvents]]
 - [[Pigments/Chemistry]]
 - [[Pigments/Particle Size-Tinting-Polymorphism]]
-- [[Colors/Gamuts]]
+- [[Colors/Gamuts/index|Gamuts]]
 
 ## Sources
 * "The Artist's Handbook of Materials and Techniques" — Ralph Mayer

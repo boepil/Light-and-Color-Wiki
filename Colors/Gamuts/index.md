@@ -1,7 +1,7 @@
 ---
 title: Gamuts
 aliases: [Gamuts]
-sequence: 11
+sequence: 10
 ---
 ![[images/ChatGPT Image Aug 6, 2026, 02_43_04 PM.png]]
 

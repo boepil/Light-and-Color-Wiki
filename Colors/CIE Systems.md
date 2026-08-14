@@ -1,6 +1,6 @@
 ---
 title: CIE Systems
-sequence: 8
+sequence: 7
 ---
 
 ![[images/ChatGPT Image Aug 6, 2026, 02_26_10 PM.png]]
@@ -96,7 +96,7 @@ Briggs grounds the CIE machinery in the biology and the naming conventions that 
 - [[Why Lab-Munsell Were Built for Perceptual Uniformity]]
 - [[MacAdam Ellipses]]
 - [[Munsell Notation]]
-- [[Gamuts]]
+- [[Colors/Gamuts/index|Gamuts]]
 
 ## Sources
 

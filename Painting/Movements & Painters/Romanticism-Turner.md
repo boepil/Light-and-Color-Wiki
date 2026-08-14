@@ -49,7 +49,7 @@ MacEvoy's painterly verdict on Turner is double: as a **color-materials man** �
 - Romantic rejections: disegno hierarchy, local color, academic smoothness; and Turner's fugitive-materials legend
 
 ## Cross-References
-- [[Movements & Painters]] — the arc page
+- [[Painting/Movements & Painters/index|Movements & Painters]] — the arc page
 - [[Composition]] — the balance doctrine Turner broke
 - [[Impressionism]] — the optical color that follows
 - [[Natural Daylight Variation & Hyperspectral Scene Data]] — the atmospheric physics behind the veil

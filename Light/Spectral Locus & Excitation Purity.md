@@ -54,7 +54,7 @@ MacEvoy classifies the third color-making attribute as **hue purity** — the "c
 - [[CIE Systems]] — the xy diagram that hosts the locus
 - [[The Visible Spectrum]] — the wavelength range the locus traces
 - [[MacAdam Ellipses]] — the perceptual non-uniformity that decouples purity from saturation
-- [[Gamuts|Gamuts]] and [[Optimal Color Solid-MacAdam Limits]] — the locus and line of purples as the outer envelope of every gamut
+- [[Colors/Gamuts/index|Gamuts]] and [[Optimal Color Solid-MacAdam Limits]] — the locus and line of purples as the outer envelope of every gamut
 - [[Illuminants & Correlated Color Temperature]] — the white points (D65, E) anchoring purity
 - [[Natural Light Gamut vs. Pigment Gamut - Metamerism]] — locus purity vs. pigment metamerism
 

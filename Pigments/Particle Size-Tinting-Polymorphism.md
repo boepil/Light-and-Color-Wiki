@@ -46,7 +46,7 @@ MacEvoy's central doctrine is that the physical pigment — "particle size and s
 - Polymorphism: PB15 α/β, CdS hex/cubic, chrome yellow monoclinic/orthorhombic, vermilion→metacinnabar
 
 ## Cross-References
-- [[Pigments]] — the cluster hub
+- [[Pigments/index|Pigments]] — the cluster hub
 - [[Chemistry]] — crystal structure and composition
 - [[High-Chroma Synthetics]] — the pigments most affected by strength and polymorphism
 - [[Natural vs. Synthetic]] — granulation "signature" of earth pigments

@@ -1,6 +1,6 @@
 ---
 title: Why Material Reality Favors Green Over Red
-sequence: 6
+sequence: 5
 ---
 ![[Pasted image 20260814112357.png]]
 
@@ -67,7 +67,7 @@ MacEvoy also puts the evolutionary-emotional gloss under suspicion. He explicitl
 ## Cross-References
 - [[Optimal Color Solid-MacAdam Limits]]
 - [[Pointer's Gamut]]
-- [[Gamuts]]
+- [[Colors/Gamuts/index|Gamuts]]
 - [[Munsell Notation]]
 - [[CIE Systems]]
 - [[Chemistry]]

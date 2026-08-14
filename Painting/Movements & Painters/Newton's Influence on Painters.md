@@ -56,7 +56,7 @@ Briggs tracks Newton's actual legacy into the hue systems painters adopted — a
 - Itten's 1961 *The Art of Color* as the "creation science" of colour — the modern persistence of RYB (Briggs)
 
 ## Cross-References
-- [[Movements & Painters]] — the arc page that places Newton's influence
+- [[Painting/Movements & Painters/index|Movements & Painters]] — the arc page that places Newton's influence
 - [[Romanticism-Turner]] — Turner's Newton–Goethe engagement and the crimson punto
 - [[The Visible Spectrum]] — the 1666 prismatic analysis
 - [[Impressionism]] — Chevreul's simultaneous contrast as Newtonian legacy in practice

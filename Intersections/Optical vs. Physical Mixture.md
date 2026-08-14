@@ -78,7 +78,7 @@ Briggs gives the mixing taxonomy its missing precision. **Four — not two — k
 ## Cross-References
 - [[Simultaneous Contrast, Color Constancy, Afterimages, Subtractive vs. Additive Mixing]]
 - [[Neo-Impressionism-Pointillism]]
-- [[Gamuts]]
+- [[Colors/Gamuts/index|Gamuts]]
 - [[Natural Light Gamut vs. Pigment Gamut - Metamerism]]
 - [[Munsell Notation]]
 - [[History & Key Figures]]

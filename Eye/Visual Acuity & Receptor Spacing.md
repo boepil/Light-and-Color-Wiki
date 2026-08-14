@@ -75,7 +75,7 @@ He also emphasizes **visual fusion**, the mechanism by which the visual system a
 - [[Rods vs. Cones - Density & Distribution]]
 - [[Anatomy]]
 - [[Wavelength Perception]]
-- [[Eye|Eye]]
+- [[Eye/index|Eye]]
 
 ## Sources
 

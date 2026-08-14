@@ -34,7 +34,7 @@ Produced by **coprecipitating cadmium and selenium compounds**, then **calcining
 
 ### Relation to Art and Painters
 
-- Became the stable high-chroma red of the 20th century — a non-fugitive alternative to "aniline" dyes — serving movements that demanded intense, permanent reds. On the modern palette it holds the vermilion niche (the red anchor with cadmium yellow and ultramarine) — see [[Pigments|the section hub]] and the mixing triangles in [[Pigments/The artist's color wheel|Pigment Color Wheel]].
+- Became the stable high-chroma red of the 20th century — a non-fugitive alternative to "aniline" dyes — serving movements that demanded intense, permanent reds. On the modern palette it holds the vermilion niche (the red anchor with cadmium yellow and ultramarine) — see [[Pigments/index|the section hub]] and the mixing triangles in [[Pigments/The artist's color wheel|Pigment Color Wheel]].
 
 ## Handprint Perspectives
 

@@ -53,7 +53,7 @@ MacEvoy lists Vermeer among the great painters he most admires for "an incredibl
 - Blue-yellow duality → Goethe/Maxwell; prismatic pigment → Impressionism; subjective realism → abstraction
 
 ## Cross-References
-- [[Movements & Painters]] — the wider arc this page opens
+- [[Painting/Movements & Painters/index|Movements & Painters]] — the wider arc this page opens
 - [[Composition]] — mother color, key, balance
 - [[Simultaneous Contrast, Color Constancy, Afterimages, Subtractive vs. Additive Mixing]] — drapery/skin interplay
 - [[Impressionism]] — where his optical practice leads

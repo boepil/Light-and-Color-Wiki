@@ -79,7 +79,7 @@ Briggs grounds the "same pigment, different color" phenomenon in the **medium's 
 - Refractive-index mechanism: air 1.00 vs pigment 2.0–2.7 vs oil 1.48 — darker/more saturated in a transparent vehicle; drying shift water 1.33 → air
 
 ## Cross-References
-- [[Pigments]] — the section hub
+- [[Pigments/index|Pigments]] — the section hub
 - [[Sourcing Real Spectral Data]] — the drying shift measured
 - [[Chemistry]] — why pigments absorb the way they do
 - [[Particle Size-Tinting-Polymorphism]] — refractive index, opacity, and tinting strength

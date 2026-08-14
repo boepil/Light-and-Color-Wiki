@@ -41,7 +41,7 @@ MacEvoy's paint chemistry doctrine: the historical arc "from natural, inorganic 
 - Fading: photo-oxidation, photoreduction, PbS blackening, zinc-soap embrittlement
 
 ## Cross-References
-- [[Pigments]] — the cluster hub
+- [[Pigments/index|Pigments]] — the cluster hub
 - [[High-Chroma Synthetics]] — the engineered organics
 - [[Natural vs. Synthetic]] — the material transition
 - [[Particle Size-Tinting-Polymorphism]] — crystal structure's optical side

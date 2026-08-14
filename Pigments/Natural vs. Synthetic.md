@@ -38,7 +38,7 @@ MacEvoy reads the natural-to-synthetic arc as the motor of modern palette design
 - Provenance vs. performance as labels
 
 ## Cross-References
-- [[Pigments]] — the cluster hub
+- [[Pigments/index|Pigments]] — the cluster hub
 - [[Chemistry]] — the mechanisms behind the trade-offs
 - [[High-Chroma Synthetics]] — the modern half of the trade-off
 - [[Particle Size-Tinting-Polymorphism]] — granulation "signature" physics

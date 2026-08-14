@@ -1,6 +1,6 @@
 ---
 title: Optimal Color Solid-MacAdam Limits
-sequence: 14
+sequence: 13
 ---
 ![[images/ChatGPT Image Aug 6, 2026, 02_46_29 PM.png]]
 
@@ -74,7 +74,7 @@ Briggs translates the theoretical solid into paint terms, and supplies the data 
 
 ## Cross-References
 - [[Pointer's Gamut]]
-- [[Gamuts]]
+- [[Colors/Gamuts/index|Gamuts]]
 - [[Device Gamuts]]
 - [[CIE Systems]]
 - [[MacAdam Ellipses]]

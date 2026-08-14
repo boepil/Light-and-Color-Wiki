@@ -39,7 +39,7 @@ MacEvoy's diagnosis of why traditional color theory ignores such work: "Traditio
 - Durational viewing; small units vs. large fields ("areas able to stand on their own")
 
 ## Cross-References
-- [[Movements & Painters]] — the arc page
+- [[Painting/Movements & Painters/index|Movements & Painters]] — the arc page
 - [[Color Field]] — the durational-experience sibling
 - [[Simultaneous Contrast, Color Constancy, Afterimages, Subtractive vs. Additive Mixing]] — the mechanisms Op Art weaponizes
 - [[Visual Acuity & Receptor Spacing]] — saccades and fixation

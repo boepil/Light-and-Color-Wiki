@@ -68,8 +68,8 @@ MacEvoy approaches perceptual uniformity from the painter's side: the value scal
 - [[CIE Systems]]
 - [[Munsell Notation]]
 - [[MacAdam Ellipses]]
-- [[Colors|Colors]]
-- [[Eye|Eye]]
+- [[Colors/index|Colors]]
+- [[Eye/index|Eye]]
 - [[Opponent-Process Color Coding]]
 
 ## Sources

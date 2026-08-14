@@ -47,7 +47,7 @@ Bruce MacEvoy notes that the shift in natural light from dawn to dusk—the focu
 - Monet's serial canvases and diurnal spectral changes
 
 ## Cross-References
-- [[Painting/Movements & Painters]]
+- [[Painting/Movements & Painters/index|Movements & Painters]]
 - [[Painting/Movements & Painters/Neo-Impressionism-Pointillism]]
 - [[Intersections/Simultaneous Contrast, Color Constancy, Afterimages, Subtractive vs. Additive Mixing]]
 - [[Intersections/Optical vs. Physical Mixture]]

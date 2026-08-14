@@ -36,7 +36,7 @@ sequence: 63
 
 ### Relation to Art and Painters
 
-- The low-key anchor of the limited palette from Baroque underpainting (see [[Painting/Movements & Painters|Movements & Painters]]) through plein-air practice: umber grounds, umber-darks, and umber-olives recur in every era's landscape and portrait tradition (*Plein Air Techniques for Artists*, *Artists' Pigments*).
+- The low-key anchor of the limited palette from Baroque underpainting (see [[Painting/Movements & Painters/index|Movements & Painters]]) through plein-air practice: umber grounds, umber-darks, and umber-olives recur in every era's landscape and portrait tradition (*Plein Air Techniques for Artists*, *Artists' Pigments*).
 
 ## Handprint Perspectives
 

@@ -67,7 +67,7 @@ Briggs supplies the composition page's sharpest dissection of the **temperature 
 - Albers "worn out," Munsell's Brewster critique, Gage's catechism, Turner's cool controversion
 
 ## Cross-References
-- [[Movements & Painters]] — how the movements applied (or rejected) these principles
+- [[Painting/Movements & Painters/index|Movements & Painters]] — how the movements applied (or rejected) these principles
 - [[Simultaneous Contrast, Color Constancy, Afterimages, Subtractive vs. Additive Mixing]] — Chevreul's law in action
 - [[Munsell Notation]] — balance via chroma extension
 - [[Impressionism]] — broken color and the rejection of academic rules
