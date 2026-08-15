@@ -26,6 +26,8 @@ MacEvoy's color wheel is the definitive practical answer to the color-tree geome
 - [[Munsell Notation]] — the system behind the placement
 - [[Colors/Gamuts/index|Gamuts]] — why no pigment reaches the locus
 - [[Causal Chain - Pigments to Perception]] — V(λ) and the green chroma ceiling
+- [[Perceptual Complements vs. Mixing Complements]] — visual opposites on the wheel vs. pigments that actually neutralize in the cup
+- [[Why CMY Beats RYB for Color Mixing]] — why the wheel's core is magenta/cyan/yellow, not red/blue
 - [[Pigments/Transparency, Opacity & Pigment Codes|Transparency, Opacity & Pigment Codes]] — reading pigment labels
 
 ## Sources

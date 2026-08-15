@@ -40,6 +40,7 @@ MacEvoy builds his modern palette on these organics — PB15, PG7, PR122, PV19 a
 - [[Natural vs. Synthetic]] — what these replaced
 - [[Particle Size-Tinting-Polymorphism]] — strength and crystal phases
 - [[Device Gamuts]] — pigments as display gamut limits
+- [[Why CMY Beats RYB for Color Mixing]] — the phthalo/quinacridone set as the CMY primaries
 - [[Pointer's Gamut]] — the gamut these stretch toward
 
 ## Sources

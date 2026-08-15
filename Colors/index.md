@@ -13,6 +13,10 @@ We measure temperature in degrees and distance in meters so that everyone agrees
 
 Colors have no natural order — wavelengths run together without inherent boundaries — so any wheel's geometry (which hues sit where, which lie "opposite") is a human decision judged by studio usefulness, not by symmetry. Surveys eight historical systems — Newton 1704, the RYB wheel, Goethe 1810, Itten, Munsell 1905, CIELAB, RGB/CMY, Ostwald — each built on a different organizing principle (light physics, pigment mixing, perceptual spacing, or subjective harmony); their disagreement is the proof that classification is a human choice, with Munsell's wheel the perceptual-uniformity benchmark.
 
+#### [[Why CMY Beats RYB for Color Mixing]] — why the subtractive primaries actually matter
+
+Why three cyan/magenta/yellow paints can mix a far wider gamut than the red/yellow/blue triad — each CMY pigment absorbs roughly one-third of the visible spectrum and aligns with the eye's cone classes, while RYB's "primaries" are spectrally impure historical hues that cannot reach cyan, magenta, or clean violets. Covers the 1/3-spectrum physics, spectral purity (Schrödinger step pigments), curved mixing paths, the modern pigment set (phthalo/quinacridone/hansa), and the history from Le Blon and Helmholtz to Itten.
+
 #### [[CIE Systems]] — the scientific foundation
 
 The original international standard for measuring color (1931), built on **how the average human eye actually responds to light**. Instead of asking people to agree on names, it turns a color's light into numbers that any lab in the world can read. Think of it as the official ruler for color. If you want the scientific side — how color is defined objectively — start here.

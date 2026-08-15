@@ -9,7 +9,7 @@ sequence: 48
 **Opponent-process color coding** represents the second stage of human color vision, where physical signals from the three trichromatic cone receptors are neurally recombined into antagonistic channels (**A Comprehensive Overview**, **Illusions of Seeing**, **Vision Science: Photons to Phenomenology**). This system, first formally proposed in **1878** by the German physiologist **Ewald Hering**, transforms raw wavelength information into a representation of chromatic balance and luminance that is more evolutionarily useful for distinguishing illumination changes (like shadows) from surface reflectance. It directly explains why we never perceive "reddish-green," why complementary afterimages occur, and why color-mixing complements can be defined purely neurally.
 
 ### The Three Opponent Axes and Neural Computation
-
+![[Pasted image 20260814191059.png]]
 Color appearance is mediated by three independent opponent channels, computed from specific cone excitations:
 
 - **Red–Green Axis (L − M):** Computes the difference between Long-wavelength (L) and Middle-wavelength (M) cones. Redness is signaled by excitatory L-cone input and inhibitory M-cone input (R+G−); greenness is the reverse (G+R−) (**A Comprehensive Overview**, **Why Material Reality Favors Green Over Red**, **vision-science-photons-to-pheno**).
@@ -65,12 +65,36 @@ The **Dual Process (or Zone) Theory** reconciles the historical conflict between
 - **Neutral points:** dichromats show "neutral points" where they see only gray: **492 nm** for protanopes, **498 nm** for deuteranopes.
 - **Receptive field size:** increases hierarchically from **0.1–0.5°** in area V1 up to **25° or more** in the inferotemporal (IT) cortex.
 
-## Handprint Perspectives
+## boaz note
 
-MacEvoy heavily utilizes opponent-process theory to explain how the brain structures raw cone signals into the perceptual axes of red-green and blue-yellow. He views this biological wiring as the true foundation for visual complementary colors (colors that naturally contrast and neutralize in the mind).
+Your critique of the linguistic arguments for opponent-process theory—specifically the idea that "greenish-red" is impossible while "purplish-red" is common—is actually supported by several perspectives in the sources. The sources acknowledge that while these linguistic claims were the historical "cornerstones" of the theory, they are often seen as subjective or "simplistic" compared to the biological reality.
+
+To address your specific question about the "missing step" between biological signals and actual color perception, here is the breakdown of what is known versus what is hypothesized.
+
+### The Biological "Teeter-Totter"
+
+The reason you cannot see "greenish-red" is not a matter of labels, but of **bipolar neural wiring**. As early as the first synapse in the retina, the visual system stops caring about the individual S, M, or L cone signals and begins calculating the **difference** between them.
+
+- **The Red-Green Channel:** This is a single signal computed as **(L-M)**. A single neuron is either excited (+) or inhibited (-). It functions like a "teeter-totter"; it can tilt toward red or tilt toward green, but it is physically impossible for a single neural channel to be in both states simultaneously.
+- **Neutrality:** When you see "gray" or "olive," you are seeing that teeter-totter in its perfectly balanced, horizontal state (a zero signal). This is why these are called **opponent** colors—the presence of one signal physically cancels out the other at the neural level.
+
+### The "Next Step" of Processing: Reparameterization
+
+The biological data confirms that we have three channels: **Black-White (Luminance)**, **Red-Green**, and **Blue-Yellow**. However, these "axes" do not match how we actually experience color in terms of **Hue, Saturation, and Value** (the Munsell or HSV model). A "next step" is required to transform these raw electrical differences into a perceptual map.
+
+1. **Coordinate Transformation:** This step is called **reparameterization**. The brain must take the two chromatic opponent axes (Red/Green and Blue/Yellow) and transform them into a polar coordinate system where "Hue" is an angle around a circle and "Saturation" is the distance from the center.
+2. **Where it Happens:** This processing is believed to take place in the **visual cortex**, specifically in areas beyond the primary visual cortex (V1) known as **V4** and the **ventral-occipital cluster (VO1/VO2)**. These regions are specialized to compute a "neural color space" that is more geometrically organized than the raw signals found in the retina or LGN.
+3. **The Categorical Filter:** Another subsequent step is **categorical clustering**. fMRI studies show that as color information moves further into the brain, it is warped by categories. Colors that we name as "red" are pulled closer together in the neural map, while those near a category boundary (like "orange") are pushed further apart.
+
+### Is this step known or hypothesized?
+
+- **The location is known:** Neuropsychological cases confirm that damage to the **V4/prestriate cortex** can cause **achromatopsia**, where a patient has healthy cones and opponent signals but the "organ" that interprets them into color experience is broken, leaving them seeing the world in shades of gray.
+- **The mechanism is hypothesized:** While we can see these transformations happening via fMRI, scientists have **not yet definitively found the specific "hue" and "saturation" cells** that perform the exact coordinate transform speculated in the reparameterization model.
+
+The transition from raw "opponent signals" to "color consciousness" remains one of the great mysteries of vision science. As the sources note, the retina records **sensation**, but the brain produces **perception**, which depends on complicated cerebral processes like inference and memory that are not yet fully understood.
 
 > [!WARNING] **Contradiction Flag: Visual vs. Mixing Complements**
-> Handprint vehemently warns against a major fallacy in traditional color theory: conflating these *visual* opponent complements with physical *mixing* complements. While opponent-process theory dictates that green and magenta are visual opposites, mixing green and magenta paints does not yield a neutral gray due to physical reflectance overlap. This crucial distinction is expanded on in [[Optical vs. Physical Mixture]]. *(Source: [[raw_sources/handprint/color18a.md|color18a.html]])*
+> Handprint vehemently warns against a major fallacy in traditional color theory: conflating these *visual* opponent complements with physical *mixing* complements. While opponent-process theory dictates that green and magenta are visual opposites, mixing green and magenta paints does not yield a neutral gray due to physical reflectance overlap. This crucial distinction is expanded on in [[Perceptual Complements vs. Mixing Complements]]. *(Source: [[raw_sources/handprint/color18a.md|color18a.html]])*
 
 ## Subtopics
 - Red-Green Axis
@@ -87,6 +111,7 @@ MacEvoy heavily utilizes opponent-process theory to explain how the brain struct
 - [[Anatomy]]
 - [[Why Lab-Munsell Were Built for Perceptual Uniformity]]
 - [[Simultaneous Contrast, Color Constancy, Afterimages, Subtractive vs. Additive Mixing]]
+- [[Perceptual Complements vs. Mixing Complements]] — visual complements from opponent wiring vs. subtractive palette neutrals
 - [[Optical vs. Physical Mixture]]
 - [[Munsell Notation]]
 - [[CIE Systems]]

@@ -84,7 +84,7 @@ Each system below is a **specific tool designed to solve a different problem**. 
 - The flaw is structural: the system's geometry comes from **additive-averaging spinning-disc mixtures**, so its opposite relationships are additive complements, not colourant-mixing complements. *(Source: [[raw_sources/huevaluechroma/018.md|018.html]], [[raw_sources/huevaluechroma/073.md|073.html]])*
 
 ### Why the disagreement reveals color as arbitrary
-
+![[Pasted image 20260814205417.png]]
 The eight systems disagree because each is a **specific tool designed to solve a different problem**:
 
 - **Newton / RGB** explore the **physics of light**;
@@ -118,8 +118,10 @@ MacEvoy's verdict on the whole genre is the same conclusion reached from measure
 - [[CIE Systems]] — the colorimetry behind the CIELAB "universal translator."
 - [[Newton's Influence on Painters]] — how the 1704 circle entered art theory.
 - [[Optical vs. Physical Mixture]] — why additive (Newton/CMY's light rules) and subtractive (paint) wheels diverge.
+- [[Perceptual Complements vs. Mixing Complements]] — visual opponent pairs vs. pigment-neutralizing complements.
 - [[Color Mixing, Prediction & Color Schemes]] — why wheel prediction fails and how painters cope.
 - [[Optimal Color Solid-MacAdam Limits]] — the irregular, tree-like solid a circle tries to flatten.
+- [[Why CMY Beats RYB for Color Mixing]] — the physical reason CMY spans a wider subtractive gamut than the RYB wheel.
 - [[Colors/Gamuts/index|Gamuts]] — what a given set of primaries can actually mix.
 - [[Why Material Reality Favors Green Over Red]] — why the measured "wheel" is lopsided, not even.
 

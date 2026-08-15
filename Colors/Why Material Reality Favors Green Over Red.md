@@ -66,6 +66,7 @@ MacEvoy also puts the evolutionary-emotional gloss under suspicion. He explicitl
 
 ## Cross-References
 - [[Optimal Color Solid-MacAdam Limits]]
+- [[Why CMY Beats RYB for Color Mixing]] — the cyan/green side of the gamut is the easy one to expand
 - [[Pointer's Gamut]]
 - [[Colors/Gamuts/index|Gamuts]]
 - [[Munsell Notation]]

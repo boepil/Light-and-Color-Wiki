@@ -87,6 +87,7 @@ Briggs supplies the geometry and the caveats behind the page's device-gamut summ
 - [[CIE Systems]]
 - [[MacAdam Ellipses]]
 - [[Sourcing Real Spectral Data]]
+- [[Why CMY Beats RYB for Color Mixing]] — why the CMY primaries define the wider subtractive gamut
 
 ## Sources
 
