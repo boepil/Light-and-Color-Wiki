@@ -11,28 +11,28 @@ sequence: 41
 
 ### Identity
 
-- **Colour Index:** PR254; a **diketopyrrolo-pyrrole (DPP)** pigment — a high-performance synthetic organic red built on the pyrrolo-pyrrole chromophore (*The Science of Paintings*, handprint pigmt1).
+- **Colour Index:** PR254; a **diketopyrrolo-pyrrole (DPP)** pigment — a high-performance synthetic organic red built on the pyrrolo-pyrrole chromophore ([[raw_sources/handprint/pigmt1.md|pigmt1.html]]).
 
 ### History
 
-- DPP pigments are a **late-20th-century class**, commercialized for the automotive and plastics markets as a novel family of high-performance reds; they entered artist paint in recent decades as a non-toxic cadmium substitute (*The Science of Paintings*).
+- DPP pigments are a **late-20th-century class**, commercialized for the automotive and plastics markets as a novel family of high-performance reds; they entered artist paint in recent decades as a non-toxic cadmium substitute.
 
 ### Production
 
-- Synthesized from the pyrrolo-pyrrole structure; formulation controls whether the pigment behaves as a scattering (opaque) or transparent color (*The Science of Paintings*).
+- Synthesized from the pyrrolo-pyrrole structure; formulation controls whether the pigment behaves as a scattering (opaque) or transparent color.
 
 ### Color Data
 
-- **Hue:** a bright, **neutral to slightly yellowish red** with excellent brightness at full shade (*The Science of Paintings*).
-- **Opacity and strength:** unusually for a synthetic organic, it can be formulated to high **scattering power and opacity**, behaving like a traditional inorganic red — with high tinctorial strength in tints (*The Science of Paintings*).
-- **Permanence:** outstanding light and weather fastness and high heat stability — automotive-grade durability (*The Science of Paintings*).
-- **Handling:** handprint's average across brands: "a very lightfast, **semiopaque, highly staining**, dark valued, intense medium red" (*handprint pigmt8*).
+- **Hue:** a bright, **neutral to slightly yellowish red** with excellent brightness at full shade.
+- **Opacity and strength:** unusually for a synthetic organic, it can be formulated to high **scattering power and opacity**, behaving like a traditional inorganic red — with high tinctorial strength in tints.
+- **Permanence:** outstanding light and weather fastness and high heat stability — automotive-grade durability.
+- **Handling:** handprint's average across brands: "a very lightfast, **semiopaque, highly staining**, dark valued, intense medium red" ([[raw_sources/handprint/pigmt8.md|pigmt8.html]]).
 - **Munsell notation:** not established in this corpus for PR254.
 
 ### Relation to Art and Painters
 
-- The modern **non-toxic alternative to Cadmium Red**: matches cadmium's extreme opacity and brilliance while avoiding heavy-metal (cadmium/selenium) health and environmental concerns, with better durability in thin tints (*The Science of Paintings*).
-- Industrial workhorse in automotive coatings; in art, a mainstay of contemporary high-chroma reds alongside quinacridones (*The Science of Paintings*).
+- The modern **non-toxic alternative to [[PR108 - Cadmium Red|Cadmium Red]]**: matches cadmium's extreme opacity and brilliance while avoiding heavy-metal (cadmium/selenium) health and environmental concerns, with better durability in thin tints.
+- Industrial workhorse in automotive coatings; in art, a mainstay of contemporary high-chroma reds alongside **[[PR122 - Quinacridone Magenta|quinacridones]]**.
 
 ## Handprint Perspectives
 

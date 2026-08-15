@@ -1,12 +1,11 @@
 ---
 title: Rods vs. Cones - Density & Distribution
 sequence: 47
----
-![[images/Rods vs. Cones.jpg]]
+---![[Pasted image 20260815125731.png]]
 
 **Scope:** Analyzes the density and spatial distribution of rods and cones across the retina.
 
-The human retina contains two primary classes of photoreceptor cells — **rods** and **cones** — which convert light energy into neural signals. These receptors are distributed unevenly across the retinal surface, creating specialized zones for different visual tasks (**vision-science-photons-to-pheno**, **Illusions of Seeing**, **Contemporary Color**).
+The human retina contains two primary classes of photoreceptor cells — **rods** and **cones** — which convert light energy into neural signals. These receptors are distributed unevenly across the retinal surface, creating specialized zones for different visual tasks.
 
 ### 1. Functional Differences: Scotopic vs. Photopic Vision
 

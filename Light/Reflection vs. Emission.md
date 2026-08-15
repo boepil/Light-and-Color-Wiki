@@ -1,38 +1,37 @@
 ---
 title: Reflection vs. Emission
 sequence: 9
----
-![[Pasted image 20260811114559.png]]
+---![[Pasted image 20260811114559.png]]
 
 **Scope:** Reflection versus emission — self-luminous sources and reflecting surfaces, specular/diffuse optics, and why emissive displays and reflective paint diverge in gamut and black point.
 
 ### Emission: Radiant Light
 
-Natural and artificial sources — sun, stars, fire, lamps — "generate energy and release it into the environment as electromagnetic waves"; these are **radiant** or **self-luminous** sources (*Contemporary Color*). Heated solids emit a **blackbody spectrum** (Planck's law) whose peak shifts to shorter wavelengths with temperature — **Wien's law**, λ_m = 2897/T(K) (*Contemporary Color*).
+Natural and artificial sources — sun, stars, fire, lamps — "generate energy and release it into the environment as electromagnetic waves"; these are **radiant** or **self-luminous** sources. Heated solids emit a **blackbody spectrum** (Planck's law) whose peak shifts to shorter wavelengths with temperature — **Wien's law**, λ_m = 2897/T(K).
 
 ### Reflection: Modification of Incident Light
 
-Reflection occurs when light waves "bounce off an object": the **incident beam** is modified by the surface's molecular structure — some wavelengths absorbed and converted to heat, others "cast back as the reflected beam, which defines the object's perceived color" (*A Comprehensive Overview..., vision-science*).
+Reflection occurs when light waves "bounce off an object": the **incident beam** is modified by the surface's molecular structure — some wavelengths absorbed and converted to heat, others "cast back as the reflected beam, which defines the object's perceived color".
 
-- **Specular reflection:** smooth, polished surfaces (mirrors, varnished paintings) reflect in a single direction with **angle of incidence = angle of reflection**, giving a clear image or bright **highlight**; "they move when the viewer moves" and often reveal the source's shape (circular bulb, tube-shaped fluorescent) (*A Comprehensive Overview..., vision-science*).
-- **Diffuse reflection:** rough or matte surfaces "penetrate, scatter in many directions, and then exit" — appearance independent of the viewer's position (*vision-science*).
+- **Specular reflection:** smooth, polished surfaces (mirrors, varnished paintings) reflect in a single direction with **angle of incidence = angle of reflection**, giving a clear image or bright **highlight**; "they move when the viewer moves" and often reveal the source's shape (circular bulb, tube-shaped fluorescent).
+- **Diffuse reflection:** rough or matte surfaces "penetrate, scatter in many directions, and then exit" — appearance independent of the viewer's position.
 
 ### Why Emissive and Reflective Media Diverge
 
-- **Primary systems:** emissive displays add light (**RGB**; full intensity → white); reflective paint/print subtract (**CMY**; ideal full mix → black) (*A Comprehensive Overview..., Color Management*).
-- **Gamut:** additive displays "typically offer a larger color gamut than subtractive print" — projected light looks "more saturated, vivid, and 'vibrant'" than light reflected off a surface (*A Comprehensive Overview..., Color Management*).
-- **Black point:** emissive black is the absence of light (**R=G=B=0** — though ambient light on screens limits the practical darkest black); reflective black requires absorbing all incident light — yet traditional pigments "can generally only 'cancel' color to a dull, dark gray," and the paper substrate's reflectance caps the print black point (*A Comprehensive Overview..., Color Management*).
+- **Primary systems:** emissive displays add light (**RGB**; full intensity → white); reflective paint/print subtract (**CMY**; ideal full mix → black).
+- **Gamut:** additive displays "typically offer a larger color gamut than subtractive print" — projected light looks "more saturated, vivid, and 'vibrant'" than light reflected off a surface.
+- **Black point:** emissive black is the absence of light (**R=G=B=0** — though ambient light on screens limits the practical darkest black); reflective black requires absorbing all incident light — yet traditional pigments "can generally only 'cancel' color to a dull, dark gray," and the paper substrate's reflectance caps the print black point.
 
 ### Perceiving Luminous vs. Non-Luminous Color
 
-- **Object vs. illuminant mode:** colorimetry distinguishes perceiving reflected light (object mode — **lightness**) from viewing a source directly (illuminant mode — **brightness**) (*vision-science*).
-- **Constancy:** lightness constancy preserves perceived surface reflectance across illumination changes — "white paper looks white both indoors and in bright sunlight" (*vision-science*).
-- **Luminosity beats physics:** spatial configuration can make a reflecting patch look self-luminous — "a small light region surrounded by a large dark region (like the moon)" (*vision-science*, *Interaction of Color*).
+- **Object vs. illuminant mode:** colorimetry distinguishes perceiving reflected light (object mode — **lightness**) from viewing a source directly (illuminant mode — **brightness**).
+- **Constancy:** lightness constancy preserves perceived surface reflectance across illumination changes — "white paper looks white both indoors and in bright sunlight".
+- **Luminosity beats physics:** spatial configuration can make a reflecting patch look self-luminous — "a small light region surrounded by a large dark region (like the moon)".
 
 ### Measurement and the Artist's Use
 
-- **Colorimetry:** reflective surfaces measured with bidirectional geometries (e.g., 45/0) to account for gloss and texture; self-luminous displays measured with radiometers imaging the source directly (*Color Management*).
-- **Artists:** highlights are used "to 'dance down the form' where planes meet," expressing 3D structure; **vibrational color** (separate dots or touches of pigment) simulates "the iridescent quality of light" (*Plein Air Techniques*, *Carlson's Guide*).
+- **Colorimetry:** reflective surfaces measured with bidirectional geometries (e.g., 45/0) to account for gloss and texture; self-luminous displays measured with radiometers imaging the source directly.
+- **Artists:** highlights are used "to 'dance down the form' where planes meet," expressing 3D structure; **vibrational color** (separate dots or touches of pigment) simulates "the iridescent quality of light".
 
 ## Handprint Perspectives
 

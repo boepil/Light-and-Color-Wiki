@@ -2,8 +2,7 @@
 title: Gamuts
 aliases: [Gamuts]
 sequence: 55
----
-![[images/ChatGPT Image Aug 6, 2026, 02_43_04 PM.png]]
+---![[images/ChatGPT Image Aug 6, 2026, 02_43_04 PM.png]]
 
 **Scope:** Parent page introducing gamuts — what "the range of colors a thing can produce" actually means, and how the different limits (physics, real objects, everyday devices, and the human eye) compare.
 
@@ -98,7 +97,7 @@ Briggs connects the gamut concept to its own history and to the arithmetic that 
 * "The Case Against Color Bias"
 * "The Material Supremacy of Green Chroma"
 * "Illusions of Seeing"
-* "The Dimensions of Colour : chroma" — [[raw_sources/huevaluechroma/015.md|015.html]]
-* "The Dimensions of Colour : additive mixing" — [[raw_sources/huevaluechroma/045.md|045.html]]
-* "The Dimensions of Colour : subtractive mixing" — [[raw_sources/huevaluechroma/051.md|051.html]]
-* "The Dimensions of Colour : primary colours" — [[raw_sources/huevaluechroma/062.md|062.html]]
+* "The Dimensions of Colour: chroma" — [[raw_sources/huevaluechroma/015.md|015.html]]
+* "The Dimensions of Colour: additive mixing" — [[raw_sources/huevaluechroma/045.md|045.html]]
+* "The Dimensions of Colour: subtractive mixing" — [[raw_sources/huevaluechroma/051.md|051.html]]
+* "The Dimensions of Colour: primary colours" — [[raw_sources/huevaluechroma/062.md|062.html]]

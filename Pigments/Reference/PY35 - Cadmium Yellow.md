@@ -11,30 +11,30 @@ sequence: 24
 
 ### Identity
 
-- **Colour Index:** PY35 (deep grades PY37): **cadmium sulfide, CdS**, as pure sulfide (PY37) or a solid solution with zinc sulfide, **CdS·xZnS**, giving lighter "primrose"/"lemon" shades (PY35) (*Artists' Pigments*, *Ralph Mayer*).
+- **Colour Index:** PY35 (deep grades PY37): **cadmium sulfide, CdS**, as pure sulfide (PY37) or a solid solution with zinc sulfide, **CdS·xZnS**, giving lighter "primrose"/"lemon" shades (PY35).
 
 ### History
 
 - The element cadmium was discovered in **1817 by Friedrich Stromeyer**, who suggested its sulfide for artistic use in **1818**; commercial availability for artists began mid-1840s (**1846 in England**).
-- **Claude Monet** used it famously — e.g., *Bordighera* (1884); it was a staple of the **Pre-Raphaelite palette** (*Color in Art*, *Artists' Pigments*).
+- **Claude Monet** used it famously — e.g., *Bordighera* (1884); it was a staple of the **Pre-Raphaelite palette**.
 
 ### Production
 
-Produced by a **dry process** (heating cadmium metal or oxide with sulfur) or a **wet process** (precipitating a soluble cadmium salt with a sulfide); modern industrial versions are almost universally **calcined at high temperature** to stabilize crystal structure and enhance brilliance (*Artists' Pigments*).
+Produced by a **dry process** (heating cadmium metal or oxide with sulfur) or a **wet process** (precipitating a soluble cadmium salt with a sulfide); modern industrial versions are almost universally **calcined at high temperature** to stabilize crystal structure and enhance brilliance.
 
 ### Color Data
 
-- **Extreme opacity and brilliance; highly permanent and lightfast** (*Artists' Pigments*).
-- In oil: a slow but reliable drier (*Ralph Mayer*).
+- **Extreme opacity and brilliance; highly permanent and lightfast**.
+- In oil: a slow but reliable drier.
 - **Munsell notation:** not established in this corpus for PY35.
 
 > [!WARNING] **Compatibility warnings (source-confirmed)**
-> - **Copper pigments** (emerald green, azurite): incompatible — forms dark **copper sulfide** (*Artists' Pigments*).
-> - **Lead pigments** (lead white, chrome yellow) in the presence of moisture: reacts to form **black lead sulfide (PbS)** (*Artists' Pigments*, *A Comprehensive Overview...*).
+> - **Copper pigments** (emerald green, azurite): incompatible — forms dark **copper sulfide**.
+> - **Lead pigments** (lead white, chrome yellow) in the presence of moisture: reacts to form **black lead sulfide (PbS)**.
 
 ### Relation to Art and Painters
 
-- The **Impressionist** and Pre-Raphaelite brilliant yellow; Monet's *Bordighera* (1884); in the 20th century the high-chroma mid-yellow anchor of the opaque palette, and the classic complement partner for **viridian mixes** in flesh painting (*Color in Art*).
+- The **Impressionist** and Pre-Raphaelite brilliant yellow; Monet's *Bordighera* (1884); in the 20th century the high-chroma mid-yellow anchor of the opaque palette, and the classic complement partner for **[[PG18 - Viridian|viridian]] mixes** in flesh painting.
 
 ## Handprint Perspectives
 

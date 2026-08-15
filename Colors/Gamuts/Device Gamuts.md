@@ -1,8 +1,7 @@
 ---
 title: Device Gamuts
 sequence: 56
----
-![[images/ChatGPT Image Aug 6, 2026, 02_39_45 PM.png]]
+---![[images/ChatGPT Image Aug 6, 2026, 02_39_45 PM.png]]
 
 **Scope:** Why screens, printers and scanners each show different ranges of color — and how images are converted when a color from one device can't be reproduced by another.
 
@@ -95,6 +94,6 @@ Briggs supplies the geometry and the caveats behind the page's device-gamut summ
 * "Color Management"
 * "Color for Science, Art, and Technology" — Kurt Nassau (Editor)
 * "The Science of Paintings" — W. Stanley Taft Jr. and James W. Mayer
-* "The Dimensions of Colour : chroma" — [[raw_sources/huevaluechroma/015.md|015.html]]
-* "The Dimensions of Colour : additive mixing" — [[raw_sources/huevaluechroma/045.md|045.html]]
-* "The Dimensions of Colour : brightness and saturation" — [[raw_sources/huevaluechroma/092.md|092.html]], [[raw_sources/huevaluechroma/093.md|093.html]], [[raw_sources/huevaluechroma/094.md|094.html]]
+* "The Dimensions of Colour: chroma" — [[raw_sources/huevaluechroma/015.md|015.html]]
+* "The Dimensions of Colour: additive mixing" — [[raw_sources/huevaluechroma/045.md|045.html]]
+* "The Dimensions of Colour: brightness and saturation" — [[raw_sources/huevaluechroma/092.md|092.html]], [[raw_sources/huevaluechroma/093.md|093.html]], [[raw_sources/huevaluechroma/094.md|094.html]]

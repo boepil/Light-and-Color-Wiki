@@ -11,33 +11,33 @@ sequence: 35
 
 ### Identity
 
-- **Colour Index:** PB29; the blue mineral **lazurite**, extracted from the semi-precious stone **lapis lazuli** (*Artists' Pigments*).
-- A rich, **warm violet-blue**; reduced with white it shows a distinctive reddish (violet) undertone (*Artists' Pigments*).
-- The name derives from Italian *azzurro oltremarino* — "blue from beyond the sea," referring to importation into Europe (*Artists' Pigments*).
+- **Colour Index:** PB29; the blue mineral **lazurite**, extracted from the semi-precious stone **lapis lazuli**.
+- A rich, **warm violet-blue**; reduced with white it shows a distinctive reddish (violet) undertone.
+- The name derives from Italian *azzurro oltremarino* — "blue from beyond the sea," referring to importation into Europe.
 
 ### History
 
-- Used as a decorative stone since **ancient Egypt and Mesopotamia**; European use as a painting pigment began in the **12th century**; the only high-quality source was **Badakhshan, Afghanistan** (*Artists' Pigments*).
-- **Value:** the costliest of all painting materials; in 16th-century Venice and Florence wealthy merchants used it "as a form of currency." Reserved for the most important subjects — the **robes of the Virgin Mary** (Fra Angelico's Linaiuoli Tabernacle) (*Color in Art*).
-- **Vermeer** was "uniquely scrupulous" in using genuine ultramarine, constructing compositions around its interaction with yellow — *Girl with a Pearl Earring* (*Color in Art*).
-- **Synthetic:** the Société d'Encouragement offered a prize; **Jean-Baptiste Guimet won the 6,000-franc prize in 1828** (process developed 1824–1826); **Christian Gmelin** independently published a similar process the same year. Price fell from ~**3,000 francs/lb (natural) to 20–40 francs/lb (synthetic)** (*Artists' Pigments*, *A Comprehensive Overview...*).
+- Used as a decorative stone since **ancient Egypt and Mesopotamia**; European use as a painting pigment began in the **12th century**; the only high-quality source was **Badakhshan, Afghanistan**.
+- **Value:** the costliest of all painting materials; in 16th-century Venice and Florence wealthy merchants used it "as a form of currency." Reserved for the most important subjects — the **robes of the Virgin Mary** (Fra Angelico's Linaiuoli Tabernacle).
+- **Vermeer** was "uniquely scrupulous" in using genuine ultramarine, constructing compositions around its interaction with yellow — *Girl with a Pearl Earring*.
+- **Synthetic:** the Société d'Encouragement offered a prize; **Jean-Baptiste Guimet won the 6,000-franc prize in 1828** (process developed 1824–1826); **Christian Gmelin** independently published a similar process the same year. Price fell from ~**3,000 francs/lb (natural) to 20–40 francs/lb (synthetic)**.
 
 ### Production
 
-- **Natural:** days of grinding, then separation "through a complex kneading process with **wax, resins, and oils**" — Cennino Cennini's "pretty girls… dainty hands" note (*Artists' Pigments*).
-- **Synthetic:** heating **clay, soda, sulfur, and coal in high-temperature furnaces**; color from charge transfer within **groups of three sulfur atoms trapped in the silicate lattice** (*Color for Science, Art, and Technology*).
+- **Natural:** days of grinding, then separation "through a complex kneading process with **wax, resins, and oils**" — Cennino Cennini's "pretty girls… dainty hands" note.
+- **Synthetic:** heating **clay, soda, sulfur, and coal in high-temperature furnaces**; color from charge transfer within **groups of three sulfur atoms trapped in the silicate lattice**.
 
 ### Color Data
 
-- **Transparency/chroma:** semi-transparent to transparent; a **high-chroma** pigment keeping substantial saturation even at dark values (*Artists' Pigments*).
-- **Watercolor:** frequently **granulates** — particles settle into paper valleys (*Artists' Pigments*).
-- **Oil:** notoriously "stringy," non-buttery consistency — often needs **wax stabilizers** (*Ralph Mayer*).
-- **Mixing:** essential for **neutral grays with carbon black or burnt umber**; prized for **scumbling** — semi-transparent washes over dry paint to reduce value contrast, create atmosphere or a "cloud-gray" cast. Vermeer used these optical properties for luminous light and edge diffraction (*Carlson's Guide to Landscape Painting*, *Artists' Pigments*).
+- **Transparency/chroma:** semi-transparent to transparent; a **high-chroma** pigment keeping substantial saturation even at dark values.
+- **Watercolor:** frequently **granulates** — particles settle into paper valleys.
+- **Oil:** notoriously "stringy," non-buttery consistency — often needs **wax stabilizers**.
+- **Mixing:** essential for **neutral grays with [[PBk6 - Carbon Black|carbon black]] or [[Pigments/Reference/PBr7 - Burnt Umber|burnt umber]]**; prized for **scumbling** — semi-transparent washes over dry paint to reduce value contrast, create atmosphere or a "cloud-gray" cast. Vermeer used these optical properties for luminous light and edge diffraction.
 - **Munsell notation:** not established in this corpus for PB29.
 
 ### Relation to Art and Painters
 
-- From Mary's robe (Fra Angelico) to Vermeer's *Girl with a Pearl Earring* — and, after 1828, the democratized blue of every 19th-century sky and the warm half of every neutral gray (*Color in Art*).
+- From Mary's robe (Fra Angelico) to Vermeer's *Girl with a Pearl Earring* — and, after 1828, the democratized blue of every 19th-century sky and the warm half of every neutral gray.
 
 ## Handprint Perspectives
 

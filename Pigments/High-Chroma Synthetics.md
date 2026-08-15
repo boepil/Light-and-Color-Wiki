@@ -1,27 +1,26 @@
 ---
 title: High-Chroma Synthetics
 sequence: 15
----
-![[Pasted image 20260811164755.png]]
+---![[Pasted image 20260811164755.png]]
 
 **Scope:** High-chroma synthetics — the phthalocyanine, quinacridone, and dioxazine families that pushed the painter's gamut into the cyan and red-violet sectors.
 
 ### The Families and Structures
 
-- **Phthalocyanines (PB15, PG7, PG36):** built on the macrocycle **tetrabenzotetraazaporphin**; PB15 is a copper phthalocyanine, "the most widely used blue in industry"; PG7 replaces hydrogens with **chlorine** (blue-shade green), PG36 with **chlorine + bromine** (yellow-shade green) (*A Comprehensive Overview..., Ralph Mayer*).
-- **Quinacridones (PR122, PV19):** heterocyclic aromatics with the **trans-linear quinacridone** structure — PV19 the rose/violet shade, PR122 the magenta (*A Comprehensive Overview..., Contemporary Color*).
-- **Dioxazine violet (PV23):** "carbazole violet," a complex heterocyclic (*Contemporary Color*).
+- **Phthalocyanines (**[[PB15 - Phthalo Blue|PB15]]**, **[[PG7 - Phthalo Green|PG7]]**, PG36):** built on the macrocycle **tetrabenzotetraazaporphin**; PB15 is a copper phthalocyanine, "the most widely used blue in industry"; PG7 replaces hydrogens with **chlorine** (blue-shade green), PG36 with **chlorine + bromine** (yellow-shade green).
+- **Quinacridones (**[[PR122 - Quinacridone Magenta|PR122]]**, PV19):** heterocyclic aromatics with the **trans-linear quinacridone** structure — PV19 the rose/violet shade, PR122 the magenta.
+- **Dioxazine violet (**[[PV23 - Dioxazine Violet|PV23]]**):** "carbazole violet," a complex heterocyclic.
 
 ### Why They Reach High Chroma at Dark Values
 
-Chroma depends "on how sharply a pigment reflects only a very narrow band of wavelengths rather than the total amount of light reflected." These organics have "exceptionally sharp absorption edges and high molar extinction coefficients" — acting like "ideal" pigments reflecting a narrow spectral window while suppressing all else — so they "appear highly saturated (high chroma) even when their overall luminous reflectance (value) is low" (*A Comprehensive Overview..., Why Material Reality Favors Green Over Red*).
+Chroma depends "on how sharply a pigment reflects only a very narrow band of wavelengths rather than the total amount of light reflected." These organics have "exceptionally sharp absorption edges and high molar extinction coefficients" — acting like "ideal" pigments reflecting a narrow spectral window while suppressing all else — so they "appear highly saturated (high chroma) even when their overall luminous reflectance (value) is low".
 
 ### Gamut Expansion and Risks
 
-- **Cyan-blue sector:** phthalocyanine blue gives "a deep, intense cyan that serves as a modern subtractive primary, far exceeding the reliability and intensity of traditional pigments like Prussian blue" (*A Comprehensive Overview...*).
-- **Red-violet sector:** quinacridones brought "permanent, high-chroma magentas, pinks, and violets" to the palette — previously "brilliant geranium reds and magentas were fugitive synthetic dyes used only for work intended for reproduction"; quinacridones let them enter "permanent easel painting for the first time" (*A Comprehensive Overview..., The Science of Paintings*).
-- **CMY as superior primaries:** "cyan, magenta, and yellow" each absorb "exactly one-third of the visible spectrum," enabling a much wider mixture gamut than RYB (*A Comprehensive Overview...*).
-- **The risk — tinting strength:** phthalocyanine blue is so strong it "can be 'awkward' to use on the palette"; manufacturers "let down" such pigments with **50–75% inert bases** (alumina hydrate, blanc fixe) "to make them more manageable and to improve their structural painting properties" (*Ralph Mayer*).
+- **Cyan-blue sector:** phthalocyanine blue gives "a deep, intense cyan that serves as a modern subtractive primary, far exceeding the reliability and intensity of traditional pigments like **[[PB27 - Prussian Blue|Prussian blue]]**".
+- **Red-violet sector:** quinacridones brought "permanent, high-chroma magentas, pinks, and violets" to the palette — previously "brilliant geranium reds and magentas were fugitive synthetic dyes used only for work intended for reproduction"; quinacridones let them enter "permanent easel painting for the first time".
+- **CMY as superior primaries:** "cyan, magenta, and yellow" each absorb "exactly one-third of the visible spectrum," enabling a much wider mixture gamut than RYB.
+- **The risk — tinting strength:** phthalocyanine blue is so strong it "can be 'awkward' to use on the palette"; manufacturers "let down" such pigments with **50–75% inert bases** (alumina hydrate, blanc fixe) "to make them more manageable and to improve their structural painting properties".
 
 ## Handprint Perspectives
 

@@ -1,12 +1,11 @@
 ---
 title: Munsell Notation
 sequence: 53
----
-![[images/ChatGPT Image Aug 6, 2026, 02_36_26 PM.png]]
+---![[images/ChatGPT Image Aug 6, 2026, 02_36_26 PM.png]]
 
 **Scope:** The artist-friendly color system — how Albert Munsell organized every color by hue, lightness, and vividness the way people actually see it, from his 1905 notation to the 1943 re-measurement that made it rigorous.
 
-The **Munsell color system** describes colors by **how they actually look to the human eye**, rather than by how they are mixed from pigments or made on screens. Developed by **Albert H. Munsell** at the start of the 20th century, it is a rigorous, numeric framework for specifying color that remains a global standard in science, art, and industry (**A Comprehensive Overview**, **Color Management**, **Color for Science, Art, and Technology**).
+The **Munsell color system** describes colors by **how they actually look to the human eye**, rather than by how they are mixed from pigments or made on screens. Developed by **Albert H. Munsell** at the start of the 20th century, it is a rigorous, numeric framework for specifying color that remains a global standard in science, art, and industry.
 
 ### 1. The three dimensions of color
 
@@ -94,6 +93,6 @@ Briggs grounds the Munsell tree's famous irregularity — and several of the pag
 * "Color Management"
 * "Color for Science, Art, and Technology" — Kurt Nassau (Editor)
 * "The Science of Paintings" — W. Stanley Taft Jr. and James W. Mayer
-* "The Dimensions of Colour : lightness" — [[raw_sources/huevaluechroma/013.md|013.html]]
-* "The Dimensions of Colour : chroma" — [[raw_sources/huevaluechroma/015.md|015.html]]
-* "The Dimensions of Colour : lightness and chroma" — [[raw_sources/huevaluechroma/081.md|081.html]], [[raw_sources/huevaluechroma/082.md|082.html]], [[raw_sources/huevaluechroma/083.md|083.html]]
+* "The Dimensions of Colour: lightness" — [[raw_sources/huevaluechroma/013.md|013.html]]
+* "The Dimensions of Colour: chroma" — [[raw_sources/huevaluechroma/015.md|015.html]]
+* "The Dimensions of Colour: lightness and chroma" — [[raw_sources/huevaluechroma/081.md|081.html]], [[raw_sources/huevaluechroma/082.md|082.html]], [[raw_sources/huevaluechroma/083.md|083.html]]

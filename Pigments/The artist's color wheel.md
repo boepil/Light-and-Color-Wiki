@@ -1,16 +1,15 @@
 ---
 title: Pigment Color Wheel (Munsell Placement)
 sequence: 20
----
-![[artistColorWheel.pdf]]
+---![[artistColorWheel.pdf]]
 
 Bruce MacEvoy’s artist color wheel, published in 2009 on his website handprint.com, is highly valued for its **scientific rigor** and its focus on helping artists visualize the **positions and relationships of paints within a perceptual color space**.
 
 According to the source, the following features make his wheel exceptional:
 
-- **Scientific Precision:** Unlike traditional color wheels that plot colors "by eye" or use relative chroma, MacEvoy used a **spectrometer** to analyze and chart approximately **80 watercolor pigments**. This allows for a comparison of **absolute chroma**, correcting errors found in other wheels—such as the incorrect assumption that Viridian and Cadmium Yellow exist at the same level of vividness.
+- **Scientific Precision:** Unlike traditional color wheels that plot colors "by eye" or use relative chroma, MacEvoy used a **spectrometer** to analyze and chart approximately **80 watercolor pigments**. This allows for a comparison of **absolute chroma**, correcting errors found in other wheels—such as the incorrect assumption that **[[PG18 - Viridian|Viridian]]** and **[[PY35 - Cadmium Yellow|Cadmium Yellow]]** exist at the same level of vividness.
 - **Advanced Perceptual Modeling:** The chart is based on **CIECAM02**, a science-based color appearance model. This model is particularly useful for artists because it accounts for **chromatic adaptation**, which is the way our vision adjusts to lighting biases or the juxtaposition of different colors in a field of view.
-- **Practical Studio Utility:** The geometry of the wheel is designed to be **"blown out" in the center**, meaning it emphasizes the distances between **low-chroma colors**. This is helpful in a studio setting because small differences between "earth" colors (like **Raw Umber versus Burnt Umber**) are often more important to a painter's judgment than the differences between high-saturation colors.
+- **Practical Studio Utility:** The geometry of the wheel is designed to be **"blown out" in the center**, meaning it emphasizes the distances between **low-chroma colors**. This is helpful in a studio setting because small differences between "earth" colors (like **[[PBr7 - Raw Umber|Raw Umber]] versus [[PBr7 - Burnt Umber|Burnt Umber]]**) are often more important to a painter's judgment than the differences between high-saturation colors.
 - **Encyclopedic Scope:** The wheel is the result of a massive project where MacEvoy measured and analyzed hundreds of paints across every major brand, creating a comprehensive resource for how different pigments actually relate to one another.
 - **Task Specificity:** Rather than trying to predict pigment mixtures (which is often too complex for a simple disk), MacEvoy’s tool excels at the specific task of **visualizing pigment positions within a perceptual space**.
 
@@ -32,6 +31,6 @@ MacEvoy's color wheel is the definitive practical answer to the color-tree geome
 
 ## Sources
 
-* **"The Only Color Wheel I Use,"**  the YouTube channel **"Color Nerd"**
+* **"The Only Color Wheel I Use,"** the YouTube channel **"Color Nerd"**
 * Artist's color wheel — Bruce MacEvoy (artistColorWheel.pdf)
 * Handprint pigment and color theory pages — Bruce MacEvoy

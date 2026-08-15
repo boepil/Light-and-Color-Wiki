@@ -48,6 +48,7 @@ MacEvoy's viewpoint, paraphrased, with *(Source: [[raw_sources/handprint/xxx.md|
 - Handprint: `[[raw_sources/handprint/<file>.md|<file>.html]]`.
 - Huevaluechroma: `[[raw_sources/huevaluechroma/<page>.md|<page>.html]]`, where `<page>` is the section number (e.g. `062.md` = 6.2 Primary Colours).
 - `Appendix/Bibliography.md` is the unified citation map: `* "Title" — Author` per entry, grouped Light / Mind / Colors / Painting, plus a Handprint block and a Huevaluechroma block. No year/edition/publisher.
+- **No inline source names in prose.** NotebookLM bibliography titles must never appear as inline parentheticals (`(**A Comprehensive Overview**)`) in body text — banned. Attribution lives only in the final `## Sources` block. Remaining inline exceptions: handprint/huevaluechroma wiki-link citations (`*(Source: [[raw_sources/...|...]])*` in `## Handprint Perspectives` / Contradiction Flags — signature features) and page links like `[[Why Material Reality Favors Green Over Red]]`.
 
 ## Query workflow (NotebookLM MCP)
 
@@ -72,6 +73,7 @@ When the user requests header images: produce detailed prompts in the **flat med
 - Never write to `raw_sources/` (immutable).
 - Never commit unless explicitly asked.
 - Keep responses concise; deliver the page, not a lecture about the page.
+- **Pending lint sweep:** next lint pass must (a) strip every inline NotebookLM source-name parenthetical across the whole wiki (attribution → `## Sources` only), and (b) sweep all pages adding fluency-preserving `**[[Page|Alias]]**` wikilinks on first mention of every page/pigment.
 
 ## Link style
 
@@ -79,3 +81,4 @@ When the user requests header images: produce detailed prompts in the **flat med
 - **Bare title links in hub page lists:** in "The pages, one by one" sections of a folder `index.md`, link each subpage by bare title — `#### [[Chemistry]] — why a pigment is the color it is` — not `[[Chemistry|Pigments/Chemistry]]`. Basenames are unique vault-wide, so the path prefix is redundant.
 - **Folder-note hubs must ALWAYS be explicit `[[Path/index|Title]]`** (e.g. `[[Colors/Gamuts/index|Gamuts]]`, `[[Pigments/Reference/index|Pigment Reference]]`). Never link a section hub by bare name (`[[Gamuts]]`), section name (`[[Pigments]]`), or folder path without `/index` (`[[Colors/Gamuts]]`) — those resolve to non-existent `.md` files. The no-`.md` form applies: `[[X/index|Title]]`, never `[[X/index.md|Title]]`.
 - Use the no-`.md` form in headings: `[[X/index|Title]]`, not `[[X/index.md|Title]]`.
+- **Fluency-preserving inline links:** when a page or pigment is named in flowing prose, link with a bold alias so the sentence reads naturally — `**[[Munsell Notation|Munsell]]**`, `**[[PR108 - Cadmium Red|Cadmium Red]]**`, `**[[Bauhaus|Johannes Itten's]]**`. Plain bare `[[Title]]` links are for bullet lists, tables, and `## Cross-References` lists (e.g. `- [[PB15 - Phthalo Blue]] — …`).

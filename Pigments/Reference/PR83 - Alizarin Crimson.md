@@ -11,22 +11,22 @@ sequence: 39
 
 ### Identity
 
-- **Colour Index:** PR83; a synthetic organic lake made from **1,2-dihydroxyanthraquinone (alizarin)** — anthracene from coal tar — **precipitated onto an alumina hydrate base** (*Artists' Pigments*).
-- A brilliant crimson-red with "clear, fiery transparency" — the **classic glazing color**, with a bluish undertone versus vermilion's yellowish cast (*Artists' Pigments*).
+- **Colour Index:** PR83; a synthetic organic lake made from **1,2-dihydroxyanthraquinone (alizarin)** — anthracene from coal tar — **precipitated onto an alumina hydrate base**.
+- A brilliant crimson-red with "clear, fiery transparency" — the **classic glazing color**, with a bluish undertone versus vermilion's yellowish cast.
 
 ### History
 
-- First synthesized in **1868 by Graebe and Liebermann** (independently by **Perkin** in England) — **the first natural dye successfully duplicated chemically**; rapidly replaced natural madder lake, used since ancient Egypt (*Artists' Pigments*).
-- Extremely popular with 19th- and 20th-century painters; **a staple for Paul Cézanne** in portraits and his modulated color constructions (*The Art of Color*, *Contemporary Color*).
+- First synthesized in **1868 by Graebe and Liebermann** (independently by **Perkin** in England) — **the first natural dye successfully duplicated chemically**; rapidly replaced natural madder lake, used since ancient Egypt.
+- Extremely popular with 19th- and 20th-century painters; **a staple for Paul Cézanne** in portraits and his modulated color constructions.
 
 ### Production
 
-Synthetic alizarin (anthraquinone route) precipitated as a **lake on alumina hydrate** — the classic lake-making step (*Artists' Pigments*).
+Synthetic alizarin (anthraquinone route) precipitated as a **lake on alumina hydrate** — the classic lake-making step.
 
 ### Color Data
 
-- **Lightfastness (warning):** the only synthetic organic universally approved for permanent painting until the late 1930s, it is **now considered fugitive / only moderately permanent** — "not nearly as fade-resistant as quinacridone," fades over time in daylight (*Artists' Pigments*, *Contemporary Color*).
-- **Mixing:** with **Phthalocyanine Green** it makes the resonant **"chromatic black"** — deep, neutral, lacking carbon-black flatness (*Artists' Pigments*, *The Science of Paintings*).
+- **Lightfastness (warning):** the only synthetic organic universally approved for permanent painting until the late 1930s, it is **now considered fugitive / only moderately permanent** — "not nearly as fade-resistant as quinacridone," fades over time in daylight.
+- **Mixing:** with **[[PG7 - Phthalo Green|Phthalocyanine Green]]** it makes the resonant **"chromatic black"** — deep, neutral, lacking carbon-black flatness.
 - **Munsell notation:** not established in this corpus for PR83.
 
 ### Relation to Art and Painters

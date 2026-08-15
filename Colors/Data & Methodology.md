@@ -1,9 +1,7 @@
 ---
 title: Data & Methodology
 sequence: 59
----
-
-![[Pasted image 20260810110552.png]]
+---![[Pasted image 20260810110552.png]]
 
 **Scope:** A reference catalogue of the **instruments, protocols, datasets, and measurement caveats** behind this wiki — not the theory of why CIE coordinates exist (that lives in [[Colors/CIE Systems|CIE Systems]] and [[Color Matching Functions and the Photopic Luminosity Function|Color Matching Functions and the Photopic Luminosity Function]]).
 
@@ -15,7 +13,7 @@ If you want to understand **why** spectra become X, Y, Z and how the eye's sensi
 
 ### Instruments and measurement protocols
 
-Three instrument classes capture color data (*A Comprehensive Overview of Color Vision Mechanisms, Color Spaces, and the Munsell System*, *Color Management: A Comprehensive Guide*, *The Measurement of Colour*):
+Three instrument classes capture color data:
 
 - **Spectrophotometers** measure the **reflectance or transmittance factor** of objects at specific wavelength intervals; "abridged" instruments measure only selected wavelengths.
 - **Spectroradiometers** measure the radiant energy of **self-luminous sources** — lamps and displays.
@@ -23,24 +21,24 @@ Three instrument classes capture color data (*A Comprehensive Overview of Color 
 
 Protocol conventions in the sources:
 
-- **Sampling:** intervals of 1 nm, 5 nm, 10 nm, or 20 nm across the visible band, generally **380–780 nm** (*Munsell Color Science Lab*).
-- **Geometries:** for diffuse specimens the CIE recommends bidirectional geometries **0/45 and 45/0** (account for texture) and diffuse geometries **0/d and d/0** using integrating spheres (minimize gloss effects) (*The Measurement of Colour*).
-- **Observers:** the **1931 2° Standard Observer** (foveal fields) or the **1964 10° Standard Observer** (larger industrial fields) (*A Comprehensive Overview...*).
-- **Illuminants:** D65 (average daylight), D50 (graphic arts), Illuminant A (tungsten) as the reference conditions (*The Measurement of Colour*).
+- **Sampling:** intervals of 1 nm, 5 nm, 10 nm, or 20 nm across the visible band, generally **380–780 nm**.
+- **Geometries:** for diffuse specimens the CIE recommends bidirectional geometries **0/45 and 45/0** (account for texture) and diffuse geometries **0/d and d/0** using integrating spheres (minimize gloss effects).
+- **Observers:** the **1931 2° Standard Observer** (foveal fields) or the **1964 10° Standard Observer** (larger industrial fields).
+- **Illuminants:** D65 (average daylight), D50 (graphic arts), Illuminant A (tungsten) as the reference conditions.
 
 ### Reference datasets used in this wiki
 
-- **1943 Munsell Renotation:** a correction of Munsell's system based on "three million visual observations by 41 observers," supplying precise CIE coordinates for visually uniform spacing (*A Comprehensive Overview..., Munsell Color Science Lab*).
-- **Pointer's 1980 study** ("The Gamut of Real Surface Colours"): catalogued **4,088 real surfaces** under Illuminant C to establish empirical limits of surface colors (*A Comprehensive Overview...*).
-- **MacAdam Limits (1942):** theoretical boundaries of optimal colors — "the most saturated surface colors physically possible" (*A Comprehensive Overview..., The Science of Paintings*).
-- **RIT Munsell Lab:** provides complete **1 nm datasets** for standard illuminants and observers, including the 1988 spectral luminous efficiency functions (*Munsell Color Science Lab*).
+- **1943 Munsell Renotation:** a correction of Munsell's system based on "three million visual observations by 41 observers," supplying precise CIE coordinates for visually uniform spacing.
+- **Pointer's 1980 study** ("The Gamut of Real Surface Colours"): catalogued **4,088 real surfaces** under Illuminant C to establish empirical limits of surface colors.
+- **MacAdam Limits (1942):** theoretical boundaries of optimal colors — "the most saturated surface colors physically possible".
+- **RIT Munsell Lab:** provides complete **1 nm datasets** for standard illuminants and observers, including the 1988 spectral luminous efficiency functions.
 
 ### Measurement caveats
 
-- **Observer variation:** every individual has unique cone sensitivities; the "Standard Observers" are only averages "and may not match any single person perfectly" (*Vision Science: Photons to Phenomenology*, *A Comprehensive Overview...*).
-- **Instrument differences:** spectral **bandpass width** matters — "a 20 nm bandpass might fail to capture sharp spectral peaks seen in a 1 nm measurement" (*The Measurement of Colour*).
-- **Fluorescence effects:** fluorescent materials re-emit absorbed energy at longer wavelengths, "potentially producing reflectance factors >100%"; they require strict UV control and bidirectional geometry, "because integrating spheres can suppress their efficiency" (*The Measurement of Colour*).
-- **Sampling artifacts:** sample preparation, surface texture, and **thermochromism** (color change with temperature) cause reproducibility errors (*The Measurement of Colour*, *A Comprehensive Overview...*).
+- **Observer variation:** every individual has unique cone sensitivities; the "Standard Observers" are only averages "and may not match any single person perfectly".
+- **Instrument differences:** spectral **bandpass width** matters — "a 20 nm bandpass might fail to capture sharp spectral peaks seen in a 1 nm measurement".
+- **Fluorescence effects:** fluorescent materials re-emit absorbed energy at longer wavelengths, "potentially producing reflectance factors >100%"; they require strict UV control and bidirectional geometry, "because integrating spheres can suppress their efficiency".
+- **Sampling artifacts:** sample preparation, surface texture, and **thermochromism** (color change with temperature) cause reproducibility errors.
 
 ## Handprint Perspectives
 

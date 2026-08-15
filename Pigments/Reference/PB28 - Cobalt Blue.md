@@ -11,27 +11,27 @@ sequence: 36
 
 ### Identity
 
-- **Colour Index:** PB28; **cobalt aluminate, CoO·Al₂O₃** — cobalt oxide + aluminum oxide; often called **"Thenard's blue"** (*Artists' Pigments*).
-- A bright, clear blue with a noticeable **violet (reddish) undertone** (*The Science of Paintings*).
+- **Colour Index:** PB28; **cobalt aluminate, CoO·Al₂O₃** — cobalt oxide + aluminum oxide; often called **"Thenard's blue"**.
+- A bright, clear blue with a noticeable **violet (reddish) undertone**.
 
 ### History
 
-- Discovered in **1802 by the French chemist Louis-Jacques Thénard**; entered artistic use by ~**1807**; commercially available as an artist's color between **1820 and 1830** (*Artists' Pigments*).
-- Replaced the coarser **smalt** (cobalt glass) as the modern standard permanent blue (*The Science of Paintings*).
+- Discovered in **1802 by the French chemist Louis-Jacques Thénard**; entered artistic use by ~**1807**; commercially available as an artist's color between **1820 and 1830**.
+- Replaced the coarser **smalt** (cobalt glass) as the modern standard permanent blue.
 
 ### Production
 
-**High-temperature calcination of cobalt compounds with alumina** (*Artists' Pigments*).
+**High-temperature calcination of cobalt compounds with alumina**.
 
 ### Color Data
 
-- **Transparency/strength:** semi-transparent; **moderate tinting strength, comparable to ultramarine** (*Artists' Pigments*).
-- **Permanence:** lightfast and permanent for all uses; in oil an **average to slow drier** (*Artists' Pigments*, *Ralph Mayer*).
+- **Transparency/strength:** semi-transparent; **moderate tinting strength, comparable to ultramarine**.
+- **Permanence:** lightfast and permanent for all uses; in oil an **average to slow drier**.
 - **Munsell notation:** not established in this corpus for PB28.
 
 ### Relation to Art and Painters
 
-- Used extensively by **Renoir and Monet** in their "cunning play of modulations" of cold and warm colors; associated with **J.M.W. Turner**, who used delicately graduated blues to controvert the academic "doctrine of the balance of colors" favoring warm tonalities (*Color in Art*, *Interaction of Color*, *Claude Monet — The Alchemist of Light*).
+- Used extensively by **Renoir and Monet** in their "cunning play of modulations" of cold and warm colors; associated with **J.M.W. Turner**, who used delicately graduated blues to controvert the academic "doctrine of the balance of colors" favoring warm tonalities.
 
 ## Handprint Perspectives
 

@@ -11,27 +11,27 @@ sequence: 26
 
 ### Identity
 
-- **Colour Index:** PY43; a natural iron oxide earth, primarily the hydrated ferric oxide mineral **goethite (FeO·xH₂O)** mixed with clay and silica (*Artists' Pigments*).
+- **Colour Index:** PY43; a natural iron oxide earth, primarily the hydrated ferric oxide mineral **goethite (FeO·xH₂O)** mixed with clay and silica.
 
 ### History
 
-- "One of the oldest pigments known to humanity," used since prehistory in **Paleolithic cave paintings** — Lascaux, Altamira (*Artists' Pigments*, *Color in Art*).
-- The finest refined grades traditionally come from France, especially the **Roussillon** region (*Artists' Pigments*, *Ralph Mayer*).
+- "One of the oldest pigments known to humanity," used since prehistory in **Paleolithic cave paintings** — Lascaux, Altamira.
+- The finest refined grades traditionally come from France, especially the **Roussillon** region.
 
 ### Production
 
-Obtained by mining native clay deposits, which are **thoroughly washed and refined** to remove impurities and ensure uniform grades (*Artists' Pigments*).
+Obtained by mining native clay deposits, which are **thoroughly washed and refined** to remove impurities and ensure uniform grades.
 
 ### Color Data
 
-- **Opaque** and **absolutely permanent** (*Artists' Pigments*).
-- "Subtle, low chroma compared to synthetics," valued for earthy, natural tones (*Color for Science, Art, and Technology*).
-- A mineral earth: **granulates in watercolor** as coarse particles settle into the paper texture (*Artists' Pigments*).
+- **Opaque** and **absolutely permanent**.
+- "Subtle, low chroma compared to synthetics," valued for earthy, natural tones.
+- A mineral earth: **granulates in watercolor** as coarse particles settle into the paper texture.
 - **Munsell notation:** not established in this corpus for PY43.
 
 ### Relation to Art and Painters
 
-- From Lascaux to the Roussillon ochre factories; the neutral-yellow foundation of the traditional earth palette, the natural complement of high-chroma lemon yellows, and a granulating staple of watercolor landscapes (*Color in Art*, *Artists' Pigments*).
+- From Lascaux to the Roussillon ochre factories; the neutral-yellow foundation of the traditional earth palette, the natural complement of high-chroma lemon yellows (**[[PY97 - Hansa Yellow|PY97]]**), and a granulating staple of watercolor landscapes.
 
 ## Handprint Perspectives
 

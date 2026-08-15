@@ -11,26 +11,26 @@ sequence: 33
 
 ### Identity
 
-- **Colour Index:** PG18; **hydrated chromium(III) oxide, Cr₂O₃·2H₂O** (*Artists' Pigments*).
-- A transparent, bright, **cool emerald green with a bluish undertone**; brilliant in thin glazes, yet its masstone in thick layers "can appear dull or blackish" because particle density absorbs transmitted light (*Artists' Pigments*, *The Science of Paintings*).
+- **Colour Index:** PG18; **hydrated chromium(III) oxide, Cr₂O₃·2H₂O**.
+- A transparent, bright, **cool emerald green with a bluish undertone**; brilliant in thin glazes, yet its masstone in thick layers "can appear dull or blackish" because particle density absorbs transmitted light.
 
 ### History
 
-- First prepared by chemists **Pannetier and Binet in Paris in 1838** as a secret product; the process was perfected and published by **Guignet in 1859**, leading to commercial introduction to artists **in England by 1862** (*Artists' Pigments*).
+- First prepared by chemists **Pannetier and Binet in Paris in 1838** as a secret product; the process was perfected and published by **Guignet in 1859**, leading to commercial introduction to artists **in England by 1862**.
 
 ### Production
 
-The Guignet process (calcination of bichromate with boric acid, then hydration) became the standard route to the hydrated oxide (*Artists' Pigments*).
+The Guignet process (calcination of bichromate with boric acid, then hydration) became the standard route to the hydrated oxide.
 
 ### Color Data
 
-- **Lightfastness/permanence:** absolutely lightfast and permanent (*Artists' Pigments*).
-- **In oil:** a **slow drier**; moderate staining; transparent (*Artists' Pigments*, *Ralph Mayer*).
+- **Lightfastness/permanence:** absolutely lightfast and permanent.
+- **In oil:** a **slow drier**; moderate staining; transparent.
 - **Munsell notation:** not established in this corpus for PG18.
 
 ### Relation to Art and Painters
 
-- Adopted as the reliable replacement for fugitive or toxic greens — **verdigris** and the weak green earth; frequently mixed with **cadmium yellow** for natural landscape greens (*Artists' Pigments*). It became the classic Impressionist shadow green and the red-complement mixer (cadmium red + viridian = deep blacks).
+- Adopted as the reliable replacement for fugitive or toxic greens — **verdigris** and the weak green earth; frequently mixed with **[[PY35 - Cadmium Yellow|cadmium yellow]]** for natural landscape greens. It became the classic Impressionist shadow green and the red-complement mixer (**[[PR108 - Cadmium Red|cadmium red]]** + viridian = deep blacks).
 
 ## Handprint Perspectives
 

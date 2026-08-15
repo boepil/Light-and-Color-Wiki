@@ -11,28 +11,28 @@ sequence: 23
 
 ### Identity
 
-- **Colour Index:** PBk6; carbon black pigments are **amorphous carbon**, categorized as **pure carbon** (lampblack, furnace black) or **impure carbon** (bone black, vine black) (*Artists' Pigments*, *Ralph Mayer*).
+- **Colour Index:** PBk6; carbon black pigments are **amorphous carbon**, categorized as **pure carbon** (lampblack, furnace black) or **impure carbon** (bone black, vine black).
 
 ### History
 
-- Among the oldest pigments: **Paleolithic cave paintings** at Lascaux and Altamira; the Romans called carbon inks *atramentum*; carbon inks were essential to ancient **Chinese and Egyptian manuscript traditions** (*Artists' Pigments*, *Color in Art*).
-- Modern **furnace-produced carbon black was invented in America in 1864** (*Artists' Pigments*).
+- Among the oldest pigments: **Paleolithic cave paintings** at Lascaux and Altamira; the Romans called carbon inks *atramentum*; carbon inks were essential to ancient **Chinese and Egyptian manuscript traditions**.
+- Modern **furnace-produced carbon black was invented in America in 1864**.
 
 ### Production
 
-Varieties come from burning specific organics: **lampblack** — soot collected from burning oils or fats; **bone black** (including ivory black) — charring animal bones; **vine black** — calcining vegetable products such as grapevines (*Ralph Mayer*).
+Varieties come from burning specific organics: **lampblack** — soot collected from burning oils or fats; **bone black** (including ivory black) — charring animal bones; **vine black** — calcining vegetable products such as grapevines.
 
 ### Color Data
 
-- **Strength varies widely:** some modern furnace blacks are "intensely black with high tinting strength," while "many traditional vegetable and bone varieties have a weak tinting strength and a soft, greasy feel" (*Artists' Pigments*).
-- **In watercolor:** traditional grades granulate — "particles settle into the paper's texture" (*Artists' Pigments*).
-- **In oil:** "notoriously slow driers that can cause films to crack if used as a heavy undercoat" (*Ralph Mayer*).
+- **Strength varies widely:** some modern furnace blacks are "intensely black with high tinting strength," while "many traditional vegetable and bone varieties have a weak tinting strength and a soft, greasy feel".
+- **In watercolor:** traditional grades granulate — "particles settle into the paper's texture".
+- **In oil:** "notoriously slow driers that can cause films to crack if used as a heavy undercoat".
 - **Munsell notation:** not established in this corpus for PBk6 as a pigment.
 
 ### Relation to Art and Painters
 
-- Prehistory to manuscripts: Lascaux/Altamira, Chinese and Egyptian ink traditions; charcoal and charred minerals remain central to the traditional four-color palette of **Australian Aboriginal painting** (*Color in Art*).
-- **Ad Reinhardt** used black pigments for the reductive "black paintings" — see [[Painting/Movements & Painters/Color Field|Color Field]] (*A Comprehensive Overview...*).
+- Prehistory to manuscripts: Lascaux/Altamira, Chinese and Egyptian ink traditions; charcoal and charred minerals remain central to the traditional four-color palette of **Australian Aboriginal painting**.
+- **Ad Reinhardt** used black pigments for the reductive "black paintings" — see [[Painting/Movements & Painters/Color Field|Color Field]].
 
 ## Handprint Perspectives
 

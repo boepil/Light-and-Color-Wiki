@@ -11,29 +11,29 @@ sequence: 40
 
 ### Identity
 
-- **Colour Index:** PR122; a **dimethyl-substituted quinacridone** — a heterocyclic aromatic built on the trans-linear quinacridone skeleton with auxochromic methyl groups added, the molecules stabilized by **intermolecular hydrogen bonding** (*Artists' Pigments*, *High-Chroma Synthetics*).
+- **Colour Index:** PR122; a **dimethyl-substituted quinacridone** — a heterocyclic aromatic built on the trans-linear quinacridone skeleton with auxochromic methyl groups added, the molecules stabilized by **intermolecular hydrogen bonding**.
 
 ### History
 
-- Quinacridones were **first synthesized in the laboratory in the 1930s in Germany**, but were practically developed for industry and art only in the **1950s by E.I. du Pont de Nemours & Company** (*Artists' Pigments*).
-- They displaced the earlier **fugitive "aniline" magentas and geranium reds** — brilliant but reproduction-only — as permanent easel colors (*A Comprehensive Overview*).
+- Quinacridones were **first synthesized in the laboratory in the 1930s in Germany**, but were practically developed for industry and art only in the **1950s by E.I. du Pont de Nemours & Company**.
+- They displaced the earlier **fugitive "aniline" magentas and geranium reds** — brilliant but reproduction-only — as permanent easel colors.
 
 ### Production
 
-- Synthesized from the trans-linear quinacridone structure; the crystalline pigment is stabilized by the hydrogen-bonded lattice, giving it exceptional robustness (*Artists' Pigments*).
+- Synthesized from the trans-linear quinacridone structure; the crystalline pigment is stabilized by the hydrogen-bonded lattice, giving it exceptional robustness.
 
 ### Color Data
 
-- **Hue:** a brilliant, clean **bluish-red / magenta**; masstone deep and intense, undertone cool and pure (*Artists' Pigments*).
-- **Transparency and strength:** naturally transparent with high tinctorial strength; usually pre-diluted in the tube with inert base (filler) like other quinacridones (*Artists' Pigments*, handprint pigmt1).
-- **Lightfastness:** among the most fade-resistant synthetic organic pigments — **significantly superior to alizarin crimson (PR83)**, which it has largely replaced for glazing reds (*Artists' Pigments*).
-- **Handling:** slightly staining; in watercolor it is a powerful glazing color that keeps its chroma in tints; in oil it dries at a normal rate (*Artists' Pigments*).
+- **Hue:** a brilliant, clean **bluish-red / magenta**; masstone deep and intense, undertone cool and pure.
+- **Transparency and strength:** naturally transparent with high tinctorial strength; usually pre-diluted in the tube with inert base (filler) like other quinacridones ([[raw_sources/handprint/pigmt1.md|pigmt1.html]]).
+- **Lightfastness:** among the most fade-resistant synthetic organic pigments — **significantly superior to [[PR83 - Alizarin Crimson|alizarin crimson]]**, which it has largely replaced for glazing reds.
+- **Handling:** slightly staining; in watercolor it is a powerful glazing color that keeps its chroma in tints; in oil it dries at a normal rate.
 - **Munsell notation:** not established in this corpus for PR122.
 
 ### Relation to Art and Painters
 
-- The permanent magenta of the **modern CMY-based palette**, completing the subtractive triad alongside phthalo blue and hansa yellow; the go-to glazing red for mixtures that previously relied on alizarin (*High-Chroma Synthetics*).
-- Primary use industrially is high-performance automotive and plastic finishes, a mark of its lightfastness (*Artists' Pigments*).
+- The permanent magenta of the **modern CMY-based palette**, completing the subtractive triad alongside **[[PB15 - Phthalo Blue|phthalo blue]]** and **[[PY97 - Hansa Yellow|hansa yellow]]**; the go-to glazing red for mixtures that previously relied on alizarin (*High-Chroma Synthetics*).
+- Primary use industrially is high-performance automotive and plastic finishes, a mark of its lightfastness.
 
 ## Handprint Perspectives
 

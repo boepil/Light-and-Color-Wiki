@@ -11,27 +11,27 @@ sequence: 34
 
 ### Identity
 
-- **Colour Index:** PG7; **chlorinated copper phthalocyanine** — created by replacing hydrogen atoms in the phthalocyanine blue molecule with chlorine (*Artists' Pigments*).
+- **Colour Index:** PG7; **chlorinated copper phthalocyanine** — created by replacing hydrogen atoms in the phthalocyanine blue molecule with chlorine.
 
 ### History
 
-- The phthalocyanine class was first described **1927–1928 by chemists at Scottish Dyes Ltd.**; the blue phase (PB15) was marketed mid-1930s; the **green phase entered as an artist's pigment around 1938** (*Artists' Pigments*).
+- The phthalocyanine class was first described **1927–1928 by chemists at Scottish Dyes Ltd.**; the blue phase (PB15) was marketed mid-1930s; the **green phase entered as an artist's pigment around 1938**.
 
 ### Production
 
-Industrial synthesis from phthalonitrile and copper salts with chlorination; the result is a remarkably stable chromophore (*Artists' Pigments*).
+Industrial synthesis from phthalonitrile and copper salts with chlorination; the result is a remarkably stable chromophore.
 
 ### Color Data
 
-- **Extremely high tinctorial strength** — often requires "letting down" with inert bases (alumina hydrate) to be manageable on the palette (*Artists' Pigments*).
-- **Highly transparent, staining, remarkably stable against light, heat, and chemicals** (*Artists' Pigments*, *The Science of Paintings*).
-- **Masstone vs. tint:** pure masstone can look so dark it is mistaken for black; the "garish" raw green character appears only when diluted with white (*Artists' Pigments*).
-- **"Chromatic black":** with **Alizarin Crimson** it makes a neutral, resonant dark avoiding the "deadened" flat quality of carbon blacks (*Artists' Pigments*).
+- **Extremely high tinctorial strength** — often requires "letting down" with inert bases (alumina hydrate) to be manageable on the palette.
+- **Highly transparent, staining, remarkably stable against light, heat, and chemicals**.
+- **Masstone vs. tint:** pure masstone can look so dark it is mistaken for black; the "garish" raw green character appears only when diluted with white.
+- **"Chromatic black":** with **[[PR83 - Alizarin Crimson|Alizarin Crimson]]** it makes a neutral, resonant dark avoiding the "deadened" flat quality of carbon blacks.
 - **Munsell notation:** not established in this corpus for PG7.
 
 > [!WARNING] **Mixture warnings (source-confirmed)**
-> - With black, greens lose "quality of light" — the hue is "deadened," sometimes taking a "sickly" or "poisonous" expression (*The Art of Color*).
-> - In aqueous media (gouache), black-bearing mixtures can **dry-shift**: black particles float to the surface, drying darker or shifting hue (*Artists' Pigments*).
+> - With black, greens lose "quality of light" — the hue is "deadened," sometimes taking a "sickly" or "poisonous" expression.
+> - In aqueous media (gouache), black-bearing mixtures can **dry-shift**: black particles float to the surface, drying darker or shifting hue.
 
 ### Relation to Art and Painters
 

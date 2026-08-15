@@ -17,7 +17,7 @@ Light is **electromagnetic radiation** — energy carried by oscillating electri
 
 #### [[The Visible Spectrum]] — the narrow band your eye can see
 
-Only a tiny slice of all electromagnetic radiation is visible — roughly from violet through red. Newton showed that white sunlight is not a single color but a **mixture of many wavelengths**, separated by a prism into the familiar rainbow. Some colors you see — like **magenta** — do not correspond to a single wavelength at all; they exist only as mixtures. This page answers: "What is the rainbow, physically, and where are its edges?"
+Only a tiny slice of all electromagnetic radiation is visible — roughly from violet through red. **[[Newton's Influence on Painters|Newton]]** showed that white sunlight is not a single color but a **mixture of many wavelengths**, separated by a prism into the familiar rainbow. Some colors you see — like **magenta** — do not correspond to a single wavelength at all; they exist only as mixtures. This page answers: "What is the rainbow, physically, and where are its edges?"
 
 #### [[Reflection vs. Emission]] — glowing vs. bouncing
 

@@ -1,8 +1,7 @@
 ---
 title: Optimal Color Solid-MacAdam Limits
 sequence: 58
----
-![[images/ChatGPT Image Aug 6, 2026, 02_46_29 PM.png]]
+---![[images/ChatGPT Image Aug 6, 2026, 02_46_29 PM.png]]
 
 **Scope:** The theoretical ceiling of color — the largest range any non-glowing, light-reflecting material could ever fill, and why even the best pigments fall short of it.
 
@@ -86,5 +85,5 @@ Briggs translates the theoretical solid into paint terms, and supplies the data 
 * "Color Management"
 * "Color for Science, Art, and Technology" — Kurt Nassau (Editor)
 * "The Science of Paintings" — W. Stanley Taft Jr. and James W. Mayer
-* "The Dimensions of Colour : chroma" — [[raw_sources/huevaluechroma/015.md|015.html]]
-* "The Dimensions of Colour : additive mixing" — [[raw_sources/huevaluechroma/045.md|045.html]]
+* "The Dimensions of Colour: chroma" — [[raw_sources/huevaluechroma/015.md|015.html]]
+* "The Dimensions of Colour: additive mixing" — [[raw_sources/huevaluechroma/045.md|045.html]]

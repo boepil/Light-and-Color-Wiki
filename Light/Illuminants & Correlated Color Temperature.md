@@ -1,18 +1,17 @@
 ---
 title: Illuminants & Correlated Color Temperature
 sequence: 10
----
-![[Pasted image 20260811113607.png]]
+---![[Pasted image 20260811113607.png]]
 
 **Scope:** Standardized mathematical descriptions of light sources — the CIE illuminants — and the blackbody/correlated-color-temperature scale that characterizes them.
 
 ### Sources vs. Illuminants
 
-Colorimetry distinguishes the **physical light source** from the **illuminant**: a source is a tangible object that emits radiant energy (a tungsten bulb, a candle, the sun); "an **illuminant** is a **mathematical description** of a light source," defined by its spectral power distribution (SPD), and "may describe light sources that do not actually exist in the laboratory" (*The Measurement of Colour*). Illuminants exist to predict, in colorimetric calculations, "how a surface color will appear under specific conditions" (*A Comprehensive Overview of Color Vision Mechanisms, Color Spaces, and the Munsell System*).
+Colorimetry distinguishes the **physical light source** from the **illuminant**: a source is a tangible object that emits radiant energy (a tungsten bulb, a candle, the sun); "an **illuminant** is a **mathematical description** of a light source," defined by its spectral power distribution (SPD), and "may describe light sources that do not actually exist in the laboratory". Illuminants exist to predict, in colorimetric calculations, "how a surface color will appear under specific conditions".
 
 ### The CIE Standard Illuminants
 
-The CIE standardized a set of illuminants for reproducible color measurement (*A Comprehensive Overview...*, *Color Management: A Comprehensive Guide*, *Contemporary Color*):
+The **[[CIE Systems|CIE]]** standardized a set of illuminants for reproducible color measurement:
 
 - **A — incandescent/tungsten, ≈ 2854–2856 K:** physically a Planckian radiator; "high in long-wavelength (red) energy and low in blue."
 - **B and C — filtered daylight:** liquid filters placed in front of source A. **C (≈ 6,774 K)** was "an early attempt to approximate average daylight" but "lacks the ultraviolet (UV) content of real daylight."
@@ -21,15 +20,15 @@ The CIE standardized a set of illuminants for reproducible color measurement (*A
 
 ### Blackbodies and the Temperature Scale of Light
 
-The temperature scale for light is defined by the **blackbody (full radiator)** — a theoretical object (often simulated in the laboratory by a block of carbon) "that absorbs all incident radiation and changes color predictably as it is heated" (*A Comprehensive Overview...*).
+The temperature scale for light is defined by the **blackbody (full radiator)** — a theoretical object (often simulated in the laboratory by a block of carbon) "that absorbs all incident radiation and changes color predictably as it is heated".
 
-- **Planck's distribution** gives the energy emitted at each wavelength for a given temperature (*Color for Science, Art, and Technology*).
-- **Wien's law** links temperature to peak wavelength: **λm = 2,897/T** (λm in µm, T in Kelvin) (*Color for Science, Art, and Technology*).
-- The visible progression with heat: **black → red (~1,000 K) → yellow (~2,500 K) → white (~4,500 K) → bluish-white (above 6,500 K)** (*A Comprehensive Overview...*).
+- **Planck's distribution** gives the energy emitted at each wavelength for a given temperature.
+- **Wien's law** links temperature to peak wavelength: **λm = 2,897/T** (λm in µm, T in Kelvin).
+- The visible progression with heat: **black → red (~1,000 K) → yellow (~2,500 K) → white (~4,500 K) → bluish-white (above 6,500 K)**.
 
 ### CCT and Its Values in the World
 
-**Correlated color temperature (CCT)** describes lights that are *not* true blackbodies (e.g., fluorescents): it is "the temperature of the full radiator whose color is closest to that of the light source" (*A Comprehensive Overview...*). Practical values from the sources:
+**Correlated color temperature (CCT)** describes lights that are *not* true blackbodies (e.g., fluorescents): it is "the temperature of the full radiator whose color is closest to that of the light source". Practical values from the sources:
 
 | Light | CCT |
 |---|---|
@@ -41,18 +40,18 @@ The temperature scale for light is defined by the **blackbody (full radiator)** 
 | Overcast sky | >10,000 K |
 | Clear bright blue sky | 12,000 K or higher |
 
-(*A Comprehensive Overview..., The Science of Paintings, Color for Science, Art, and Technology, Vision Science: Photons to Phenomenology*)
+
 
 ### The Daylight Locus
 
-Daylight is not a single illuminant: "its spectral character changes constantly due to atmospheric filtering, time of day, and weather" (*Contemporary Color*). The **daylight locus** is the path on a chromaticity diagram that all variations of natural daylight follow (*A Comprehensive Overview...*). Remarkably, "the human blue–yellow opponent channel appears to have evolved to coincide with this locus," solving much of color constancy — "allowing surfaces to look consistent even as the daylight shifts from yellow sun to blue sky" (*Vision Science: Photons to Phenomenology*, see [[Illuminants & Correlated Color Temperature|CCT]] and the [[Simultaneous Contrast, Color Constancy, Afterimages, Subtractive vs. Additive Mixing|color constancy]] page).
+Daylight is not a single illuminant: "its spectral character changes constantly due to atmospheric filtering, time of day, and weather". The **daylight locus** is the path on a chromaticity diagram that all variations of natural daylight follow. Remarkably, "the human blue–yellow opponent channel appears to have evolved to coincide with this locus," solving much of color constancy — "allowing surfaces to look consistent even as the daylight shifts from yellow sun to blue sky" (see [[Illuminants & Correlated Color Temperature|CCT]] and the [[Simultaneous Contrast, Color Constancy, Afterimages, Subtractive vs. Additive Mixing|color constancy]] page).
 
 ### Chromatic Adaptation and Color Rendering
 
-The eye–brain system uses **chromatic adaptation** to keep whites white: "the brain compensates for the shift in illumination by adjusting the sensitivity of the cone receptors," which is why white paper looks white both under a yellow tungsten bulb and in blue daylight (*Illusions of Seeing*, *A Comprehensive Overview...*). But adaptation only fixes the white point:
+The eye–brain system uses **chromatic adaptation** to keep whites white: "the brain compensates for the shift in illumination by adjusting the sensitivity of the cone receptors," which is why white paper looks white both under a yellow tungsten bulb and in blue daylight. But adaptation only fixes the white point:
 
-- A lamp's **Color Rendering Index (CRI)** "measures how well the lamp reveals the colors of objects compared to a standard illuminant"; CRI of **at least 90** is recommended for accurate color viewing (*Contemporary Color*).
-- "If an illuminant lacks certain wavelengths (as many cheap fluorescents do), even perfect adaptation cannot recover the 'missing' colors of the objects" (*Contemporary Color*, *A Comprehensive Overview...*).
+- A lamp's **Color Rendering Index (CRI)** "measures how well the lamp reveals the colors of objects compared to a standard illuminant"; CRI of **at least 90** is recommended for accurate color viewing.
+- "If an illuminant lacks certain wavelengths (as many cheap fluorescents do), even perfect adaptation cannot recover the 'missing' colors of the objects".
 
 ## Handprint Perspectives
 

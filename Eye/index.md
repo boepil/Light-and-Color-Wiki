@@ -5,7 +5,7 @@ sequence: 43
 ---
 ### What this section is about
 
-Light from the world reaches your eye as physical energy — wavelengths you never see directly. **This section is about what happens inside the eye and the early brain** to turn that light into sight: sharp detail or blurry periphery, black-and-white night vision or full daylight color, and the strange effects (like afterimages) that follow. The pages below go deep on each step; this page only explains what each one is *for* and where to start.
+Light from the world reaches your eye as physical energy — wavelengths you never see directly. **This section is about what happens inside the eye and the early brain** to turn that light into sight: sharp detail or blurry periphery, black-and-white night vision or full daylight color, and the strange effects (like **[[Simultaneous Contrast, Color Constancy, Afterimages, Subtractive vs. Additive Mixing|afterimages]]**) that follow. The pages below go deep on each step; this page only explains what each one is *for* and where to start.
 
 ### The pages, one by one
 

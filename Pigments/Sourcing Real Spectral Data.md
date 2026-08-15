@@ -1,27 +1,26 @@
 ---
 title: Sourcing Real Spectral Data
 sequence: 17
----
-![[Pasted image 20260811174721.png]]
+---![[Pasted image 20260811174721.png]]
 
 **Scope:** Sourcing real spectral data — how reflectance curves of paint films are measured, archived, and used to fingerprint pigments and map gamuts.
 
 ### Reflectance Spectrophotometry and the Drying Shift
 
-- **Non-destructive reflectance measurement:** a spectrophotometer directs light of known intensity at specific wavelengths onto a pigment layer and records the percentage reflected — a **spectral reflectance curve** unique to each colorant (red: high reflectance at long wavelengths; blue: peak at the short end), typically 380–780 nm or 400–700 nm (*Artists' Pigments*, *The Science of Paintings*, *Color Management*).
-- **The drying shift:** color is not inherent to the pigment but depends on its environment. Dry particles mixed into liquid binder dry "darker and deeper in tone": the binder's index (linseed oil ≈1.48) is much closer to the pigment's than air (1.00), reducing surface reflection so more light is absorbed. Watercolors look more translucent when wet — the water-to-air index change makes the hiding-power change dramatic upon drying (*The Science of Paintings*, *A Comprehensive Overview...*).
+- **Non-destructive reflectance measurement:** a spectrophotometer directs light of known intensity at specific wavelengths onto a pigment layer and records the percentage reflected — a **spectral reflectance curve** unique to each colorant (red: high reflectance at long wavelengths; blue: peak at the short end), typically 380–780 nm or 400–700 nm.
+- **The drying shift:** color is not inherent to the pigment but depends on its environment. Dry particles mixed into liquid binder dry "darker and deeper in tone": the binder's index (linseed oil ≈1.48) is much closer to the pigment's than air (1.00), reducing surface reflection so more light is absorbed. Watercolors look more translucent when wet — the water-to-air index change makes the hiding-power change dramatic upon drying.
 
 ### Databases and Standards
 
-- **Munsell Renotation (1943):** formalized the color order system with precise **CIE (Y, x, y) coordinates** for ideal chips from millions of visual judgments — "establishing the empirical limits of achievable object colors under standard illumination (Illuminant C)" (*Munsell Color Science Lab at RIT*, *Ordering Colour: Albert Henry Munsell*).
-- **Spectral libraries (RIT MCSL):** the `real.dat` file of real colors within physical limits, `1929.dat` for the original 1929 Munsell Book colors, and spectral data for common targets — Macbeth ColorChecker, CERAM tiles (*Munsell Color Science Lab*).
-- **Imaging standards:** standard observers and standardized illuminants (**D65** for average daylight) as the baseline for all spectral calculations (*Color Management*).
+- **Munsell Renotation (1943):** formalized the color order system with precise **CIE (Y, x, y) coordinates** for ideal chips from millions of visual judgments — "establishing the empirical limits of achievable object colors under standard illumination (Illuminant C)".
+- **Spectral libraries (RIT MCSL):** the `real.dat` file of real colors within physical limits, `1929.dat` for the original 1929 Munsell Book colors, and spectral data for common targets — Macbeth ColorChecker, CERAM tiles.
+- **Imaging standards:** standard observers and standardized illuminants (**D65** for average daylight) as the baseline for all spectral calculations.
 
 ### Fingerprinting and Gamut Maps
 
-- **Pigment identification ("fingerprinting"):** comparing an unknown sample's curve with reference curves identifies the colorant — e.g., **smalt vs. cobalt blue**, distinguishable because cobalt blue "has a higher reflectance in the red region" (*The Science of Paintings*, *Artists' Pigments*).
-- **Terminal dating:** pigments have introduction/discontinuation dates — cadmium red (c. 1910) on a painting "purported to be from 1600" is direct forgery evidence (*The Science of Paintings*).
-- **Gamut maps:** spectral data builds the "three-dimensional volume of color a specific set of pigments can achieve" — the irregular "**color tree**" — with the **Pointer Gamut** as the scientific reference for "the maximum achievable gamut of over 4,000 real-world surface colors" (*A Comprehensive Overview..., Why Material Reality Favors Green Over Red*).
+- **Pigment identification ("fingerprinting"):** comparing an unknown sample's curve with reference curves identifies the colorant — e.g., **smalt vs. [[PB28 - Cobalt Blue|cobalt blue]]**, distinguishable because cobalt blue "has a higher reflectance in the red region".
+- **Terminal dating:** pigments have introduction/discontinuation dates — **[[PR108 - Cadmium Red|cadmium red]]** (c. 1910) on a painting "purported to be from 1600" is direct forgery evidence.
+- **Gamut maps:** spectral data builds the "three-dimensional volume of color a specific set of pigments can achieve" — the irregular "**color tree**" — with the **Pointer Gamut** as the scientific reference for "the maximum achievable gamut of over 4,000 real-world surface colors".
 
 ## Handprint Perspectives
 

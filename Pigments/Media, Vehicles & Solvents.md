@@ -1,59 +1,58 @@
 ---
 title: Media, Vehicles & Solvents
 sequence: 18
----
-![[Pasted image 20260811191942.png]]
+---![[Pasted image 20260811191942.png]]
 
 **Scope:** The vehicles, binders, and solvents that carry pigment in each major medium — watercolor, gouache, oil, acrylic, ink, tempera, casein, pastel — and how the medium physically changes the same pigment's color.
 
 ### Watercolor — The Transparent Wash
 
-- **Binder and diluent:** watercolor is defined by its **gum arabic** binder (sourced from the acacia tree) with **water** as the diluent (*The Artist's Handbook of Materials and Techniques*, *Artists' Pigments*).
-- **Vehicle additives:** manufacturers add honey or sugar for film flexibility, **glycerin** for moistness (preventing extreme caking), and **ox gall** (or modern synthetic wetting agents) to reduce surface tension and improve flow on the paper (*The Artist's Handbook of Materials and Techniques*).
-- **Pigment load and transparency:** tubes contain mostly water and gum arabic — only **5% to 50% actual pigment** (*Plein Air Techniques for Artists*, handprint pigment manufacturing). Watercolor behaves more like a stain than a continuous film: paper fibers absorb and hold pigment particles in their interstices, and because there is no surplus of medium to "lock in" pigment, color builds as "volume color" — intensity accumulating through successive translucent layers (*Carlson's Guide to Landscape Painting*).
-- **Rewettability:** gum arabic dries by simple **evaporation with no chemical change**, so dried paint remains completely soluble and can be re-moistened indefinitely (*Contemporary Color: Theory and Use*).
-- **Chroma ceiling:** watercolor typically reaches **lower chroma than oil** — it lacks the continuous light-trapping "glassy" film of oil, relying instead on light reflecting off the white substrate through sparsely pigmented washes (*The Science of Paintings*).
+- **Binder and diluent:** watercolor is defined by its **gum arabic** binder (sourced from the acacia tree) with **water** as the diluent.
+- **Vehicle additives:** manufacturers add honey or sugar for film flexibility, **glycerin** for moistness (preventing extreme caking), and **ox gall** (or modern synthetic wetting agents) to reduce surface tension and improve flow on the paper.
+- **Pigment load and transparency:** tubes contain mostly water and gum arabic — only **5% to 50% actual pigment** ([[raw_sources/handprint/pigmt1.md|pigmt1.html]]). Watercolor behaves more like a stain than a continuous film: paper fibers absorb and hold pigment particles in their interstices, and because there is no surplus of medium to "lock in" pigment, color builds as "volume color" — intensity accumulating through successive translucent layers.
+- **Rewettability:** gum arabic dries by simple **evaporation with no chemical change**, so dried paint remains completely soluble and can be re-moistened indefinitely.
+- **Chroma ceiling:** watercolor typically reaches **lower chroma than oil** — it lacks the continuous light-trapping "glassy" film of oil, relying instead on light reflecting off the white substrate through sparsely pigmented washes.
 
 ### Gouache — Opaque Watercolor
 
-- **Same binder, different intent:** gouache uses the **same gum arabic vehicle** but is formulated for total hiding power and density (*Contemporary Color: Theory and Use*).
-- **Opacifiers:** it is "super loaded" with pigment plus inert **white fillers — chalk, whiting, or blanc fixe** — which, combined with a higher binder-to-pigment ratio than transparent watercolor, create a dull **matte surface with no sheen** (*Artists' Pigments*, *The Artist's Handbook of Materials and Techniques*).
-- **Why matte matters:** the flat finish was historically preferred for reproduction because it eliminates glossy reflections during photography (*The Artist's Handbook of Materials and Techniques*).
-- **Behavior:** like watercolor it is re-wettable, but the heavier paint layer is **prone to cracking** when applied thickly or on non-rigid supports, and layered dry coats draw vehicle from fresh coats (*Artists' Pigments*).
+- **Same binder, different intent:** gouache uses the **same gum arabic vehicle** but is formulated for total hiding power and density.
+- **Opacifiers:** it is "super loaded" with pigment plus inert **white fillers — chalk, whiting, or blanc fixe** — which, combined with a higher binder-to-pigment ratio than transparent watercolor, create a dull **matte surface with no sheen**.
+- **Why matte matters:** the flat finish was historically preferred for reproduction because it eliminates glossy reflections during photography.
+- **Behavior:** like watercolor it is re-wettable, but the heavier paint layer is **prone to cracking** when applied thickly or on non-rigid supports, and layered dry coats draw vehicle from fresh coats.
 
 ### Oil — The Oxidizing Medium
 
-- **Binder:** vegetable **drying oils — linseed, walnut, poppy, safflower** — are the binder (*The Science of Paintings*, *The Artist's Handbook of Materials and Techniques*).
-- **Drying chemistry:** unlike water-based media, oil dries by **oxidation** — absorbing oxygen from the air in a chemical reaction that creates a new, solid, insoluble substance called **linoxyn** (*The Science of Paintings*).
-- **Solvents:** traditional thinners are **turpentine** (distilled pine sap) or **mineral spirits** (*The Artist's Handbook of Materials and Techniques*).
-- **Oil index:** each pigment has a specific **oil absorption value** — the volume of oil required to grind it into a usable paste: cadmium yellow needs **18–32%**, zinc white **14–25%** (*The Artist's Handbook of Materials and Techniques*).
-- **Chroma gain:** the transparent oil vehicle (**refractive index ≈ 1.48**) **traps light** — allowing it to penetrate the film and be absorbed by the pigment rather than reflected from the surface — yielding deeper, richer, **higher-chroma** color (*The Science of Paintings*).
+- **Binder:** vegetable **drying oils — linseed, walnut, poppy, safflower** — are the binder.
+- **Drying chemistry:** unlike water-based media, oil dries by **oxidation** — absorbing oxygen from the air in a chemical reaction that creates a new, solid, insoluble substance called **linoxyn**.
+- **Solvents:** traditional thinners are **turpentine** (distilled pine sap) or **mineral spirits**.
+- **Oil index:** each pigment has a specific **oil absorption value** — the volume of oil required to grind it into a usable paste: **[[PY35 - Cadmium Yellow|cadmium yellow]]** needs **18–32%**, zinc white **14–25%**.
+- **Chroma gain:** the transparent oil vehicle (**refractive index ≈ 1.48**) **traps light** — allowing it to penetrate the film and be absorbed by the pigment rather than reflected from the surface — yielding deeper, richer, **higher-chroma** color.
 
 ### Acrylic — The Synthetic Polymer
 
-- **Binder and diluent:** developed in the **1940s**, acrylic paint uses a synthetic **acrylic polymer emulsion** binder with water as the diluent (*Contemporary Color: Theory and Use*, *The Artist's Handbook of Materials and Techniques*).
-- **Drying:** it dries very rapidly — often **within minutes** — by evaporation of water, after which the resin molecules chemically bond into a tough, water-resistant, flexible film (*Contemporary Color: Theory and Use*).
-- **Color trade-offs:** the acrylic binder is **slightly less transparent than oil**, which can cause a minor reduction in luminosity; and the polymer emulsion cannot hold as high a pigment concentration, slightly reducing tinting strength (*Contemporary Color: Theory and Use*).
+- **Binder and diluent:** developed in the **1940s**, acrylic paint uses a synthetic **acrylic polymer emulsion** binder with water as the diluent.
+- **Drying:** it dries very rapidly — often **within minutes** — by evaporation of water, after which the resin molecules chemically bond into a tough, water-resistant, flexible film.
+- **Color trade-offs:** the acrylic binder is **slightly less transparent than oil**, which can cause a minor reduction in luminosity; and the polymer emulsion cannot hold as high a pigment concentration, slightly reducing tinting strength.
 
 ### Inks — Dyes and Pigmented Shellacs
 
-- **The dye/pigment split:** inks are categorized by whether they use dissolved **dyes** or insoluble **pigments** (*Contemporary Color: Theory and Use*).
-- **India/Chinese ink:** traditional carbon black pigment held by a **shellac or animal glue** binder (*Contemporary Color: Theory and Use*).
-- **Dye inks:** most standard colored inks are dyes mixed with **shellac**, giving permanent, water-resistant quality after drying — but lacking the **lightfastness** of pigment-based products (*Contemporary Color: Theory and Use*).
-- **Acrylic inks:** function like highly fluid acrylic paints, using a polymer binder that becomes **waterproof when dry** (*Contemporary Color: Theory and Use*).
+- **The dye/pigment split:** inks are categorized by whether they use dissolved **dyes** or insoluble **pigments**.
+- **India/Chinese ink:** traditional **[[PBk6 - Carbon Black|carbon black]]** pigment held by a **shellac or animal glue** binder.
+- **Dye inks:** most standard colored inks are dyes mixed with **shellac**, giving permanent, water-resistant quality after drying — but lacking the **lightfastness** of pigment-based products.
+- **Acrylic inks:** function like highly fluid acrylic paints, using a polymer binder that becomes **waterproof when dry**.
 
 ### Other Specialized Media
 
-- **Egg tempera:** egg **yolk** as a natural emulsion binder (egg oil + lecithin); dries **within minutes** to a luminous but brittle film requiring a rigid support like wood to prevent flaking (*The Artist's Handbook of Materials and Techniques*).
-- **Casein:** **milk protein** (skim-milk solids) as binder — extremely strong, dries to a matte, **water-insoluble** film, ideal for layering (*The Artist's Handbook of Materials and Techniques*).
-- **Pastel:** essentially **dry, binderless pigment** (or pigment with a minimal binder such as gum tragacanth) compressed into sticks — held by the tooth of the paper rather than a liquid vehicle (*The Artist's Handbook of Materials and Techniques*, *Interaction of Color*).
+- **Egg tempera:** egg **yolk** as a natural emulsion binder (egg oil + lecithin); dries **within minutes** to a luminous but brittle film requiring a rigid support like wood to prevent flaking.
+- **Casein:** **milk protein** (skim-milk solids) as binder — extremely strong, dries to a matte, **water-insoluble** film, ideal for layering.
+- **Pastel:** essentially **dry, binderless pigment** (or pigment with a minimal binder such as gum tragacanth) compressed into sticks — held by the tooth of the paper rather than a liquid vehicle.
 
 ### How the Vehicle Changes the Same Pigment
 
-- **Refractive index mechanism:** a dry pigment in air shows high surface reflection because the index gap is large (air ≈ **1.00** vs. pigment ≈ **2.0–2.7**). Moistened with linseed oil (≈ **1.48**) the gap shrinks, more light is transmitted into the paint and absorbed, and the color looks **darker and more saturated** (*The Science of Paintings*).
-- **The drying shift:** watercolor is more translucent when wet because water (≈ **1.33**) is index-closer to pigment than air; as water evaporates the index gap grows, so the paint looks **lighter and more opaque when dry** (*The Science of Paintings*).
-- **The transparent vehicle effect:** a transparent medium "traps" light, letting it interact with more colorant molecules and reducing white-light surface scattering — which is why the same pigments in acrylic and oil achieve **higher chroma than in watercolor** (*The Science of Paintings*, handprint color18a).
-- **Medium changes reflectance:** the same pigment's **radiant color changes with vehicle, surface, and viewing conditions** — and mixing complements that hold in one medium may not apply in another, because the vehicle alters the pigment's reflectance attributes (*Contemporary Color: Theory and Use*, handprint color16).
+- **Refractive index mechanism:** a dry pigment in air shows high surface reflection because the index gap is large (air ≈ **1.00** vs. pigment ≈ **2.0–2.7**). Moistened with linseed oil (≈ **1.48**) the gap shrinks, more light is transmitted into the paint and absorbed, and the color looks **darker and more saturated**.
+- **The drying shift:** watercolor is more translucent when wet because water (≈ **1.33**) is index-closer to pigment than air; as water evaporates the index gap grows, so the paint looks **lighter and more opaque when dry**.
+- **The transparent vehicle effect:** a transparent medium "traps" light, letting it interact with more colorant molecules and reducing white-light surface scattering — which is why the same pigments in acrylic and oil achieve **higher chroma than in watercolor** ([[raw_sources/handprint/color18a.md|color18a.html]]).
+- **Medium changes reflectance:** the same pigment's **radiant color changes with vehicle, surface, and viewing conditions** — and mixing complements that hold in one medium may not apply in another, because the vehicle alters the pigment's reflectance attributes ([[raw_sources/handprint/color16.md|color16.html]]).
 
 ## Handprint Perspectives
 
@@ -67,7 +66,7 @@ Briggs grounds the "same pigment, different color" phenomenon in the **medium's 
 - **Transparent paints always darken; opaque paints can lighten.** "Opaque colours may lighten or darken a mixture, but transparent colours always darken" — transparent colourants work by removing light and never scatter it back, whereas opaque paints add reflectors (principle 12) *(Source: [[raw_sources/huevaluechroma/063.md|063.html]])*. This is the *mixing* corollary of the page's opacity/refractive-index section, and it explains why oil's transparent "traps light" claim (page above) is only half the story: a *transparent* oil glaze darkens and deepens, an *opaque* addition scatters and can lighten.
 - **Undertone, not "color bias," sets the hue shift on thinning.** When a glaze film thins, the hue drifts toward the pigment's **undertone** (e.g. a magenta reads bluish thin, reddish thick) — the modern replacement for traditional colour theory's "colour bias," which treated the hue of a paint as a departure from an assumed perfect primary. Medium thickness, therefore, is not neutral: thin = relatively lighter-but-bluer, thick = darker-but-redder for the same pigment *(Source: [[raw_sources/huevaluechroma/063.md|063.html]])*.
 
-> [!NOTE] The page's "watercolor dries lighter" and "oil dries darker" are both vehicle-index effects (*The Science of Paintings*), and Briggs' *mixing*-physics framing sits underneath them — the same principle does double duty as a rule about colour *combining*. The two sources agree on the optics; Briggs attaches the medium's second role.
+> [!NOTE] The page's "watercolor dries lighter" and "oil dries darker" are both vehicle-index effects, and Briggs' *mixing*-physics framing sits underneath them — the same principle does double duty as a rule about colour *combining*. The two sources agree on the optics; Briggs attaches the medium's second role.
 
 ## Subtopics
 - Watercolor: gum arabic + honey/glycerin/ox gall; 5–50% pigment load; rewettable; volume color; lowest chroma ceiling
@@ -96,4 +95,4 @@ Briggs grounds the "same pigment, different color" phenomenon in the **medium's 
 * "The Artist's Handbook of Materials and Techniques" — Ralph Mayer
 * "The Science of Paintings" — W. Stanley Taft Jr.
 * "Color for Science, Art and Technology"
-* "The Dimensions of Colour : mixing of paints" — [[raw_sources/huevaluechroma/061.md|061.html]] et seq.
+* "The Dimensions of Colour: mixing of paints" — [[raw_sources/huevaluechroma/061.md|061.html]] et seq.

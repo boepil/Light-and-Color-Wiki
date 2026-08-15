@@ -11,17 +11,17 @@ sequence: 42
 
 ### Identity
 
-- **Colour Index:** PV23; **carbazole dioxazine violet**, a modern synthetic organic with a complex heterocyclic structure (*Artists' Pigments*, *Color for Science, Art, and Technology*).
+- **Colour Index:** PV23; **carbazole dioxazine violet**, a modern synthetic organic with a complex heterocyclic structure.
 
 ### History
 
-- Synthesized in **1928**; freely available as an artist's pigment only around the **mid-20th century (~1950s)** (*Artists' Pigments*).
+- Synthesized in **1928**; freely available as an artist's pigment only around the **mid-20th century (~1950s)**.
 
 ### Color Data
 
-- **Intensely staining; extremely high tinctorial strength**; in dark masstone appears nearly black — yet transparency yields "vibrant, cold violet tints even at very low concentrations" (*Artists' Pigments*).
-- **Permanence:** excellent fastness — "highly lightfast for fine-arts use," unlike older organic violets (*Artists' Pigments*, *Color for Science, Art, and Technology*).
-- **Mixing:** used sparingly to brighten whites with a bluish-violet undertone; with **Phthalo Green + Ultramarine Blue** produces deep, cool "broken" tones that ground the value structure (*Artists' Pigments*).
+- **Intensely staining; extremely high tinctorial strength**; in dark masstone appears nearly black — yet transparency yields "vibrant, cold violet tints even at very low concentrations".
+- **Permanence:** excellent fastness — "highly lightfast for fine-arts use," unlike older organic violets.
+- **Mixing:** used sparingly to brighten whites with a bluish-violet undertone; with **[[PG7 - Phthalo Green|Phthalo Green]] + [[PB29 - Ultramarine Blue|Ultramarine Blue]]** produces deep, cool "broken" tones that ground the value structure.
 - **Munsell notation:** not established in this corpus for PV23.
 
 ### Relation to Art and Painters

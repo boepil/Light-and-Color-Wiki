@@ -1,29 +1,28 @@
 ---
 title: The Visible Spectrum
 sequence: 7
----
-![[Pasted image 20260811113250.png]]
+---![[Pasted image 20260811113250.png]]
 
 **Scope:** The visible spectrum as the narrow physical band of electromagnetic wavelengths the eye can detect — its Newtonian discovery, the hue ranges within it, and its fuzzy biological limits.
 
 ### A Narrow Window on the Electromagnetic Spectrum
 
-Visible light is only a sliver of the full electromagnetic spectrum, which runs from radio waves (meters long) to X-rays and gamma rays (nanometers and fractions of a nanometer) (*The Science of Paintings*).
+Visible light is only a sliver of the full electromagnetic spectrum, which runs from radio waves (meters long) to X-rays and gamma rays (nanometers and fractions of a nanometer).
 
-- Sources define the band differently: "the human visual system is sensitive only to photons with wavelengths between about **400 and 700 nanometers**" (*Vision Science: Photons to Phenomenology*); elsewhere "visible light, called the visible spectrum, is that portion of the electromagnetic spectrum having wavelengths from about **380 nm ... to 780 nm**" (*The Measurement of Colour*).
+- Sources define the band differently: "the human visual system is sensitive only to photons with wavelengths between about **400 and 700 nanometers**"; elsewhere "visible light, called the visible spectrum, is that portion of the electromagnetic spectrum having wavelengths from about **380 nm... to 780 nm**".
 - The endpoints are not sharp physical boundaries but fuzzy, observer-dependent limits — see below.
 
 ### Newton's Prism — White Light Decomposed
 
-Newton's 1666 experiment with a triangular glass prism established that white sunlight is **not a simple, pure entity** but a **"heterogeneous mixture of differently refrangible rays"** (*Color for Science, Art, and Technology*).
+**[[Newton's Influence on Painters|Newton]]**'s 1666 experiment with a triangular glass prism established that white sunlight is **not a simple, pure entity** but a **"heterogeneous mixture of differently refrangible rays"**.
 
-- A narrow beam of sunlight entering the prism is **refracted (bent)**; because different colors bend at different angles, the beam spreads into an oblong **spectrum** — a term **coined by Newton** — instead of remaining a circular white spot (*A Comprehensive Overview of Color Vision Mechanisms, Color Spaces, and the Munsell System*).
-- The sequence of hues is **continuous** because sunlight contains "a smooth continuum of wavelengths, which the glass separates according to their individual refractive properties" (*The Science of Paintings*, *A Comprehensive Overview...*).
-- The decisive finding: the colors "are **components, not modifications**, of white light" (*The Science of Paintings*).
+- A narrow beam of sunlight entering the prism is **refracted (bent)**; because different colors bend at different angles, the beam spreads into an oblong **spectrum** — a term **coined by Newton** — instead of remaining a circular white spot.
+- The sequence of hues is **continuous** because sunlight contains "a smooth continuum of wavelengths, which the glass separates according to their individual refractive properties".
+- The decisive finding: the colors "are **components, not modifications**, of white light".
 
 ### Approximate Wavelength Ranges of the Spectral Hues
 
-Ranges vary slightly between sources — two conventions below (*A Comprehensive Overview of Color Vision Mechanisms, Color Spaces, and the Munsell System*; *The Science of Paintings*):
+Ranges vary slightly between sources — two conventions below:
 
 | Hue | Range (nm) | Alternate convention |
 |---|---|---|
@@ -38,18 +37,18 @@ Ranges vary slightly between sources — two conventions below (*A Comprehensive
 
 ### Fuzzy Boundaries — Where Vision Fails
 
-The ~380–400 nm / ~700–780 nm bracket is fuzzy because human sensitivity "depends on the individual observer, light intensity, and eye adaptation" (*The Measurement of Colour*).
+The ~380–400 nm / ~700–780 nm bracket is fuzzy because human sensitivity "depends on the individual observer, light intensity, and eye adaptation".
 
-- **UV limit:** the short-wavelength end is set by the **cornea and lens, which absorb ultraviolet** radiation; some individuals can perceive near-UV light after cataract surgery removes the lens (*A Comprehensive Overview...*).
-- **IR limit:** at the long-wavelength end, infrared photons carry **too little energy (less than ~1.8 eV)** to trigger the chemical changes in retinal photoreceptors needed for vision (*A Comprehensive Overview...*, *Color for Science, Art, and Technology*).
+- **UV limit:** the short-wavelength end is set by the **cornea and lens, which absorb ultraviolet** radiation; some individuals can perceive near-UV light after cataract surgery removes the lens.
+- **IR limit:** at the long-wavelength end, infrared photons carry **too little energy (less than ~1.8 eV)** to trigger the chemical changes in retinal photoreceptors needed for vision.
 
 ### Nonspectral Colors — the Spectrum's Missing Hues
 
-Some colors — **purple and magenta** — have **no single corresponding wavelength**: "No single wavelength exists for the color purple. Purple can be created with a mixture of wavelengths in both the red and the violet" (*The Science of Paintings*). These nonspectral hues are created exclusively by mixing light from the two opposite ends of the spectrum, and "the visual system 'invents' these hues to bridge the gap between red and violet, effectively bending the linear physical spectrum into a perceptual **color circle**" (*A Comprehensive Overview...*, see [[Spectral Locus & Excitation Purity]] for the line of purples).
+Some colors — **purple and magenta** — have **no single corresponding wavelength**: "No single wavelength exists for the color purple. Purple can be created with a mixture of wavelengths in both the red and the violet". These nonspectral hues are created exclusively by mixing light from the two opposite ends of the spectrum, and "the visual system 'invents' these hues to bridge the gap between red and violet, effectively bending the linear physical spectrum into a perceptual **color circle**" ([[Spectral Locus & Excitation Purity]] for the line of purples).
 
 ### Why the Prism Spreads Blue More Than Red
 
-Dispersion is wavelength-dependent because **the speed of light in glass depends on wavelength**. All light travels at c in a vacuum, but in a denser medium "short wavelengths (blue/violet) are slowed significantly more than long wavelengths (red)"; since the bending angle is set by the velocity change, "the more-sluggish blue waves are deflected at a sharper angle than the faster-moving red waves" (*The Science of Paintings*, *Illusions of Seeing*).
+Dispersion is wavelength-dependent because **the speed of light in glass depends on wavelength**. All light travels at c in a vacuum, but in a denser medium "short wavelengths (blue/violet) are slowed significantly more than long wavelengths (red)"; since the bending angle is set by the velocity change, "the more-sluggish blue waves are deflected at a sharper angle than the faster-moving red waves".
 
 ## Handprint Perspectives
 

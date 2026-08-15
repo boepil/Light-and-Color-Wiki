@@ -1,41 +1,40 @@
 ---
 title: Spectral Locus & Excitation Purity
 sequence: 8
----
-![[Pasted image 20260810103513.png]]
+---![[Pasted image 20260810103513.png]]
 
 **Scope:** The spectral locus as the physical boundary of all real colors on the CIE chromaticity diagram, and excitation purity as the colorimetric measure of how close a color lies to that boundary.
 
 ### The Spectral Locus — Boundary of Real Colors
 
-The **spectral locus** is the solid, horseshoe-shaped curved boundary of the CIE chromaticity diagram: the set of chromaticity coordinates of all **monochromatic (single-wavelength) lights** (*Color for Science, Art, and Technology*, *The Science of Paintings*).
+The **spectral locus** is the solid, horseshoe-shaped curved boundary of the **[[CIE Systems|CIE]]** chromaticity diagram: the set of chromaticity coordinates of all **monochromatic (single-wavelength) lights**.
 
-- The curve runs from the shortest visible wavelengths — **~380–400 nm violet** — along the top and right side to the longest visible wavelengths — **~700–780 nm red**; "here the saturated (pure, most intense) colors of the spectrum occur on the curved line extending from red to violet" *(Source: "Color for Science, Art, and Technology")*.
-- The middle of the curve is **bowed outward** because pure spectral colors — 520 nm green, for example — are the most saturated colors physically possible; any additive mixture of wavelengths necessarily falls *inside* the curve, closer to the white center (*A Comprehensive Overview of Color Vision Mechanisms, Color Spaces, and the Munsell System*).
-- Every physically perceivable chromaticity lies inside the region bounded by the locus and the **line of purples** — the locus is the outer envelope of human color vision (*The Science of Paintings*).
+- The curve runs from the shortest visible wavelengths — **~380–400 nm violet** — along the top and right side to the longest visible wavelengths — **~700–780 nm red**; "here the saturated (pure, most intense) colors of the spectrum occur on the curved line extending from red to violet".
+- The middle of the curve is **bowed outward** because pure spectral colors — 520 nm green, for example — are the most saturated colors physically possible; any additive mixture of wavelengths necessarily falls *inside* the curve, closer to the white center.
+- Every physically perceivable chromaticity lies inside the region bounded by the locus and the **line of purples** — the locus is the outer envelope of human color vision.
 
 ### The Line of Purples — Extraspectral Colors
 
-The **line of purples** is the straight line closing the horseshoe across its bottom, connecting the extreme red and violet ends of the locus (*A Comprehensive Overview of Color Vision Mechanisms, Color Spaces, and the Munsell System*).
+The **line of purples** is the straight line closing the horseshoe across its bottom, connecting the extreme red and violet ends of the locus.
 
-- It is **straight** because the colors on it — **purples, magentas, deep reds** — are **non-spectral / extraspectral**: no single wavelength produces them, so they cannot sit on the smooth spectral curve itself; they exist only as mixtures of the two ends of the visible spectrum (red + blue/violet light) (*Color for Science, Art, and Technology*, *The Science of Paintings*).
+- It is **straight** because the colors on it — **purples, magentas, deep reds** — are **non-spectral / extraspectral**: no single wavelength produces them, so they cannot sit on the smooth spectral curve itself; they exist only as mixtures of the two ends of the visible spectrum (red + blue/violet light).
 - Technically these hues are "awkward to specify" by wavelength, so they are conventionally notated by the wavelength **directly opposite on the hue circle**: an extraspectral magenta is written as its complementary green wavelength, **c560** *(Source: [[raw_sources/handprint/color18a.md|color18a.html]])*.
 
 ### Dominant Wavelength — Mapping a Color to the Locus
 
-The **dominant wavelength** of a color is found by drawing a straight line from the **white point (W)** through the sample's point on the diagram and extending it to the spectral locus; the wavelength at which that line intersects the locus is the dominant wavelength ([λD]), the single spectral light that matches the sample's **hue** (*Color for Science, Art, and Technology*).
+The **dominant wavelength** of a color is found by drawing a straight line from the **white point (W)** through the sample's point on the diagram and extending it to the spectral locus; the wavelength at which that line intersects the locus is the dominant wavelength ([λD]), the single spectral light that matches the sample's **hue**.
 
-- **Complementary wavelengths** are pairs whose additive mixture is white. Geometrically: any straight line through the central white point connects two complementary points on the locus — for example, appropriate amounts of **~480 nm blue + ~580 nm yellow** mix to white (*A Comprehensive Overview of Color Vision Mechanisms, Color Spaces, and the Munsell System*).
-- Purple (extraspectral) samples never intersect the spectral locus on the extension toward red-violet; their line meets the locus on the opposite side, giving a **"complementary dominant wavelength"** labeled with a **c** suffix — e.g. a purple beam at (0.33, 0.15) has 540c, a complementary dominant wavelength of 540 nm (*Color for Science, Art, and Technology*).
+- **Complementary wavelengths** are pairs whose additive mixture is white. Geometrically: any straight line through the central white point connects two complementary points on the locus — for example, appropriate amounts of **~480 nm blue + ~580 nm yellow** mix to white.
+- Purple (extraspectral) samples never intersect the spectral locus on the extension toward red-violet; their line meets the locus on the opposite side, giving a **"complementary dominant wavelength"** labeled with a **c** suffix — e.g. a purple beam at (0.33, 0.15) has 540c, a complementary dominant wavelength of 540 nm.
 - MacEvoy's practical gloss: hue is "the attribute of color matched by a single wavelength of light or by a mixture of 'violet' and 'red' wavelengths of light" — a pure yellow carrying the wavelength notation **575**, and a brown light being a near-neutral dark orange with a dominant wavelength around **610 nm** *(Source: [[raw_sources/handprint/color18a.md|color18a.html]])*.
 
 ### Excitation Purity — the "Law of the Lever" Ratio
 
-**Excitation purity** (colorimetric purity) is the physical measure of how much monochromatic light a color contains, computed as a **distance ratio** on the diagram — the "law of the lever" relative to the white point (*Color for Science, Art, and Technology*).
+**Excitation purity** (colorimetric purity) is the physical measure of how much monochromatic light a color contains, computed as a **distance ratio** on the diagram — the "law of the lever" relative to the white point.
 
-- Geometry: **W** = white point, **C** = the color being measured, **A** = the point on the spectral locus at the dominant wavelength. Then purity = **100·a/(a+w)**, where **a** is the distance W→C and **w** is the distance C→A (*Color for Science, Art, and Technology*). The locus is the set of **100% purity** points; the white point is **0%**; whites/grays anchored by **D65** (average daylight) or the **equal-energy point E** give the 0 % reference.
-- Worked examples from the textbook: a beam with coordinates **(0.20, 0.45)** has dominant wavelength **510 nm** and purity **30 %**; a purple beam at **(0.33, 0.15)** has complementary dominant wavelength **540c** and purity **70 %** (*Color for Science, Art, and Technology*).
-- Purity is a **physical ratio of spectral content**, not perceived saturation: the CIE 1931 xy diagram is not visually uniform, so "the same distance in the blue region represents a much smaller visual change than in the green region" — colors of equal excitation purity appear differently saturated (*A Comprehensive Overview of Color Vision Mechanisms, Color Spaces, and the Munsell System*, *Vision Science: Photons to Phenomenology*).
+- Geometry: **W** = white point, **C** = the color being measured, **A** = the point on the spectral locus at the dominant wavelength. Then purity = **100·a/(a+w)**, where **a** is the distance W→C and **w** is the distance C→A. The locus is the set of **100% purity** points; the white point is **0%**; whites/grays anchored by **D65** (average daylight) or the **equal-energy point E** give the 0 % reference.
+- Worked examples from the textbook: a beam with coordinates **(0.20, 0.45)** has dominant wavelength **510 nm** and purity **30 %**; a purple beam at **(0.33, 0.15)** has complementary dominant wavelength **540c** and purity **70 %**.
+- Purity is a **physical ratio of spectral content**, not perceived saturation: the CIE 1931 xy diagram is not visually uniform, so "the same distance in the blue region represents a much smaller visual change than in the green region" — colors of equal excitation purity appear differently saturated.
 
 ## Handprint Perspectives
 

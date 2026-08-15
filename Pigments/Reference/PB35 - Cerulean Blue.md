@@ -11,28 +11,28 @@ sequence: 37
 
 ### Identity
 
-- **Colour Index:** PB35; **cobalt stannate, CoO·nSnO₂** — a compound of cobalt and tin oxides; a chromium-cobalt variant is PB36 (*Artists' Pigments*).
-- A bright, **pale sky blue with a distinct greenish cast** (*Artists' Pigments*, *The Science of Paintings*).
+- **Colour Index:** PB35; **cobalt stannate, CoO·nSnO₂** — a compound of cobalt and tin oxides; a chromium-cobalt variant is PB36.
+- A bright, **pale sky blue with a distinct greenish cast**.
 
 ### History
 
-- Known as a chemical compound (**ceruleum**) as early as **1805/1821**; successfully introduced as an artist's pigment in England by **George Rowney around 1860** (*Artists' Pigments*).
-- "The historical **Impressionist sky color**" — prized by Monet, Pissarro, and Renoir for coastal-sky tonalities (*Claude Monet — The Alchemist of Light*).
+- Known as a chemical compound (**ceruleum**) as early as **1805/1821**; successfully introduced as an artist's pigment in England by **George Rowney around 1860**.
+- "The historical **Impressionist sky color**" — prized by Monet, Pissarro, and Renoir for coastal-sky tonalities.
 
 ### Production
 
-**Calcination of cobalt and tin oxides** (*Artists' Pigments*).
+**Calcination of cobalt and tin oxides**.
 
 ### Color Data
 
-- **Opacity/strength:** quite opaque; **weak tinting strength** — easy to control in delicate mixtures (*Artists' Pigments*).
-- **Permanence:** absolutely lightfast and permanent; in oil a **very good drier** (*Artists' Pigments*, *Ralph Mayer*).
-- Mixing: smooth even washes; mixtures with other colors tend toward **dull green-grays** (*Artists' Pigments*).
+- **Opacity/strength:** quite opaque; **weak tinting strength** — easy to control in delicate mixtures.
+- **Permanence:** absolutely lightfast and permanent; in oil a **very good drier**.
+- Mixing: smooth even washes; mixtures with other colors tend toward **dull green-grays**.
 - **Munsell notation:** not established in this corpus for PB35.
 
 ### Relation to Art and Painters
 
-- The Impressionist sky par excellence — Monet, Pissarro, Renoir — where its weak strength permitted delicate aerial gradations; expensive, so its career tracks the mid-century color revolution (*Claude Monet — The Alchemist of Light*).
+- The Impressionist sky par excellence — Monet, Pissarro, Renoir — where its weak strength permitted delicate aerial gradations; expensive, so its career tracks the mid-century color revolution.
 
 ## Handprint Perspectives
 

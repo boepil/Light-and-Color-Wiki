@@ -1,13 +1,11 @@
 ---
 title: CIE Systems
 sequence: 52
----
-
-![[images/ChatGPT Image Aug 6, 2026, 02_26_10 PM.png]]
+---![[images/ChatGPT Image Aug 6, 2026, 02_26_10 PM.png]]
 
 **Scope:** The international number system for color — how the CIE turned "how the average human eye responds to light" into coordinates any lab, factory, or screen can share, from the classic xy map to the modern Lab space.
 
-The **Commission Internationale de l'Éclairage (CIE)** — the International Commission on Illumination — established the first international standards for putting color into numbers in **1931**, replacing subjective color names with a rigorous coordinate framework that allows precise color matching across industries and devices (**Contemporary Color**, **Color Management**). If there is an "official ruler" for color, this is it.
+The **Commission Internationale de l'Éclairage (CIE)** — the International Commission on Illumination — established the first international standards for putting color into numbers in **1931**, replacing subjective color names with a rigorous coordinate framework that allows precise color matching across industries and devices. If there is an "official ruler" for color, this is it.
 
 ### From measured light to CIE numbers
 
@@ -51,7 +49,7 @@ The three XYZ numbers are often projected into a 2D **xy chromaticity diagram** 
 
 A major flaw of XYZ is its **non-uniformity** — equal distances on the xy diagram do not mean equal perceived differences. In **1976** the CIE introduced **CIELAB** to fix this:
 
-- **Opponent framework:** built on Ewald Hering's **opponent-process theory**, with three axes:
+- **Opponent framework:** built on Ewald Hering's **[[Opponent-Process Color Coding|opponent-process theory]]**, with three axes:
   - **L\*** — lightness (0 = black, 100 = white);
   - **a\*** — redness–greenness;
   - **b\*** — yellowness–blueness.
@@ -62,8 +60,8 @@ A major flaw of XYZ is its **non-uniformity** — equal distances on the xy diag
 ### 6. Gamuts, MacAdam ellipses, and later refinements
 
 - **Gamuts:** a device's **gamut** is the range of colors it can reproduce, often drawn as a triangle inside the chromaticity diagram.
-- **MacAdam ellipses:** regions on the diagram within which all colors look identical to the center color. Their wildly varying sizes were the primary motivation for building uniform spaces like CIELAB.
-- **The Munsell connection:** in **1943**, the **Munsell Renotation** anchored the Munsell Color Tree to precise CIE (Y, x, y) coordinates, tying that visual system to the mathematical standard.
+- **[[MacAdam Ellipses|MacAdam ellipses]]:** regions on the diagram within which all colors look identical to the center color. Their wildly varying sizes were the primary motivation for building uniform spaces like CIELAB.
+- **The Munsell connection:** in **1943**, the **[[Munsell Notation|Munsell Renotation]]** anchored the Munsell Color Tree to precise CIE (Y, x, y) coordinates, tying that visual system to the mathematical standard.
 - **Later refinements:**
   - **CIELUV (1976)** — CIELAB's sibling, used mainly in **television and video** because it keeps a meaningful chromaticity diagram;
   - **CIECAM** — advanced appearance models (e.g., **CIECAM97**) that adjust for complex viewing environments and lighting conditions.
@@ -104,4 +102,4 @@ Briggs grounds the CIE machinery in the biology and the naming conventions that 
 * "Color Management"
 * "Color for Science, Art, and Technology" — Kurt Nassau (Editor)
 * "The Science of Paintings" — W. Stanley Taft Jr. and James W. Mayer
-* "The Dimensions of Colour : traditional and modern colour theory" — [[raw_sources/huevaluechroma/112.md|112.html]]
+* "The Dimensions of Colour: traditional and modern colour theory" — [[raw_sources/huevaluechroma/112.md|112.html]]

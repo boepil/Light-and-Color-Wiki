@@ -2,8 +2,7 @@
 title: Reference
 aliases: [Pigment Reference]
 sequence: 21
----
-![[Pasted image 20260813124251.png]]
+---![[Pasted image 20260813124251.png]]
 
 ### Whites & Blacks
 - [[PW6 - Titanium White|PW6 — Titanium White]] — rutile/anatase TiO₂, refractive index 2.55/2.71, the most opaque pigment ever made
@@ -37,6 +36,7 @@ sequence: 21
 - [[PB28 - Cobalt Blue|PB28 — Cobalt Blue]] — Thénard's 1802 aluminate, the smalt-replacing sky blue of Renoir, Monet, Turner
 - [[PB35 - Cerulean Blue|PB35 — Cerulean Blue]] — cobalt stannate, the pale greenish Impressionist sky blue
 - [[PB15 - Phthalo Blue|PB15 — Phthalo Blue]] — copper phthalocyanine (1927–28 Scottish Dyes), the cyan that replaced Prussian blue, extreme strength
+- [[PB27 - Prussian Blue|PB27 — Prussian Blue]] — ferric ferrocyanide, Diesbach's 1704 first synthetic, the Great Wave blue
 
 ## Sources
 * "The Science of Paintings" — W. Stanley Taft Jr. and James W. Mayer

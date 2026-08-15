@@ -1,52 +1,51 @@
 ---
 title: Wave Nature
 sequence: 6
----
-![[Pasted image 20260810103655.png]]
+---![[Pasted image 20260810103655.png]]
 
 **Scope:** The physical nature of light as electromagnetic radiation — its wave and particle descriptions, the parameters that quantify it, and the spectral power distribution that connects the physics to colorimetry.
 
 ### Electromagnetic Waves — the Wave Model
 
-Light is **electromagnetic radiation**: coupled **electric and magnetic fields** that alternate in strength as they travel, oscillating **transversally** (perpendicularly) to their direction of propagation — "similar to a wave moving through a rope" (*Illusions of Seeing*, *The Science of Paintings*). The wave model describes light as a vibrating disturbance spread in space (*The Science of Paintings*).
+Light is **electromagnetic radiation**: coupled **electric and magnetic fields** that alternate in strength as they travel, oscillating **transversally** (perpendicularly) to their direction of propagation — "similar to a wave moving through a rope". The wave model describes light as a vibrating disturbance spread in space.
 
-Four parameters define a wave (*The Science of Paintings*, *Illusions of Seeing*):
+Four parameters define a wave:
 
-- **Wavelength (λ):** the distance from one wave crest to the next, measured in nanometers (nm, 10⁻⁹ m) for the visible region — "represented by the Greek letter lambda" (*The Science of Paintings*).
-- **Frequency (f or ν):** the number of complete wave cycles passing a stationary observer per second, measured in **Hertz (Hz)** (*The Science of Paintings*).
-- **Amplitude:** the height of the wave; it determines the physical **intensity** of the light (see below) (*Vision Science: Photons to Phenomenology*).
-- **Speed (c):** in a vacuum a constant, universal ~**300,000 km/s** (3×10⁸ m/s), independent of wavelength (*Illusions of Seeing*, *Vision Science: Photons to Phenomenology*).
+- **Wavelength (λ):** the distance from one wave crest to the next, measured in nanometers (nm, 10⁻⁹ m) for the visible region — "represented by the Greek letter lambda".
+- **Frequency (f or ν):** the number of complete wave cycles passing a stationary observer per second, measured in **Hertz (Hz)**.
+- **Amplitude:** the height of the wave; it determines the physical **intensity** of the light (see below).
+- **Speed (c):** in a vacuum a constant, universal ~**300,000 km/s** (3×10⁸ m/s), independent of wavelength.
 
-The parameters are linked by **c = f·λ**: because c is constant in a vacuum, knowing the frequency determines the wavelength and vice versa (*The Science of Paintings*). A further property is **phase** — the position of the wave relative to a reference point, expressed in degrees (e.g., sine phase at 0°) (*A Comprehensive Overview of Color Vision Mechanisms, Color Spaces, and the Munsell System*).
+The parameters are linked by **c = f·λ**: because c is constant in a vacuum, knowing the frequency determines the wavelength and vice versa. A further property is **phase** — the position of the wave relative to a reference point, expressed in degrees (e.g., sine phase at 0°).
 
 ### Photons — the Particle Model
 
-Quantum theory describes light as emitted and absorbed in discrete packets of energy called **photons** — "a stream of minute packets of energy ... which create a pulsating electromagnetic disturbance" (*The Science of Paintings*). The two descriptions are equivalent: "a photon or quantum may appear to act in two apparently very different ways" (*Color for Science, Art, and Technology*).
+Quantum theory describes light as emitted and absorbed in discrete packets of energy called **photons** — "a stream of minute packets of energy... which create a pulsating electromagnetic disturbance". The two descriptions are equivalent: "a photon or quantum may appear to act in two apparently very different ways".
 
-- **Quantization:** the energy of one photon is directly proportional to its frequency — **E = hf**, where h is Planck's constant (*Color for Science, Art, and Technology*).
-- **Convenient form for the visible range:** **E(eV) = 1240 / λ(nm)** — "there is an inverse relation between the energy E of the photon and the wavelength" (*The Science of Paintings*).
-- **Worked examples:** ~**700 nm red light** carries photons of ≈ **1.77 eV**; ~**400 nm violet light** carries higher-energy photons of ≈ **3.10 eV** (*The Science of Paintings*, *Color for Science, Art, and Technology*).
+- **Quantization:** the energy of one photon is directly proportional to its frequency — **E = hf**, where h is Planck's constant.
+- **Convenient form for the visible range:** **E(eV) = 1240 / λ(nm)** — "there is an inverse relation between the energy E of the photon and the wavelength".
+- **Worked examples:** ~**700 nm red light** carries photons of ≈ **1.77 eV**; ~**400 nm violet light** carries higher-energy photons of ≈ **3.10 eV**.
 
 ### Frequency Decides Color; Amplitude Decides Strength
 
 The two wave parameters map onto two different physical facts about light:
 
-- **Color** is fixed by **frequency** (equivalently wavelength in a vacuum): the human eye "typically responds to light with frequencies between **4.28×10¹⁴ Hz (red)** and **7.50×10¹⁴ Hz (violet)**" — "the range of the pure spectrum perceived by the eye extends from about 4.3×10¹⁴ Hz in the red range to about 7.5×10¹⁴ Hz in the violet" (*The Science of Paintings*). No amplitude change can alter the hue.
-- **Intensity / brightness** is fixed by **amplitude** — physically the **flux**: "the number of photons passing through a unit area in a unit time" — a higher amplitude means more photons striking the retina, making the light appear more intense without changing its color (*The Science of Paintings*, *Vision Science: Photons to Phenomenology*).
+- **Color** is fixed by **frequency** (equivalently wavelength in a vacuum): the human eye "typically responds to light with frequencies between **4.28×10¹⁴ Hz (red)** and **7.50×10¹⁴ Hz (violet)**" — "the range of the pure spectrum perceived by the eye extends from about 4.3×10¹⁴ Hz in the red range to about 7.5×10¹⁴ Hz in the violet". No amplitude change can alter the hue.
+- **Intensity / brightness** is fixed by **amplitude** — physically the **flux**: "the number of photons passing through a unit area in a unit time" — a higher amplitude means more photons striking the retina, making the light appear more intense without changing its color.
 
 ### The Two Natures in Physical Interactions
 
 Both descriptions show up in the interactions that matter for vision and painting:
 
-- **Absorption by photoreceptors (particle behavior):** a single photon transfers **all** its energy to a pigment molecule such as rhodopsin in a discrete event, causing the chemical change that initiates a nerve impulse (*A Comprehensive Overview of Color Vision Mechanisms, Color Spaces, and the Munsell System*).
-- **Photoelectric effect (particle behavior):** a photon colliding with an electron in a material (a metal surface or pigment) can transfer enough energy to eject the electron or lift it to a higher energy state (*Color for Science, Art, and Technology*).
-- **Refraction — Snell's law (wave behavior):** entering a denser medium (air → glass or oil), light **slows down** and its wave front bends; the relation is the ratio of the sines of the angles of incidence and refraction (*The Science of Paintings*).
-- **Dispersion (wave behavior):** different wavelengths travel at different speeds in a medium, so blue light (higher frequency) bends **more sharply** than red through a prism — separating white light into the spectrum (see [[The Visible Spectrum]]) (*The Science of Paintings*).
-- **Polarization (wave behavior):** light filtered so its fields oscillate in only one plane is **polarized**; its interaction with surfaces then depends on orientation (*Illusions of Seeing*).
+- **Absorption by photoreceptors (particle behavior):** a single photon transfers **all** its energy to a pigment molecule such as rhodopsin in a discrete event, causing the chemical change that initiates a nerve impulse.
+- **Photoelectric effect (particle behavior):** a photon colliding with an electron in a material (a metal surface or pigment) can transfer enough energy to eject the electron or lift it to a higher energy state.
+- **Refraction — Snell's law (wave behavior):** entering a denser medium (air → glass or oil), light **slows down** and its wave front bends; the relation is the ratio of the sines of the angles of incidence and refraction.
+- **Dispersion (wave behavior):** different wavelengths travel at different speeds in a medium, so blue light (higher frequency) bends **more sharply** than red through a prism — separating white light into the spectrum (see [[The Visible Spectrum]]).
+- **Polarization (wave behavior):** light filtered so its fields oscillate in only one plane is **polarized**; its interaction with surfaces then depends on orientation.
 
 ### Spectral Power Distribution — from Waves to Illuminants
 
-A **spectral power distribution (SPD)** graphs how a light source distributes its power — the number of photons emitted — **across every wavelength** of the visible range (*Illusions of Seeing*, *Contemporary Color*). The wave model describes a single monochromatic wave by one wavelength/frequency pair; the SPD describes what a **complex source** (daylight, a tungsten bulb, a fluorescent tube) actually emits: "many different wavelengths intermingled" (*A Comprehensive Overview of Color Vision Mechanisms, Color Spaces, and the Munsell System*). The SPD is the physical input to every colorimetric calculation — it is the quantity the CIE's matching functions weight to produce tristimulus values (see [[CIE Systems]] and [[Illuminants & Correlated Color Temperature]]).
+A **spectral power distribution (SPD)** graphs how a light source distributes its power — the number of photons emitted — **across every wavelength** of the visible range. The wave model describes a single monochromatic wave by one wavelength/frequency pair; the SPD describes what a **complex source** (daylight, a tungsten bulb, a fluorescent tube) actually emits: "many different wavelengths intermingled". The SPD is the physical input to every colorimetric calculation — it is the quantity the CIE's matching functions weight to produce tristimulus values (see [[CIE Systems]] and [[Illuminants & Correlated Color Temperature]]).
 
 ## Handprint Perspectives
 

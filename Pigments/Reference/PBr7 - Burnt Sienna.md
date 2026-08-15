@@ -11,29 +11,29 @@ sequence: 29
 
 ### Identity
 
-- **Colour Index:** PBr7 (shared with raw sienna); a **natural iron-oxide earth** produced by the **calcination of raw sienna** (*Artists' Pigments*).
-- Raw sienna is a clay containing **hydrated iron oxide (goethite)** and manganese; roasting **dehydrates the mineral, converting it to hematite** and shifting the hue from yellow-brown to a warm, transparent reddish-brown (*Artists' Pigments*, *The Science of Paintings*).
+- **Colour Index:** PBr7 (shared with raw sienna); a **natural iron-oxide earth** produced by the **calcination of raw sienna**.
+- Raw sienna is a clay containing **hydrated iron oxide (goethite)** and manganese; roasting **dehydrates the mineral, converting it to hematite** and shifting the hue from yellow-brown to a warm, transparent reddish-brown.
 
 ### History
 
 - Earth pigments have been used since prehistory; the specific practice of **calcining (roasting) native earths to alter color is documented since Roman times**.
-- The finest historical deposits are associated with the **Siena region of Italy** (*Artists' Pigments*).
+- The finest historical deposits are associated with the **Siena region of Italy**.
 
 ### Production
 
-Raw sienna is **calcined or roasted in furnaces**; the dehydration converts goethite to hematite, producing the warm, transparent red-brown (*Artists' Pigments*).
+Raw sienna is **calcined or roasted in furnaces**; the dehydration converts goethite to hematite, producing the warm, transparent red-brown.
 
 ### Color Data
 
-- **Transparency:** "unlike the opaque cadmiums," valued for clear, **fiery transparency** — "a classic choice for glazes" (*Artists' Pigments*).
-- **Permanence:** absolutely permanent and stable across all media (*Artists' Pigments*).
-- **In oil:** a rapid drier producing a tough, flexible paint film (*Ralph Mayer*).
-- **In watercolor:** often granulates — coarse particles settle, adding texture to washes (*Artists' Pigments*, *Mastering Atmosphere & Mood in Watercolor*).
+- **Transparency:** "unlike the opaque **[[PR108 - Cadmium Red|cadmiums]]**," valued for clear, **fiery transparency** — "a classic choice for glazes".
+- **Permanence:** absolutely permanent and stable across all media.
+- **In oil:** a rapid drier producing a tough, flexible paint film.
+- **In watercolor:** often granulates — coarse particles settle, adding texture to washes.
 - **Munsell notation:** not established in this corpus for PBr7.
 
 ### Relation to Art and Painters
 
-- "One of the most widely used pigments in landscape painting" — for **shadows, broken earth tones, and warm underpaintings**; essential for deep, non-chalky mixtures (*A Comprehensive Overview...*, *Contemporary Color*). The historical workflow Chiaroscuro and Venetian glazing (see [[Painting/Movements & Painters/index|Movements & Painters]]) rested on exactly this transparent warmth.
+- "One of the most widely used pigments in landscape painting" — for **shadows, broken earth tones, and warm underpaintings**; essential for deep, non-chalky mixtures. The historical workflow Chiaroscuro and Venetian glazing (see [[Painting/Movements & Painters/index|Movements & Painters]]) rested on exactly this transparent warmth.
 
 ## Handprint Perspectives
 

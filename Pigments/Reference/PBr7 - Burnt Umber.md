@@ -11,22 +11,22 @@ sequence: 31
 
 ### Identity
 
-- **Colour Index:** PBr7 (often designated PBr8 in the burnt grade); **raw umber subjected to calcination** (*Artists' Pigments*, *Ralph Mayer*).
+- **Colour Index:** PBr7 (often designated PBr8 in the burnt grade); **raw umber subjected to calcination**.
 
 ### Production
 
-Created by **heating/roasting raw umber in furnaces**: dehydration shifts hue from the natural greenish-olive to a **deep, rich warm brown with a reddish cast**, darker and more transparent (*Artists' Pigments*, *Ralph Mayer*).
+Created by **heating/roasting raw umber in furnaces**: dehydration shifts hue from the natural greenish-olive to a **deep, rich warm brown with a reddish cast**, darker and more transparent.
 
 ### Color Data
 
-- **Permanence:** absolutely lightfast and permanent for all artistic uses (*Artists' Pigments*).
-- **Transparency:** semi-transparent to transparent — ideal for glazes and deep shadows (*Artists' Pigments*).
-- **In oil:** inherits the manganese-umber **rapid-drier** character (tough, leathery films); must not be used full-strength in underpaintings (*Ralph Mayer*).
+- **Permanence:** absolutely lightfast and permanent for all artistic uses.
+- **Transparency:** semi-transparent to transparent — ideal for glazes and deep shadows.
+- **In oil:** inherits the manganese-umber **rapid-drier** character (tough, leathery films); must not be used full-strength in underpaintings.
 - **Munsell notation:** not established in this corpus for burnt umber.
 
 ### Role in the Palette
 
-- The deepest-value member of the warm, transparent earth chain (yellow ochre → sienna → umber); the classic partner with **ultramarine for warm shadow darks**, and the warming "broken color" mixer for olive-greens and portrait darks (*Ralph Mayer*, *Plein Air Techniques for Artists*).
+- The deepest-value member of the warm, transparent earth chain (**[[PY43 - Yellow Ochre|yellow ochre]]** → sienna → umber); the classic partner with **[[PB29 - Ultramarine Blue|ultramarine]] for warm shadow darks**, and the warming "broken color" mixer for olive-greens and portrait darks.
 
 ## Handprint Perspectives
 

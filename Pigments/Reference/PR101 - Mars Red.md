@@ -11,25 +11,25 @@ sequence: 28
 
 ### Identity
 
-- **Colour Index:** PR101; synthetic red iron oxide, also called **Mars Red, Ferrite Red, or Rouge**; the pigment base is **hematite (α-Fe₂O₃)** (*Artists' Pigments*, *The Science of Paintings*).
+- **Colour Index:** PR101; synthetic red iron oxide, also called **Mars Red, Ferrite Red, or Rouge**; the pigment base is **hematite (α-Fe₂O₃)**.
 
 ### History
 
-- Artificial iron oxides arrived with 19th-century chemistry: precipitation routes made the full control of hue and particle size possible, and the name "Mars" (from the iron god) marks the synthetic family as the deliberate counterpart to the natural earths. Earliest artistic distinction from natural hematite (PR102) is exactly that manufacturability (*Artists' Pigments*, *Color for Science, Art, and Technology*).
+- Artificial iron oxides arrived with 19th-century chemistry: precipitation routes made the full control of hue and particle size possible, and the name "Mars" (from the iron god) marks the synthetic family as the deliberate counterpart to the natural earths. Earliest artistic distinction from natural hematite (PR102) is exactly that manufacturability.
 
 ### Production
 
-Manufactured by **precipitation and calcination**: typically calcining iron hydroxide produced from iron sulfate and soda ash, or by direct roasting of ferrous sulfate. Hue is controlled by **calcination temperature and particle size**, from bright yellow-reds (light reds) to deep bluish-violet shades (Indian reds and Mars violets) (*Artists' Pigments*, *Ralph Mayer*).
+Manufactured by **precipitation and calcination**: typically calcining iron hydroxide produced from iron sulfate and soda ash, or by direct roasting of ferrous sulfate. Hue is controlled by **calcination temperature and particle size**, from bright yellow-reds (light reds) to deep bluish-violet shades (Indian reds and Mars violets).
 
 ### Color Data
 
-- Compared with natural hematite (PR102): **more opaque, finer-grained, and cleaner**; "absolutely lightfast and permanent" (*Artists' Pigments*, *The Science of Paintings*).
-- **Natural vs. synthetic:** synthetics are "more brilliant, stronger, and more powerful"; natural earths retain a more varied/granular texture; native earths may carry impurities "sometimes harmful to the paint film," while artificial oxides are "chemically pure and consistent" (*Artists' Pigments*, *Ralph Mayer*).
+- Compared with natural hematite (PR102): **more opaque, finer-grained, and cleaner**; "absolutely lightfast and permanent".
+- **Natural vs. synthetic:** synthetics are "more brilliant, stronger, and more powerful"; natural earths retain a more varied/granular texture; native earths may carry impurities "sometimes harmful to the paint film," while artificial oxides are "chemically pure and consistent".
 - **Munsell notation:** not established in this corpus for PR101.
 
 ### Relation to Art and Painters
 
-- Because of low cost and high durability used extensively in **paints and bricks**; in very fine grain, **rouge for metallurgy and polishing**. In the artist palette it is the reliable opaque red-earth: the mass-tone answer to dulled ochres and the stable alternative to cadmium *(Source: [[raw_sources/handprint/pigmt3.md|pigmt3.html]] and the corpus above)*.
+- Because of low cost and high durability used extensively in **paints and bricks**; in very fine grain, **rouge for metallurgy and polishing**. In the artist palette it is the reliable opaque red-earth: the mass-tone answer to dulled ochres and the stable alternative to **[[PR108 - Cadmium Red|cadmium]]** *(Source: [[raw_sources/handprint/pigmt3.md|pigmt3.html]] and the corpus above)*.
 
 ## Handprint Perspectives
 

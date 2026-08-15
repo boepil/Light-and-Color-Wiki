@@ -11,27 +11,27 @@ sequence: 25
 
 ### Identity
 
-- **Colour Index:** PY97 (class siblings PY1, PY3); a modern **synthetic organic azo/monoarylide pigment** (*Artists' Pigments*, *A Comprehensive Overview...*).
-- The azo chromophore **−N=N−** gives high tinctorial strength; Hansa belongs to the **non-metallized azo** yellows (*Color for Science, Art, and Technology*).
+- **Colour Index:** PY97 (class siblings PY1, PY3); a modern **synthetic organic azo/monoarylide pigment**.
+- The azo chromophore **−N=N−** gives high tinctorial strength; Hansa belongs to the **non-metallized azo** yellows.
 
 ### History
 
-- A German trademark name; the class was introduced in the **early 20th century**; adopted into the standard artists' nomenclature (the Paint Standard) in **1962** (*Contemporary Color*, *A Comprehensive Overview...*).
+- A German trademark name; the class was introduced in the **early 20th century**; adopted into the standard artists' nomenclature (the Paint Standard) in **1962**.
 
 ### Production
 
-Manufactured from **aromatic hydrocarbons** (benzene or toluene) from coal tar or petroleum residues (*Ralph Mayer*).
+Manufactured from **aromatic hydrocarbons** (benzene or toluene) from coal tar or petroleum residues.
 
 ### Color Data
 
-- A "brilliant, pale, and **transparent to semi-transparent** yellow" (*Contemporary Color*).
-- **Lightfastness:** "absolutely permanent (lightfast) in all easel-painting techniques" in artist grades (*Artists' Pigments*).
-- **In watercolor:** a non-poisonous, high-chroma substitute for fugitive traditional yellows like gamboge or genuine Indian yellow (*Artists' Pigments*).
+- A "brilliant, pale, and **transparent to semi-transparent** yellow".
+- **Lightfastness:** "absolutely permanent (lightfast) in all easel-painting techniques" in artist grades.
+- **In watercolor:** a non-poisonous, high-chroma substitute for fugitive traditional yellows like gamboge or genuine Indian yellow.
 - **Munsell notation:** not established in this corpus for PY97.
 
 ### Relation to Art and Painters
 
-- Artists use it "to achieve intense color effects in mixtures"; combined with **phthalocyanine green** it approximates the brilliance of historical (toxic) emerald green (*A Comprehensive Overview...*). In the modern easel palette it is the default high-key lemon-band yellow, inheriting the niche of fugitive gamboge — see [[Pigments/Natural vs. Synthetic|Natural vs. Synthetic]].
+- Artists use it "to achieve intense color effects in mixtures"; combined with **[[PG7 - Phthalo Green|phthalocyanine green]]** it approximates the brilliance of historical (toxic) emerald green. In the modern easel palette it is the default high-key lemon-band yellow, inheriting the niche of fugitive gamboge — see [[Pigments/Natural vs. Synthetic|Natural vs. Synthetic]].
 
 ## Handprint Perspectives
 

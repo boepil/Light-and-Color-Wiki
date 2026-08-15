@@ -11,18 +11,18 @@ sequence: 32
 
 ### Identity
 
-- **Colour Index:** PV101 (and bluish Indian reds within PR101); **Mars violet and the bluish varieties of Indian red** (*Artists' Pigments*).
-- Often produced from **protocrystalline hematite associated with clay minerals**; certain iron silicates (e.g., **celadonite**) possess a **micaceous, layered structure** (*Artists' Pigments*, *Color for Science, Art, and Technology*).
+- **Colour Index:** PV101 (and bluish Indian reds within PR101); **Mars violet and the bluish varieties of Indian red**.
+- Often produced from **protocrystalline hematite associated with clay minerals**; certain iron silicates (e.g., **celadonite**) possess a **micaceous, layered structure**.
 
 ### Production
 
-- **Heat treatment of sienna clays** (which contain iron and manganese): natural yellow-brown of raw sienna → warm reddish-brown → with further heat, **maroon or violet-pink tones** (*Artists' Pigments*).
-- Violet shades require **high furnace temperatures or specific precipitation methods** creating larger, more uniform particle sizes — the hematite base then reflects light more toward the **violet (blue-red) end** of the spectrum (*The Science of Paintings*).
+- **Heat treatment of sienna clays** (which contain iron and manganese): natural yellow-brown of raw sienna → warm reddish-brown → with further heat, **maroon or violet-pink tones**.
+- Violet shades require **high furnace temperatures or specific precipitation methods** creating larger, more uniform particle sizes — the hematite base then reflects light more toward the **violet (blue-red) end** of the spectrum.
 
 ### Color Data
 
-- Part of the "culmination of chemical excitation" of the earth palette; reflects more blue-red than any natural red earth (*The Science of Paintings*).
-- Shared PBr7/PV101 durability: absolutely lightfast; chemically pure when synthetic (*Artists' Pigments*).
+- Part of the "culmination of chemical excitation" of the earth palette; reflects more blue-red than any natural red earth.
+- Shared PBr7/PV101 durability: absolutely lightfast; chemically pure when synthetic.
 - **Munsell notation:** not established in this corpus for the violet oxides.
 
 ### The hematite family map (hydration state → hue)
@@ -34,7 +34,7 @@ sequence: 32
 | Red ochre | natural hematite | native (or yellow ochre "increased by fire") | red |
 | Violet oxides | protocrystalline hematite on clay minerals | high temperature / controlled precipitation | violet-pink to maroon |
 
-The whole earth palette is governed by **hydration state and calcination temperature** of iron ("yellow ochre can be increased by fire to become red"; burnt sienna is goethite dehydrated; violet is hematite refined further) (*Artists' Pigments*, *Goethe's Theory of Colours*, *The Science of Paintings*).
+The whole earth palette is governed by **hydration state and calcination temperature** of iron ("yellow ochre can be increased by fire to become red"; burnt sienna is goethite dehydrated; violet is hematite refined further).
 
 ### Relation to Art and Painters
 

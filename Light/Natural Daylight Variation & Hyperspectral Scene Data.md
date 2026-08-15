@@ -1,43 +1,42 @@
 ---
 title: Natural Daylight Variation & Hyperspectral Scene Data
 sequence: 11
----
-![[Pasted image 20260811113914.png]]
+---![[Pasted image 20260811113914.png]]
 
 **Scope:** Daylight as a continuously varying spectral environment and the high-resolution hyperspectral measurements that capture it.
 
 ### Daylight Through the Day
 
-Daylight changes constantly because the sun's altitude sets the **atmospheric path length** light must traverse (*A Comprehensive Overview of Color Vision Mechanisms, Color Spaces, and the Munsell System*).
+Daylight changes constantly because the sun's altitude sets the **atmospheric path length** light must traverse.
 
-- At **noon**, sunlight passes the atmosphere vertically — the shortest possible route; at **sunrise/sunset** the oblique angle forces light through "a significantly longer 'veil' of air," which "results in the scattering away of blue and even green wavelengths, leaving only the long-wavelength red to reach the eye" (*A Comprehensive Overview..., Contemporary Color*).
-- CCT mapping of the phases: **sunrise/sunset ≈ 2,000 K** (low/red); **direct noon sun ≈ 4,800–5,500 K**; **average daylight (D65) = 6,500 K**; **clear blue sky > 12,000 K** (*Contemporary Color, The Science of Paintings, Illusions of Seeing*).
+- At **noon**, sunlight passes the atmosphere vertically — the shortest possible route; at **sunrise/sunset** the oblique angle forces light through "a significantly longer 'veil' of air," which "results in the scattering away of blue and even green wavelengths, leaving only the long-wavelength red to reach the eye".
+- CCT mapping of the phases: **sunrise/sunset ≈ 2,000 K** (low/red); **direct noon sun ≈ 4,800–5,500 K**; **average daylight (D65) = 6,500 K**; **clear blue sky > 12,000 K**.
 
 ### Rayleigh Scattering — Blue Sky, Red Sun, White Clouds
 
-Lord Rayleigh (1899) showed that **air molecules scatter light with an intensity inversely proportional to the fourth power of the wavelength (1/λ⁴)** (*Illusions of Seeing*).
+Lord Rayleigh (1899) showed that **air molecules scatter light with an intensity inversely proportional to the fourth power of the wavelength (1/λ⁴)**.
 
-- **Blue sky:** blue light is scattered much more strongly than red — "about 10 times more" — and this scattered, indirect light is the blue of the sky (*Illusions of Seeing*, *A Comprehensive Overview...*).
-- **Red sun:** at the horizon, the extreme path length filters out "almost all the shorter blue and green components, leaving only the 'surviving' red rays" (*Contemporary Color*).
-- **White clouds:** water droplets are far larger than gas molecules and scatter by the wavelength-blind **Mie scattering** process — "scatters all colors equally, resulting in a cloudy white appearance" (*A Comprehensive Overview..., The Science of Paintings*).
+- **Blue sky:** blue light is scattered much more strongly than red — "about 10 times more" — and this scattered, indirect light is the blue of the sky.
+- **Red sun:** at the horizon, the extreme path length filters out "almost all the shorter blue and green components, leaving only the 'surviving' red rays".
+- **White clouds:** water droplets are far larger than gas molecules and scatter by the wavelength-blind **Mie scattering** process — "scatters all colors equally, resulting in a cloudy white appearance".
 
 ### Sunlight, Skylight, and Overcast Light
 
-- **Sunlight** is the direct radiation of the sun's disk — physically "white" rather than yellow, "though it appears yellowed at noon as blue is scattered away" (*A Comprehensive Overview...*); see also [[Illuminants & Correlated Color Temperature]].
-- **Skylight** is the huge secondary source from the entire blue sky vault — cooler (bluer) light that "influences shadow colors" (*A Comprehensive Overview..., Contemporary Color*).
-- **Overcast sky:** clouds act as **ground glass**, diffusing sunlight "into a silver-white mass"; because the diffused light is scattered so thoroughly, "an overcast sky often has a much higher color temperature than a clear sun, frequently exceeding 10,000 K" (*Contemporary Color*, *A Comprehensive Overview...*).
+- **Sunlight** is the direct radiation of the sun's disk — physically "white" rather than yellow, "though it appears yellowed at noon as blue is scattered away"; see also [[Illuminants & Correlated Color Temperature]].
+- **Skylight** is the huge secondary source from the entire blue sky vault — cooler (bluer) light that "influences shadow colors".
+- **Overcast sky:** clouds act as **ground glass**, diffusing sunlight "into a silver-white mass"; because the diffused light is scattered so thoroughly, "an overcast sky often has a much higher color temperature than a clear sun, frequently exceeding 10,000 K".
 
 ### Hyperspectral Datasets and Colorimetric Computation
 
-Physical light data is captured as **spectral reflectance curves** — the percentage of light reflected at each wavelength, typically sampled "at 1 nm or 5 nm intervals across the visible spectrum from 380 to 780 nm" (*Munsell Color Science Lab*, RIT; *A Comprehensive Overview...*).
+Physical light data is captured as **spectral reflectance curves** — the percentage of light reflected at each wavelength, typically sampled "at 1 nm or 5 nm intervals across the visible spectrum from 380 to 780 nm".
 
-- **Instruments:** **spectrophotometers** measure object reflectance or transmittance; **spectroradiometers** measure self-luminous sources and light SPDs (*The Measurement of Colour*, *Munsell Color Science Lab*).
-- **CIE integration:** to compute tristimulus values, "researchers multiply the measurement at each wavelength by the spectral power distribution (SPD) of the illuminant and the color matching functions of the standard observer, then sum the results" (*A Comprehensive Overview...*, *Munsell Color Science Lab*).
+- **Instruments:** **spectrophotometers** measure object reflectance or transmittance; **spectroradiometers** measure self-luminous sources and light SPDs.
+- **[[CIE Systems|CIE]] integration:** to compute tristimulus values, "researchers multiply the measurement at each wavelength by the spectral power distribution (SPD) of the illuminant and the color matching functions of the standard observer, then sum the results".
 
 ### Spectral Fingerprints — Why Three RGB Numbers Are Not Enough
 
-- Every substance has "a unique pattern of wavelength reflectance and intensity that acts as a characteristic 'fingerprint', allowing for precise identification of pigments or materials" (*A Comprehensive Overview...* — see [[Pigments/Sourcing Real Spectral Data]]).
-- Full SPD information is required because **RGB values are device-dependent summaries** that cannot predict **metamerism** — two surfaces can match under one light but differ under another because their underlying reflectance curves are different (*A Comprehensive Overview..., Contemporary Color*; see [[Natural Light Gamut vs. Pigment Gamut - Metamerism]]).
+- Every substance has "a unique pattern of wavelength reflectance and intensity that acts as a characteristic 'fingerprint', allowing for precise identification of pigments or materials" (see [[Pigments/Sourcing Real Spectral Data]]).
+- Full SPD information is required because **RGB values are device-dependent summaries** that cannot predict **metamerism** — two surfaces can match under one light but differ under another because their underlying reflectance curves are different (see [[Natural Light Gamut vs. Pigment Gamut - Metamerism]]).
 
 ## Handprint Perspectives
 

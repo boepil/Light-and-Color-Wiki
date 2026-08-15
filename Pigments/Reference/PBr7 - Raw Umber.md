@@ -11,32 +11,32 @@ sequence: 30
 
 ### Identity
 
-- **Colour Index:** PBr7 (shared with the siennas; burnt umber sometimes listed PBr8); a natural earth of **hydrous iron oxide (goethite) combined with a significant percentage of manganese dioxide**, with tones from greenish or yellowish to violet-brown (*Artists' Pigments*, *The Science of Paintings*).
+- **Colour Index:** PBr7 (shared with the siennas; burnt umber sometimes listed PBr8); a natural earth of **hydrous iron oxide (goethite) combined with a significant percentage of manganese dioxide**, with tones from greenish or yellowish to violet-brown.
 
 ### History
 
-- Often called "Turkey umber," but the finest celebrated grades traditionally come from **Cyprus**; umbers have been used since antiquity — appearing in **prehistoric cave paintings** alongside ochres and charcoals (*Artists' Pigments*).
+- Often called "Turkey umber," but the finest celebrated grades traditionally come from **Cyprus**; umbers have been used since antiquity — appearing in **prehistoric cave paintings** alongside ochres and charcoals.
 
 ### Production
 
-- Raw umber is mined and refined like other earths; **burnt umber** is made by **calcination — roasting the raw earth in furnaces** — which dehydrates the minerals and shifts the hue from greenish-olive to a warmer, darker, more transparent reddish-brown (*Artists' Pigments*, *Ralph Mayer*).
+- Raw umber is mined and refined like other earths; **burnt umber** is made by **calcination — roasting the raw earth in furnaces** — which dehydrates the minerals and shifts the hue from greenish-olive to a warmer, darker, more transparent reddish-brown.
 
 ### Color Data
 
-- **Permanence/transparency:** both umbers are "absolutely lightfast and permanent"; semi-transparent to transparent — ideal for glazes and deep shadows (*Artists' Pigments*).
-- **In oil (rapid drier):** umbers exert a pronounced **siccative effect** because of manganese; classified as **rapid driers** producing tough, flexible, "leathery" films. They absorb high oil volumes — **caution against full-strength use in underpaintings** to avoid cracking later layers (*Ralph Mayer*).
-- **In watercolor:** granulates — particles settle into the paper's valleys (*Artists' Pigments*).
+- **Permanence/transparency:** both umbers are "absolutely lightfast and permanent"; semi-transparent to transparent — ideal for glazes and deep shadows.
+- **In oil (rapid drier):** umbers exert a pronounced **siccative effect** because of manganese; classified as **rapid driers** producing tough, flexible, "leathery" films. They absorb high oil volumes — **caution against full-strength use in underpaintings** to avoid cracking later layers.
+- **In watercolor:** granulates — particles settle into the paper's valleys.
 - **Munsell notation:** not established in this corpus for the umbers.
 
 ### Role in the Palette
 
-- **Grounding:** essential for toning a canvas — sometimes mixed with Indian Yellow and Alizarin Crimson for an olive-gold "lit" quality — and for holding the darkest values before lit colors are laid in (*Plein Air Techniques for Artists*).
-- **Shadow mixing:** a primary choice for shadows — with blues (e.g., ultramarine) it makes **deep resonant darks more vibrant and less "dead" than pure black mixtures** (*Ralph Mayer*).
-- **Earthy mixes:** frequently used for **earthy olive-green mixtures**, a foil to brilliant synthetic greens (*Aimee Erickson*, *Ralph Mayer*).
+- **Grounding:** essential for toning a canvas — sometimes mixed with Indian Yellow and **[[PR83 - Alizarin Crimson|Alizarin Crimson]]** for an olive-gold "lit" quality — and for holding the darkest values before lit colors are laid in.
+- **Shadow mixing:** a primary choice for shadows — with blues (e.g., **[[PB29 - Ultramarine Blue|ultramarine]]**) it makes **deep resonant darks more vibrant and less "dead" than pure black mixtures**.
+- **Earthy mixes:** frequently used for **earthy olive-green mixtures**, a foil to brilliant synthetic greens.
 
 ### Relation to Art and Painters
 
-- The low-key anchor of the limited palette from Baroque underpainting (see [[Painting/Movements & Painters/index|Movements & Painters]]) through plein-air practice: umber grounds, umber-darks, and umber-olives recur in every era's landscape and portrait tradition (*Plein Air Techniques for Artists*, *Artists' Pigments*).
+- The low-key anchor of the limited palette from Baroque underpainting (see [[Painting/Movements & Painters/index|Movements & Painters]]) through plein-air practice: umber grounds, umber-darks, and umber-olives recur in every era's landscape and portrait tradition.
 
 ## Handprint Perspectives
 

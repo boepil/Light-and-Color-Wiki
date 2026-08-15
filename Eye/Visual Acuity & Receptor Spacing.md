@@ -1,13 +1,11 @@
 ---
 title: Visual Acuity & Receptor Spacing
 sequence: 46
----
-
-![[images/ChatGPT Image Aug 6, 2026, 01_29_28 PM.png]]
+---![[images/ChatGPT Image Aug 6, 2026, 01_29_28 PM.png]]
 
 **Scope:** Relates visual acuity to the physical spacing of photoreceptors in the eye.
 
-The limits of human visual acuity — the ability to resolve fine detail — are determined by a combination of the eye's optical quality and the physiological structure of the retina. Central to this resolution is the density and arrangement of photoreceptors, particularly the cones of the **fovea centralis** (**vision-science-photons-to-pheno**, **Illusions of Seeing**, **Contemporary Color**).
+The limits of human visual acuity — the ability to resolve fine detail — are determined by a combination of the eye's optical quality and the physiological structure of the retina. Central to this resolution is the density and arrangement of photoreceptors, particularly the cones of the **fovea centralis**.
 
 ### 1. Receptor Spacing and the Sampling Limit
 

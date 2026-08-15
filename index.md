@@ -19,7 +19,7 @@ The physics of light before the eye — waves and photons, the visible rainbow b
 The physical particles behind surface color — chemistry, natural vs. synthetic history, modern high-chroma paints, grinding and binders, reading labels, spectral measurement, and reference sheets for individual pigments. Start with Natural vs. Synthetic for history, Chemistry for science, or Reference to look up one pigment.
 
 ### Pigment Reference (data sheets)
-- [[Pigments/Reference/index|Reference]]: Index to twenty-one pigment data sheets — open this to pick a specific color.
+- [[Pigments/Reference/index|Reference]]: Index to twenty-two pigment data sheets — open this to pick a specific color.
 - [[Pigments/Reference/PW6 - Titanium White|PW6 - Titanium White]]: Rutile/anatase TiO₂, 1919–1957 entry, refractive index 2.55/2.71 — the most opaque pigment ever.
 - [[Pigments/Reference/PBk6 - Carbon Black|PBk6 - Carbon Black]]: Amorphous carbon — lampblack/bone/vine, Lascaux to Reinhardt, granulating weak tints vs. intense furnace blacks.
 - [[Pigments/Reference/PY35 - Cadmium Yellow|PY35 - Cadmium Yellow]]: CdS lemon solid solution, Stromeyer 1817, 1846 market — with Cu/Pb incompatibility warnings.
@@ -36,7 +36,8 @@ The physical particles behind surface color — chemistry, natural vs. synthetic
 - [[Pigments/Reference/PB29 - Ultramarine Blue|PB29 - Ultramarine Blue]]: Lazurite from lapis — Mary's robe, Vermeer, Guimet's 1828 furnace price collapse.
 - [[Pigments/Reference/PB28 - Cobalt Blue|PB28 - Cobalt Blue]]: Thénard's 1802 aluminate — the smalt-replacing standard sky blue of Renoir, Monet, Turner.
 - [[Pigments/Reference/PB35 - Cerulean Blue|PB35 - Cerulean Blue]]: Cobalt stannate, Rowney ~1860 — the pale greenish Impressionist sky blue.
-- [[Pigments/Reference/PB15 - Phthalo Blue|PB15 - Phthalo Blue]]: Copper phthalocyanine, Scottish Dyes 1927–28 — the intense cyan that replaced Prussian blue, alpha/beta polymorphism.
+- [[Pigments/Reference/PB15 - Phthalo Blue|PB15 - Phthalo Blue]]: Copper phthalocyanine, Scottish Dyes 1927–28 — the intense cyan that replaced [[Pigments/Reference/PB27 - Prussian Blue|Prussian blue]], alpha/beta polymorphism.
+- [[Pigments/Reference/PB27 - Prussian Blue|PB27 - Prussian Blue]]: Ferric ferrocyanide, Diesbach's 1704 first synthetic — Turner, Whistler, Picasso, and Hokusai's Great Wave.
 - [[Pigments/Reference/PR83 - Alizarin Crimson|PR83 - Alizarin Crimson]]: First synthesized natural dye (1868) — Cézanne's glazing red, now rated fugitive.
 - [[Pigments/Reference/PR122 - Quinacridone Magenta|PR122 - Quinacridone Magenta]]: Dimethyl quinacridone, du Pont 1950s — the permanent transparent magenta that replaced aniline magentas and alizarin.
 - [[Pigments/Reference/PR254 - Pyrrole Red|PR254 - Pyrrole Red]]: Diketopyrrolo-pyrrole — the non-toxic cadmium substitute, opaque when formulated, automotive-grade fastness.

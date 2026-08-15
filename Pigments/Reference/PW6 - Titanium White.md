@@ -11,27 +11,27 @@ sequence: 22
 
 ### Identity
 
-- **Colour Index:** PW6; titanium dioxide, TiO₂, in two primary crystalline forms — **rutile** and **anatase** (*Artists' Pigments*, *The Science of Paintings*).
+- **Colour Index:** PW6; titanium dioxide, TiO₂, in two primary crystalline forms — **rutile** and **anatase**.
 
 ### History
 
 - The element titanium was discovered in **1791**; the dioxide was studied as early as **1821**, but a pure white grade suitable for painting was not produced until **1919**.
-- **Anatase** artists' paints arrived **1923**; **rutile** forms **1939**; pure rutile pigments **1957** (*Artists' Pigments*).
-- It "has largely replaced traditional lead white and zinc white in modern practice" — and, via extreme opacity, became the primary pigment in correction fluid ("whiteout") and a core of modern acrylic polymer paints (*Ralph Mayer*, *Contemporary Color*).
+- **Anatase** artists' paints arrived **1923**; **rutile** forms **1939**; pure rutile pigments **1957**.
+- It "has largely replaced traditional lead white and zinc white in modern practice" — and, via extreme opacity, became the primary pigment in correction fluid ("whiteout") and a core of modern acrylic polymer paints.
 
 ### Production
 
-Produced on a large industrial scale; supplied either as **pure titanium dioxide** (Titanox A) or as a **composite pigment** (Titanox B) reduced with ~70% barium sulfate (BaSO₄) to manage its intensity (*Artists' Pigments*).
+Produced on a large industrial scale; supplied either as **pure titanium dioxide** (Titanox A) or as a **composite pigment** (Titanox B) reduced with ~70% barium sulfate (BaSO₄) to manage its intensity.
 
 ### Color Data
 
-- **Refractive index ≈ 2.55 (anatase) / 2.71 (rutile)** — "the greatest hiding power and opacity of any white pigment" (*The Science of Paintings*).
-- **Permanence:** "absolutely inert, lightfast, and permanent"; a poor drier in oil and "may occasionally yellow due to its non-reactivity with the binder" (*Ralph Mayer*).
+- **Refractive index ≈ 2.55 (anatase) / 2.71 (rutile)** — "the greatest hiding power and opacity of any white pigment".
+- **Permanence:** "absolutely inert, lightfast, and permanent"; a poor drier in oil and "may occasionally yellow due to its non-reactivity with the binder".
 - **Munsell notation:** not established in this corpus for PW6 as a pigment.
 
 ### Relation to Art and Painters
 
-- Modern easel painting's default white — replacing lead white in the mid-20th century palette, and the basis of the **cold, high-key palette** available to Color Field and hard-edge painters and to the acrylic-based generation; also the standard mordant ground of correction fluids (*Contemporary Color*, *Ralph Mayer*).
+- Modern easel painting's default white — replacing lead white in the mid-20th century palette, and the basis of the **cold, high-key palette** available to Color Field and hard-edge painters and to the acrylic-based generation; also the standard mordant ground of correction fluids.
 
 ## Handprint Perspectives
 
