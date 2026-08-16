@@ -29,6 +29,7 @@ const config: QuartzConfig = {
       "log.md",
       "llm-wiki.md",
       "to do.md",
+      "Appendix/light to color calc..md",
       "README.md",
     ],
     defaultDateType: "modified",
