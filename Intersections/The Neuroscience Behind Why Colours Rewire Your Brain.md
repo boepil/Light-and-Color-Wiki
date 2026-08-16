@@ -1,6 +1,6 @@
 ---
 title: The Neuroscience Behind Why Colours Rewire Your Brain
-sequence: 87
+sequence: 89
 ---![[Pasted image 20260809185633.png]]
 
 The idea that colours "rewire your brain" is a popular compression of a rich body of neuroscience. What the science actually shows is that **colour is not a passive read-out of light wavelengths, but an actively constructed, experience-sensitive neural representation**. Colour information flows through dedicated cortical circuits, and those circuits are continuously modified by practice, learning, language, memory, and even unusual developmental wiring. Below is a detailed account of the neural architecture of colour, the evidence for genuine experience-dependent plasticity ("rewiring") within it, and the important limits of that claim.

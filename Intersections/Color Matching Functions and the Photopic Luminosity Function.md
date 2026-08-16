@@ -1,6 +1,6 @@
 ---
 title: Color Matching Functions and the Photopic Luminosity Function
-sequence: 80
+sequence: 82
 ---![[Pasted image 20260809130318.png]]
 
 **Scope:** Cross-cutting page (Light × Eye) exploring how physical light is weighted by human biological sensitivity.

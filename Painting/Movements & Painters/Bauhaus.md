@@ -1,6 +1,6 @@
 ---
 title: Bauhaus
-sequence: 67
+sequence: 69
 ---![[Pasted image 20260812223649.png]]
 
 **Scope:** The Bauhaus and its color pedagogy — the Vorkurs, Itten's seven contrasts and color sphere, Kandinsky's synesthetic color-music, Klee's keystone gray, and Albers's experimental divergence.

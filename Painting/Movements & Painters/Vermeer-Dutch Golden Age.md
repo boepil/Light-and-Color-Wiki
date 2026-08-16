@@ -1,6 +1,6 @@
 ---
 title: Vermeer-Dutch Golden Age
-sequence: 76
+sequence: 78
 ---![[Pasted image 20260810111522.png]]
 
 **Scope:** Vermeer's color practice and the Dutch Golden Age treatment of color — the ultramarine blue-and-yellow "sonata," tonal unity by mother color, mastery of edges, and interior light keyed to white.

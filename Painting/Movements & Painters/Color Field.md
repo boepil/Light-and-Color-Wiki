@@ -1,6 +1,6 @@
 ---
 title: Color Field
-sequence: 68
+sequence: 70
 ---![[Pasted image 20260812223950.png]]
 
 **Scope:** Color Field painting — Rothko, Newman, and Reinhardt using large color fields and simultaneous contrast to make color the subject and the viewer's time the medium.

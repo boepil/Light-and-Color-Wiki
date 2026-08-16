@@ -1,6 +1,6 @@
 ---
 title: Pointer's Gamut
-sequence: 57
+sequence: 59
 ---![[images/ChatGPT Image Aug 6, 2026, 02_48_23 PM.png]]
 
 **Scope:** The real-world record of color — the most vivid colors ever measured on actual objects, why they fall short of the theoretical ceiling, and how that matters for screens and printers.

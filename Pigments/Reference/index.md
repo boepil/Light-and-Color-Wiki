@@ -1,7 +1,7 @@
 ---
 title: Reference
 aliases: [Pigment Reference]
-sequence: 21
+sequence: 23
 ---![[Pasted image 20260813124251.png]]
 
 ### Whites & Blacks

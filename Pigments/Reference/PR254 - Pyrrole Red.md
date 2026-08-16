@@ -1,7 +1,7 @@
 ---
 title: PR254 - Pyrrole Red
 swatchColor: "#E02020"
-sequence: 41
+sequence: 43
 ---
 <div style="float:left;width:64px;height:64px;background:#E02020;margin:4px 16px 8px 0;border:1px solid #999;border-radius:2px;"></div>
 

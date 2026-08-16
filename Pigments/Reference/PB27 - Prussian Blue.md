@@ -1,7 +1,7 @@
 ---
 title: PB27 - Prussian Blue
 swatchColor: "#0F4C81"
-sequence: 43
+sequence: 45
 ---
 <div style="float:left;width:64px;height:64px;background:#0F4C81;margin:4px 16px 8px 0;border-radius:2px;"></div>
 

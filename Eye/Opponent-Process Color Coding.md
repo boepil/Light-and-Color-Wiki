@@ -1,6 +1,6 @@
 ---
 title: Opponent-Process Color Coding
-sequence: 48
+sequence: 50
 ---![[images/Pasted image 20260806114022.png]]
 
 **Scope:** Explains the neural opponent-process theory of color coding — how trichromatic cone signals are recombined into antagonistic channels.

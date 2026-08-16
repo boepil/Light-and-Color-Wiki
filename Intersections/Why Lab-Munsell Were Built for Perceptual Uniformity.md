@@ -1,6 +1,6 @@
 ---
 title: Why Lab-Munsell Were Built for Perceptual Uniformity
-sequence: 86
+sequence: 88
 ---![[Pasted image 20260808154710.png]]
 
 **Scope:** Cross-cutting page (Eye × Colors) explaining the necessity of mathematically bending color spaces to match non-linear human perception.

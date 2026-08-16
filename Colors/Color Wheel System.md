@@ -1,6 +1,6 @@
 ---
 title: Color Wheel System
-sequence: 51
+sequence: 53
 ---![[Pasted image 20260815115051.png]]
 
 **Scope:** Why every color wheel is a human-made ordering system rather than a discovery — eight historical wheels built on different, sometimes contradictory organizing principles (pigment mixing, light physics, perception, or aesthetics), and why their disagreement is the evidence that color classification is arbitrary.

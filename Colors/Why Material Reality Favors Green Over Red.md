@@ -1,6 +1,6 @@
 ---
 title: Why Material Reality Favors Green Over Red
-sequence: 49
+sequence: 51
 ---![[Pasted image 20260814112357.png]]
 
 **Scope:** Why green, uniquely among hues, can be both bright and intensely saturated in real reflecting materials — and why red is locked into a "pure but dark, or light but dull" bind.

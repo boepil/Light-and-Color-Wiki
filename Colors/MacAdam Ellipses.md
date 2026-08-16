@@ -1,6 +1,6 @@
 ---
 title: MacAdam Ellipses
-sequence: 54
+sequence: 56
 ---![[images/ChatGPT Image Aug 6, 2026, 02_29_42 PM.png]]
 
 **Scope:** How big a color difference has to be before a person actually notices it — and why that threshold is wildly different depending on which color you're looking at.

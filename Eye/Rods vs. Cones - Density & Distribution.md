@@ -1,6 +1,6 @@
 ---
 title: Rods vs. Cones - Density & Distribution
-sequence: 47
+sequence: 49
 ---![[Pasted image 20260815125731.png]]
 
 **Scope:** Analyzes the density and spatial distribution of rods and cones across the retina.

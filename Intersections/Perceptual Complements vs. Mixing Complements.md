@@ -1,6 +1,6 @@
 ---
 title: Perceptual Complements vs. Mixing Complements
-sequence: 88
+sequence: 90
 ---![[Pasted image 20260814210821.png]]
 
 **Scope:** The critical distinction between perceptual (visual) complements governed by the eye's opponent-process neural wiring and mixing (subtractive) complements governed by the physical absorption of pigments on the palette.

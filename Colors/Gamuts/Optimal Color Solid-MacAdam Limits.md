@@ -1,6 +1,6 @@
 ---
 title: Optimal Color Solid-MacAdam Limits
-sequence: 58
+sequence: 60
 ---![[images/ChatGPT Image Aug 6, 2026, 02_46_29 PM.png]]
 
 **Scope:** The theoretical ceiling of color — the largest range any non-glowing, light-reflecting material could ever fill, and why even the best pigments fall short of it.

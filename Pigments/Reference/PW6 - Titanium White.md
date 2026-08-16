@@ -1,7 +1,7 @@
 ---
 title: PW6 - Titanium White
 swatchColor: "#F4F4F4"
-sequence: 22
+sequence: 24
 ---
 <div style="float:left;width:64px;height:64px;background:#F4F4F4;margin:4px 16px 8px 0;border:1px solid #999;border-radius:2px;"></div>
 

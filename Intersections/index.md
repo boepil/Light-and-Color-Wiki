@@ -1,7 +1,7 @@
 ---
 title: Intersections
 aliases: [Intersections]
-sequence: 77
+sequence: 79
 ---![[Pasted image 20260811184728.png]]
 
 ### What this section is about
