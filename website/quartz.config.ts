@@ -28,6 +28,7 @@ const config: QuartzConfig = {
       "AGENTS.md",
       "log.md",
       "llm-wiki.md",
+      "to do.md",
       "README.md",
     ],
     defaultDateType: "modified",
