@@ -10,6 +10,7 @@ sequence: 3
 * "Color and Light in Nature" — Lynch & Livingston
 * "Light and Colour in the Outdoors" — Minnaert
 * "Color for Science, Art, and Technology" — Kurt Nassau (Editor); cited in this wiki via the color-theory chapter by Sanford Wurmfeld (see [[Painting/Movements & Painters/Op Art]])
+* "The Fifteen Causes of Color" — Kurt Nassau
 * "Theory of Colours" — Johann Wolfgang von Goethe
 * "The Science of Paintings" — W. Stanley Taft Jr. and James W. Mayer
 

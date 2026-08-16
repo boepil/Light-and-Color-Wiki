@@ -45,6 +45,7 @@ MacEvoy's doctrine treats dioxazine violet as a **staining deep violet** to be m
 - [[Pigments/Reference/PG7 - Phthalo Green|PG7 - Phthalo Green]] — dark-mix partner
 - [[Pigments/Reference/PB29 - Ultramarine Blue|PB29 - Ultramarine Blue]] — dark-mix partner
 - [[Pigments/Reference/PR83 - Alizarin Crimson|PR83 - Alizarin Crimson]] — the older transparent red
+- [[Colors/Nonspectral Colors|Nonspectral Colors]] — PV23 as a deep nonspectral violet
 
 ## Sources
 * "Artists' Pigments: A Handbook of Their History and Characteristics" — Robert L. Feller

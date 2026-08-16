@@ -17,6 +17,10 @@ Colors have no natural order — wavelengths run together without inherent bound
 
 Why three cyan/magenta/yellow paints can mix a far wider gamut than the red/yellow/blue triad — each CMY pigment absorbs roughly one-third of the visible spectrum and aligns with the eye's cone classes, while RYB's "primaries" are spectrally impure historical hues that cannot reach cyan, magenta, or clean violets. Covers the 1/3-spectrum physics, spectral purity (Schrödinger step pigments), curved mixing paths, the modern pigment set (phthalo/quinacridone/hansa), and the history from Le Blon and Helmholtz to Itten.
 
+#### [[Colors/Nonspectral Colors|Nonspectral Colors]] — the colors the spectrum doesn't contain
+
+**Purples, magentas, and deep reds have no single wavelength of light** — they exist only as mixtures of the two spectral ends, on the "line of purples" that closes the CIE horseshoe, and they still claim a large share of every perceptual hue circle: a full fifth of Munsell's principal hues. Why the brain "invents" magenta (S+L cone response without M), how the additive complements thread through this region, the complementary-wavelength "c" notation, and their natural occurrences (scattering, interference, minerals) and pigments (quinacridone magenta, dioxazine violet).
+
 #### [[CIE Systems]] — the scientific foundation
 
 The original international standard for measuring color (1931), built on **how the average human eye actually responds to light**. Instead of asking people to agree on names, it turns a color's light into numbers that any lab in the world can read. Think of it as the official ruler for color. If you want the scientific side — how color is defined objectively — start here.

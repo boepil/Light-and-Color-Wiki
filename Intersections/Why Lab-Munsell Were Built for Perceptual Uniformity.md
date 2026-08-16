@@ -1,6 +1,6 @@
 ---
 title: Why Lab-Munsell Were Built for Perceptual Uniformity
-sequence: 90
+sequence: 91
 ---
 ![[Pasted image 20260808154710.png]]
 

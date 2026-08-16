@@ -1,6 +1,6 @@
 ---
 title: Color Matching Functions and the Photopic Luminosity Function
-sequence: 84
+sequence: 85
 ---
 ![[Pasted image 20260809130318.png]]
 

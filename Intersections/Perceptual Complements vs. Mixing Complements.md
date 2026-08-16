@@ -1,6 +1,6 @@
 ---
 title: Perceptual Complements vs. Mixing Complements
-sequence: 92
+sequence: 93
 ---
 ![[Pasted image 20260814210821.png]]
 
@@ -70,6 +70,7 @@ Bruce MacEvoy emphasizes that color theory's obsession with a single, symmetrica
 * [[Colors/Color Wheel System|Color Wheel System]] — How different color systems define complementary relationships.
 * [[Pigments/The artist's color wheel|The Artist's Color Wheel]] — Measured placements of actual pigments and their complements.
 * [[Intersections/Color Mixing, Prediction & Color Schemes|Color Mixing, Prediction & Color Schemes]] — Practical palette strategies for neutralizing color.
+* [[Colors/Nonspectral Colors|Nonspectral Colors]] — the purple/magenta region where the additive and opponent complements diverge.
 
 ---
 

@@ -10,7 +10,7 @@ sequence: 55
 
 The starting fact is that **color classification is arbitrary**: colors have **no inherent boundaries and no natural order**. The wavelengths of light differ **gradually**, so the spectrum runs continuously from violet through blue, green, yellow, orange to red **without sharp transitions** between one hue and the next. Where "blue" ends and "green" begins is a decision, not a discovery. Consequently, the different color wheels in circulation are **not variations of a single truth** — they are **distinct models built on specific organizing principles**, which may be pigment mixing, light physics, human perception, or subjective aesthetics, and which are frequently contradictory. 
 
-- The spectrum is not a circle; the loop only appears because the two spectral ends are perceptually joined by the non-spectral purples and magentas. The circle is added by perception and convention, not given by physics. *(Source: [[raw_sources/huevaluechroma/031.md|031.html]])*
+- The spectrum is not a circle; the loop only appears because the two spectral ends are perceptually joined by the **[[Colors/Nonspectral Colors|non-spectral purples and magentas]]**. The circle is added by perception and convention, not given by physics. *(Source: [[raw_sources/huevaluechroma/031.md|031.html]])*
 - The real, measured color solid is **tree-like with an irregular margin**, because maximum attainable chroma varies with value and from hue to hue; "simpler systems arbitrarily treat the maximum chroma attainable for each hue as uniform, resulting in a circular 'colour wheel' and a cylindrical colour space." *(Source: [[raw_sources/huevaluechroma/011.md|011.html]])*
 
 ### The eight systems
@@ -123,6 +123,7 @@ MacEvoy's verdict on the whole genre is the same conclusion reached from measure
 - [[Why CMY Beats RYB for Color Mixing]] — the physical reason CMY spans a wider subtractive gamut than the RYB wheel.
 - [[Colors/Gamuts/index|Gamuts]] — what a given set of primaries can actually mix.
 - [[Why Material Reality Favors Green Over Red]] — why the measured "wheel" is lopsided, not even.
+- [[Colors/Nonspectral Colors|Nonspectral Colors]] — the perceptual gap the circle closes with purple and magenta.
 
 ## Sources
 * "ALL-IN-ONE Color Wheel System for Painters — Color Theory Resources for Artists" — Florent Farges (video, YouTube)

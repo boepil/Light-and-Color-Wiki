@@ -1,7 +1,7 @@
 ---
 title: Movements & Painters
 aliases: [Movements & Painters]
-sequence: 70
+sequence: 71
 ---
 ![[Pasted image 20260812224220.png]]
 

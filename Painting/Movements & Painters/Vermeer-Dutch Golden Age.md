@@ -1,6 +1,6 @@
 ---
 title: Vermeer-Dutch Golden Age
-sequence: 80
+sequence: 81
 ---
 ![[Pasted image 20260810111522.png]]
 

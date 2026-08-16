@@ -1,6 +1,6 @@
 ---
 title: Composition
-sequence: 66
+sequence: 67
 ---
 ![[Pasted image 20260812225647.png]]
 

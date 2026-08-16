@@ -1,7 +1,7 @@
 ---
 title: Brushes
 aliases: [Brushes, Paintbrushes, Paint Brushes]
-sequence: 68
+sequence: 69
 ---
 ![[Pasted image 20260812111916.png]]
 

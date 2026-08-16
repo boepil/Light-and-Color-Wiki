@@ -1,8 +1,7 @@
 ## In progress
 
-1. create a **Nonspectral Colors** page
-
 ## Done
+- 1. create a **Nonspectral Colors** page — **delivered [2026-08-16]** as `Colors/Nonspectral Colors.md` (sequence 65), notebook-cited sessions 5b34ba72 ×2 + 20a0c5f1. The purples/magentas with no single wavelength: line of purples closing the CIE horseshoe, Newton 1704 bending the spectrum into a circle, the S+L-cone mechanism, additive-vs-opponent complements, the "c" notation (540c), natural occurrences (scattering/interference/minerals), and the nonspectral pigments (PR122, PV23, alizarin, cobalt violet).
 - 1. why cmy is a better gamut then ryb for color mixing — **delivered [2026-08-15]** as `Colors/Why CMY Beats RYB for Color Mixing.md` (sequence 60), grounded on NotebookLM session 265ba0e0. Cross-linked from Color Wheel System, Gamuts, Why Material Reality, High-Chroma Synthetics, Device Gamuts, Color Mixing, The artist's color wheel.
 - 2. which two pigment mixing create grey (only two pigments as a rule), attach this image to the page — **delivered [2026-08-15]** as `Pigments/Two-Pigment Neutrals.md` (sequence 21), grounded on `raw_sources/handprint/mixtable.md`. Analysis of 8 mineral and synthetic pairs, optical mechanics, and handling notes, including image `Pasted image 20260815122720.png`.
 - 3. make a page for Things to Know about Mixing Paint? — **delivered [2026-08-15]** as `Pigments/Paint Mixing Principles.md` (sequence 22), grounded on handprint + huevaluechroma + Ralph Mayer. Covers subtractive accumulation physics, mud limits, three-paint rule, density and tinting strength disparities, refractive index drying shifts, glazing/scumbling, and limited/Zorn/mother-color palettes.

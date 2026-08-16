@@ -1,6 +1,6 @@
 ---
 title: Light Falloff, Inverse-Square Law & Color Accentuation
-sequence: 88
+sequence: 89
 ---
 ![[Pasted image 20260813123432.png]]
 

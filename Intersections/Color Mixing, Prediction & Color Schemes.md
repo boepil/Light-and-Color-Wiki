@@ -1,6 +1,6 @@
 ---
 title: Color Mixing, Prediction & Color Schemes
-sequence: 87
+sequence: 88
 ---
 ![[Pasted image 20260813123650.png]]
 

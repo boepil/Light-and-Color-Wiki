@@ -1,6 +1,6 @@
 ---
 title: Post-Impressionism
-sequence: 78
+sequence: 79
 ---
 ![[Pasted image 20260812225309.png]]
 

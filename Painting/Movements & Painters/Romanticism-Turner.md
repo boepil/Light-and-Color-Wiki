@@ -1,6 +1,6 @@
 ---
 title: Romanticism-Turner
-sequence: 79
+sequence: 80
 ---
 ![[Pasted image 20260812225500.png]]
 

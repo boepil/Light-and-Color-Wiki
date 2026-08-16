@@ -1,6 +1,6 @@
 ---
 title: The Neuroscience Behind Why Colours Rewire Your Brain
-sequence: 91
+sequence: 92
 ---
 ![[Pasted image 20260809185633.png]]
 

@@ -53,6 +53,7 @@ MacEvoy places the quinacridones among the modern transparent "backbone" pigment
 - [[Pigments/Reference/PR83 - Alizarin Crimson|PR83 - Alizarin Crimson]] — the fugitive red it replaced
 - [[Pigments/Reference/PB15 - Phthalo Blue|PB15 - Phthalo Blue]] — chromatic-dark partner
 - [[Pigments/High-Chroma Synthetics|High-Chroma Synthetics]] — the quinacridone family (PR122, PV19)
+- [[Colors/Nonspectral Colors|Nonspectral Colors]] — magenta as the canonical nonspectral hue PR122 renders in pigment
 
 ## Sources
 * "Artists' Pigments: A Handbook of Their History and Characteristics" — Robert L. Feller

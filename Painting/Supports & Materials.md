@@ -1,7 +1,7 @@
 ---
 title: Supports & Materials
 aliases: [Supports & Materials, Supports, Grounds, Painting Supports]
-sequence: 67
+sequence: 68
 ---
 ![[Pasted image 20260812112449.png]]
 

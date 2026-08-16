@@ -80,6 +80,7 @@ MacEvoy's measured-color verdict is uncompromising: the traditional primary tria
 - [[Color Mixing, Prediction & Color Schemes]] — why mixing paths curve and how painters cope.
 - [[Optical vs. Physical Mixture]] — additive vs. subtractive mixing mechanics.
 - [[Perceptual Complements vs. Mixing Complements]] — why the CMY pairs are also the mixing complements.
+- [[Colors/Nonspectral Colors|Nonspectral Colors]] — magenta as the nonspectral primary behind the whole CMY case.
 
 ## Sources
 * "A Comprehensive Overview of Color Vision Mechanisms, Color Spaces, and the Munsell System"

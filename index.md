@@ -47,7 +47,7 @@ The physical particles behind surface color — chemistry, natural vs. synthetic
 How the eye turns physical light into the experience of color — from the anatomy of the visual pathway through rods and cones, sharpness limits, three-cone color vision, and the brain's opponent re-encoding. Start with Anatomy for the physical tour, or Wavelength Perception for how light becomes color.
 
 ## [[Colors/index|Colors]]
-The systems humans built to measure and describe color with numbers — like rulers for temperature or distance — so a paint factory, a printer, and a screen can agree on the same blue. Start here for orientation; then choose CIE (scientific) or Munsell (artist-friendly), explore gamuts and human color sensitivity, or learn why cyan/magenta/yellow beat red/yellow/blue at mixing.
+The systems humans built to measure and describe color with numbers — like rulers for temperature or distance — so a paint factory, a printer, and a screen can agree on the same blue. Start here for orientation; then choose CIE (scientific) or Munsell (artist-friendly), explore gamuts and human color sensitivity, learn why cyan/magenta/yellow beat red/yellow/blue at mixing, or see why purples and magentas have no single wavelength [[Colors/Nonspectral Colors|at all]].
 
 ## [[Painting/index|Painting]]
 Color as painters actually use it — composing on the canvas, preparing supports and grounds, choosing brushes, handling toxic pigments safely, and five centuries of art history. Pigment science lives in Pigments; start with Composition for design, Supports/Brushes for the studio, or Movements & Painters for history.

@@ -18,7 +18,7 @@ The **spectral locus** is the solid, horseshoe-shaped curved boundary of the **[
 
 The **line of purples** is the straight line closing the horseshoe across its bottom, connecting the extreme red and violet ends of the locus.
 
-- It is **straight** because the colors on it — **purples, magentas, deep reds** — are **non-spectral / extraspectral**: no single wavelength produces them, so they cannot sit on the smooth spectral curve itself; they exist only as mixtures of the two ends of the visible spectrum (red + blue/violet light).
+- It is **straight** because the colors on it — **[[Colors/Nonspectral Colors|purples, magentas, deep reds]]** — are **non-spectral / extraspectral**: no single wavelength produces them, so they cannot sit on the smooth spectral curve itself; they exist only as mixtures of the two ends of the visible spectrum (red + blue/violet light).
 - Technically these hues are "awkward to specify" by wavelength, so they are conventionally notated by the wavelength **directly opposite on the hue circle**: an extraspectral magenta is written as its complementary green wavelength, **c560** *(Source: [[raw_sources/handprint/color18a.md|color18a.html]])*.
 
 ### Dominant Wavelength — Mapping a Color to the Locus
@@ -57,6 +57,7 @@ MacEvoy classifies the third color-making attribute as **hue purity** — the "c
 - [[Colors/Gamuts/index|Gamuts]] and [[Optimal Color Solid-MacAdam Limits]] — the locus and line of purples as the outer envelope of every gamut
 - [[Illuminants & Correlated Color Temperature]] — the white points (D65, E) anchoring purity
 - [[Natural Light Gamut vs. Pigment Gamut - Metamerism]] — locus purity vs. pigment metamerism
+- [[Colors/Nonspectral Colors|Nonspectral Colors]] — the purples/magentas that live on the line of purples, and the "c" notation
 
 ## Sources
 * "Color for Science, Art, and Technology" — Kurt Nassau (editor)

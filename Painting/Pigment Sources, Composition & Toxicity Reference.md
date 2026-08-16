@@ -1,7 +1,7 @@
 ---
 title: Pigment Sources, Composition & Toxicity Reference
 aliases: [Pigment Toxicity, Toxicity, Pigment Sources, Composition & Toxicity]
-sequence: 69
+sequence: 70
 ---
 ![[Pasted image 20260812113122.png]]
 

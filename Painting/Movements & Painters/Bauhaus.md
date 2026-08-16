@@ -1,6 +1,6 @@
 ---
 title: Bauhaus
-sequence: 71
+sequence: 72
 ---
 ![[Pasted image 20260812223649.png]]
 
