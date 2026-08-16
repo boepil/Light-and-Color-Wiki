@@ -1,7 +1,8 @@
 ---
 title: Visual Acuity & Receptor Spacing
-sequence: 48
----![[images/ChatGPT Image Aug 6, 2026, 01_29_28 PM.png]]
+sequence: 49
+---
+![[images/ChatGPT Image Aug 6, 2026, 01_29_28 PM.png]]
 
 **Scope:** Relates visual acuity to the physical spacing of photoreceptors in the eye.
 

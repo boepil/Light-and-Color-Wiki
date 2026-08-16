@@ -1,7 +1,8 @@
 ---
 title: Post-Impressionism
-sequence: 76
----![[Pasted image 20260812225309.png]]
+sequence: 78
+---
+![[Pasted image 20260812225309.png]]
 
 **Scope:** Post-Impressionism — how Van Gogh, Cézanne, Gauguin, and Seurat lifted color from the Impressionist recording of light into expressive, structural, and scientific systems.
 

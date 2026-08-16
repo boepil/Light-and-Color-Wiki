@@ -1,8 +1,9 @@
 ---
 title: Brushes
 aliases: [Brushes, Paintbrushes, Paint Brushes]
-sequence: 66
----![[Pasted image 20260812111916.png]]
+sequence: 68
+---
+![[Pasted image 20260812111916.png]]
 
 **Scope:** The artist's delivery system — brush anatomy, hair types, and shapes organized by medium: watercolor, oil, and other media, with sizes and care practices.
 

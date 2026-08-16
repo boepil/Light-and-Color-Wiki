@@ -1,7 +1,8 @@
 ---
 title: Munsell Notation
-sequence: 55
----![[images/ChatGPT Image Aug 6, 2026, 02_36_26 PM.png]]
+sequence: 57
+---
+![[images/ChatGPT Image Aug 6, 2026, 02_36_26 PM.png]]
 
 **Scope:** The artist-friendly color system — how Albert Munsell organized every color by hue, lightness, and vividness the way people actually see it, from his 1905 notation to the 1943 re-measurement that made it rigorous.
 

@@ -1,7 +1,8 @@
 ---
 title: Natural Daylight Variation & Hyperspectral Scene Data
 sequence: 11
----![[Pasted image 20260811113914.png]]
+---
+![[Pasted image 20260811113914.png]]
 
 **Scope:** Daylight as a continuously varying spectral environment and the high-resolution hyperspectral measurements that capture it.
 

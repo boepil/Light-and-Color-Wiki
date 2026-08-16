@@ -1,7 +1,8 @@
 ---
 title: Transparency, Opacity & Pigment Codes
 sequence: 19
----![[Pasted image 20260811210450.png]]
+---
+![[Pasted image 20260811210450.png]]
 
 **Scope:** How paints are classified as transparent, semi-transparent, semi-opaque, or opaque; the label vocabulary (masstone, undertone, tinting strength); and the complete decoding of everything printed on a tube of artist paint — Color Index names, constitution numbers, series numbers, and lightfastness ratings.
 

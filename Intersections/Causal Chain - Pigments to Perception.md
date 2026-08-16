@@ -1,7 +1,8 @@
 ---
 title: Causal Chain - Pigments to Perception
-sequence: 80
----![[Pasted image 20260808153904.png]]
+sequence: 82
+---
+![[Pasted image 20260808153904.png]]
 
 **Scope:** Tracing the causal sequence connecting the physical reflectance spectra of pigments, the human biological response defined by CIE color-matching functions and photopic luminosity, the empirical boundaries of Pointer's Gamut, and the final perceptual experience of color asymmetry.
 

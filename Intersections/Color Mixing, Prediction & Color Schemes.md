@@ -1,7 +1,8 @@
 ---
 title: Color Mixing, Prediction & Color Schemes
-sequence: 85
----![[Pasted image 20260813123650.png]]
+sequence: 87
+---
+![[Pasted image 20260813123650.png]]
 
 **Scope:** The physics, physical chemistry, and visual mechanics of paint mixing — why physical mixtures follow curved paths and resist simple geometric prediction — combined with the geometry, scientific critiques, and studio practice of color schemes.
 

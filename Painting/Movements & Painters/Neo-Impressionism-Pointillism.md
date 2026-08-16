@@ -1,7 +1,8 @@
 ---
 title: Neo-Impressionism-Pointillism
-sequence: 73
----![[Pasted image 20260812224458.png]]
+sequence: 75
+---
+![[Pasted image 20260812224458.png]]
 
 **Scope:** Neo-Impressionism and Pointillism — Seurat's divisionist program to "reconstitute light" with pure dots, its Chevreul–Rood foundations, and its critics.
 

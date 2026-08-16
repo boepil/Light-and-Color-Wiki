@@ -1,7 +1,7 @@
 ---
 title: Painting
 aliases: [Painting]
-sequence: 63
+sequence: 65
 ---
 ### What this section is about
 

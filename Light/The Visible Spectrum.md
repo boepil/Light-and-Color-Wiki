@@ -1,7 +1,8 @@
 ---
 title: The Visible Spectrum
 sequence: 7
----![[Pasted image 20260811113250.png]]
+---
+![[Pasted image 20260811113250.png]]
 
 **Scope:** The visible spectrum as the narrow physical band of electromagnetic wavelengths the eye can detect — its Newtonian discovery, the hue ranges within it, and its fuzzy biological limits.
 

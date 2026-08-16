@@ -1,8 +1,9 @@
 ---
 title: Gamuts
 aliases: [Gamuts]
-sequence: 57
----![[images/ChatGPT Image Aug 6, 2026, 02_43_04 PM.png]]
+sequence: 59
+---
+![[images/ChatGPT Image Aug 6, 2026, 02_43_04 PM.png]]
 
 **Scope:** Parent page introducing gamuts — what "the range of colors a thing can produce" actually means, and how the different limits (physics, real objects, everyday devices, and the human eye) compare.
 

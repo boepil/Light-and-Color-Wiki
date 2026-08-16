@@ -1,7 +1,8 @@
 ---
 title: Data & Methodology
-sequence: 61
----![[Pasted image 20260810110552.png]]
+sequence: 63
+---
+![[Pasted image 20260810110552.png]]
 
 **Scope:** A reference catalogue of the **instruments, protocols, datasets, and measurement caveats** behind this wiki — not the theory of why CIE coordinates exist (that lives in [[Colors/CIE Systems|CIE Systems]] and [[Color Matching Functions and the Photopic Luminosity Function|Color Matching Functions and the Photopic Luminosity Function]]).
 

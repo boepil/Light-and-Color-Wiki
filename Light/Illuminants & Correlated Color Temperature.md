@@ -1,7 +1,8 @@
 ---
 title: Illuminants & Correlated Color Temperature
 sequence: 10
----![[Pasted image 20260811113607.png]]
+---
+![[Pasted image 20260811113607.png]]
 
 **Scope:** Standardized mathematical descriptions of light sources — the CIE illuminants — and the blackbody/correlated-color-temperature scale that characterizes them.
 

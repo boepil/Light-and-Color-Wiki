@@ -1,7 +1,8 @@
 ---
 title: High-Chroma Synthetics
 sequence: 15
----![[Pasted image 20260811164755.png]]
+---
+![[Pasted image 20260811164755.png]]
 
 **Scope:** High-chroma synthetics — the phthalocyanine, quinacridone, and dioxazine families that pushed the painter's gamut into the cyan and red-violet sectors.
 

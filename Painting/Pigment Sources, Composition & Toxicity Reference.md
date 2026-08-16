@@ -1,8 +1,9 @@
 ---
 title: Pigment Sources, Composition & Toxicity Reference
 aliases: [Pigment Toxicity, Toxicity, Pigment Sources, Composition & Toxicity]
-sequence: 67
----![[Pasted image 20260812113122.png]]
+sequence: 69
+---
+![[Pasted image 20260812113122.png]]
 
 **Scope:** Which pigments are hazardous and why — toxicity by chemical family, the three exposure routes (ingestion, inhalation, skin), the labeling system that regulates art materials (ASTM D4236, ACMI AP/CL), the historical poisons replaced by modern pigments, the separate risk profile of binders and solvents, and sensible studio practice.
 

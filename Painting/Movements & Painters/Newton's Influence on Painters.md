@@ -1,7 +1,8 @@
 ---
 title: Newton's Influence on Painters
-sequence: 74
----![[Pasted image 20260812224929.png]]
+sequence: 76
+---
+![[Pasted image 20260812224929.png]]
 
 **Scope:** Newton's *Opticks* and its three-century influence — the circle, the spectral doctrine, complementarity, and the artist-theorists from Le Blon and Moses Harris to Chevreul, Rood, Munsell, and Turner.
 

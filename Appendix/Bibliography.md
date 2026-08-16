@@ -23,6 +23,9 @@ sequence: 3
 * "A Comprehensive Overview of Color Vision Mechanisms, Color Spaces, and the Munsell System" — NotebookLM source
 * "Illustrating Color Evolution and Color Blindness" — NotebookLM source
 * "The Neuroscience Behind Why Colours "Rewire" Your Brain" — NotebookLM source
+* "Choosing Colors (Live)" — NotebookLM source
+* "True Color" — Kory Stamper
+* "Yes — some women appear to have the biological hardware for 'four-color vision' (tetrachromacy)…" — NotebookLM source
 * "Why Material Reality Favors Green Over Red: The Physical Chemistry of Chromatic Limits" — NotebookLM source
 * "The Material Supremacy of Green Chroma" — NotebookLM source
 

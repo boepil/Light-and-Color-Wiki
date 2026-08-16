@@ -1,7 +1,8 @@
 ---
 title: Sourcing Real Spectral Data
 sequence: 17
----![[Pasted image 20260811174721.png]]
+---
+![[Pasted image 20260811174721.png]]
 
 **Scope:** Sourcing real spectral data — how reflectance curves of paint films are measured, archived, and used to fingerprint pigments and map gamuts.
 

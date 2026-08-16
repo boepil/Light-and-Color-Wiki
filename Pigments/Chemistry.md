@@ -1,7 +1,8 @@
 ---
 title: Chemistry
 sequence: 13
----![[Pasted image 20260811164420.png]]
+---
+![[Pasted image 20260811164420.png]]
 
 **Scope:** The chemistry of painters' pigments — why pigments are crystalline solids, how inorganic and organic colorants absorb light, and the reactions that make them fade.
 

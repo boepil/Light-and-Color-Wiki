@@ -1,7 +1,8 @@
 ---
 title: Fauvism
-sequence: 71
----![[Pasted image 20260811095431.png]]
+sequence: 73
+---
+![[Pasted image 20260811095431.png]]
 
 **Scope:** Fauvism — the "wild beasts" who liberated color from description at the 1905 Salon d'Automne, its flat high-chroma style, and Matisse's philosophy of color as expression and equilibrium.
 

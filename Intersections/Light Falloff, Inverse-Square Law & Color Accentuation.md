@@ -1,7 +1,8 @@
 ---
 title: Light Falloff, Inverse-Square Law & Color Accentuation
-sequence: 86
----![[Pasted image 20260813123432.png]]
+sequence: 88
+---
+![[Pasted image 20260813123432.png]]
 
 **Scope:** How the physics of light falloff, the inverse-square law, the form principle, edge control, and secondary ambient illumination govern value gradients and accentuate local color chroma in representational painting.
 

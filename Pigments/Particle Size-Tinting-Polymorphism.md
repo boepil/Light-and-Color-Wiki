@@ -1,7 +1,8 @@
 ---
 title: Particle Size-Tinting-Polymorphism
 sequence: 16
----![[Pasted image 20260811174415.png]]
+---
+![[Pasted image 20260811174415.png]]
 
 **Scope:** The physical optics of pigment powders — particle size, refractive index, tinting strength, and crystal polymorphism.
 

@@ -2,7 +2,8 @@
 title: Pigments
 aliases: [Pigments]
 sequence: 12
----![[Pasted image 20260811150718.png]]
+---
+![[Pasted image 20260811150718.png]]
 
 ### What this section is about
 

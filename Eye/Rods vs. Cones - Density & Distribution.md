@@ -1,7 +1,8 @@
 ---
 title: Rods vs. Cones - Density & Distribution
-sequence: 49
----![[Pasted image 20260815125731.png]]
+sequence: 50
+---
+![[Pasted image 20260815125731.png]]
 
 **Scope:** Analyzes the density and spatial distribution of rods and cones across the retina.
 
@@ -53,6 +54,16 @@ The three cone classes (S, M, L) are distributed highly asymmetrically:
 - **Foveal center absence:** S-cones are **completely absent** in the central **20 minutes of arc** (~0.33°) of the fovea; the very center of vision (central 0.1°) relies exclusively on M and L cones.
 - **L:M cone ratios:** among the remaining cones, L-cones are typically twice as numerous as M-cones — a standard **L:M:S ratio of approximately 10:5:1**. These ratios vary significantly between individuals with normal color vision.
 
+### 7. The Foveal Cone Mosaic: A Dense, Intermixed Array
+
+The fovea contains a **dense mosaic of cone photoreceptors** — the tightest packing in the retina, peaking near **150,000–160,000 cones/mm²** at 0° eccentricity, with roughly **350,000 cones** in the pit as a whole. L-, M-, and S-cones are **intermixed** in this mosaic rather than segregated into layers: adaptive-optics photographs of the living human retina resolve individual cones as red, green, and blue dots interleaved within a single array.
+
+- **S-cone sparsity within the fovea:** S-cones are much sparser than L- and M-cones — only about **5–10%** of the total cone population overall, dropping to **~3–4% within the fovea** — and entirely absent from the central 20 arc-minutes (section 6). The very center of the fovea is an almost pure L/M array.
+- **Two jobs, one mosaic:** the architecture simultaneously supports the fovea's exceptionally high spatial resolution — near **1:1 cone-to-fiber private-line wiring** in the central retina, **~2 µm nearest-neighbor spacing**, and dense Nyquist sampling that resolves detail down to **3.6 arcsec** (see [[Visual Acuity & Receptor Spacing]]) — while providing the receptor signals underlying human color vision, since all three cone classes feed the opponent channels (see [[Opponent-Process Color Coding]]).
+- **Individual variability, stable perception:** a landmark adaptive-optics study found that L:M cone ratios vary significantly between individuals with normal color vision — yet observers still identify colors in a "nearly identical fashion," evidence that the brain normalizes receptor-count differences downstream. Notably, the majority of L and M cones predominantly signal achromatic (white) percepts for high-resolution form vision, with a smaller subpopulation carrying the chromatic signal.
+
+Because the foveal array is nearly pure L/M, its S-cone poverty is also the reason tritan (blue-yellow) defects are rare, inherited, and absent from the center of vision — see [[Color Vision Deficiencies & Diseases]].
+
 ## Handprint Perspectives
 
 MacEvoy stresses that our everyday visual response — through all gradations of artificial light, and of natural light dimmer than full noon sunlight — is a **mixture of both rods and cones**, constituting **mesopic vision**. Photopic vision, by contrast, is the experience of outdoor summer noon sunlight or intense surgical illumination. In the transition from low mesopic to scotopic vision, the hour after a cloudless sunset, the mixed rod/cone response produces strong and recognizable color changes: reds briefly become more luminous as M and S cones lose sensitivity relative to the L cone, then colors decline into impoverished warm/cool contrasts and finally into shades of gray about an hour after sunset. *(Source: [[raw_sources/handprint/tech13.md|tech13.html]])*
@@ -62,12 +73,14 @@ MacEvoy stresses that our everyday visual response — through all gradations of
 - Rod Distribution
 - Cone Distribution
 - Convergence & Sensitivity
+- The Foveal Cone Mosaic (intermixed L/M/S, S sparsity, individual variability)
 
 ## Cross-References
 - [[Anatomy]]
 - [[Visual Acuity & Receptor Spacing]]
 - [[Wavelength Perception]]
 - [[Opponent-Process Color Coding]]
+- [[Color Vision Deficiencies & Diseases]] — what the mosaic's S-cone poverty and L/M variation predict about how color fails
 
 ## Sources
 

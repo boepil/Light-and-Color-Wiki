@@ -1,7 +1,8 @@
 ---
 title: History & Key Figures
 sequence: 4
----![[Pasted image 20260813123927.png]]
+---
+![[Pasted image 20260813123927.png]]
 
 ### What this page is about
 

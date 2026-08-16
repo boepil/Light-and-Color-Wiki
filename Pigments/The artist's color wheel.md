@@ -1,7 +1,8 @@
 ---
 title: Pigment Color Wheel (Munsell Placement)
 sequence: 20
----![[artistColorWheel.pdf]]
+---
+![[artistColorWheel.pdf]]
 
 Bruce MacEvoy’s artist color wheel, published in 2009 on his website handprint.com, is highly valued for its **scientific rigor** and its focus on helping artists visualize the **positions and relationships of paints within a perceptual color space**.
 

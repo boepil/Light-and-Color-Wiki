@@ -1,7 +1,8 @@
 ---
 title: Media, Vehicles & Solvents
 sequence: 18
----![[Pasted image 20260811191942.png]]
+---
+![[Pasted image 20260811191942.png]]
 
 **Scope:** The vehicles, binders, and solvents that carry pigment in each major medium — watercolor, gouache, oil, acrylic, ink, tempera, casein, pastel — and how the medium physically changes the same pigment's color.
 

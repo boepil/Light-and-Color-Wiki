@@ -1,7 +1,8 @@
 ---
 title: Anatomy
-sequence: 46
----![[images/Anatomy.jpg]]
+sequence: 47
+---
+![[images/Anatomy.jpg]]
 
 **Scope:** Covers the biological anatomy of the eye, specifically the cornea, lens, and retina.
 

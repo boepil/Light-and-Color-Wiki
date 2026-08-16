@@ -1,7 +1,8 @@
 ---
 title: Composition
-sequence: 64
----![[Pasted image 20260812225647.png]]
+sequence: 66
+---
+![[Pasted image 20260812225647.png]]
 
 **Scope:** The painter's toolkit of color composition — harmony, balance, dominance, proportion frameworks, contrast types, unifying neutrals, temperature structure, and the critique of geometric harmony schemes.
 

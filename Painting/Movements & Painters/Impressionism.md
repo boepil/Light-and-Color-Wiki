@@ -1,7 +1,8 @@
 ---
 title: Impressionism
-sequence: 72
----![[impressionizm.jpg]]
+sequence: 74
+---
+![[impressionizm.jpg]]
 
 **Scope:** Explores the Impressionist movement (Claude Monet, Pierre-Auguste Renoir, Camille Pissarro) and their focus on capturing the transient nature of light through en plein air techniques, broken color optical mixtures, and colored complementary shadows.
 

@@ -1,7 +1,8 @@
 ---
 title: Why CMY Beats RYB for Color Mixing
-sequence: 62
----![[Pasted image 20260815113345.png]]
+sequence: 64
+---
+![[Pasted image 20260815113345.png]]
 
 **Scope:** Why the CMY (cyan, magenta, yellow) subtractive primary set spans a wider mixing gamut than the traditional RYB (red, yellow, blue) triad — the physics of one-third-spectrum absorption aligned to the eye's three cones, spectral purity and band shape, the colors RYB physically cannot reach, and the history from Le Blon and Helmholtz to modern pigments.
 

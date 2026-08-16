@@ -1,7 +1,8 @@
 ---
 title: Romanticism-Turner
-sequence: 77
----![[Pasted image 20260812225500.png]]
+sequence: 79
+---
+![[Pasted image 20260812225500.png]]
 
 **Scope:** Turner and Romanticism's revolutionary color — the atmospheric veil, the controversion of the warm-tone academic doctrine, the Newton/Goethe engagement, and the late dissolution of form into light.
 

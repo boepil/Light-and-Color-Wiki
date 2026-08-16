@@ -1,7 +1,8 @@
 ---
 title: Natural vs. Synthetic
 sequence: 14
----![[Pasted image 20260811165152.png]]
+---
+![[Pasted image 20260811165152.png]]
 
 **Scope:** Natural vs. synthetic pigments — the geological/biological origins of natural colorants, the 19th-century manufactured revolution, and today's trade-offs of subtlety against chroma.
 

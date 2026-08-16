@@ -1,7 +1,7 @@
 ---
 title: Colors
 aliases: [Colors]
-sequence: 52
+sequence: 54
 ---
 ### What this section is about
 

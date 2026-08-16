@@ -1,8 +1,9 @@
 ---
 title: Movements & Painters
 aliases: [Movements & Painters]
-sequence: 68
----![[Pasted image 20260812224220.png]]
+sequence: 70
+---
+![[Pasted image 20260812224220.png]]
 
 ### What this section is about
 

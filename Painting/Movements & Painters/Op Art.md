@@ -1,7 +1,8 @@
 ---
 title: Op Art
-sequence: 75
----![[Pasted image 20260812225139.png]]
+sequence: 77
+---
+![[Pasted image 20260812225139.png]]
 
 **Scope:** Op Art — Vasarely and Riley's precise geometries and high-contrast patterns that turn retinal fatigue, simultaneous contrast, and saccades into the medium itself.
 

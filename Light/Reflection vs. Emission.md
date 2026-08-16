@@ -1,7 +1,8 @@
 ---
 title: Reflection vs. Emission
 sequence: 9
----![[Pasted image 20260811114559.png]]
+---
+![[Pasted image 20260811114559.png]]
 
 **Scope:** Reflection versus emission — self-luminous sources and reflecting surfaces, specular/diffuse optics, and why emissive displays and reflective paint diverge in gamut and black point.
 

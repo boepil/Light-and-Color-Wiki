@@ -1,7 +1,8 @@
 ---
 title: Wave Nature
 sequence: 6
----![[Pasted image 20260810103655.png]]
+---
+![[Pasted image 20260810103655.png]]
 
 **Scope:** The physical nature of light as electromagnetic radiation — its wave and particle descriptions, the parameters that quantify it, and the spectral power distribution that connects the physics to colorimetry.
 

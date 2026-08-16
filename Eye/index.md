@@ -1,7 +1,7 @@
 ---
 title: Eye
 aliases: [Eye]
-sequence: 45
+sequence: 46
 ---
 ### What this section is about
 
@@ -29,9 +29,13 @@ Color vision rests on a simple idea: the eye does not have one sensor per color.
 
 After the cones fire, the visual system **re-encodes** color into opposing pairs: red versus green, blue versus yellow, light versus dark. This is why you never see a reddish-green, and why staring at a strong color leaves a ghost of its opposite on a white wall (**afterimages**). The cone stage asks "how much of each wavelength band?"; the opponent stage asks "which direction on the warm–cool and light–dark axes?" — two layers that work together, not two competing theories.
 
+#### [[Color Vision Deficiencies & Diseases]] — what broken color vision teaches us
+
+Deficiencies and eye diseases are nature's experiments on the machinery above. When a cone type is missing (**protanopia**, **deuteranopia**, **tritanopia**), a whole opponent channel fails in pairs; when disease clouds the lens or damages the retina or the V4 color area, the symptom pattern maps directly onto the biology. This page reads each failure mode as evidence about how normal color vision actually works.
+
 ### How the pieces fit together
 
-These pages follow the path of light in order: **Anatomy** (where it goes) → **Rods vs. Cones** (which detectors do what, and where) → **Visual Acuity** (how sharp vision can get) → **Wavelength Perception** (three cones → color from ratios) → **Opponent-Process** (brain repackaging and perceptual effects). None of them stands alone — acuity depends on rod/cone layout, color depends on cone ratios, and afterimages depend on opponent channels.
+These pages follow the path of light in order: **Anatomy** (where it goes) → **Rods vs. Cones** (which detectors do what, and where) → **Visual Acuity** (how sharp vision can get) → **Wavelength Perception** (three cones → color from ratios) → **Opponent-Process** (brain repackaging and perceptual effects) → **Deficiencies & Diseases** (what broken vision reveals about the machinery). None of them stands alone — acuity depends on rod/cone layout, color depends on cone ratios, and afterimages depend on opponent channels.
 
 So if you are visiting for the first time: start with **[[Anatomy]]** if you want the physical tour of the eye, or **[[Wavelength Perception]]** if you mainly want to know how light becomes color — then read the others in whatever order your curiosity pulls you.
 

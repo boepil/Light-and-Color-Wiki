@@ -2,7 +2,8 @@
 title: Reference
 aliases: [Pigment Reference]
 sequence: 23
----![[Pasted image 20260813124251.png]]
+---
+![[Pasted image 20260813124251.png]]
 
 ### Whites & Blacks
 - [[PW6 - Titanium White|PW6 — Titanium White]] — rutile/anatase TiO₂, refractive index 2.55/2.71, the most opaque pigment ever made

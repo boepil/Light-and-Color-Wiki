@@ -2,14 +2,13 @@
 title: Paint Mixing Principles
 sequence: 22
 ---
-
-> **Header image prompt (flat medical-textbook blue anatomy-plate style, wide banner, 16:9 proportion):** Labeled diagram showing the chemical and physical mechanics of paint mixing. Left side shows a microscopic cross-section of a wet paint layer with suspended pigment particles of varying refractive index and size (label: "WET FILM: HIGHER REFRACTIVE INDEX DIFFERENTIAL"), demonstrating light scattering. Right side shows a dry paint layer (label: "DRY FILM: BINDER OXIDATION & REFRACTIVE INDEX SHIFT"), demonstrating light trapping. Below, a diagram of the "Three-Paint Rule" showing three converging vectors meeting at a neutral point, labeled "ACHROMATIC EQUILIBRIUM," with a fourth vector causing a dashed deviation labeled "WOBBLE / CHROMATIC MUD." The background is pale blue with bold uppercase sans-serif labels and leader lines in dark blue. SPARSE CHROMATIC ACCENTS: sparse red-green and cyan-magenta accent pairs highlight the spectral subtraction paths.
+![[Pasted image 20260816111729.png]]
 
 **Scope:** The core physical, optical, and chemical principles governing subtractive paint mixtures in the studio, including handling practices, drying shifts, and palette organization systems.
 
 ### 1. The Physics of Subtractive Accumulation
 
-Every time an artist mixes two or more paints, they are performing **subtractive color mixture**. Unlike additive mixing (light), which increases luminance by combining wavelengths, pigments function by absorbing light. 
+Every time an artist mixes two or more paints, they are performing **[[Intersections/Optical vs. Physical Mixture|subtractive color mixture]]**. Unlike additive mixing (light), which increases luminance by combining wavelengths, pigments function by absorbing light. 
 
 *   **The Accumulative Subtraction Law:** Each added pigment acts as a spectral filter, absorbing specific bands of the visible spectrum. When multiple pigments are blended, their absorption profiles accumulate. This reduces the total reflected light energy, causing the mixture to systematically drop in both lightness (value) and saturation (chroma).
 *   **The Genesis of "Mud":** "Muddy" mixtures—characterized by a lifeless, desaturated brownish-gray appearance—are the natural result of over-mixing. When too many pigments are combined, or when warm and cool pigments with mismatched reflectance peaks are blended, nearly the entire visible spectrum is absorbed, flattening the reflectance curve. To maintain clean, high-chroma mixtures, artists must minimize the number of components in a blend.
@@ -19,7 +18,7 @@ Every time an artist mixes two or more paints, they are performing **subtractive
 
 A common point of failure in paint mixing is failing to account for the massive differences in **tinting strength** and density between pigment families.
 
-*   **High-Chroma Synthetics vs. Mineral Earths:** Modern organic synthetic pigments (such as Phthalo Blue PB15 or Quinacridone Magenta PR122) possess extremely high tinting strengths due to their small particle size and high molar extinction coefficients. In contrast, inorganic earth pigments (such as Burnt Sienna PBr7 or Yellow Ochre PY43) have low tinting strengths and large, dense particles.
+*   **High-Chroma Synthetics vs. Mineral Earths:** Modern organic synthetic pigments (such as **[[PB15 - Phthalo Blue|Phthalo Blue]]** PB15 or **[[PR122 - Quinacridone Magenta|Quinacridone Magenta]]** PR122) possess extremely high tinting strengths due to their small particle size and high molar extinction coefficients. In contrast, inorganic earth pigments (such as **[[PBr7 - Burnt Sienna|Burnt Sienna]]** PBr7 or **[[PY43 - Yellow Ochre|Yellow Ochre]]** PY43) have low tinting strengths and large, dense particles.
 *   **Volumetric Proportionality:** If an artist mixes equal parts of Phthalo Blue and Burnt Sienna, the phthalo will instantly overwhelm the earth pigment, resulting in a dark blue wash. To achieve neutralization, the artist must add the stronger pigment to the weaker pigment in minuscule increments (the "drop-by-drop" rule).
 *   **Inorganic Settling (The Flocculation Trap):** Liquid mixtures of heavy inorganic mineral pigments (like cadmiums or cobalts) and light organic pigments (like phthalos) are physically unstable. The heavy minerals sink quickly to the bottom of the paint puddle, making the wet mix look cooler than it will appear when brushed out on paper.
 
@@ -39,16 +38,16 @@ In watercolor, the evaporation of water leaves the pigment particles surrounded 
 
 Understanding the hierarchy of transparency and opacity is crucial for successful paint application.
 
-*   **Transparency/Opacity Dynamics:** Opaque pigments (such as Titanium White PW6 or Cadmium Red PR108) scatter light heavily before it can penetrate deep into the paint film. Transparent pigments (such as Quinacridone Rose PV19 or Phthalo Blue PB15) allow light to pass through, reflecting instead off the underlying ground or paper.
+*   **Transparency/Opacity Dynamics:** Opaque pigments (such as **[[PW6 - Titanium White|Titanium White]]** PW6 or **[[PR108 - Cadmium Red|Cadmium Red]]** PR108) scatter light heavily before it can penetrate deep into the paint film. Transparent pigments (such as [[High-Chroma Synthetics|Quinacridone Rose]] PV19 or **[[PB15 - Phthalo Blue|Phthalo Blue]]** PB15) allow light to pass through, reflecting instead off the underlying ground or paper.
 *   **Glazing vs. Scumbling:** A **glaze** is a thin, transparent layer of paint applied over a dry, lighter color. The light passes through the glaze, bounces off the background, and passes back through the glaze, creating rich, luminous depth. A **scumble** is a thin, opaque, or semi-opaque light layer applied over a darker passage, scattering light to create a cool, hazy, or smoky effect (similar to Rayleigh scattering).
-*   **Shadow and Light Placement:** As a rule, shadows should be kept thin and transparent to suggest depth and atmosphere, while highlights and lit areas should be painted opaquely to create physical weight and presence (**Carlson**).
+*   **Shadow and Light Placement:** As a rule, shadows should be kept thin and transparent to suggest depth and atmosphere, while highlights and lit areas should be painted opaquely to create physical weight and presence.
 
 ### 5. Practical Palette Systems and Harmony
 
 To maintain control over color mixing, artists employ structured palette organization systems:
 
 *   **Limited Palettes:** Using a small, dedicated set of paints (typically 3 to 6) ensures that all mixed colors share common chemical ancestors, creating automatic color harmony.
-*   **The Zorn Palette:** A famous historical limited palette consisting of only four colors: Yellow Ochre (PY43), Vermilion (or Cadmium Red PR108), Ivory Black (PBk9), and Titanium White (PW6). The Zorn palette is highly effective for figure painting, as Ivory Black acts as a cool blue complement when mixed with white, allowing the artist to mix clean skin tones, warm shadows, and muted olive greens without a true blue paint.
+*   **The Zorn Palette:** A famous historical limited palette consisting of only four colors: **[[PY43 - Yellow Ochre|Yellow Ochre]]** (PY43), Vermilion (or **[[PR108 - Cadmium Red|Cadmium Red]]** PR108), Ivory Black (PBk9), and **[[PW6 - Titanium White|Titanium White]]** (PW6). The Zorn palette is highly effective for figure painting, as Ivory Black acts as a cool blue complement when mixed with white, allowing the artist to mix clean skin tones, warm shadows, and muted olive greens without a true blue paint.
 *   **The Mother Color Technique:** To unify a chaotic color scheme, the artist mixes a tiny touch of a single dominant "mother color" (such as a warm amber or a cool violet) into every paint mixture across the entire canvas, creating a shared color envelope or ambient light sensation.
 
 ---

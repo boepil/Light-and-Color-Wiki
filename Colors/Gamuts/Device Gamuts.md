@@ -1,7 +1,8 @@
 ---
 title: Device Gamuts
-sequence: 58
----![[images/ChatGPT Image Aug 6, 2026, 02_39_45 PM.png]]
+sequence: 60
+---
+![[images/ChatGPT Image Aug 6, 2026, 02_39_45 PM.png]]
 
 **Scope:** Why screens, printers and scanners each show different ranges of color — and how images are converted when a color from one device can't be reproduced by another.
 

@@ -1,7 +1,8 @@
 ---
 title: CIE Systems
-sequence: 54
----![[images/ChatGPT Image Aug 6, 2026, 02_26_10 PM.png]]
+sequence: 56
+---
+![[images/ChatGPT Image Aug 6, 2026, 02_26_10 PM.png]]
 
 **Scope:** The international number system for color — how the CIE turned "how the average human eye responds to light" into coordinates any lab, factory, or screen can share, from the classic xy map to the modern Lab space.
 
