@@ -5,8 +5,6 @@ sequence: 44
 ---
 <div style="float:left;width:64px;height:64px;background:#4A2B6B;margin:4px 16px 8px 0;border-radius:2px;"></div>
 
-> Color swatch: closest approximation of the pigment's hue (not measured spectral data — see [[Pigments/Sourcing Real Spectral Data|Sourcing Real Spectral Data]]).
-
 **Scope:** Dioxazine Violet (PV23) — carbazole dioxazine, the staining deep violet of extreme darks.
 
 ### Identity

@@ -45,7 +45,7 @@ The ~380–400 nm / ~700–780 nm bracket is fuzzy because human sensitivity "de
 
 ### Nonspectral Colors — the Spectrum's Missing Hues
 
-Some colors — **purple and magenta** — have **no single corresponding wavelength**: "No single wavelength exists for the color purple. Purple can be created with a mixture of wavelengths in both the red and the violet". These nonspectral hues are created exclusively by mixing light from the two opposite ends of the spectrum, and "the visual system 'invents' these hues to bridge the gap between red and violet, effectively bending the linear physical spectrum into a perceptual **color circle**" ([[Spectral Locus & Excitation Purity]] for the line of purples).
+Some colors — **[[Nonspectral Colors|purple and magenta]]** — have **no single corresponding wavelength**: "No single wavelength exists for the color purple. Purple can be created with a mixture of wavelengths in both the red and the violet". These nonspectral hues are created exclusively by mixing light from the two opposite ends of the spectrum, and "the visual system 'invents' these hues to bridge the gap between red and violet, effectively bending the linear physical spectrum into a perceptual **color circle**" ([[Spectral Locus & Excitation Purity]] for the line of purples).
 
 ### Why the Prism Spreads Blue More Than Red
 

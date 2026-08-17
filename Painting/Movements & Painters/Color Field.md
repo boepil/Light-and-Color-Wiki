@@ -33,3 +33,30 @@ Color Field painting, a major branch of Abstract Expressionism, used color as bo
 ## Handprint Perspectives
 
 MacEvoy reads the Color Field generation through the psychology-of-color evidence: "colors must have a universal significance because they arouse our physiology or psychology in consistent ways" — green calms and red excites, "yellow makes cheerful and blue makes introspective" — "have been extensively tested by academic color research from around 1890 up to the present day... the net result? Just hundreds of publications to show that" no consistent emotional effects can be tied to hues. The Rothko program — color as "language of the soul" — is thus, in MacEvoy's terms, a claim about a "chromatic Esperanto" whose symbolic power is fixed once and for all; such theories "haven't gained wide support because people much prefer to use the color codes that grow from their culture." What survives his scrutiny is perceptual, not semantic: his hue-to-value mapping note that "dark valued areas cannot be rendered as a pure saturated green or orange" and his championing of the spatial-contrast devices (Albers-style squares, simultaneous-contrast boundaries) that Reinhardt's nine-square grid and Rothko's vanishing edges exploit *(Source: [[raw_sources/handprint/color18b.md|color18b.html]], [[raw_sources/handprint/color18a.md|color18a.html]])*.
+
+> [!NOTE] **Unsourced claims:** the notebook corpus supports the Color Field mechanics (film color, Newman's zip, Reinhardt's nine-square grid, the "fluting effect") but does **not** contain the specific Rothko quotations "language of the soul," "basic human emotions," or "the tragic." These appear on this page as painter biography, not as notebook-attributed claims.
+
+## Subtopics
+
+- Rothko: stacked "luminous film color" rectangles of thin glazes, vanishing edges, emotion as the subject
+- Newman: the "zip" and wall-scale works as a "phenomenological encounter" with space
+- Reinhardt: the black paintings, "no colors," and the off-black nine-square grid
+- The durational mechanism: eye fatigue, afterimages, and the "fluting effect" at boundaries
+- The color-psychology challenge: "chromatic Esperanto" vs. the academic evidence
+
+## Cross-References
+
+- [[Painting/Movements & Painters/index|Movements & Painters]] — the arc page
+- [[Bauhaus]] — the perceptual tradition from Albers to Color Field
+- [[Simultaneous Contrast, Color Constancy, Afterimages, Subtractive vs. Additive Mixing]] — the mechanism behind vanishing boundaries
+- [[Op Art]] — the durational-experience sibling
+- [[Composition]] — spatial and structural concerns
+- [[Intersections/Color Psychology & Symbolism|Color Psychology & Symbolism]] — emotion claims vs. the evidence
+
+## Sources
+
+* "Color for Science, Art, and Technology" — Kurt Nassau (Editor; Wurmfeld chapter)
+* "Color in Art" — John Gage
+* "Interaction of Color" (50th Anniversary Edition) — Josef Albers
+* "handprint: modern color theory (applications)" — MacEvoy ([[raw_sources/handprint/color18b.md|color18b.html]])
+* "handprint: modern color theory (concepts)" — MacEvoy ([[raw_sources/handprint/color18a.md|color18a.html]])

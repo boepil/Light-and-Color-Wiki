@@ -46,7 +46,7 @@ Both descriptions show up in the interactions that matter for vision and paintin
 
 ### Spectral Power Distribution — from Waves to Illuminants
 
-A **spectral power distribution (SPD)** graphs how a light source distributes its power — the number of photons emitted — **across every wavelength** of the visible range. The wave model describes a single monochromatic wave by one wavelength/frequency pair; the SPD describes what a **complex source** (daylight, a tungsten bulb, a fluorescent tube) actually emits: "many different wavelengths intermingled". The SPD is the physical input to every colorimetric calculation — it is the quantity the CIE's matching functions weight to produce tristimulus values (see [[CIE Systems]] and [[Illuminants & Correlated Color Temperature]]).
+A **spectral power distribution (SPD)** graphs how a light source distributes its power — the number of photons emitted — **across every wavelength** of the visible range. The wave model describes a single monochromatic wave by one wavelength/frequency pair; the SPD describes what a **complex source** (daylight, a tungsten bulb, a fluorescent tube) actually emits: "many different wavelengths intermingled". The SPD is the physical input to every colorimetric calculation — it is the quantity the CIE's **[[Color Matching Functions and the Photopic Luminosity Function|matching functions]]** weight to produce tristimulus values (see [[CIE Systems]] and [[Illuminants & Correlated Color Temperature]]).
 
 ## Handprint Perspectives
 

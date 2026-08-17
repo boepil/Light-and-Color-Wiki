@@ -6,7 +6,7 @@ sequence: 49
 
 **Scope:** Relates visual acuity to the physical spacing of photoreceptors in the eye.
 
-The limits of human visual acuity — the ability to resolve fine detail — are determined by a combination of the eye's optical quality and the physiological structure of the retina. Central to this resolution is the density and arrangement of photoreceptors, particularly the cones of the **fovea centralis**.
+The limits of human visual acuity — the ability to resolve fine detail — are determined by a combination of the eye's optical quality and the physiological structure of the retina. Central to this resolution is the density and arrangement of **[[Wavelength Perception|photoreceptors]]**, particularly the cones of the **fovea centralis**.
 
 ### 1. Receptor Spacing and the Sampling Limit
 
@@ -19,7 +19,7 @@ From an information-processing perspective, the retina acts as a **sampling matr
 The **fovea** is a tiny, depressed spot in the center of the retina, smaller than the head of a pin, yet responsible for the highest levels of color and spatial acuity.
 
 - **Cone density:** the fovea contains approximately **350,000 cones**; peak density lies in the very center, where receptors are most tightly packed.
-- **Rod-free zone:** the fovea centralis is completely devoid of rods; this area covers approximately **2° of visual angle**, equivalent to the size of a thumbnail at arm's length.
+- **Rod-free zone:** the fovea centralis is completely devoid of **[[Rods vs. Cones - Density & Distribution|rods]]**; this area covers approximately **2° of visual angle**, equivalent to the size of a thumbnail at arm's length.
 - **Spatial resolution:** normal daylight (photopic) acuity is defined as the ability to resolve two points or lines separated by about **1 minute of arc** (1/60°).
 - **Retinal dimensions:** the ~2 µm inter-receptor distance, combined with the lens-to-retina distance (average **1.67 cm**), sets the minimal difference in visual rays the eye can resolve.
 - **Snellen acuity:** standard **20/20 vision** is based on the **Snellen E** test — a letter 'E' subtending 5 minutes of arc, with each stroke and space subtending **1 minute of arc**, is the threshold of "normal" vision.

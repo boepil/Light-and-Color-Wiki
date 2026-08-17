@@ -43,3 +43,34 @@ Van Gogh, Cézanne, Gauguin, and Seurat "shifted the focus of art from the **[[I
 ## Handprint Perspectives
 
 MacEvoy's materials-eye view of the group is threefold. First, **palette fingerprints**: artists "tend to have a distinctive preference in warm paints" — Caravaggio, Turner, Gauguin, and Matisse "seem to like red orange focal hues, while others (Van Gogh, Rubens, Rembrandt) seem to prefer a deep yellow." Second, **hue-to-value discipline**: the "clearest mapping of hue to value" appears in "medieval and certain modernist painting styles (late Van Gogh, Matisse, Derain, Ellsworth Kelly, etc.), where pure pigment colors are used much more than mixed colors or colors darkened with black" — dark values cannot be pure saturated green or orange without dulling to brown. Third, **Gauguin's "warm yellow light" scheme**: sampling 250 pixels from a Gauguin canvas, MacEvoy shows the palette map — nine or more paints — arranged as a "huge yellow ochre cluster" with "accenting blues and greens at the saturated limits," imitating a deep yellow illuminant and eliminating the magenta-violet sector to intensify scarlet; a "careful limitations and accents" imitation of warm light, not arbitrary color. And on permanence: Van Gogh was "maddeningly slipshod" in his use of painting materials, in the company of Reynolds and Whistler *(Source: [[raw_sources/handprint/color16.md|color16.html]], [[raw_sources/handprint/color18a.md|color18a.html]], [[raw_sources/handprint/tech13.md|tech13.html]], [[raw_sources/handprint/pigmt6.md|pigmt6.html]])*.
+
+> [!NOTE] **Unsourced claim:** the notebook corpus supports Van Gogh's complementary-pairs practice and Goethe's colored-shadow theory, but the specific quotation describing complementary pairs as a "ray of light" comparable to gravitation is not verbatim in the notebook sources.
+
+## Subtopics
+
+- Van Gogh: emotional and complementary color, the "language of the soul," Goethe's colored shadows
+- Cézanne: structural warm-cool temperature modulations and "passages" as "plastic organization"
+- Gauguin: symbolic flat color, japonisme, and liberation from local color
+- Seurat: the scientific "reconstitution of light"
+- The reaction: flatness and the path toward Fauvism and Cubism
+
+## Cross-References
+
+- [[Painting/Movements & Painters/index|Movements & Painters]] — the arc page
+- [[Impressionism]] — what the group reacted against
+- [[Neo-Impressionism-Pointillism]] — the scientific branch of the reaction
+- [[Fauvism]] — the flat-color successor
+- [[Bauhaus]] — the later formalization of subjective color
+- [[Composition]] — structural harmony and design
+
+## Sources
+
+* "Contemporary Color: Theory and Use" — Steven Bleicher
+* "The Art of Color: The Subjective Experience and Objective Rationale of Color" — Johannes Itten
+* "Interaction of Color" (50th Anniversary Edition) — Josef Albers
+* "Color by Betty Edwards: A Course in Mastering the Art of Mixing Colors" — Betty Edwards
+* "Color for Science, Art, and Technology" — Kurt Nassau (Editor; Wurmfeld chapter)
+* "handprint: an artist's color wheel" — MacEvoy ([[raw_sources/handprint/color16.md|color16.html]])
+* "handprint: modern color theory (concepts)" — MacEvoy ([[raw_sources/handprint/color18a.md|color18a.html]])
+* "handprint: color harmony & design" — MacEvoy ([[raw_sources/handprint/tech13.md|tech13.html]])
+* "handprint: labeling, lightfastness & toxicity" — MacEvoy ([[raw_sources/handprint/pigmt6.md|pigmt6.html]])

@@ -30,17 +30,17 @@ Toxicity tracks **chemistry, not color** — a bright red may be inert pyrrole o
 | **Carbon-based** | Carbon/Lamp Black | Soot/carbon | Low (fine-dust inhalation) |
 | **Synthetic organic** | Phthalos, Quinacridones, Perylenes, Pyrroles, Azo/Hansa, Naphthol, Dioxazine, Alizarin (modern) | Organic dye pigments | Low — the generally safest class |
 
-**Real hazards to flag:** the cadmiums and cobalts. Risk is much lower in tube paint than raw pigment powder — locked in binder, low skin absorption, inert film once dry. Real exposure comes from ingestion habits (licking brushes), spray application, or sanding/scraping dried paint, which recreates dust exposure *(Source: $1. Medium (oil/water/acrylic) does not change pigment toxicity — cadmium is cadmium regardless of binder; watercolorists have slightly higher practical exposure because wet brush tips meet the lips.
+**Real hazards to flag:** the cadmiums and cobalts. Risk is much lower in tube paint than raw pigment powder — locked in binder, low skin absorption, inert film once dry. Real exposure comes from ingestion habits (licking brushes), spray application, or sanding/scraping dried paint, which recreates dust exposure. Medium (oil/water/acrylic) does not change pigment toxicity — cadmium is cadmium regardless of binder; watercolorists have slightly higher practical exposure because wet brush tips meet the lips.
 
 ### Exposure Routes: how paint actually gets in
-The toxicity of pigments arises almost entirely from **how they are used**, not from the tube *(Source: $1:
+The toxicity of pigments arises almost entirely from **how they are used**, not from the tube.
 
-- **Ingestion** — the most common route: licking or "pointing" brushes with the mouth (never do this — blot with a paper/cloth towel), eating while painting, or handling food with paint under the fingernails. Lead white is only poisonous if swallowed or inhaled. To be poisoned by eating paint you must consume one or more full tubes; a child who eats a cadmium or cobalt paint may be sickened by a single dose but is not permanently harmed or killed *(Source: $1.
-- **Inhalation** — raw pigment grinding (making paints by hand), spray guns/airbrushes, sanding dried paint films, and heating paint with a heat gun. **Pastel dust** is the special case: even "inert" powders must not be continuously inhaled, and pastel chalks are the main inhalation risk in normal practice *(Source: $1.
-- **Skin contact** — two distinct problems: **sensitizers** (copper, nickel, manganese, cobalt) that can produce a slowly developing allergic skin condition — if redness appears within a day or two, see a dermatologist and choose alternative pigments — and **solvent irritation** (turpentine causes skin and respiratory allergies) *(Source: $1.
+- **Ingestion** — the most common route: licking or "pointing" brushes with the mouth (never do this — blot with a paper/cloth towel), eating while painting, or handling food with paint under the fingernails. Lead white is only poisonous if swallowed or inhaled. To be poisoned by eating paint you must consume one or more full tubes; a child who eats a cadmium or cobalt paint may be sickened by a single dose but is not permanently harmed or killed.
+- **Inhalation** — raw pigment grinding (making paints by hand), spray guns/airbrushes, sanding dried paint films, and heating paint with a heat gun. **Pastel dust** is the special case: even "inert" powders must not be continuously inhaled, and pastel chalks are the main inhalation risk in normal practice.
+- **Skin contact** — two distinct problems: **sensitizers** (copper, nickel, manganese, cobalt) that can produce a slowly developing allergic skin condition — if redness appears within a day or two, see a dermatologist and choose alternative pigments — and **solvent irritation** (turpentine causes skin and respiratory allergies).
 
 ### Labeling & Standards
-- **ASTM D4236** (Standard Practice for Labeling Art Materials for Chronic Health Hazards) — the US rule that a paint must carry health information if "in the opinion of a toxicologist" it can produce a chronic health effect under "reasonable foreseeable use or misuse"; the tube line reads **"Conforms to ASTM D4236"** *(Source: $1.
+- **ASTM D4236** (Standard Practice for Labeling Art Materials for Chronic Health Hazards) — the US rule that a paint must carry health information if "in the opinion of a toxicologist" it can produce a chronic health effect under "reasonable foreseeable use or misuse"; the tube line reads **"Conforms to ASTM D4236"**.
 - **ACMI seals** — the Art and Creative Materials Institute certifies virtually all paints sold today: **AP** (Approved Product, non-toxic) and **CL** (Cautionary Label: safe if used per the specific instructions).
 - **CS98-62 Paint Standard** — the voluntary agreement between manufacturers and artists defining standard nomenclature and composition, protecting artists from secret or inferior ingredients and preventing "fancy names" for toxic or fugitive mixtures.
 - **Colour Index (CI) names** — essential for identifying a pigment's true chemistry on labels and MSDS sheets (e.g. PB29, PR108); see the pigment reference sheets for per-pigment data.
@@ -97,9 +97,9 @@ MacEvoy's position is that pigment toxicity is overwhelmingly a **handling probl
 - [[Painting/Brushes]]
 
 ## Sources
-* "Artists' Pigments: A Handbook of Their History and Characteristics" — Robert L. Feller (editor)
-* "The Artist's Handbook of Materials and Techniques" — Ralph Mayer
-* "The Science of Paintings" — W. Stanley Taft Jr. and James W. Mayer
-* "Contemporary Color: Theory and Use" — Steven Bleicher
+* "Artists' Pigments: A Handbook of Their History and Characteristics" — Robert L. Feller (editor), Vol. 1, pp. 40, 73–74, 100–103, 170 (sensitizers, binder-independent toxicity, oral LD50, exposure routes, 700 °C cadmium vapor)
+* "The Artist's Handbook of Materials and Techniques" — Ralph Mayer, pp. 49, 78–80, 110, 152, 296, 318–320, 359, 381, 393, 397, 422–424, 677 (exposure routes, brush-pointing ingestion, pastel dust, spray guns, CS98-62, turpentine allergy)
+* "The Science of Paintings" — W. Stanley Taft Jr. and James W. Mayer, p. 3 (toxicity independent of binder)
+* "Contemporary Color: Theory and Use" — Steven Bleicher, p. 87 (ASTM D4236, ACMI seals)
 * "Color for Science, Art, and Technology" — Kurt Nassau (editor)
 * "handprint: labeling, lightfastness & toxicity" — [[raw_sources/handprint/pigmt6.md|pigmt6.html]]

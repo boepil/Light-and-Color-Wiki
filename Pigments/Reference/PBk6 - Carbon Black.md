@@ -5,8 +5,6 @@ sequence: 25
 ---
 <div style="float:left;width:64px;height:64px;background:#1A1A1A;margin:4px 16px 8px 0;border:1px solid #555;border-radius:2px;"></div>
 
-> Color swatch: closest approximation of the pigment's hue (not measured spectral data — see [[Pigments/Sourcing Real Spectral Data|Sourcing Real Spectral Data]]).
-
 **Scope:** Carbon Black (PBk6) — amorphous carbon from the chimney and the kiln, the pigment of Lascaux, *atramentum*, and Reinhardt's black paintings.
 
 ### Identity

@@ -23,14 +23,14 @@ Colors are written in the compact format **Hue Value/Chroma**:
 - **Example:** **5PB 4/8** — a purple-blue in the middle of its hue family, a little darker than middle gray, with a strong vividness of 8.
 - **Neutrals:** gray colors are written **N** plus the value (e.g., **N 5/**).
 
-Unlike **RGB** (the additive-light system for displays) and **CMYK** (the subtractive-ink system for printing) — which are *device-dependent* — Munsell is **device-independent**: it is based on human vision. RGB tells you how to *make* a color on a particular screen; Munsell tells you what that color *looks like*.
+Unlike **RGB** (the additive-light system for displays) and **[[Why CMY Beats RYB for Color Mixing|CMYK]]** (the subtractive-ink system for printing) — which are *device-dependent* — Munsell is **device-independent**: it is based on human vision. RGB tells you how to *make* a color on a particular screen; Munsell tells you what that color *looks like*.
 
 ### 3. The Color Tree
 
 Munsell first imagined a perfect sphere, but real pigments and real perception forced an irregular 3D shape — the **"Color Tree"**:
 
 - **Why it's lopsided:** the maximum vividness a hue can reach varies with its lightness. **Yellows hit peak vividness at high values** (light yellow), while **blues and purples stay vivid at lower values**.
-- **The perceptual insight:** the irregularity reveals that the visual system is more efficient at some wavelengths than others — the **luminosity function peaks in the green**, so green surfaces can be light *and* vivid at once, something physically impossible for red pigments.
+- **The perceptual insight:** the irregularity reveals that the visual system is more efficient at some wavelengths than others — the **[[Color Matching Functions and the Photopic Luminosity Function|luminosity function]] peaks in the green**, so green surfaces can be light *and* vivid at once, something physically impossible for red pigments.
 
 ### 4. Albert Munsell: artist and educator
 
@@ -42,7 +42,7 @@ He built his system to give color a **scientific basis**: students could record 
 
 By the 1940s, scientists realized the original Munsell samples were internally inconsistent, so they re-measured the whole system in a massive visual experiment:
 
-- **Anchored to CIE:** the **1943 Renotation** gave every ideal Munsell notation precise **CIE (Y, x, y) coordinates**.
+- **Anchored to CIE:** the **1943 Renotation** gave every ideal Munsell notation precise **[[CIE Systems|CIE (Y, x, y)]]** coordinates.
 - **Scale and scope:** built on roughly **3 million observations**, it made the system as visually uniform as possible and extended it to cover higher vividness and very dark values.
 
 ### 6. How value is scaled, and how the system is used
@@ -57,7 +57,7 @@ The Munsell value scale is **not linear** with physical light intensity: it foll
 
 ## Handprint Perspectives
 
-MacEvoy treats the Munsell system as one of the few color models built on an **11-step value scale** (0 = black to 10 = white) and notes its convenient relationship to modern metrics: the **CIELAB L\* dimension is a multiple of 10 of the Munsell scale** — a Munsell value of 6 corresponds to an L\* of 60.
+MacEvoy treats the Munsell system as one of the few color models built on an **11-step value scale** (0 = black to 10 = white) and notes its convenient relationship to modern metrics: the **[[Why Lab-Munsell Were Built for Perceptual Uniformity|CIELAB]] L\* dimension is a multiple of 10 of the Munsell scale** — a Munsell value of 6 corresponds to an L\* of 60.
 
 He also documents Munsell's own **principles of perceptual harmony**, defined as specific paths through the color space — same hue and value with contrasting chroma, same hue and chroma with contrasting value, and so on. Munsell defined **color strength as the product of value and chroma**, proposing that color area should be balanced inversely against strength; as T.M. Cleland explained, the small-area color should be both lighter valued and more chromatic. MacEvoy notes the formula is ambiguous (chroma's larger numerical range tends to dominate), and that it can be adapted to CIELAB/CIECAM by dividing CIELAB chroma by 4 and CIELAB lightness by 10. *(Source: [[raw_sources/handprint/tech13.md|tech13.html]], [[raw_sources/handprint/color18a.md|color18a.html]])*
 

@@ -5,8 +5,6 @@ sequence: 40
 ---
 <div style="float:left;width:64px;height:64px;background:#00308F;margin:4px 16px 8px 0;border:1px solid #999;border-radius:2px;"></div>
 
-> Color swatch: closest approximation of the pigment's hue (not measured spectral data — see [[Pigments/Sourcing Real Spectral Data|Sourcing Real Spectral Data]]).
-
 **Scope:** Phthalo Blue (PB15) — copper phthalocyanine blue, the modern palette's intense cyan that replaced Prussian blue, with extreme tinctorial strength and two rival crystal forms.
 
 ### Identity

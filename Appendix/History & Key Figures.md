@@ -4,6 +4,8 @@ sequence: 4
 ---
 ![[Pasted image 20260813123927.png]]
 
+**Scope:** One history with four engines — art practice, pigment production, the science of light, and culture — and how the era that led each one pushed color from trade good to measured system.
+
 ### What this page is about
 
 Color did not get its modern systems in a laboratory first and reach painters later. For most of history it worked the other way around: **people made colors because they needed them** — for ritual, status, trade, and picture-making — and only much later did anyone try to measure light and color with numbers.

@@ -5,8 +5,6 @@ sequence: 24
 ---
 <div style="float:left;width:64px;height:64px;background:#F4F4F4;margin:4px 16px 8px 0;border:1px solid #999;border-radius:2px;"></div>
 
-> Color swatch: closest approximation of the pigment's hue (not measured spectral data — see [[Pigments/Sourcing Real Spectral Data|Sourcing Real Spectral Data]]).
-
 **Scope:** Titanium White (PW6) — titanium dioxide in rutile and anatase forms, the 20th-century white that replaced lead and zinc, with the highest opacity of any pigment.
 
 ### Identity

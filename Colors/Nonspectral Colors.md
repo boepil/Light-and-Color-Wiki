@@ -40,7 +40,7 @@ The purples/magentas are not a thin seam — they occupy a strikingly large frac
 
 ### The cone-and-opponent mechanism of "inventing" magenta
 
-Why does a physical gap in the spectrum become a perceptual filled region? The modern answer combines **trichromacy** (three cones) with **opponency** (opposed signals):
+Why does a physical gap in the spectrum become a perceptual filled region? The modern answer combines **[[Wavelength Perception|trichromacy]]** (three cones) with **[[Opponent-Process Color Coding|opponency]]** (opposed signals):
 
 - Purple arises from **simultaneous stimulation of the S-cones (short-wave) and L-cones (long-wave)** without significant M-cone (middle/green) activation — a response pattern that a single wavelength cannot produce, because short wavelengths and long wavelengths never co-occur in one monochromatic ray. The textbooks identify the **non-spectral S+L dominant response** as the origin of "the range of non-spectral hues from purple to magenta and middle red." *(Source: [[raw_sources/huevaluechroma/014.md|014.html]])*
 - Color, per the opponent model, is computed as **differences between receptor responses** — red–green (r−g) and blue–yellow (y−b). Purple is the pairing *both red and blue* — and the phenomenology is strict about which pairings are possible: purples (red+blue), oranges (red+yellow), blue-greens, and yellow-greens all exist as simultaneous compound experiences, but there is **no color that is subjectively red *and* green, nor blue *and* yellow**.

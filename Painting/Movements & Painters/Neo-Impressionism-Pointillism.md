@@ -38,3 +38,32 @@ MacEvoy's mixing rules give the pointillists' ambition and its failure in one br
 Briggs supplies the modern precision the "reconstitution of light" slogan lacked. First, **pointillism is not additive mixing, and not even additive-averaging**: spatial mixing of dots *too small to resolve* is additive-averaging (necessarily *dimmer* than simple additive mixing, and intermediate between the components — for complements it averages to grey), whereas true pointillism keeps its dots *large enough to stay visible* at the intended viewing distance, producing the "soft and lively lustre" the technique is named for. Second, **the luminosity claim itself was a misreading of Rood**: Rood experimentally showed only that spinning-disc (optical) mixtures of paints were lighter than physical mixtures *of the same paints* — true, but it was "widely misinterpreted to mean that colours obtained by optical mixing are lighter and/or more intense than any that can be obtained by physical mixing." Briggs attributes that error to Rood and Seurat only to exonerate both: **Seurat used optical mixing most elaborately in the most neutral areas of his paintings**, where high-chroma components could be "decomposed" into low-chroma fields (shaded grass = dark-green object dots + blue skylight + purple complement + yellow-orange reflected sunlight), and he used simple, direct colour for his highest-chroma and lightest passages (the sunlit grass, the white dog in *La Grande Jatte*). Third, the same additive-averaging concept explains why the "gray-sum" is not gray but a *lighter* grey: an average of complements reflects a fraction of the light of a white disc, and lightness scales are nonlinear with respect to energy *(Source: [[raw_sources/huevaluechroma/044.md|044.html]], [[raw_sources/huevaluechroma/061.md|061.html]])*.
 
 > [!NOTE] Briggs vs. the textbook "greater luminosity": the page's synthesis above follows the older claim that Rood's discs proved pointillism yields "far greater luminosity than traditional subtractive palette mixing." Briggs insists this overreads Rood: what Rood proved was a *lightness* difference between optical and physical mixtures of the *same paints*, which says nothing about whether optical mixing can exceed the lightest physical palette mixtures generally. The two accounts agree that the dots merge in the eye — they disagree on what that merger may legitimately be claimed to do.
+
+> [!NOTE] **Partial corpus coverage:** the notebook supports the "gray-sum," the "harmonious gray," "lustre," and Rood's dismay, but the specific critical phrase "machine-like regularity" is not verbatim in the notebook corpus (sources do mention "methodical" and "regular groupings").
+
+## Subtopics
+
+- Divisionism and the pointillé technique: spectral-component separation and dots that merge in the eye
+- Seurat's program: "impressioniste-luministe" and the "reconstitution of light" via Chevreul and Rood
+- The critiques: machine-like regularity, congealed vibration, Rood's dismay, and the "gray-sum"
+- Briggs' correction: optical mixing is not additive mixing, and Rood's luminosity claim was overread
+- The dotted frames: extending simultaneous contrast to the canvas border
+
+## Cross-References
+
+- [[Painting/Movements & Painters/index|Movements & Painters]] — the arc page
+- [[Impressionism]] — the movement being refined
+- [[Post-Impressionism]] — the reaction against it
+- [[Fauvism]] — the flat-color movement that supersedes it
+- [[Intersections/Optical vs. Physical Mixture|Optical vs. Physical Mixture]] — additive-averaging vs. paint mixing
+- [[Intersections/Simultaneous Contrast, Color Constancy, Afterimages, Subtractive vs. Additive Mixing|Simultaneous Contrast, Color Constancy, Afterimages]] — Chevreul's law
+
+## Sources
+
+* "Color in Art" — John Gage
+* "Contemporary Color: Theory and Use" — Steven Bleicher
+* "The Art of Color: The Subjective Experience and Objective Rationale of Color" — Johannes Itten
+* "handprint: modern color theory (applications)" — MacEvoy ([[raw_sources/handprint/color18b.md|color18b.html]])
+* "handprint: color harmony & design" — MacEvoy ([[raw_sources/handprint/tech13.md|tech13.html]])
+* "The Dimensions of Colour: additive mixing" — [[raw_sources/huevaluechroma/044.md|044.html]]
+* "The Dimensions of Colour: mixing of paints" — [[raw_sources/huevaluechroma/061.md|061.html]]

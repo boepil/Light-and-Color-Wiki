@@ -45,6 +45,21 @@ Each cone contains billions of light-sensitive pigment molecules, which the sour
 
 > [!NOTE] The general biochemical components **opsin** and **retinal** are the standard scientific terms for these pigments; the notebook sources specifically call the cone pigments **iodopsin** and the rod pigment **rhodopsin**.
 
+### 4b. Cone Morphology: the Anatomy of an Individual Cone
+
+![[Pasted image 20260813175705.png]]
+
+A vertical section through the human cone layer reveals the anatomy behind the phototransduction chain. Each cone is a single elongated cell, traceable from its light-sensitive tip down to its synapse:
+
+- **Outer segment** — the receptive tip, extending toward the back of the retina, containing the photopigment molecules stacked in membrane disks.
+- **Inner segment** — the metabolically active portion, housing the nucleus and cellular machinery.
+- **Cell body ("cb")** — the nucleus-bearing region of the receptor.
+- **Cone pedicle** — the broadened synaptic terminal at the bottom, the output end of the cone, where it connects to the **bipolar cells and horizontal cells** of the **outer plexiform layer (OPL)**; the "axon" label in the figure traces the process running from the cell body down to the pedicle.
+
+The figure's special emphasis is the anatomical difference between cone classes: **L- and M-cones** are structurally very similar, differing mainly in the photopigment each contains, while the **S-cone (blue cone)** shown here stands out because its **outer segment is noticeably shorter** than those of its L/M neighbors — terminating well below the taller L/M outer segments. The blue overlay is an *artificial annotation*, not a blue-colored cone.
+
+> [!NOTE] **Terminology flag:** the figure's "OLM" (outer limiting membrane) label and the observation that the **S-cone's outer segment is shorter** than L/M outer segments are *not* in the notebook corpus — the corpus describes the cone's inner/outer segments, cell body, pedicle, and OPL wiring, but does not name the OLM or give this S-cone-specific anatomical detail. These two points come from the figure itself, which is otherwise consistent with the corpus (Palmer p. 32; Color for Science p. 101).
+
 ### 5. Ratios of Activation Across Cones
 
 Because individual cones are effectively "color blind" due to univariance, the brain computes color from the **ratio of activation** across the three cone populations:
@@ -60,11 +75,11 @@ The human retina contains vastly more rods than cones, reflecting their differen
 - **Rods:** ~120 million per eye.
 - **Cones:** ~5–8 million per eye.
 
-Cones are most densely concentrated in the **fovea**, the tiny central pit responsible for sharp, high-acuity color vision; the fovea is **completely devoid of rods**, which dominate the periphery. Among cones, **S-cones are the rarest**, making up only about **5–10%** of the total cone population.
+Cones are most densely concentrated in the **[[Rods vs. Cones - Density & Distribution|fovea]]**, the tiny central pit responsible for sharp, high-acuity color vision; the fovea is **completely devoid of rods**, which dominate the periphery. Among cones, **S-cones are the rarest**, making up only about **5–10%** of the total cone population.
 
 ## Handprint Perspectives
 
-Handprint emphasizes that wavelength perception is a highly synthetic process. The eye does not act as a spectrometer measuring exact frequencies; instead, it relies on the **ratios of stimulation across the three cone types**. Because each cone's response is a scalar (univariance), completely different physical combinations of wavelengths can produce the exact same perceived color — a phenomenon known as **metamerism**.
+Handprint emphasizes that wavelength perception is a highly synthetic process. The eye does not act as a spectrometer measuring exact frequencies; instead, it relies on the **ratios of stimulation across the three cone types**. Because each cone's response is a scalar (univariance), completely different physical combinations of wavelengths can produce the exact same perceived color — a phenomenon known as **[[Natural Light Gamut vs. Pigment Gamut - Metamerism|metamerism]]**.
 
 Understanding this biological synthesis is crucial: it explains how the visual system translates the raw physics of [[Wave Nature]] into the structured psychological experience defined by [[Opponent-Process Color Coding]]. *(Source: [[raw_sources/handprint/color18a.md|color18a.html]])*
 
@@ -72,6 +87,7 @@ Understanding this biological synthesis is crucial: it explains how the visual s
 - Photoreceptor Activation
 - L, M, and S Cones
 - Photopigments & Phototransduction
+- Cone Morphology (outer/inner segment, cell body, pedicle, OPL)
 - Ratio Coding of Color
 
 ## Cross-References
@@ -83,10 +99,10 @@ Understanding this biological synthesis is crucial: it explains how the visual s
 
 ## Sources
 
-* "Vision Science: Photons to Phenomenology" — Stephen E. Palmer
-* "Contemporary Color: Theory and Use" — Steven Bleicher
-* "Illusions of Seeing" — Thomas Ditzinger
-* "Color for Science, Art, and Technology" — Kurt Nassau (Editor)
+* "Vision Science: Photons to Phenomenology" — Stephen E. Palmer (pp. 30–33, 86: cone morphology, inner/outer segments, cell body, pedicle, OPL)
+* "Contemporary Color: Theory and Use" — Steven Bleicher (pp. 58–60, 65, 68: cone shape, iodopsin pigments, functional cone labels, L/M similarity)
+* "Illusions of Seeing" — Thomas Ditzinger (pp. 146–147: photoreceptor–pigment-epithelium relationship)
+* "Color for Science, Art, and Technology" — Kurt Nassau (Editor) (pp. 101–102: pedicles, bipolar/horizontal cell synapses, choroid contact)
 * "The Science of Paintings" (Taft & Mayer) — W. Stanley Taft Jr. and James W. Mayer
 * "A Comprehensive Overview of Color Vision Mechanisms, Color Spaces, and the Munsell System"
 * "Illustrating Color Evolution and Color Blindness"

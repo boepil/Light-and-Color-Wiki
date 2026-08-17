@@ -35,9 +35,18 @@ Bruce MacEvoy grounds the chain in the same observer machinery, but from the pai
 - Overview of the light, eye, color, painting sections
 - Suggested reading order from physics to painting
 
+## Cross-References
+- [[Light/index|Light]] — the physical stimulus
+- [[Pigments/index|Pigments]] — interaction with matter
+- [[Eye/index|Eye]] — biological transduction
+- [[Colors/index|Colors]] — the measurement systems
+- [[Painting/index|Painting]] — studio practice
+- [[Intersections/index|Intersections]] — cross-cutting questions
+- [[Intersections/Causal Chain - Pigments to Perception|Causal Chain - Pigments to Perception]] — the same chain, pigment-focused
+
 ## Sources
-* The Science of Painting — (source author not specified)
-* Contemporary Color: Theory and Applications — (source author not specified)
-* "A Comprehensive Overview of Color Vision Mechanisms, Color Spaces, and the Munsell System" — (source author not specified)
-* Illusions of Seeing — (source author not specified)
-* The Art of Color: The Subjective Experience and Objective Rationale of Color — (source author not specified)
+* "The Science of Paintings" — W. Stanley Taft Jr. and James W. Mayer
+* "Contemporary Color: Theory and Use" — Steven Bleicher
+* "A Comprehensive Overview of Color Vision Mechanisms, Color Spaces, and the Munsell System"
+* "Illusions of Seeing" — Thomas Ditzinger
+* "The Art of Color: The Subjective Experience and Objective Rationale of Color" — Johannes Itten

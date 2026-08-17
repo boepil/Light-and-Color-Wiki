@@ -5,8 +5,6 @@ sequence: 26
 ---
 <div style="float:left;width:64px;height:64px;background:#FFD02A;margin:4px 16px 8px 0;border-radius:2px;"></div>
 
-> Color swatch: closest approximation of the pigment's hue (not measured spectral data — see [[Pigments/Sourcing Real Spectral Data|Sourcing Real Spectral Data]]).
-
 **Scope:** Cadmium Yellow (PY35) — cadmium sulfide, the brilliant opaque yellow of the 19th-century palette, with strict metal-incompatibility warnings.
 
 ### Identity

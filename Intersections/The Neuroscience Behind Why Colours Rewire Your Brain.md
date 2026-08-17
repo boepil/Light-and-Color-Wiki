@@ -4,6 +4,8 @@ sequence: 92
 ---
 ![[Pasted image 20260809185633.png]]
 
+**Scope:** What neuroscience actually shows behind the popular claim that colours "rewire your brain" — the dedicated but plastic cortical circuits for colour, the evidence for experience-dependent plasticity, and the limits of the rewiring claim.
+
 The idea that colours "rewire your brain" is a popular compression of a rich body of neuroscience. What the science actually shows is that **colour is not a passive read-out of light wavelengths, but an actively constructed, experience-sensitive neural representation**. Colour information flows through dedicated cortical circuits, and those circuits are continuously modified by practice, learning, language, memory, and even unusual developmental wiring. Below is a detailed account of the neural architecture of colour, the evidence for genuine experience-dependent plasticity ("rewiring") within it, and the important limits of that claim.
 
 ## 1. The brain already has a dedicated colour "wiring plan"
@@ -57,20 +59,34 @@ Neurological patients provide a final perspective on why colour circuits are wir
 
 "Colours rewire your brain" is best understood as follows: the brain contains dedicated but highly plastic colour circuits (V1 → V4 → VO → anterior colour regions) [1,2]; repetitive practice changes the response properties and even the earliest evoked activity in these circuits [5,6]; colour categories and colour language can alter the population-level geometry of the neural colour space [7]; colour is bound into memory and knowledge, which feed back onto perception [4,8,9]; and in conditions like synesthesia, life-long colour associations leave measurable structural traces in colour-specific regions [10,11]. At the same time, the popular phrasing overstates things: the changes are specific, constrained, and often reflect reweighting of existing circuits rather than wholesale anatomical rewiring, and several dramatic "top-down" colour effects remain contested [9,12]. The neuroscience of colour is thus a showcase of the general principle that **sensory systems are shaped by the statistics of experience** — and colour, because it is so cleanly mapped onto cortical circuits and so richly connected to cognition, has become one of the best windows onto that principle.
 
-## References
+## Subtopics
 
-[[1]Mullen KT. The response to colour in the human visual cortex: the fMRI approach. Current Opinion in Behavioral Sciences. 2019;30:141-148 
-DOI: 10.1016/j.cobeha.2019.08.001](https://sci-hub.ru/10.1016/j.cobeha.2019.08.001) [[2]Siuda-Krzywicka K, Bartolomeo P. What Cognitive Neurology Teaches Us about Our Experience of Color. The Neuroscientist. 2019;26(3):252-265 
-DOI: 10.1177/1073858419882621](https://sci-hub.ru/10.1177/1073858419882621) [[3]Brogaard B, Gatzia DE. Cortical Color and the Cognitive Sciences. Topics in Cognitive Science. 2016;9(1):135-150 
-DOI: 10.1111/tops.12241](https://sci-hub.ru/10.1111/tops.12241) [[4]Spence I, Wong P, Rusan M, Rastegar N. How Color Enhances Visual Memory for Natural Scenes. Psychological Science. 2006;17(1):1-6 
-DOI: 10.1111/j.1467-9280.2005.01656.x](https://sci-hub.ru/10.1111/j.1467-9280.2005.01656.x) [[5]Xi J, Zhang P, Jia WL, et al. Multi-Stage Cortical Plasticity Induced by Visual Contrast Learning. Frontiers in Neuroscience. 2020;14 
-DOI: 10.3389/fnins.2020.555701](https://sci-hub.ru/10.3389/fnins.2020.555701) [[6]Pourtois G, Rauss KS, Vuilleumier P, Schwartz S. Effects of perceptual learning on primary visual cortex activity in humans. Vision Research. 2008;48(1):55-62 
-DOI: 10.1016/j.visres.2007.10.027](https://sci-hub.ru/10.1016/j.visres.2007.10.027) [[7]Brouwer GJ, Heeger DJ. Categorical Clustering of the Neural Representation of Color. The Journal of Neuroscience. 2013;33(39):15454-15465 
-DOI: 10.1523/jneurosci.2472-13.2013](https://sci-hub.ru/10.1523/jneurosci.2472-13.2013) [[8]Allred SR, Flombaum JI. Relating color working memory and color perception. Trends in Cognitive Sciences. 2014;18(11):562-565 
-DOI: 10.1016/j.tics.2014.06.002](https://sci-hub.ru/10.1016/j.tics.2014.06.002) [[9]Firestone C, Scholl BJ. Cognition does not affect perception: Evaluating the evidence for "top-down" effects. Behavioral and Brain Sciences. 2015;39 
-DOI: 10.1017/S0140525X15000965](https://sci-hub.ru/10.1017/S0140525X15000965) [[10]Banissy MJ, Stewart L, Muggleton NG, et al. Grapheme-color and tone-color synesthesia is associated with structural brain changes in visual regions implicated in color, form, and motion. Cognitive Neuroscience. 2011;3(1):29-35 
-DOI: 10.1080/17588928.2011.594499](https://sci-hub.ru/10.1080/17588928.2011.594499) [[11]Janik McErlean AB, Banissy MJ. Color Processing in Synesthesia: What Synesthesia Can and Cannot Tell Us About Mechanisms of Color Processing. Topics in Cognitive Science. 2016;9(1):215-227 
-DOI: 10.1111/tops.12237](https://sci-hub.ru/10.1111/tops.12237) [[12]van Leeuwen TM, Petersson KM, Hagoort P. Synaesthetic Colour in the Brain: Beyond Colour Areas. A Functional Magnetic Resonance Imaging Study of Synaesthetes and Matched Controls. PLoS ONE. 2010;5(8):e12074 
-DOI: 10.1371/journal.pone.0012074](https://sci-hub.ru/10.1371/journal.pone.0012074)
+- The dedicated cortical "wiring plan": V1 blobs → hV4/VO1/VO2, a distributed but plastic neural colour space
+- Perceptual learning: repeated practice changes response properties and even the earliest evoked activity in V1
+- Language and categories: colour naming warps the population-level geometry of the neural colour space
+- Memory and knowledge: colour is bound into encoding and feeds back onto perception (memory-colour effect)
+- Synesthesia: lifelong colour associations leave measurable structural traces in colour-specific regions
+- Limits: the "rewiring" claim is specific, constrained, and contested for strong top-down effects
 
-3m 24s · 98,907 tokens
+## Cross-References
+
+- [[Eye/Opponent-Process Color Coding]] — the retinal → cortical encoding chain this page continues
+- [[Intersections/Color Psychology & Symbolism|Color Psychology & Symbolism]] — cognition, language, and colour
+- [[Eye/Color Vision Deficiencies & Diseases]] — cortical achromatopsia and the modular colour pathways
+- [[Eye/Visual Acuity & Receptor Spacing]] — the perceptual machinery these circuits serve
+- [[Intersections/Simultaneous Contrast, Color Constancy, Afterimages, Subtractive vs. Additive Mixing|Simultaneous Contrast, Color Constancy, Afterimages]] — context effects on colour appearance
+
+## Sources
+
+* **[1]** "The response to colour in the human visual cortex: the fMRI approach" — Mullen, K. T., *Current Opinion in Behavioral Sciences* 30 (2019): 141–148. [DOI: 10.1016/j.cobeha.2019.08.001](https://doi.org/10.1016/j.cobeha.2019.08.001)
+* **[2]** "What Cognitive Neurology Teaches Us about Our Experience of Color" — Siuda-Krzywicka, K. & Bartolomeo, P., *The Neuroscientist* 26(3) (2019): 252–265. [DOI: 10.1177/1073858419882621](https://doi.org/10.1177/1073858419882621)
+* **[3]** "Cortical Color and the Cognitive Sciences" — Brogaard, B. & Gatzia, D. E., *Topics in Cognitive Science* 9(1) (2016): 135–150. [DOI: 10.1111/tops.12241](https://doi.org/10.1111/tops.12241)
+* **[4]** "How Color Enhances Visual Memory for Natural Scenes" — Spence, I., Wong, P., Rusan, M. & Rastegar, N., *Psychological Science* 17(1) (2006): 1–6. [DOI: 10.1111/j.1467-9280.2005.01656.x](https://doi.org/10.1111/j.1467-9280.2005.01656.x)
+* **[5]** "Multi-Stage Cortical Plasticity Induced by Visual Contrast Learning" — Xi, J., Zhang, P., Jia, W. L., et al., *Frontiers in Neuroscience* 14 (2020). [DOI: 10.3389/fnins.2020.555701](https://doi.org/10.3389/fnins.2020.555701)
+* **[6]** "Effects of perceptual learning on primary visual cortex activity in humans" — Pourtois, G., Rauss, K. S., Vuilleumier, P. & Schwartz, S., *Vision Research* 48(1) (2008): 55–62. [DOI: 10.1016/j.visres.2007.10.027](https://doi.org/10.1016/j.visres.2007.10.027)
+* **[7]** "Categorical Clustering of the Neural Representation of Color" — Brouwer, G. J. & Heeger, D. J., *The Journal of Neuroscience* 33(39) (2013): 15454–15465. [DOI: 10.1523/jneurosci.2472-13.2013](https://doi.org/10.1523/jneurosci.2472-13.2013)
+* **[8]** "Relating color working memory and color perception" — Allred, S. R. & Flombaum, J. I., *Trends in Cognitive Sciences* 18(11) (2014): 562–565. [DOI: 10.1016/j.tics.2014.06.002](https://doi.org/10.1016/j.tics.2014.06.002)
+* **[9]** "Cognition does not affect perception: Evaluating the evidence for 'top-down' effects" — Firestone, C. & Scholl, B. J., *Behavioral and Brain Sciences* 39 (2015). [DOI: 10.1017/S0140525X15000965](https://doi.org/10.1017/S0140525X15000965)
+* **[10]** "Grapheme-color and tone-color synesthesia is associated with structural brain changes in visual regions implicated in color, form, and motion" — Banissy, M. J., Stewart, L., Muggleton, N. G., et al., *Cognitive Neuroscience* 3(1) (2011): 29–35. [DOI: 10.1080/17588928.2011.594499](https://doi.org/10.1080/17588928.2011.594499)
+* **[11]** "Color Processing in Synesthesia: What Synesthesia Can and Cannot Tell Us About Mechanisms of Color Processing" — Janik McErlean, A. B. & Banissy, M. J., *Topics in Cognitive Science* 9(1) (2016): 215–227. [DOI: 10.1111/tops.12237](https://doi.org/10.1111/tops.12237)
+* **[12]** "Synaesthetic Colour in the Brain: Beyond Colour Areas. A Functional Magnetic Resonance Imaging Study of Synaesthetes and Matched Controls" — van Leeuwen, T. M., Petersson, K. M. & Hagoort, P., *PLoS ONE* 5(8) (2010): e12074. [DOI: 10.1371/journal.pone.0012074](https://doi.org/10.1371/journal.pone.0012074)

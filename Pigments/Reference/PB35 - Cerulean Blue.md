@@ -5,8 +5,6 @@ sequence: 39
 ---
 <div style="float:left;width:64px;height:64px;background:#4FA8C8;margin:4px 16px 8px 0;border-radius:2px;"></div>
 
-> Color swatch: closest approximation of the pigment's hue (not measured spectral data — see [[Pigments/Sourcing Real Spectral Data|Sourcing Real Spectral Data]]).
-
 **Scope:** Cerulean Blue (PB35/PB36) — cobalt stannate, the pale greenish sky blue of the Impressionists.
 
 ### Identity

@@ -25,6 +25,7 @@ sequence: 3
 * "Illustrating Color Evolution and Color Blindness" — NotebookLM source
 * "The Neuroscience Behind Why Colours "Rewire" Your Brain" — NotebookLM source
 * "Choosing Colors (Live)" — NotebookLM source
+* "Things to Know about Mixing Paint (Replay)" — Color Nerd (web/video source)
 * "True Color" — Kory Stamper
 * "Yes — some women appear to have the biological hardware for 'four-color vision' (tetrachromacy)…" — NotebookLM source
 * "Why Material Reality Favors Green Over Red: The Physical Chemistry of Chromatic Limits" — NotebookLM source

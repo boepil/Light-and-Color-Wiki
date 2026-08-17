@@ -27,7 +27,7 @@ Each system below is a **specific tool designed to solve a different problem**. 
 
 #### 2. The Traditional Artist's RYB Wheel
 
-**Creator:** developed by 18th-century theorists (e.g., J.C. Le Blon, 1703) and later formalized by art educators such as **Johannes Itten**. **Organizing principle:** historical subtractive mixing — red, yellow, and blue as "unreducible" primaries from which all other colors theoretically mix. 
+**Creator:** developed by 18th-century theorists (e.g., J.C. Le Blon, 1703) and later formalized by art educators such as **[[Bauhaus|Johannes Itten]]**. **Organizing principle:** historical subtractive mixing — red, yellow, and blue as "unreducible" primaries from which all other colors theoretically mix. 
 
 - **Benefits:** the most common model in art education, a simple framework for teaching secondary and tertiary colors, and a useful "discipline" for painters using limited palettes. 
 - **Limitations:** RYB is a **subtractive approximation** less accurate than modern CMY science; its gamut is limited, especially in the **cyan, green, and violet** ranges; and it **fails to identify true perceptual complements** — red's actual complement is **blue-green**, not green. *(Source: [[raw_sources/handprint/color16.md|color16.html]])*
@@ -40,7 +40,7 @@ Each system below is a **specific tool designed to solve a different problem**. 
 - Goethe organized colors around the **"demands" of the eye** — such as colored afterimages — and the **polarity between light and darkness**, rather than around the physics of light. 
 - **Benefits:** it foregrounds the **subjective experience** of color — emotional associations and the phenomenon of **colored shadows** — and deeply influenced the Impressionist painters. 
 - **Limitations:** Goethe rejected Newton's spectral analysis, viewing it as "absurd" because it did not align with direct sensory experience; his model was also hindered by the flawed belief that color results from light mixing with a "darkening medium." 
-- Goethe's opponent-pair structure (yellow–blue primaries, red–green) nonetheless anticipated Hering's opponent-process theory — an ironic afterlife for a theory whose physics was wrong. *(Source: [[raw_sources/huevaluechroma/073.md|073.html]])*
+- Goethe's opponent-pair structure (yellow–blue primaries, red–green) nonetheless anticipated **[[Opponent-Process Color Coding|Hering's opponent-process theory]]** — an ironic afterlife for a theory whose physics was wrong. *(Source: [[raw_sources/huevaluechroma/073.md|073.html]])*
 
 #### 4. Itten's 12-Part Color Wheel (Bauhaus)
 
@@ -54,7 +54,7 @@ Each system below is a **specific tool designed to solve a different problem**. 
 
 **Creator:** Albert Henry Munsell, *A Color Notation* (1905). **Organizing principle:** perceptual uniformity.
 
-- Munsell organized color along **three independent dimensions — Hue, Value (lightness), and Chroma (saturation)** — and was the first to acknowledge that color perception is "chaotic" and does not fit a regular shape; the system forms an irregular **"color tree"** in which **different hues reach maximum chroma at different values**. It remains a **global standard** for industry and manufacturing. 
+- **[[Munsell Notation|Munsell]]** organized color along **three independent dimensions — Hue, Value (lightness), and Chroma (saturation)** — and was the first to acknowledge that color perception is "chaotic" and does not fit a regular shape; the system forms an irregular **"color tree"** in which **different hues reach maximum chroma at different values**. It remains a **global standard** for industry and manufacturing. 
 - **Limitations:** being three-dimensional, it is **difficult to represent on a single flat wheel** for studio use, and it offers **no direct instructions for mixing specific pigments**. 
 - Briggs: the concept of absolute chroma, the key of the system, "was devised by the American artist and art teacher, Albert Munsell," and the hue/value/chroma framework "has proved especially useful to painters." *(Source: [[raw_sources/huevaluechroma/011.md|011.html]], [[raw_sources/huevaluechroma/112.md|112.html]])*
 
@@ -62,7 +62,7 @@ Each system below is a **specific tool designed to solve a different problem**. 
 
 **Creator:** Commission Internationale de l'Eclairage (1931; updated 1976). **Organizing principle:** additive light and cone sensitivity.
 
-- CIE colorimetry uses **mathematical algorithms to match color stimuli to the responses of the human eye's photoreceptors**, providing a **device-independent "universal translator"** for color — precise matching across monitors, printers, and materials. 
+- **[[CIE Systems|CIE colorimetry]]** uses **mathematical algorithms to match color stimuli to the responses of the human eye's photoreceptors**, providing a **device-independent "universal translator"** for color — precise matching across monitors, printers, and materials. 
 - **Limitations:** the coordinate systems (L\*a\*b\*) are **highly abstract and mathematical**, unintuitive for traditional painters who think in terms of pigment names. 
 - The quasi-opponent CIE L\*a\*b\* system spaces hues perceptually while keeping an opponent red–green / yellow–blue axis structure — a descendant of both Newton's circle and Hering's axes. *(Source: [[raw_sources/huevaluechroma/073.md|073.html]])*
 

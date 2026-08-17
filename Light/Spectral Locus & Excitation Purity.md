@@ -33,7 +33,7 @@ The **dominant wavelength** of a color is found by drawing a straight line from 
 
 **Excitation purity** (colorimetric purity) is the physical measure of how much monochromatic light a color contains, computed as a **distance ratio** on the diagram — the "law of the lever" relative to the white point.
 
-- Geometry: **W** = white point, **C** = the color being measured, **A** = the point on the spectral locus at the dominant wavelength. Then purity = **100·a/(a+w)**, where **a** is the distance W→C and **w** is the distance C→A. The locus is the set of **100% purity** points; the white point is **0%**; whites/grays anchored by **D65** (average daylight) or the **equal-energy point E** give the 0 % reference.
+- Geometry: **W** = white point, **C** = the color being measured, **A** = the point on the spectral locus at the dominant wavelength. Then purity = **100·a/(a+w)**, where **a** is the distance W→C and **w** is the distance C→A. The locus is the set of **100% purity** points; the white point is **0%**; whites/grays anchored by **[[Illuminants & Correlated Color Temperature|D65]]** (average daylight) or the **equal-energy point E** give the 0 % reference.
 - Worked examples from the textbook: a beam with coordinates **(0.20, 0.45)** has dominant wavelength **510 nm** and purity **30 %**; a purple beam at **(0.33, 0.15)** has complementary dominant wavelength **540c** and purity **70 %**.
 - Purity is a **physical ratio of spectral content**, not perceived saturation: the CIE 1931 xy diagram is not visually uniform, so "the same distance in the blue region represents a much smaller visual change than in the green region" — colors of equal excitation purity appear differently saturated.
 

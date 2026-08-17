@@ -19,7 +19,7 @@ Reflection occurs when light waves "bounce off an object": the **incident beam**
 
 ### Why Emissive and Reflective Media Diverge
 
-- **Primary systems:** emissive displays add light (**RGB**; full intensity → white); reflective paint/print subtract (**CMY**; ideal full mix → black).
+- **Primary systems:** emissive displays add light (**RGB**; full intensity → white); reflective paint/print subtract (**[[Why CMY Beats RYB for Color Mixing|CMY]]**; ideal full mix → black).
 - **Gamut:** additive displays "typically offer a larger color gamut than subtractive print" — projected light looks "more saturated, vivid, and 'vibrant'" than light reflected off a surface.
 - **Black point:** emissive black is the absence of light (**R=G=B=0** — though ambient light on screens limits the practical darkest black); reflective black requires absorbing all incident light — yet traditional pigments "can generally only 'cancel' color to a dull, dark gray," and the paper substrate's reflectance caps the print black point.
 

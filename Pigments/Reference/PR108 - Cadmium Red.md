@@ -5,8 +5,6 @@ sequence: 29
 ---
 <div style="float:left;width:64px;height:64px;background:#D22A2C;margin:4px 16px 8px 0;border-radius:2px;"></div>
 
-> Color swatch: closest approximation of the pigment's hue (not measured spectral data — see [[Pigments/Sourcing Real Spectral Data|Sourcing Real Spectral Data]]).
-
 **Scope:** Cadmium Red (PR108) — cadmium sulfoselenide, the 20th-century replacement for vermilion, with warning-level handling notes.
 
 ### Identity

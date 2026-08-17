@@ -5,8 +5,6 @@ sequence: 36
 ---
 <div style="float:left;width:64px;height:64px;background:#1B7A4A;margin:4px 16px 8px 0;border-radius:2px;"></div>
 
-> Color swatch: closest approximation of the pigment's hue (not measured spectral data — see [[Pigments/Sourcing Real Spectral Data|Sourcing Real Spectral Data]]).
-
 **Scope:** Phthalo Green (PG7) — chlorinated copper phthalocyanine, the staining powerhouse whose masstone is nearly black and whose mixtures must be managed.
 
 ### Identity

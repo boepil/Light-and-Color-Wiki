@@ -5,8 +5,6 @@ sequence: 27
 ---
 <div style="float:left;width:64px;height:64px;background:#F7D117;margin:4px 16px 8px 0;border-radius:2px;"></div>
 
-> Color swatch: closest approximation of the pigment's hue (not measured spectral data — see [[Pigments/Sourcing Real Spectral Data|Sourcing Real Spectral Data]]).
-
 **Scope:** Hansa Yellow (PY97) — the synthetic monoarylide azo yellow that replaced gamboge and Indian yellow, brilliant and non-poisonous, the standard high-chroma yellow of the modern palette.
 
 ### Identity

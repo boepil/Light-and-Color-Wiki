@@ -30,14 +30,16 @@ The molecular and structural properties of green pigments make them physically s
 - **Sharp absorption edges:** green organic pigments, particularly **[[High-Chroma Synthetics|copper phthalocyanines]]**, possess exceptionally sharp absorption edges. They can be engineered to absorb blue and red light aggressively while leaving a narrow, high-reflectance "transmission window" in the green.
 - **Broad red transitions:** red pigments require a much broader absorption band (400–580 nm) to eliminate blue and green. This breadth makes it harder to maintain "steep" transitions, resulting in reflectance spectra that are "contaminated" by adjacent wavelengths. Even the best organic reds show "vibrational overtones" that desaturate the color.
 - **Scattering and IR leakage:** green pigments often exhibit efficient diffuse reflectance. Red pigments, however, frequently suffer from **near-infrared (IR) leakage** and forward scattering, which adds invisible energy that broadens the measured reflectance spectrum and mathematically reduces calculated chroma.
+- **The real-paint record at maximum chroma runs the other way:** when the constraint of *lightness* is dropped, warm pigments outrun the cool ones. 1951 industry standards list **Cadmium Red Light at 10.0 Munsell chroma units while Viridian tops out at 4.5** — green's supremacy is a high-lightness achievement, not an absolute chroma record (see the Contradiction Flag for the full reconciliation).
 
 ### 4. Evolutionary Tuning
 
-The visual system evolved to exploit the abundance of green in the natural world.
+The empirical asymmetry is one thing; the evolutionary gloss on it is another — and the corpus supports the physics while being far more cautious about the psychology.
 
-- **Primate evolution:** humans have survived through 20 million years of primate evolution staring at leaves. Green represented resources, growth, and safety.
-- **Neural efficiency:** because green sits in the exact middle of the visible spectrum, the retina processes it with a **lower physiological load**, leading the brain to interpret green environments as restful or "safe".
-- **Opponent sensitivity:** the **[[Eye/Wavelength Perception|L and M cones]]**, which drive the red–green opponent channel, have overlapping sensitivities that peak in the yellow-green region. This makes the visual system exquisitely sensitive to small chromatic changes in green, even if the "red" end of the channel is theoretically just as important.
+- **Daylight-optimized primacy:** primate color vision is described in the corpus as evolved to optimize visual performance **under daylight**, where the luminosity function peaks in the green region — enabling finer discrimination precisely in the spectral band where **vegetation reflectance** is abundant.
+- **Opponent sensitivity:** the **[[Eye/Wavelength Perception|L and M cones]]**, which drive the red–green opponent channel, have overlapping sensitivities that peak in the yellow-green region. This makes the visual system exquisitely sensitive to small chromatic changes in green.
+- **Subjective "restfulness" (Munsell's characterization, not measured physiology):** the soothing quality of green is a *characterization*, not an established effect — Munsell himself described the sensation of green as "intermediate" and "soothing" compared with the "powerful stimulation" of red. As MacEvoy documents (see Handprint Perspectives), academic color research since about 1890 has failed to establish consistent physiological effects of hue.
+- **Storytelling needs caution:** popular claims that green reads as "safety" or that primates spent "millions of years staring at leaves" go beyond what the corpus's evidence supports; the restful-green reading is best treated as cultural interpretation layered onto a physical fact.
 
 ### Summary Comparison of Constraints
 
@@ -61,7 +63,7 @@ MacEvoy also puts the evolutionary-emotional gloss under suspicion. He explicitl
 - The luminosity function "green window" at 555 nm and red's "pure but dark, or light but dull" bind
 - MacAdam limits asymmetry and Pointer's Gamut (1980) confirmation
 - Phthalocyanine sharp edges vs broad red absorption bands, IR leakage and scattering
-- Evolutionary tuning claims and their weak empirical status (MacEvoy's debunk)
+- Evolutionary tuning: daylight-optimized vision and vegetation reflectance — and the weak empirical status of "green is restful" (Munsell's characterization; MacEvoy's debunk)
 - Theoretical ceiling (green 34) vs real-pigment record (red-orange 16): a lopsided-solid reconciliation
 
 ## Cross-References
@@ -82,5 +84,8 @@ MacEvoy also puts the evolutionary-emotional gloss under suspicion. He explicitl
 * "The Material Supremacy of Green Chroma"
 * "A Comprehensive Overview of Color Vision Mechanisms, Color Spaces, and the Munsell System"
 * "Color for Science, Art, and Technology" — Kurt Nassau (Editor)
+* "The Artist's Handbook of Materials and Techniques" — Ralph Mayer (1951 industry chroma standards: Cadmium Red Light 10.0 vs. Viridian 4.5)
+* "A Color Notation" — Albert H. Munsell (green as "intermediate"/"soothing" vs. red's "powerful stimulation")
+* "Things to Know about Mixing Paint (Replay)" — Color Nerd (orange-red absolute chroma vs. cool-pigment limits)
 * "handprint: color temperature" — MacEvoy ([[raw_sources/handprint/color12.md|color12.html]])
 * "handprint: modern color theory (applications)" — MacEvoy ([[raw_sources/handprint/color18b.md|color18b.html]])

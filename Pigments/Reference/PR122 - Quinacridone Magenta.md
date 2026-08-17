@@ -5,8 +5,6 @@ sequence: 42
 ---
 <div style="float:left;width:64px;height:64px;background:#A52A6E;margin:4px 16px 8px 0;border:1px solid #999;border-radius:2px;"></div>
 
-> Color swatch: closest approximation of the pigment's hue (not measured spectral data — see [[Pigments/Sourcing Real Spectral Data|Sourcing Real Spectral Data]]).
-
 **Scope:** Quinacridone Magenta (PR122) — the dimethyl trans-linear quinacridone that gave painters a permanent, transparent magenta, replacing the fugitive aniline magentas and outlasting alizarin.
 
 ### Identity

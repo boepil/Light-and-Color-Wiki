@@ -48,7 +48,7 @@ Painters have historically manipulated falloff and value contrast to heighten th
 
 Shadows are rarely neutral grays or blacks; they are lit by secondary environmental light sources:
 
-- **Sky Fill & Rayleigh Scattering:** Outdoors under direct sunlight, the sun acts as a warm point source, while the entire dome of the sky acts as a vast, secondary blue source due to **Rayleigh scattering** ($1/\lambda^4$ short-wavelength scattering). Consequently, planes in shadow that face upward "see" the sky and absorb cool blue or violet light.
+- **Sky Fill & Rayleigh Scattering:** Outdoors under direct sunlight, the sun acts as a warm point source, while the entire dome of the sky acts as a vast, secondary blue source due to **[[Natural Daylight Variation & Hyperspectral Scene Data|Rayleigh scattering]]** ($1/\lambda^4$ short-wavelength scattering). Consequently, planes in shadow that face upward "see" the sky and absorb cool blue or violet light.
 - **Warm Key vs. Cool Shadow Inversion:** A warm light source (e.g. golden late-afternoon sun or 2800 K tungsten) produces cool blue-violet shadows, whereas a cool light source (e.g. 10,000 K north skylight) produces warm ochre-brown shadows — a phenomenon driven by visual adaptation and the eye's opponent contrast. **[[Post-Impressionism|Vincent van Gogh]]** systematically exploited this in *Night (after Millet)*, pairing warm firelight with deep blue shadows.
 - **Ambient Occlusion & Reflected Bounces:** **Ambient occlusion** is the localized darkening in tight crevices, cracks, and contact points where neither key light nor sky fill can penetrate. Conversely, downward-facing shadow planes catch warm **reflected light** bounced from the ground or tabletop, saturating the shadow core with environmental color.
 

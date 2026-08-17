@@ -14,7 +14,7 @@ In **1942**, David MacAdam published a landmark study in the *Journal of the Opt
 
 - **The setup:** a specialized **colorimeter** showed a split circular field. One half displayed a fixed "test" color; the observer adjusted the other half until it matched.
 - **Measuring the spread:** rather than averaging the "correct" match, MacAdam measured the **standard deviation of the matching errors** across **25 different target colors**. Because matching is never perfect (the eye has built-in noise), the range of coordinates an observer accepted as a match defined the threshold of noticeable difference around each color.
-- **The ellipse appears:** when these match-regions were plotted on the **CIE 1931 xy diagram**, they came out as ellipses — every point on an ellipse's edge is about one JND away from its center color.
+- **The ellipse appears:** when these match-regions were plotted on the **[[CIE Systems|CIE 1931 xy diagram]]**, they came out as ellipses — every point on an ellipse's edge is about one JND away from its center color.
 
 ### 2. Ellipses that vary wildly in size and angle
 
@@ -36,13 +36,13 @@ The ellipses reveal the sampling limit of human vision — with direct consequen
 
 MacAdam's work was the main reason color science built **perceptually uniform spaces** — maps warped so that every JND region becomes a perfect, equal-sized circle:
 
-- **CIELAB and CIELUV (1976):** introduced by the CIE as a more honest "color difference ruler."
+- **[[Why Lab-Munsell Were Built for Perceptual Uniformity|CIELAB]] and CIELUV (1976):** introduced by the CIE as a more honest "color difference ruler."
 - **MacAdam's own attempt:** before 1976, MacAdam proposed the **CIE 1960 UCS (Uniform Chromaticity Scale)** with u, v coordinates designed to linearize visual distances.
 - **ΔE:** in uniform spaces, the distance between two colors — **ΔE** — quantifies the perceived difference, with **1.0** usually taken as about one JND.
 
 ### 5. The Munsell connection
 
-The Munsell system (1905) was the first major attempt to order color by visual judgment:
+The **[[Munsell Notation|Munsell system]]** (1905) was the first major attempt to order color by visual judgment:
 
 - **The comparison:** a circle of constant Munsell chroma plotted on the xy diagram becomes a highly distorted, elongated oval. Between the green-yellow and purple-blue regions, the same *perceived* step is **3.86 times larger** in distance on the diagram.
 - **Renotation (1943):** MacAdam's insights anchored the Munsell system to precise CIE coordinates, making its visual spacing scientifically rigorous.
