@@ -1,5 +1,12 @@
 # Ingest Log
 
+## [2026-08-17] ingest | two-figure pair: cone sensitivity curves + opponent-processing diagram
+- **User supplied two images showing two stages of color vision** -- cone spectral-sensitivity plot + opponent-channel diagram ("Stage 2: Color Opponent Cortex"). Files copied from Desktop to `images/cone-spectral-sensitivity.webp` and `images/color-opponent-processing.jpg`.
+- **Placement**: Figure A (cone curves) embedded in `Eye/Wavelength Perception.md` section 2 (Peak Sensitivity Wavelengths and Ranges) with a NOTE correcting the plot's "blue/green/red receptor" labels to S/M/L (L peaks in yellow-green/orange, not red) and emphasizing curve overlap at 500 nm. Figure B (opponent algebra) embedded in `Eye/Opponent-Process Color Coding.md` section 3 alongside the Hurvich-Jameson measured curves, presenting the L-M / S-(L+M) / L+M channel algebra and flagging that the diagram's "Color Opponent Cortex" label is mistyped -- this stage begins in the retina.
+- **Verification via direct NotebookLM query** (session `1d22b6dd`, `source_format: none`): all confirmed -- peaks ~440/530/560 (Palmer p. 112) and S 420 (Gage p. 11), enormous overlap with 500 nm stimulating all three, S/M/L terminology as the imprecise-label correction, opponent algebra L-M / S-(L+M) / L+M exactly as in Krauskopf Fig 3.12 (Color for Science p. 116) and Palmer pp. 113-114, no separate yellow/red receptor, Hering 1878 + Hurvich-Jameson 1957.
+- Sources extended with page refs (Palmer 110-114, Color for Science p. 116, Ditzinger p. 138, Gage p. 11). Trackers: page-status.md (both already `done`; no change), log.md.
+
+
 ## [2026-08-17] verify | Eye/Wavelength Perception.md -- cone morphology section (S-cone histology figure)
 - **User supplied vertical histological section of human cone layer** (`images/Pasted image 20260813175705.png`) -- a real microscopic image annotated to show L/M vs S-cone morphology; asked where it fits and whether text is needed.
 - **Placement**: added "### 4b. Cone Morphology: the Anatomy of an Individual Cone" in `Eye/Wavelength Perception.md` (after the photopigments/phototransduction section, the natural home for cone ultrastructure) with the image embed mid-page.

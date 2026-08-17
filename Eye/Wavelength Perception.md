@@ -30,6 +30,12 @@ Cone sensitivity is not restricted to a single wavelength but spans a broad, ove
 
 The human visual system is most sensitive to **yellow light**, which falls where the M and L cone sensitivities overlap most significantly.
 
+![[cone-spectral-sensitivity.webp]]
+
+The plot above shows why trichromatic vision works at all: the three curves are **broad and overlapping**. A single wavelength like **500 nm** does not switch on one "color" cone — it stimulates **all three cone classes in different proportions** (strongly the M cones, moderately the L cones, weakly the S cones). The nervous system never sees "how much light per wavelength" but only "how active is each cone type relative to the others" — the proportions *are* the color signal.
+
+> [!NOTE] **Terminology:** the labels "blue," "green," and "red" receptor on this kind of plot are **shorthand, not physiology**. The correct names are **S (short), M (middle), and L (long) wavelength** cones, each named for where its sensitivity peaks in the spectrum — and even the L cone peaks in the **yellow-green to orange region (~560 nm)**, not in red. The peaks plotted here (~420–440 nm for S, ~530 nm for M, ~560 nm for L) fall within the ranges in the table above (Palmer p. 112; Gage p. 11).
+
 ### 3. The Principle of Univariance
 
 A fundamental constraint of individual photoreceptors is the **principle of univariance**: once a photon is absorbed by a cone, all information about its specific wavelength is lost — the cone's output is a single scalar value representing only the total number of photons absorbed. A single cone therefore cannot distinguish between a change in wavelength and a change in intensity. For example, a weak light at the cone's peak sensitivity can produce the same neural response as an intense light where the cone is less sensitive. **Color perception is only possible by comparing the outputs of multiple cone types.**
@@ -99,7 +105,8 @@ Understanding this biological synthesis is crucial: it explains how the visual s
 
 ## Sources
 
-* "Vision Science: Photons to Phenomenology" — Stephen E. Palmer (pp. 30–33, 86: cone morphology, inner/outer segments, cell body, pedicle, OPL)
+* "Vision Science: Photons to Phenomenology" — Stephen E. Palmer (pp. 30–33, 86, 112: cone morphology, inner/outer segments, cell body, pedicle, OPL; cone sensitivity curves and peaks 440/530/560)
+* "Colour in Art" — John Gage (p. 11: cone peaks 420/530/560)
 * "Contemporary Color: Theory and Use" — Steven Bleicher (pp. 58–60, 65, 68: cone shape, iodopsin pigments, functional cone labels, L/M similarity)
 * "Illusions of Seeing" — Thomas Ditzinger (pp. 146–147: photoreceptor–pigment-epithelium relationship)
 * "Color for Science, Art, and Technology" — Kurt Nassau (Editor) (pp. 101–102: pedicles, bipolar/horizontal cell synapses, choroid contact)
