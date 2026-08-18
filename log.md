@@ -1,5 +1,11 @@
 # Ingest Log
 
+## [2026-08-17] ingest | Mix-to-gray interactive app embedded
+- **User's `mix-to-gray.html`** (repo root, self-contained: inline CSS/JS, no deps) embedded as an interactive iframe in `Intersections/Perceptual Complements vs. Mixing Complements.md` §2b "Try It: The Mix-to-Gray Simulator" -- the closest topic match (two-pigment subtractive mixtures -> neutral gray). Per user decision: no on-page flag about the Gaussian model; noted instead in `to do.md` (in-progress item 2).
+- **How it serves**: Quartz builds with `-d ..` (repo root is the content dir), so the Assets emitter copies every non-MD file verbatim; `mix-to-gray.html` will deploy at `/Light-and-Color-Wiki/mix-to-gray.html`. Raw `<iframe>` HTML passes through Quartz (rehypeRaw on, `enableInHtmlEmbed: false` affects only `![[...]]` embeds, which we don't use). Relative `../mix-to-gray.html` resolves correctly in both Obsidian (vault-relative) and the deployed site (page lives in Intersections/).
+- Page copy: explains the app in section-2 terms (hue/value/purity fixed as a set, mixed reflectance curve + L/M/S cone integration, distance-from-neutral meter, "mud" behavior). Subtopics bullet added. `to do.md` updated. log.md updated.
+
+
 ## [2026-08-17] ingest | two-figure pair: cone sensitivity curves + opponent-processing diagram
 - **User supplied two images showing two stages of color vision** -- cone spectral-sensitivity plot + opponent-channel diagram ("Stage 2: Color Opponent Cortex"). Files copied from Desktop to `images/cone-spectral-sensitivity.webp` and `images/color-opponent-processing.jpg`.
 - **Placement**: Figure A (cone curves) embedded in `Eye/Wavelength Perception.md` section 2 (Peak Sensitivity Wavelengths and Ranges) with a NOTE correcting the plot's "blue/green/red receptor" labels to S/M/L (L peaks in yellow-green/orange, not red) and emphasizing curve overlap at 500 nm. Figure B (opponent algebra) embedded in `Eye/Opponent-Process Color Coding.md` section 3 alongside the Hurvich-Jameson measured curves, presenting the L-M / S-(L+M) / L+M channel algebra and flagging that the diagram's "Color Opponent Cortex" label is mistyped -- this stage begins in the retina.

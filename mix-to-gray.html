@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mix to Gray</title>
+<style>
+  :root {
+    --bg: #0a0a0d;
+    --panel: #131317;
+    --panel-alt: #17171c;
+    --border: #26262e;
+    --text: #eeeeec;
+    --text-dim: #86868f;
+    --text-faint: #55555e;
+    --amber: #f2c14e;
+    --amber-dim: #6b5a2c;
+    --mono: ui-monospace, "SF Mono", "Cascadia Code", Menlo, Consolas, monospace;
+    --sans: ui-sans-serif, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; background: var(--bg); color: var(--text); font-family: var(--sans); -webkit-font-smoothing: antialiased; }
+  .app { max-width: 720px; margin: 0 auto; padding: 28px 20px 60px; }
+  .eyebrow { font-family: var(--mono); font-size: 11px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--amber); }
+  h1 { font-size: 24px; font-weight: 650; margin: 2px 0 4px; letter-spacing: -0.01em; }
+  .subhead { color: var(--text-dim); font-size: 13.5px; max-width: 620px; line-height: 1.5; margin-bottom: 22px; }
+
+  .piles { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-bottom: 16px; }
+  @media (max-width: 560px) { .piles { grid-template-columns: 1fr; } }
+  .pile {
+    background: var(--panel); border: 1px solid var(--border); border-radius: 14px;
+    padding: 16px; display: flex; flex-direction: column; gap: 12px;
+  }
+  .pile-head { display: flex; align-items: center; gap: 10px; }
+  .pile-dot { width: 22px; height: 22px; display: block; box-shadow: 0 0 12px 1px currentColor; flex-shrink: 0; border-radius: 50%; }
+  .pile-name { font-family: var(--mono); font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--text-dim); }
+  .slider-block label {
+    display: flex; justify-content: space-between; font-family: var(--mono); font-size: 10.5px; color: var(--text-faint); margin-bottom: 6px;
+  }
+  .slider-block .val { color: var(--text-dim); }
+  input[type=range] { -webkit-appearance: none; width: 100%; height: 3px; background: var(--border); border-radius: 2px; outline: none; }
+  input[type=range]::-webkit-slider-thumb { -webkit-appearance: none; width: 14px; height: 14px; border-radius: 50%; background: #d8d8d4; cursor: pointer; box-shadow: 0 0 0 3px rgba(255,255,255,0.06); }
+
+  .palette { display: grid; grid-template-columns: repeat(5, 1fr); gap: 6px; }
+  .swatch-btn {
+    aspect-ratio: 1; border-radius: 8px; border: 2px solid transparent;
+    cursor: pointer; padding: 0; transition: transform 0.08s ease, border-color 0.08s ease;
+  }
+  .swatch-btn:hover { transform: scale(1.1); }
+  .swatch-btn.active { border-color: var(--amber); box-shadow: 0 0 0 1px var(--amber), 0 0 10px -1px rgba(242,193,78,0.6); }
+
+  .panel { background: var(--panel); border: 1px solid var(--border); border-radius: 14px; padding: 16px; margin-bottom: 14px; }
+  .section-title { font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--text-dim); margin-bottom: 10px; }
+
+  .graph-wrap { background: var(--panel-alt); border: 1px solid var(--border); border-radius: 10px; padding: 10px 12px 6px; }
+  .graph-legend { display: flex; gap: 14px; font-family: var(--mono); font-size: 9px; color: var(--text-faint); margin-top: 4px; }
+  .graph-legend span { display: flex; align-items: center; gap: 4px; }
+  .legend-swatch { width: 8px; height: 2px; display: inline-block; }
+
+  .result-row { display: flex; gap: 14px; align-items: stretch; flex-wrap: wrap; }
+  .swatch { flex: 1; min-width: 180px; height: 100px; border-radius: 10px; border: 1px solid var(--border); display: flex; align-items: flex-end; justify-content: flex-end; padding: 10px; }
+  .swatch .rgb-label { font-family: var(--mono); font-size: 11px; background: rgba(0,0,0,0.5); color: #fff; padding: 4px 8px; border-radius: 6px; }
+
+  .meter-col { flex: 1; min-width: 200px; display: flex; flex-direction: column; justify-content: center; gap: 8px; }
+  .meter-head { display: flex; justify-content: space-between; font-family: var(--mono); font-size: 11px; color: var(--text-dim); }
+  .meter-track { height: 10px; background: var(--panel-alt); border: 1px solid var(--border); border-radius: 5px; overflow: hidden; }
+  .meter-fill { height: 100%; border-radius: 5px; transition: width 0.15s ease, background 0.15s ease; }
+  .badge { align-self: flex-start; font-family: var(--mono); font-size: 11px; letter-spacing: 0.08em; padding: 6px 12px; border-radius: 999px; border: 1px solid var(--border); color: var(--text-faint); }
+  .badge.won { color: #16140a; background: var(--amber); border-color: var(--amber); font-weight: 600; box-shadow: 0 0 20px -4px rgba(242,193,78,0.5); }
+
+  footer { margin-top: 6px; font-size: 11.5px; color: var(--text-faint); line-height: 1.6; max-width: 680px; }
+</style>
+</head>
+<body>
+<div class="app">
+  <div class="eyebrow">Pigment · Subtractive Mixing</div>
+  <h1>Mix to gray</h1>
+  <div class="subhead">Two piles of pigment. Pick a real pigment for each pile — hue and value come as a set, the way a real tube of paint works — then dial how much of each is in the mix, and try to land on neutral gray.</div>
+
+  <div class="piles">
+    <div class="pile">
+      <div class="pile-head">
+        <svg class="pile-dot" id="dotA" viewBox="0 0 24 24" width="22" height="22">
+          <circle cx="12" cy="12" r="10" fill="none" stroke-width="2" id="ringA"/>
+          <circle cx="12" cy="12" r="0" id="fillA"/>
+        </svg>
+        <div class="pile-name" id="nameA"></div>
+      </div>
+      <div class="slider-block">
+        <label>Pigment</label>
+        <div class="palette" id="paletteA"></div>
+      </div>
+      <div class="slider-block">
+        <label>Amount <span class="val" id="amtValA"></span></label>
+        <input type="range" id="amtSliderA" min="0" max="100" step="1" value="75" oninput="updatePile('A','amount',this.value)">
+      </div>
+    </div>
+    <div class="pile">
+      <div class="pile-head">
+        <svg class="pile-dot" id="dotB" viewBox="0 0 24 24" width="22" height="22">
+          <circle cx="12" cy="12" r="10" fill="none" stroke-width="2" id="ringB"/>
+          <circle cx="12" cy="12" r="0" id="fillB"/>
+        </svg>
+        <div class="pile-name" id="nameB"></div>
+      </div>
+      <div class="slider-block">
+        <label>Pigment</label>
+        <div class="palette" id="paletteB"></div>
+      </div>
+      <div class="slider-block">
+        <label>Amount <span class="val" id="amtValB"></span></label>
+        <input type="range" id="amtSliderB" min="0" max="100" step="1" value="75" oninput="updatePile('B','amount',this.value)">
+      </div>
+    </div>
+  </div>
+
+  <div class="panel">
+    <div class="section-title">Mixed reflectance</div>
+    <div class="graph-wrap">
+      <svg id="graphSvg" viewBox="0 0 520 130" width="100%" height="130" preserveAspectRatio="none"></svg>
+      <div class="graph-legend">
+        <span><span class="legend-swatch" style="background:#e0483e"></span>L cone</span>
+        <span><span class="legend-swatch" style="background:#4bb35e"></span>M cone</span>
+        <span><span class="legend-swatch" style="background:#4a90d9"></span>S cone</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="panel">
+    <div class="section-title">Result</div>
+    <div class="result-row">
+      <div class="swatch" id="swatch"><span class="rgb-label" id="rgbLabel"></span></div>
+      <div class="meter-col">
+        <div class="meter-head"><span>Distance from neutral</span><span id="spreadVal">—</span></div>
+        <div class="meter-track"><div class="meter-fill" id="meterFill"></div></div>
+        <div class="badge" id="badge">MIX TO FIND OUT</div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    Each pigment's hue, value, and purity are fixed together, the way a real tube of paint is — you don't get to dial Ultramarine any lighter than Ultramarine actually is. The only continuous control is how much of each pigment goes into the mix. Real complements rarely cancel to a perfectly neutral gray either — getting the spread under ~35 is a genuinely good result.
+  </footer>
+</div>
+
+<script>
+function gauss(x, mu, sigma) { return Math.exp(-((x-mu)**2)/(2*sigma*sigma)); }
+const CONE = { L:{mu:564,sigma:30,color:'#e0483e'}, M:{mu:545,sigma:32,color:'#4bb35e'}, S:{mu:430,sigma:20,color:'#4a90d9'} };
+const EXPOSURE = 2.7;
+
+// Each real pigment's hue, value (baseline), and purity (sigma) are fixed
+// together as a set - that's the point: you select a real paint, you don't
+// dial an abstract color space.
+const PIGMENTS = [
+  { name: 'Cadmium Yellow',   hue: 570, baseline: 0.14, sigma: 26 },
+  { name: 'Yellow Ochre',     hue: 578, baseline: 0.30, sigma: 55 },
+  { name: 'Cadmium Orange',   hue: 600, baseline: 0.09, sigma: 24 },
+  { name: 'Cadmium Red',      hue: 628, baseline: 0.10, sigma: 26 },
+  { name: 'Alizarin Crimson', hue: 655, baseline: 0.05, sigma: 30 },
+  { name: 'Ultramarine Blue', hue: 465, baseline: 0.05, sigma: 28 },
+  { name: 'Cerulean Blue',    hue: 492, baseline: 0.17, sigma: 32 },
+  { name: 'Viridian',         hue: 508, baseline: 0.09, sigma: 26 },
+  { name: 'Sap Green',        hue: 535, baseline: 0.26, sigma: 50 },
+  { name: 'Burnt Sienna',     hue: 615, baseline: 0.22, sigma: 60 },
+];
+
+function pigmentReflectance(nm, peak, baseline, sigma) { return baseline + (1-baseline) * gauss(nm, peak, sigma); }
+function diluted(nm, peak, baseline, sigma, amount) {
+  const full = pigmentReflectance(nm, peak, baseline, sigma);
+  const a = amount/100;
+  return 1 - a*(1-full);
+}
+function mixedReflectanceAt(nm, piles) {
+  let r = 1;
+  for (const p of piles) {
+    const pig = PIGMENTS[p.idx];
+    r *= diluted(nm, pig.hue, pig.baseline, pig.sigma, p.amount);
+  }
+  return r;
+}
+function computeLMS(piles) {
+  let L=0,M=0,S=0;
+  for (let nm=380; nm<=700; nm+=5) {
+    const refl = mixedReflectanceAt(nm, piles);
+    L += gauss(nm, CONE.L.mu, CONE.L.sigma) * refl;
+    M += gauss(nm, CONE.M.mu, CONE.M.sigma) * refl;
+    S += gauss(nm, CONE.S.mu, CONE.S.sigma) * refl;
+  }
+  return {L,M,S};
+}
+function lmsToRGB(L,M,S) {
+  let X=1.86006661*L-1.129771*M+0.219968*S;
+  let Y=0.361122*L+0.638804*M-0.000008*S;
+  let Z=1.089064*S;
+  const gammaCorrect=c=>c<=0.0031308?12.92*c:1.055*Math.pow(Math.max(c,0),1/2.4)-0.055;
+  let r=(3.2406*X-1.5372*Y-0.4986*Z)/100*EXPOSURE;
+  let g=(-0.9689*X+1.8758*Y+0.0415*Z)/100*EXPOSURE;
+  let b=(0.0557*X-0.2040*Y+1.0570*Z)/100*EXPOSURE;
+  r=gammaCorrect(r);g=gammaCorrect(g);b=gammaCorrect(b);
+  const clamp=c=>Math.max(0,Math.min(255,Math.round(c*255)));
+  return {r:clamp(r),g:clamp(g),b:clamp(b)};
+}
+function singlePigmentRGB(idx) {
+  const {L,M,S} = computeLMS([{idx, amount:100}]);
+  return lmsToRGB(L,M,S);
+}
+const PIGMENT_RGB = PIGMENTS.map((p,i) => singlePigmentRGB(i));
+
+const state = {
+  A: { idx: 5, amount: 75 }, // Ultramarine Blue
+  B: { idx: 7, amount: 75 }, // Viridian - a deliberately wrong starting pair
+};
+
+function setupPalette(pile) {
+  const el = document.getElementById('palette'+pile);
+  el.innerHTML = PIGMENTS.map((p,i) => {
+    const rgb = PIGMENT_RGB[i];
+    return `<button class="swatch-btn" id="sw${pile}${i}" style="background:rgb(${rgb.r},${rgb.g},${rgb.b})" title="${p.name}" onclick="selectPigment('${pile}',${i})"></button>`;
+  }).join('');
+}
+function selectPigment(pile, idx) {
+  state[pile].idx = idx;
+  renderAll();
+}
+
+function graphSVG(rgbCss) {
+  const W=520,H=130,PAD=4;
+  const xOf = nm => PAD + (nm-380)/(700-380)*(W-2*PAD);
+  let curves='';
+  ['L','M','S'].forEach(k=>{
+    const c=CONE[k]; let d='';
+    for (let nm=380; nm<=700; nm+=5) {
+      const x=xOf(nm), y=H-6-gauss(nm,c.mu,c.sigma)*(H*0.42);
+      d += (nm===380?'M':'L')+x.toFixed(1)+','+y.toFixed(1)+' ';
+    }
+    curves += `<path d="${d}" fill="none" stroke="${c.color}" stroke-width="1.1" opacity="0.38" stroke-dasharray="2,2"/>`;
+  });
+  let humps='';
+  [state.A, state.B].forEach(p=>{
+    const pig = PIGMENTS[p.idx];
+    const rgb = PIGMENT_RGB[p.idx];
+    const col = `rgb(${rgb.r},${rgb.g},${rgb.b})`;
+    let d='';
+    for (let nm=380; nm<=700; nm+=5) {
+      const x=xOf(nm), y=H-6-diluted(nm,pig.hue,pig.baseline,pig.sigma,p.amount)*(H*0.72);
+      d += (nm===380?'M':'L')+x.toFixed(1)+','+y.toFixed(1)+' ';
+    }
+    humps += `<path d="${d}" fill="none" stroke="${col}" stroke-width="1.4" opacity="0.5"/>`;
+  });
+  let dMix='', dArea=`M${PAD.toFixed(1)},${H-6} `;
+  for (let nm=380; nm<=700; nm+=5) {
+    const x=xOf(nm), refl=mixedReflectanceAt(nm,[state.A,state.B]), y=H-6-refl*(H*0.72);
+    dMix += (nm===380?'M':'L')+x.toFixed(1)+','+y.toFixed(1)+' ';
+    dArea += `L${x.toFixed(1)},${y.toFixed(1)} `;
+  }
+  dArea += `L${(W-PAD).toFixed(1)},${H-6} Z`;
+  const mixed = `<path d="${dArea}" fill="${rgbCss}" opacity="0.22"/><path d="${dMix}" fill="none" stroke="${rgbCss}" stroke-width="2.2" opacity="0.95"/>`;
+  return `<line x1="${PAD}" y1="${H-6}" x2="${W-PAD}" y2="${H-6}" stroke="#26262e" stroke-width="1"/>${curves}${mixed}${humps}`;
+}
+
+function renderPileDisplay(key) {
+  const p = state[key];
+  const pig = PIGMENTS[p.idx];
+  const rgb = PIGMENT_RGB[p.idx];
+  const col = `rgb(${rgb.r},${rgb.g},${rgb.b})`;
+  document.getElementById('dot'+key).style.color = col;
+  document.getElementById('ring'+key).setAttribute('stroke', col);
+  const fillEl = document.getElementById('fill'+key);
+  fillEl.setAttribute('fill', col);
+  fillEl.setAttribute('r', (p.amount/100 * 9).toFixed(2));
+  document.getElementById('name'+key).textContent = pig.name;
+  document.getElementById('amtVal'+key).textContent = p.amount + '%';
+  PIGMENTS.forEach((_, i) => {
+    document.getElementById('sw'+key+i).classList.toggle('active', p.idx===i);
+  });
+}
+
+function renderAll() {
+  renderPileDisplay('A');
+  renderPileDisplay('B');
+
+  const {L,M,S} = computeLMS([state.A, state.B]);
+  const rgb = lmsToRGB(L,M,S);
+  const rgbCss = `rgb(${rgb.r},${rgb.g},${rgb.b})`;
+  document.getElementById('graphSvg').innerHTML = graphSVG(rgbCss);
+  document.getElementById('swatch').style.background = rgbCss;
+  document.getElementById('rgbLabel').textContent = `R ${rgb.r}  G ${rgb.g}  B ${rgb.b}`;
+
+  const spread = Math.max(rgb.r,rgb.g,rgb.b) - Math.min(rgb.r,rgb.g,rgb.b);
+  document.getElementById('spreadVal').textContent = spread;
+  const pct = Math.max(0, Math.min(100, 100 - (spread/140)*100));
+  const fillMeter = document.getElementById('meterFill');
+  fillMeter.style.width = pct + '%';
+  fillMeter.style.background = spread <= 35 ? 'var(--amber)' : '#5a5a66';
+
+  const badge = document.getElementById('badge');
+  if (spread <= 35) {
+    badge.textContent = 'NEUTRAL ACHIEVED';
+    badge.className = 'badge won';
+  } else {
+    badge.textContent = 'MIX TO FIND OUT';
+    badge.className = 'badge';
+  }
+}
+
+function updatePile(key, field, value) {
+  state[key][field] = Number(value);
+  renderAll();
+}
+
+setupPalette('A');
+setupPalette('B');
+renderAll();
+</script>
+</body>
+</html>

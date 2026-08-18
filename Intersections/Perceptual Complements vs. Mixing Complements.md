@@ -23,6 +23,12 @@ sequence: 93
 * **The Mud Factor:** Stirring two pigments together is a subtractive process. If you mix **[[PR108 - Cadmium Red|Cadmium Red]]** (which reflects red and absorbs green/blue) with **[[PG7 - Phthalo Green|Phthalo Green]]** (which reflects green/blue and absorbs red), the combination leaves no portion of the visible spectrum unabsorbed, resulting in a dark neutral gray or black. If the proportions are unbalanced, or if the pigments have broad, sloping absorption bands, the mixture will result in a low-chroma "muddy" color, such as an olive-green or brown.
 * **Curved Desaturation Paths:** On a color wheel, a straight line between two colors implies that mixing them will yield a straight path through the center. In reality, paint mixtures follow highly non-linear, curved paths through color space. Due to differences in **tinting strength** and **refractive index**, a high-tinting-strength organic pigment (like **[[PB15 - Phthalo Blue|Phthalo Blue]]**) will instantly dominate a weak mineral pigment (like **[[PY43 - Yellow Ochre|Yellow Ochre]]**), dragging the mixing path sharply toward its own hue before slowly curving back toward a neutral.
 
+### 2b. Try It: The Mix-to-Gray Simulator
+
+<iframe src="../mix-to-gray.html" width="100%" height="850" style="border:1px solid #26262e; border-radius:10px; background:#0a0a0d;" loading="lazy" title="Mix to Gray — interactive subtractive-mixing simulator"></iframe>
+
+The **Mix to Gray** app puts this page's distinction on a palette: pick a real pigment for each pile — hue, value, and purity come fixed together as a set, the way an actual tube of paint behaves, so you cannot dial an arbitrary color space — then set how much of each pigment goes into the mix and try to land on neutral gray. The panel above the swatch plots the **mixed reflectance curve** and the **L, M, and S cone integrations** the eye actually performs, so the subtractive collapse toward neutral is visible in the same terms the rest of this section uses. The meter measures the result's distance from achromatic gray; real complements rarely cancel to a perfect neutral, which is exactly the "mud" behavior described in section 2.
+
 ### 3. Why Perceptual and Mixing Complements Diverge
 
 Because the visual system and paint mixtures operate on entirely different physical principles, visual complements do not align with mixing complements.
@@ -59,6 +65,7 @@ Bruce MacEvoy emphasizes that color theory's obsession with a single, symmetrica
 * **The Subtractive Primary Fallacy:** Why the traditional RYB primary/complement system fails to reach a wide gamut of secondary purples and greens compared to the CMY system.
 * **Chromatic Afterimage Dynamics:** The duration and strength of negative afterimages as a function of the stimulating hue's luminance and chroma.
 * **Neutralizing Paints in Practice:** How artists use earth colors (like Raw Umber or Burnt Sienna) to neutralize high-chroma pigments without creating flat, lifeless grays.
+* **Interactive Mix-to-Gray Simulator:** A browser app embedded in section 2b for experimenting with two-pigment subtractive mixtures and their distance from neutral gray.
 
 ---
 
