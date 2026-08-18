@@ -25,7 +25,9 @@ sequence: 93
 
 ### 2b. Try It: The Mix-to-Gray Simulator
 
-<iframe src="../mix-to-gray.htm" width="100%" height="850" style="border:1px solid #26262e; border-radius:10px; background:#0a0a0d;" loading="lazy" title="Mix to Gray — interactive subtractive-mixing simulator"></iframe>
+| |
+|---|
+| <iframe src="../mix-to-gray.htm" width="100%" height="920" style="border:0; display:block;" loading="lazy" title="Mix to Gray — interactive subtractive-mixing simulator"></iframe> |
 
 The **Mix to Gray** app puts this page's distinction on a palette: pick a real pigment for each pile — hue, value, and purity come fixed together as a set, the way an actual tube of paint behaves, so you cannot dial an arbitrary color space — then set how much of each pigment goes into the mix and try to land on neutral gray. The panel above the swatch plots the **mixed reflectance curve** and the **L, M, and S cone integrations** the eye actually performs, so the subtractive collapse toward neutral is visible in the same terms the rest of this section uses. The meter measures the result's distance from achromatic gray; real complements rarely cancel to a perfect neutral, which is exactly the "mud" behavior described in section 2.
 
