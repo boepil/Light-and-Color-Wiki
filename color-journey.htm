@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>From Light to Color</title>
+<style>
+  :root {
+    --bg: #0a0a0d;
+    --panel: #131317;
+    --panel-alt: #17171c;
+    --border: #26262e;
+    --text: #eeeeec;
+    --text-dim: #86868f;
+    --text-faint: #55555e;
+    --amber: #f2c14e;
+    --mono: ui-monospace, "SF Mono", "Cascadia Code", Menlo, Consolas, monospace;
+    --sans: ui-sans-serif, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; background: var(--bg); color: var(--text); font-family: var(--sans); -webkit-font-smoothing: antialiased; }
+  .app { max-width: 920px; margin: 0 auto; padding: 26px 20px 46px; }
+  .eyebrow { font-family: var(--mono); font-size: 11px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--amber); }
+  h1 { font-size: 24px; font-weight: 650; margin: 2px 0 4px; letter-spacing: -0.01em; }
+  .subhead { color: var(--text-dim); font-size: 13.5px; max-width: 700px; line-height: 1.5; margin-bottom: 18px; }
+
+  .scene-wrap { background: var(--panel); border: 1px solid var(--border); border-radius: 14px; padding: 10px 12px; margin-bottom: 14px; }
+  svg#scene { width: 100%; height: auto; display: block; }
+
+  .panel { background: var(--panel); border: 1px solid var(--border); border-radius: 14px; padding: 16px; margin-bottom: 14px; display: grid; grid-template-columns: 280px 1fr 150px; gap: 20px; align-items: stretch; }
+  @media (max-width: 760px) { .panel { grid-template-columns: 1fr; } }
+  .section-title { font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--text-dim); margin-bottom: 8px; }
+
+  .curve-block svg { width: 100%; height: auto; display: block; }
+
+  .mid { display: flex; flex-direction: column; justify-content: center; gap: 14px; }
+  .mid label { display: flex; justify-content: space-between; font-family: var(--mono); font-size: 11px; color: var(--text-faint); margin-bottom: 6px; }
+  .mid label .val { color: var(--text-dim); }
+  input[type=range] { -webkit-appearance: none; width: 100%; height: 4px; background: linear-gradient(90deg, #7b4b9e, #4a90d9, #21d0c3, #4bb35e, #e0c33e, #e0483e); border-radius: 2px; outline: none; }
+  input[type=range]::-webkit-slider-thumb { -webkit-appearance: none; width: 16px; height: 16px; border-radius: 50%; background: #f0f0ec; cursor: pointer; box-shadow: 0 0 0 3px rgba(255,255,255,0.12); }
+  input[type=range]::-moz-range-thumb { width: 16px; height: 16px; border-radius: 50%; background: #f0f0ec; border: none; cursor: pointer; }
+
+  .opp-row { display: flex; align-items: center; gap: 8px; font-family: var(--mono); font-size: 11px; color: var(--text-faint); }
+  .opp-row .track { position: relative; flex: 1; height: 8px; background: var(--panel-alt); border: 1px solid var(--border); border-radius: 4px; }
+  .opp-row .notch { position: absolute; left: 50%; top: -2px; bottom: -2px; width: 1px; background: var(--text-faint); }
+  .opp-row .marker { position: absolute; top: 50%; width: 12px; height: 12px; border-radius: 50%; transform: translate(-50%, -50%); transition: left 0.12s ease, background 0.12s ease; }
+
+  .result { display: flex; flex-direction: column; gap: 8px; }
+  .swatch { flex: 1; min-height: 92px; border-radius: 10px; border: 1px solid var(--border); display: flex; align-items: flex-end; justify-content: flex-end; padding: 8px; transition: background 0.15s ease; }
+  .swatch .rgb-label { font-family: var(--mono); font-size: 10.5px; background: rgba(0,0,0,0.55); color: #fff; padding: 3px 7px; border-radius: 6px; }
+  .result .section-title { text-align: center; margin-bottom: 0; }
+
+  footer { font-size: 11.5px; color: var(--text-faint); line-height: 1.6; max-width: 760px; }
+</style>
+</head>
+<body>
+<div class="app">
+  <div class="eyebrow">Pigment · Retina · Cortex</div>
+  <h1>From light to color</h1>
+  <div class="subhead">Sunlight carries every wavelength; a pigment keeps only its own band. Follow the survivors through the lens, the three cone classes, the opponent channels, and into the cortex — then drag the slider and watch the whole pipeline re-tune.</div>
+
+  <div class="scene-wrap">
+    <svg id="scene" viewBox="0 0 1000 442" preserveAspectRatio="xMidYMid meet">
+      <defs>
+        <radialGradient id="brainGlow">
+          <stop id="gs1" offset="0%" stop-color="#4a90d9" stop-opacity="0.95"/>
+          <stop id="gs2" offset="100%" stop-color="#4a90d9" stop-opacity="0"/>
+        </radialGradient>
+      </defs>
+
+      <g id="sunRays" stroke="#f2c14e" stroke-width="2" stroke-linecap="round"></g>
+      <circle cx="75" cy="82" r="16" fill="#f2c14e"/>
+
+      <g id="rayFan" stroke-width="1.8" fill="none"></g>
+      <g id="flickers"></g>
+
+      <polygon points="225,372 262,300 300,272 338,290 382,372" fill="#1d3fb8" stroke="#3a63e8" stroke-width="1.5"/>
+      <path id="beamPath" d="M330,278 L445,302 L482,304" fill="none" stroke="#4a90d9" stroke-width="3" stroke-linecap="round" opacity="0.9"/>
+
+      <ellipse cx="445" cy="305" rx="13" ry="27" fill="#e8e4d8" opacity="0.92" transform="rotate(-8 445 305)"/>
+
+      <circle cx="578" cy="302" r="96" fill="none" stroke="#dddddd" stroke-width="2.5"/>
+
+      <path id="wireL" d="M482,304 L578,246" stroke="#e0483e" stroke-width="1.6" fill="none" opacity="0.4"/>
+      <path id="wireM" d="M482,304 L578,302" stroke="#4bb35e" stroke-width="1.6" fill="none" opacity="0.4"/>
+      <path id="wireS" d="M482,304 L578,356" stroke="#4a90d9" stroke-width="1.6" fill="none" opacity="0.4"/>
+
+      <g id="coneL" transform="translate(592,246)">
+        <rect x="-4" y="-27" width="8" height="11" rx="2" fill="#e0483e" opacity="0.75"/>
+        <path d="M-12,-16 L12,-16 L5,20 L-5,20 Z" fill="#e0483e" stroke="#ff6a5e" stroke-width="1.5"/>
+      </g>
+      <g id="coneM" transform="translate(592,302)">
+        <rect x="-4" y="-27" width="8" height="11" rx="2" fill="#4bb35e" opacity="0.75"/>
+        <path d="M-12,-16 L12,-16 L5,20 L-5,20 Z" fill="#4bb35e" stroke="#6fe07e" stroke-width="1.5"/>
+      </g>
+      <g id="coneS" transform="translate(592,356)">
+        <rect x="-4" y="-27" width="8" height="11" rx="2" fill="#4a90d9" opacity="0.75"/>
+        <path d="M-12,-16 L12,-16 L5,20 L-5,20 Z" fill="#4a90d9" stroke="#6db4f0" stroke-width="1.5"/>
+      </g>
+
+      <path id="feedL" d="M604,246 L655,330" stroke="#666670" stroke-width="1.2" fill="none" opacity="0.5"/>
+      <path id="feedM" d="M604,302 L655,330" stroke="#666670" stroke-width="1.2" fill="none" opacity="0.5"/>
+      <path id="wireRG_L" d="M604,246 L758,264" stroke="#e0483e" stroke-width="2" fill="none" opacity="0.5"/>
+      <path id="wireRG_M" d="M604,302 L758,264" stroke="#4bb35e" stroke-width="2" fill="none" opacity="0.5"/>
+      <path id="wireBY_S" d="M604,356 L758,344" stroke="#4a90d9" stroke-width="2" fill="none" opacity="0.5"/>
+      <path id="wireBY_Y" d="M655,330 L758,344" stroke="#f2c14e" stroke-width="2" fill="none" opacity="0.5"/>
+
+      <text x="775" y="230" text-anchor="middle" font-family="var(--mono)" font-size="10" fill="#86868f" letter-spacing="1">R+ G−</text>
+      <circle id="cellRG_ring" cx="775" cy="264" r="17" fill="#131317" stroke="#e0483e" stroke-width="3"/>
+      <circle id="cellRG_inner" cx="775" cy="264" r="4" fill="#4bb35e"/>
+      <text x="775" y="315" text-anchor="middle" font-family="var(--mono)" font-size="10" fill="#86868f" letter-spacing="1">B+ Y−</text>
+      <circle id="cellBY_ring" cx="775" cy="344" r="17" fill="#131317" stroke="#4a90d9" stroke-width="3"/>
+      <circle id="cellBY_inner" cx="775" cy="344" r="4" fill="#f2c14e"/>
+
+      <path id="ribbonRG" d="M792,264 L868,272" stroke="#e0483e" stroke-width="11" stroke-linecap="round" opacity="0.4"/>
+      <path id="ribbonBY" d="M792,344 L868,330" stroke="#4a90d9" stroke-width="11" stroke-linecap="round" opacity="0.4"/>
+
+      <path d="M868,268 C862,232 886,198 928,192 C968,186 998,208 1000,244 C1001,262 994,272 996,284 C1004,312 988,344 958,352 C952,372 938,386 920,388 L918,362 C898,360 884,346 882,326 C870,312 864,290 868,268 Z M918,388 L913,414 L931,414 L933,386" fill="#17171c" stroke="#9a9aa2" stroke-width="2" fill-rule="evenodd"/>
+      <circle id="brainGlowC" cx="942" cy="272" r="30" fill="url(#brainGlow)"/>
+
+      <g font-family="ui-monospace, Menlo, Consolas, monospace" font-size="10" fill="#86868f" letter-spacing="1.5" text-anchor="middle">
+        <text x="75" y="430">SUN</text>
+        <text x="300" y="430">PIGMENT</text>
+        <text x="445" y="430">LENS</text>
+        <text x="578" y="430">RETINA · CONES</text>
+        <text x="775" y="430">OPPONENT CELLS</text>
+        <text x="940" y="430">VISUAL CORTEX</text>
+      </g>
+    </svg>
+  </div>
+
+  <div class="panel">
+    <div class="curve-block">
+      <div class="section-title">Pigment reflectance</div>
+      <svg id="curveSvg" viewBox="0 0 260 96"></svg>
+    </div>
+    <div class="mid">
+      <div>
+        <label>Dominant wavelength <span class="val" id="wlVal"></span></label>
+        <input type="range" id="wlSlider" min="380" max="700" step="1" value="480">
+      </div>
+      <div class="opp-row"><span>R</span><div class="track"><div class="notch"></div><div class="marker" id="rgMark"></div></div><span>G</span></div>
+      <div class="opp-row"><span>B</span><div class="track"><div class="notch"></div><div class="marker" id="byMark"></div></div><span>Y</span></div>
+    </div>
+    <div class="result">
+      <div class="swatch" id="swatch"><span class="rgb-label" id="rgbLabel"></span></div>
+      <div class="section-title">Perceived</div>
+    </div>
+  </div>
+
+  <footer>
+    Every stage runs continuously: wavelengths outside the pigment's band are absorbed at the surface as heat; the reflected band fans out across the L, M, and S cones in proportion to their overlapping sensitivities; the opponent cells re-encode those comparisons as R−G and B−Y; and the cortex glows with the resulting percept. Drag the wavelength slider to re-tune the entire chain — notice how a hue's lightness, its cone ratios, and its opponent polarity all change together.
+  </footer>
+</div>
+
+<script>
+function gauss(x, mu, sigma) { return Math.exp(-((x-mu)**2)/(2*sigma*sigma)); }
+const CONE = { L:{mu:564,sigma:30}, M:{mu:545,sigma:32}, S:{mu:430,sigma:20} };
+const EXPOSURE = 1.4;
+const SIG_R = 38, BASE_R = 0.05;
+
+const RAYS = [420, 455, 485, 515, 550, 585, 635];
+
+function reflectance(nm, ld) { return BASE_R + (1-BASE_R)*gauss(nm, ld, SIG_R); }
+
+const WHITE_POINT = (() => {
+  let L=0,M=0,S=0;
+  for (let nm=380; nm<=700; nm+=5) {
+    L += gauss(nm, CONE.L.mu, CONE.L.sigma);
+    M += gauss(nm, CONE.M.mu, CONE.M.sigma);
+    S += gauss(nm, CONE.S.mu, CONE.S.sigma);
+  }
+  return {L,M,S};
+})();
+
+function coneExcitations(ld) {
+  let L=0,M=0,S=0;
+  for (let nm=380; nm<=700; nm+=5) {
+    const r = reflectance(nm, ld);
+    L += gauss(nm, CONE.L.mu, CONE.L.sigma)*r;
+    M += gauss(nm, CONE.M.mu, CONE.M.sigma)*r;
+    S += gauss(nm, CONE.S.mu, CONE.S.sigma)*r;
+  }
+  return {L:L/WHITE_POINT.L, M:M/WHITE_POINT.M, S:S/WHITE_POINT.S};
+}
+
+function lmsToRGB(Ln,Mn,Sn) {
+  let X=1.86006661*Ln-1.129771*Mn+0.219968*Sn;
+  let Y=0.361122*Ln+0.638804*Mn-0.000008*Sn;
+  let Z=1.089064*Sn;
+  const gammaCorrect=c=>c<=0.0031308?12.92*c:1.055*Math.pow(Math.max(c,0),1/2.4)-0.055;
+  let r=gammaCorrect((3.2406*X-1.5372*Y-0.4986*Z)*EXPOSURE);
+  let g=gammaCorrect((-0.9689*X+1.8758*Y+0.0415*Z)*EXPOSURE);
+  let b=gammaCorrect((0.0557*X-0.2040*Y+1.0570*Z)*EXPOSURE);
+  const clamp=c=>Math.max(0,Math.min(255,Math.round(c*255)));
+  return {r:clamp(r),g:clamp(g),b:clamp(b)};
+}
+
+function wlRGB(nm) {
+  let r=0,g=0,b=0;
+  if (nm>=380 && nm<440) { r=-(nm-440)/60; b=1; }
+  else if (nm<490) { g=(nm-440)/50; b=1; }
+  else if (nm<510) { g=1; b=-(nm-510)/20; }
+  else if (nm<580) { r=(nm-510)/70; g=1; }
+  else if (nm<645) { r=1; g=-(nm-645)/65; }
+  else if (nm<=700) { r=1; }
+  let f=1;
+  if (nm<420) f=0.3+0.7*(nm-380)/40;
+  else if (nm>660) f=0.3+0.7*(700-nm)/40;
+  const gm=c=>Math.round(255*Math.pow(Math.max(c*f,0),0.8));
+  return {r:gm(r), g:gm(g), b:gm(b)};
+}
+const rgbStr = c => `rgb(${c.r},${c.g},${c.b})`;
+
+function hueName(nm) {
+  if (nm<450) return 'Violet';
+  if (nm<485) return 'Blue';
+  if (nm<500) return 'Cyan';
+  if (nm<565) return 'Green';
+  if (nm<590) return 'Yellow';
+  if (nm<625) return 'Orange';
+  return 'Red';
+}
+
+const rayEnds = [];
+for (let i=0;i<RAYS.length;i++) {
+  const t=i/(RAYS.length-1);
+  rayEnds.push({x:258+t*88, y:308-t*26});
+}
+
+const sunRaysG = document.getElementById('sunRays');
+for (let i=0;i<8;i++) {
+  const a=(i/8)*Math.PI*2 + 0.4;
+  const l=document.createElementNS('http://www.w3.org/2000/svg','line');
+  l.setAttribute('x1',75+22*Math.cos(a)); l.setAttribute('y1',82+22*Math.sin(a));
+  l.setAttribute('x2',75+32*Math.cos(a)); l.setAttribute('y2',82+32*Math.sin(a));
+  sunRaysG.appendChild(l);
+}
+
+const rayFanG = document.getElementById('rayFan');
+const rayEls = RAYS.map((nm,i)=>{
+  const e=rayEnds[i];
+  const p=document.createElementNS('http://www.w3.org/2000/svg','path');
+  p.setAttribute('d',`M92,92 L${e.x},${e.y}`);
+  p.setAttribute('stroke',rgbStr(wlRGB(nm)));
+  p.setAttribute('stroke-dasharray','5 9');
+  rayFanG.appendChild(p);
+  const f=document.createElementNS('http://www.w3.org/2000/svg','circle');
+  f.setAttribute('cx',e.x); f.setAttribute('cy',e.y); f.setAttribute('r',3);
+  f.setAttribute('fill','#e07840');
+  document.getElementById('flickers').appendChild(f);
+  return {path:p, flicker:f, nm};
+});
+
+const flows = [];
+function regFlow(id, speed) {
+  const el=document.getElementById(id);
+  el.setAttribute('stroke-dasharray','6 10');
+  flows.push({el, speed, period:16});
+}
+regFlow('beamPath', 26);
+regFlow('wireL', 18); regFlow('wireM', 18); regFlow('wireS', 18);
+regFlow('wireRG_L', 22); regFlow('wireRG_M', 22);
+regFlow('wireBY_S', 22); regFlow('wireBY_Y', 22);
+regFlow('ribbonRG', 30); regFlow('ribbonBY', 30);
+
+const els = {};
+['beamPath','wireL','wireM','wireS','wireRG_L','wireRG_M','wireBY_S','wireBY_Y',
+ 'coneL','coneM','coneS','cellRG_inner','cellBY_inner','ribbonRG','ribbonBY',
+ 'gs1','gs2','brainGlowC','rgMark','byMark','swatch','rgbLabel','wlVal','curveSvg']
+.forEach(id=>els[id]=document.getElementById(id));
+
+let cur = { exc:{L:0,M:0,S:0}, rgN:0, byN:0 };
+
+function drawCurve(ld, beamCol) {
+  const W=260,H=96,x0=8,x1=252,y0=88,amp=72;
+  let d=`M${x0},${y0} `;
+  for (let nm=380; nm<=700; nm+=5) {
+    const x=x0+(nm-380)/320*(x1-x0);
+    const y=y0-reflectance(nm,ld)*amp;
+    d+=`L${x.toFixed(1)},${y.toFixed(1)} `;
+  }
+  d+=`L${x1},${y0} Z`;
+  const xm=x0+(ld-380)/320*(x1-x0);
+  els.curveSvg.innerHTML =
+    `<line x1="${x0}" y1="${y0}" x2="${x1}" y2="${y0}" stroke="#26262e"/>` +
+    `<path d="${d}" fill="${beamCol}" opacity="0.3"/>` +
+    `<path d="${d.replace(' Z','')}" fill="none" stroke="${beamCol}" stroke-width="1.6"/>` +
+    `<line x1="${xm}" y1="10" x2="${xm}" y2="${y0}" stroke="#eeeeec" stroke-width="1" stroke-dasharray="2 3" opacity="0.7"/>` +
+    `<g font-family="ui-monospace, Menlo, Consolas, monospace" font-size="8" fill="#55555e">` +
+    `<text x="${x0+(400-380)/320*(x1-x0)}" y="96" text-anchor="middle">400</text>` +
+    `<text x="${x0+(500-380)/320*(x1-x0)}" y="96" text-anchor="middle">500</text>` +
+    `<text x="${x0+(600-380)/320*(x1-x0)}" y="96" text-anchor="middle">600</text></g>`;
+}
+
+function update() {
+  const ld = +document.getElementById('wlSlider').value;
+  const exc = coneExcitations(ld);
+  const rg = exc.L - exc.M;
+  const by = exc.S - (exc.L + exc.M)/2;
+  const rgN = Math.max(-1, Math.min(1, rg*2.4));
+  const byN = Math.max(-1, Math.min(1, by*2.4));
+  const percept = lmsToRGB(exc.L, exc.M, exc.S);
+  const beamCol = rgbStr(wlRGB(ld));
+
+  cur = { exc, rgN, byN, percept };
+
+  els.beamPath.setAttribute('stroke', beamCol);
+  rayEls.forEach(r=>{
+    const R = reflectance(r.nm, ld);
+    r.path.setAttribute('opacity', (0.12 + 0.88*R).toFixed(2));
+  });
+
+  els.wireL.setAttribute('opacity', (0.12+0.8*exc.L).toFixed(2));
+  els.wireM.setAttribute('opacity', (0.12+0.8*exc.M).toFixed(2));
+  els.wireS.setAttribute('opacity', (0.12+0.8*exc.S).toFixed(2));
+  els.wireRG_L.setAttribute('opacity', (0.15+0.75*exc.L).toFixed(2));
+  els.wireRG_M.setAttribute('opacity', (0.15+0.75*exc.M).toFixed(2));
+  els.wireBY_S.setAttribute('opacity', (0.15+0.75*exc.S).toFixed(2));
+  els.wireBY_Y.setAttribute('opacity', (0.15+0.75*(exc.L+exc.M)/2).toFixed(2));
+
+  const rgCol = rgN>=0 ? '#e0483e' : '#4bb35e';
+  const byCol = byN>=0 ? '#4a90d9' : '#f2c14e';
+  els.cellRG_inner.setAttribute('fill', rgCol);
+  els.cellBY_inner.setAttribute('fill', byCol);
+  els.ribbonRG.setAttribute('stroke', rgCol);
+  els.ribbonBY.setAttribute('stroke', byCol);
+
+  els.rgMark.style.left = (50 - rgN*46) + '%';
+  els.rgMark.style.background = rgCol;
+  els.byMark.style.left = (50 - byN*46) + '%';
+  els.byMark.style.background = byCol;
+
+  const pc = rgbStr(percept);
+  els.gs1.setAttribute('stop-color', pc);
+  els.gs2.setAttribute('stop-color', pc);
+  els.swatch.style.background = pc;
+  els.rgbLabel.textContent = `R ${percept.r}  G ${percept.g}  B ${percept.b}`;
+  els.wlVal.textContent = `${ld} nm · ${hueName(ld)}`;
+
+  drawCurve(ld, beamCol);
+}
+
+const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+let last = 0;
+function tick(t) {
+  const dt = (t-last)/1000; last = t;
+  flows.forEach(f=>{
+    const off = -(t/1000*f.speed % f.period);
+    f.el.setAttribute('stroke-dashoffset', off.toFixed(1));
+  });
+  const pulse = 0.75 + 0.25*Math.sin(t/1000*5);
+  [['coneL',cur.exc.L],['coneM',cur.exc.M],['coneS',cur.exc.S]].forEach(([id,e])=>{
+    const body = els[id].querySelector('path');
+    body.setAttribute('fill-opacity', (0.2 + 0.75*e*pulse).toFixed(2));
+  });
+  els.cellRG_inner.setAttribute('r', (3 + 9*Math.abs(cur.rgN)*(0.8+0.2*pulse)).toFixed(1));
+  els.cellBY_inner.setAttribute('r', (3 + 9*Math.abs(cur.byN)*(0.8+0.2*pulse)).toFixed(1));
+  els.cellRG_inner.setAttribute('fill-opacity', (0.35 + 0.65*Math.abs(cur.rgN)).toFixed(2));
+  els.cellBY_inner.setAttribute('fill-opacity', (0.35 + 0.65*Math.abs(cur.byN)).toFixed(2));
+  els.ribbonRG.setAttribute('opacity', (0.25 + 0.7*Math.abs(cur.rgN)).toFixed(2));
+  els.ribbonBY.setAttribute('opacity', (0.25 + 0.7*Math.abs(cur.byN)).toFixed(2));
+  const lum = (cur.exc.L + cur.exc.M)/2;
+  els.brainGlowC.setAttribute('r', (20 + 18*lum + 4*Math.sin(t/1000*3)).toFixed(1));
+  requestAnimationFrame(tick);
+}
+
+document.getElementById('wlSlider').addEventListener('input', update);
+update();
+if (!reduced) requestAnimationFrame(tick);
+else {
+  ['coneL','coneM','coneS'].forEach((id)=>els[id].querySelector('path').setAttribute('fill-opacity','0.7'));
+  els.brainGlowC.setAttribute('r','34');
+}
+</script>
+</body>
+</html>

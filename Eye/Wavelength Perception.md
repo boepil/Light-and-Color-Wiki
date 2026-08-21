@@ -102,6 +102,7 @@ Understanding this biological synthesis is crucial: it explains how the visual s
 - [[Rods vs. Cones - Density & Distribution]]
 - [[Color Matching Functions and the Photopic Luminosity Function]]
 - [[The Visible Spectrum]]
+- [[Intersections/Causal Chain - Pigments to Perception]] - watch cone ratio coding drive opponent signals in the animated pipeline
 
 ## Sources
 

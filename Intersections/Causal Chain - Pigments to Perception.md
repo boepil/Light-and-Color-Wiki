@@ -6,6 +6,12 @@ sequence: 83
 
 **Scope:** Tracing the causal sequence connecting the physical reflectance spectra of pigments, the human biological response defined by CIE color-matching functions and photopic luminosity, the empirical boundaries of Pointer's Gamut, and the final perceptual experience of color asymmetry.
 
+### Watch the Chain Run: Interactive Animation
+
+<iframe src="../color-journey.htm" style="width: 100%; height: 820px; border: 1px solid #26262e; border-radius: 12px; background: #0a0a0d; display: block; margin: 20px 0;" loading="lazy" title="From light to color — animated causal chain from pigment to cortex"></iframe>
+
+The **color journey** animation runs this page's four sections as one continuous loop. Drag the **dominant-wavelength** slider and watch: spectral rays falling inside the pigment's reflectance band survive the surface while the rest die as heat at the impact point; the surviving beam fans out across the **L, M, and S cones** in proportion to their overlapping sensitivities; the cone signals are re-encoded by the **R−G and B−Y opponent channels**, whose axons carry polarity-coded pulses onward; and the cortex glows with the final percept — which is rarely a simple copy of the physical beam that started the journey. The bipolar meters under the slider show the live opponent signals, the same algebra the retina performs before any color appears.
+
 ### Physical Foundation: Spectral Reflectance of Surfaces
 The chain begins with the **spectral reflectance** of physical surfaces. The theoretical maximum saturation (chroma) a non-fluorescent material can achieve at any lightness level is governed by **[[Optimal Color Solid-MacAdam Limits|optimal colors]]**—hypothetical surfaces that reflect light with 100% efficiency in specific bands and absorb 100% elsewhere, creating a binary "0 or 1" step-function profile [1, 2]. 
 
@@ -35,6 +41,7 @@ Bruce MacEvoy highlights that warm surface colors (red, orange, yellow) are uniq
 - Theoretical optimal colors vs. real-world pigment limitations
 - Mathematical derivation of MacAdam limits from CIE tristimulus integration
 - The role of $V(\lambda)$ in creating the green-yellow lightness-chroma protrusion
+- The chain as a live animation: absorption → cone ratios → opponent polarity → cortical percept
 
 ## Cross-References
 - [[Colors/Gamuts/Optimal Color Solid-MacAdam Limits]]

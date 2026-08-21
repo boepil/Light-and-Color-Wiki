@@ -121,6 +121,7 @@ MacEvoy's color theory pages treat the opponent dimensions as the modern working
 - [[The Neuroscience Behind Why Colours Rewire Your Brain]] — the cortex stages beyond this page
 - [[Munsell Notation]] — the perceptual ordering influenced by Hering
 - [[CIE Systems]] — the colorimetric frameworks built on opponent logic
+- [[Intersections/Causal Chain - Pigments to Perception]] — the full pipeline as an interactive animation (sun → pigment → cones → opponent channels → cortex)
 - [[Why Material Reality Favors Green Over Red]] — the V(λ) asymmetry behind chroma limits
 
 ## Sources
