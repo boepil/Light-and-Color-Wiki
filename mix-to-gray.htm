@@ -19,21 +19,22 @@
     --sans: ui-sans-serif, -apple-system, "Segoe UI", Roboto, sans-serif;
   }
   * { box-sizing: border-box; }
-  html, body { margin: 0; background: var(--bg); color: var(--text); font-family: var(--sans); -webkit-font-smoothing: antialiased; overflow-x: hidden; }
-  .app { max-width: 720px; margin: 0 auto; padding: 20px 20px 24px; }
+  html, body { margin: 0; background: var(--bg); color: var(--text); font-family: var(--sans); -webkit-font-smoothing: antialiased; }
+  .app { max-width: 900px; margin: 0 auto; padding: 28px 20px 60px; }
   .eyebrow { font-family: var(--mono); font-size: 11px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--amber); }
   h1 { font-size: 24px; font-weight: 650; margin: 2px 0 4px; letter-spacing: -0.01em; }
-  .subhead { color: var(--text-dim); font-size: 13.5px; max-width: 620px; line-height: 1.5; margin-bottom: 22px; }
+  .subhead { color: var(--text-dim); font-size: 13.5px; max-width: 660px; line-height: 1.5; margin-bottom: 22px; }
 
-  .piles { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-bottom: 16px; }
-  @media (max-width: 560px) { .piles { grid-template-columns: 1fr; } }
+  .piles { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 14px; margin-bottom: 16px; }
+  @media (max-width: 820px) { .piles { grid-template-columns: 1fr 1fr; } }
+  @media (max-width: 480px) { .piles { grid-template-columns: 1fr; } }
   .pile {
     background: var(--panel); border: 1px solid var(--border); border-radius: 14px;
     padding: 16px; display: flex; flex-direction: column; gap: 12px;
   }
   .pile-head { display: flex; align-items: center; gap: 10px; }
   .pile-dot { width: 22px; height: 22px; display: block; box-shadow: 0 0 12px 1px currentColor; flex-shrink: 0; border-radius: 50%; }
-  .pile-name { font-family: var(--mono); font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--text-dim); }
+  .pile-name { font-family: var(--mono); font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--text-dim); }
   .slider-block label {
     display: flex; justify-content: space-between; font-family: var(--mono); font-size: 10.5px; color: var(--text-faint); margin-bottom: 6px;
   }
@@ -68,14 +69,14 @@
   .badge { align-self: flex-start; font-family: var(--mono); font-size: 11px; letter-spacing: 0.08em; padding: 6px 12px; border-radius: 999px; border: 1px solid var(--border); color: var(--text-faint); }
   .badge.won { color: #16140a; background: var(--amber); border-color: var(--amber); font-weight: 600; box-shadow: 0 0 20px -4px rgba(242,193,78,0.5); }
 
-  footer { margin-top: 6px; font-size: 11.5px; color: var(--text-faint); line-height: 1.6; max-width: 680px; }
+  footer { margin-top: 6px; font-size: 11.5px; color: var(--text-faint); line-height: 1.6; max-width: 700px; }
 </style>
 </head>
 <body>
 <div class="app">
   <div class="eyebrow">Pigment · Subtractive Mixing</div>
   <h1>Mix to gray</h1>
-  <div class="subhead">Two piles of pigment. Pick a real pigment for each pile — hue and value come as a set, the way a real tube of paint works — then dial how much of each is in the mix, and try to land on neutral gray.</div>
+  <div class="subhead">Three piles of pigment. Pick a real pigment for each — hue, value, and purity come as a fixed set, the way an actual tube of paint works — then dial how much of each is in the mix, and try to land on neutral gray.</div>
 
   <div class="piles">
     <div class="pile">
@@ -112,6 +113,23 @@
         <input type="range" id="amtSliderB" min="0" max="100" step="1" value="75" oninput="updatePile('B','amount',this.value)">
       </div>
     </div>
+    <div class="pile">
+      <div class="pile-head">
+        <svg class="pile-dot" id="dotC" viewBox="0 0 24 24" width="22" height="22">
+          <circle cx="12" cy="12" r="10" fill="none" stroke-width="2" id="ringC"/>
+          <circle cx="12" cy="12" r="0" id="fillC"/>
+        </svg>
+        <div class="pile-name" id="nameC"></div>
+      </div>
+      <div class="slider-block">
+        <label>Pigment</label>
+        <div class="palette" id="paletteC"></div>
+      </div>
+      <div class="slider-block">
+        <label>Amount <span class="val" id="amtValC"></span></label>
+        <input type="range" id="amtSliderC" min="0" max="100" step="1" value="20" oninput="updatePile('C','amount',this.value)">
+      </div>
+    </div>
   </div>
 
   <div class="panel">
@@ -139,43 +157,77 @@
   </div>
 
   <footer>
-    Each pigment's hue, value, and purity are fixed together, the way a real tube of paint is — you don't get to dial Ultramarine any lighter than Ultramarine actually is. The only continuous control is how much of each pigment goes into the mix. Real complements rarely cancel to a perfectly neutral gray either — getting the spread under ~35 is a genuinely good result.
+    Each pigment's hue, value, and purity are fixed together as a set, the way a real tube of paint is — you don't get to dial Ultramarine any lighter than Ultramarine actually is. White and black are true flat, spectrally neutral reflectors, not just very pale or very dark colors. The only continuous control is how much of each pigment goes into the mix. Real complements rarely cancel to a perfectly neutral gray — getting the spread under ~35 is a genuinely good result. Worth trying: mix a good complementary pair, then add white and watch that it lightens things without actually pulling you closer to gray.
   </footer>
 </div>
 
 <script>
 function gauss(x, mu, sigma) { return Math.exp(-((x-mu)**2)/(2*sigma*sigma)); }
 const CONE = { L:{mu:564,sigma:30,color:'#e0483e'}, M:{mu:545,sigma:32,color:'#4bb35e'}, S:{mu:430,sigma:20,color:'#4a90d9'} };
-const EXPOSURE = 2.7;
+const EXPOSURE = 1.0;
 
-// Each real pigment's hue, value (baseline), and purity (sigma) are fixed
-// together as a set - that's the point: you select a real paint, you don't
-// dial an abstract color space.
+// Each real pigment's hue, value (baseline), peak reflectance, and purity
+// (sigma) are fixed together as a set - selecting one is picking a real
+// paint, not dialing an abstract color space. White/black use a flat,
+// wavelength-independent reflectance instead, since real neutrals don't
+// have a hue at all.
 const PIGMENTS = [
+  { name: 'Titanium White',   flat: 0.92, role: 'white' },
+  { name: 'Dioxazine Violet', hue: 425, baseline: 0.06, sigma: 26 },
+  { name: 'Ultramarine Blue', hue: 465, baseline: 0.05, sigma: 28 },
+  { name: 'Phthalo Blue',     hue: 485, baseline: 0.04, sigma: 22 },
+  { name: 'Cerulean Blue',    hue: 492, baseline: 0.17, sigma: 32 },
+  { name: 'Phthalo Green',    hue: 505, baseline: 0.04, sigma: 20 },
+  { name: 'Viridian',         hue: 508, baseline: 0.09, sigma: 26 },
+  { name: 'Sap Green',        hue: 535, baseline: 0.05, peak: 0.55, sigma: 45 },
+  { name: 'Naples Yellow',    hue: 565, baseline: 0.20, peak: 0.75, sigma: 45 },
   { name: 'Cadmium Yellow',   hue: 570, baseline: 0.14, sigma: 26 },
-  { name: 'Yellow Ochre',     hue: 578, baseline: 0.30, sigma: 55 },
+  { name: 'Yellow Ochre',     hue: 578, baseline: 0.08, peak: 0.62, sigma: 50 },
   { name: 'Cadmium Orange',   hue: 600, baseline: 0.09, sigma: 24 },
+  { name: 'Raw Umber',        hue: 605, baseline: 0.06, peak: 0.35, sigma: 60 },
+  { name: 'Burnt Sienna',     hue: 615, baseline: 0.05, peak: 0.45, sigma: 55 },
   { name: 'Cadmium Red',      hue: 628, baseline: 0.10, sigma: 26 },
   { name: 'Alizarin Crimson', hue: 655, baseline: 0.05, sigma: 30 },
-  { name: 'Ultramarine Blue', hue: 465, baseline: 0.05, sigma: 28 },
-  { name: 'Cerulean Blue',    hue: 492, baseline: 0.17, sigma: 32 },
-  { name: 'Viridian',         hue: 508, baseline: 0.09, sigma: 26 },
-  { name: 'Sap Green',        hue: 535, baseline: 0.26, sigma: 50 },
-  { name: 'Burnt Sienna',     hue: 615, baseline: 0.22, sigma: 60 },
+  { name: 'Mars Black',       flat: 0.04, role: 'black' },
 ];
 
-function pigmentReflectance(nm, peak, baseline, sigma) { return baseline + (1-baseline) * gauss(nm, peak, sigma); }
-function diluted(nm, peak, baseline, sigma, amount) {
-  const full = pigmentReflectance(nm, peak, baseline, sigma);
+function pigmentReflectance(nm, pig) {
+  if (pig.flat !== undefined) return pig.flat;
+  const peak = pig.peak !== undefined ? pig.peak : 1.0;
+  return pig.baseline + (peak - pig.baseline) * gauss(nm, pig.hue, pig.sigma);
+}
+function diluted(nm, pig, amount) {
+  const full = pigmentReflectance(nm, pig);
   const a = amount/100;
   return 1 - a*(1-full);
 }
+const WHITE_REF = PIGMENTS.find(p => p.role === 'white').flat;
+const BLACK_REF = PIGMENTS.find(p => p.role === 'black').flat;
+
+// Colored pigments layer multiplicatively, same as before - that's what
+// makes complementary cancellation work. But multiplying by anything <=1
+// can only hold a mix steady or darken it, never lighten it - so white
+// can't work that way. White and black are genuine tint/shade operators:
+// applied as a blend toward their own reflectance AFTER the colored
+// pigments combine, which is the only way white can actually brighten
+// a mix rather than just failing to darken it.
 function mixedReflectanceAt(nm, piles) {
-  let r = 1;
+  let colorMix = 1;
+  let whiteFactor = 1, blackFactor = 1;
   for (const p of piles) {
     const pig = PIGMENTS[p.idx];
-    r *= diluted(nm, pig.hue, pig.baseline, pig.sigma, p.amount);
+    if (pig.role === 'white') {
+      whiteFactor *= (1 - p.amount/100);
+    } else if (pig.role === 'black') {
+      blackFactor *= (1 - p.amount/100);
+    } else {
+      colorMix *= diluted(nm, pig, p.amount);
+    }
   }
+  const whiteAmt = 1 - whiteFactor;
+  const blackAmt = 1 - blackFactor;
+  let r = colorMix + whiteAmt * (WHITE_REF - colorMix);
+  r = r - blackAmt * (r - BLACK_REF);
   return r;
 }
 function computeLMS(piles) {
@@ -188,15 +240,31 @@ function computeLMS(piles) {
   }
   return {L,M,S};
 }
+
+// White-point normalization: a perfectly flat (spectrally neutral)
+// reflectance must map to true neutral RGB. Without dividing by the
+// cones' own unequal total sensitivities, even white/black come out
+// green-tinted - this was a real, previously-unnoticed bug.
+function whitePointLMS() {
+  let L=0,M=0,S=0;
+  for (let nm=380; nm<=700; nm+=5) {
+    L += gauss(nm, CONE.L.mu, CONE.L.sigma);
+    M += gauss(nm, CONE.M.mu, CONE.M.sigma);
+    S += gauss(nm, CONE.S.mu, CONE.S.sigma);
+  }
+  return {L,M,S};
+}
+const WHITE_POINT = whitePointLMS();
+
 function lmsToRGB(L,M,S) {
-  let X=1.86006661*L-1.129771*M+0.219968*S;
-  let Y=0.361122*L+0.638804*M-0.000008*S;
-  let Z=1.089064*S;
+  const Ln = L/WHITE_POINT.L, Mn = M/WHITE_POINT.M, Sn = S/WHITE_POINT.S;
+  let X=1.86006661*Ln-1.129771*Mn+0.219968*Sn;
+  let Y=0.361122*Ln+0.638804*Mn-0.000008*Sn;
+  let Z=1.089064*Sn;
   const gammaCorrect=c=>c<=0.0031308?12.92*c:1.055*Math.pow(Math.max(c,0),1/2.4)-0.055;
-  let r=(3.2406*X-1.5372*Y-0.4986*Z)/100*EXPOSURE;
-  let g=(-0.9689*X+1.8758*Y+0.0415*Z)/100*EXPOSURE;
-  let b=(0.0557*X-0.2040*Y+1.0570*Z)/100*EXPOSURE;
-  r=gammaCorrect(r);g=gammaCorrect(g);b=gammaCorrect(b);
+  let r=gammaCorrect((3.2406*X-1.5372*Y-0.4986*Z)*EXPOSURE);
+  let g=gammaCorrect((-0.9689*X+1.8758*Y+0.0415*Z)*EXPOSURE);
+  let b=gammaCorrect((0.0557*X-0.2040*Y+1.0570*Z)*EXPOSURE);
   const clamp=c=>Math.max(0,Math.min(255,Math.round(c*255)));
   return {r:clamp(r),g:clamp(g),b:clamp(b)};
 }
@@ -207,9 +275,11 @@ function singlePigmentRGB(idx) {
 const PIGMENT_RGB = PIGMENTS.map((p,i) => singlePigmentRGB(i));
 
 const state = {
-  A: { idx: 5, amount: 75 }, // Ultramarine Blue
-  B: { idx: 7, amount: 75 }, // Viridian - a deliberately wrong starting pair
+  A: { idx: 2, amount: 75 },  // Ultramarine Blue
+  B: { idx: 6, amount: 75 },  // Viridian - deliberately not the right complement
+  C: { idx: 0, amount: 20 },  // Titanium White, low - try adding more and see it doesn't help reach gray
 };
+const PILE_KEYS = ['A','B','C'];
 
 function setupPalette(pile) {
   const el = document.getElementById('palette'+pile);
@@ -236,20 +306,22 @@ function graphSVG(rgbCss) {
     curves += `<path d="${d}" fill="none" stroke="${c.color}" stroke-width="1.1" opacity="0.38" stroke-dasharray="2,2"/>`;
   });
   let humps='';
-  [state.A, state.B].forEach(p=>{
+  PILE_KEYS.forEach(key=>{
+    const p = state[key];
     const pig = PIGMENTS[p.idx];
     const rgb = PIGMENT_RGB[p.idx];
     const col = `rgb(${rgb.r},${rgb.g},${rgb.b})`;
     let d='';
     for (let nm=380; nm<=700; nm+=5) {
-      const x=xOf(nm), y=H-6-diluted(nm,pig.hue,pig.baseline,pig.sigma,p.amount)*(H*0.72);
+      const x=xOf(nm), y=H-6-diluted(nm,pig,p.amount)*(H*0.72);
       d += (nm===380?'M':'L')+x.toFixed(1)+','+y.toFixed(1)+' ';
     }
     humps += `<path d="${d}" fill="none" stroke="${col}" stroke-width="1.4" opacity="0.5"/>`;
   });
+  const piles = PILE_KEYS.map(k=>state[k]);
   let dMix='', dArea=`M${PAD.toFixed(1)},${H-6} `;
   for (let nm=380; nm<=700; nm+=5) {
-    const x=xOf(nm), refl=mixedReflectanceAt(nm,[state.A,state.B]), y=H-6-refl*(H*0.72);
+    const x=xOf(nm), refl=mixedReflectanceAt(nm,piles), y=H-6-refl*(H*0.72);
     dMix += (nm===380?'M':'L')+x.toFixed(1)+','+y.toFixed(1)+' ';
     dArea += `L${x.toFixed(1)},${y.toFixed(1)} `;
   }
@@ -276,10 +348,10 @@ function renderPileDisplay(key) {
 }
 
 function renderAll() {
-  renderPileDisplay('A');
-  renderPileDisplay('B');
+  PILE_KEYS.forEach(renderPileDisplay);
 
-  const {L,M,S} = computeLMS([state.A, state.B]);
+  const piles = PILE_KEYS.map(k=>state[k]);
+  const {L,M,S} = computeLMS(piles);
   const rgb = lmsToRGB(L,M,S);
   const rgbCss = `rgb(${rgb.r},${rgb.g},${rgb.b})`;
   document.getElementById('graphSvg').innerHTML = graphSVG(rgbCss);
@@ -308,8 +380,7 @@ function updatePile(key, field, value) {
   renderAll();
 }
 
-setupPalette('A');
-setupPalette('B');
+PILE_KEYS.forEach(setupPalette);
 renderAll();
 </script>
 </body>

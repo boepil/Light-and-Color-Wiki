@@ -25,9 +25,9 @@ sequence: 93
 
 ### 2b. Try It: The Mix-to-Gray Simulator
 
-<iframe src="../mix-to-gray.htm" style="width: 100%; height: 820px; border: 1px solid #26262e; border-radius: 12px; background: #0a0a0d; display: block; margin: 20px 0;" loading="lazy" title="Mix to Gray — interactive subtractive-mixing simulator"></iframe>
+<iframe src="../mix-to-gray.htm" style="width: 100%; height: 900px; border: 1px solid #26262e; border-radius: 12px; background: #0a0a0d; display: block; margin: 20px 0;" loading="lazy" title="Mix to Gray — interactive subtractive-mixing simulator"></iframe>
 
-The **Mix to Gray** app puts this page's distinction on a palette: pick a real pigment for each pile — hue, value, and purity come fixed together as a set, the way an actual tube of paint behaves, so you cannot dial an arbitrary color space — then set how much of each pigment goes into the mix and try to land on neutral gray. The panel above the swatch plots the **mixed reflectance curve** and the **L, M, and S cone integrations** the eye actually performs, so the subtractive collapse toward neutral is visible in the same terms the rest of this section uses. The meter measures the result's distance from achromatic gray; real complements rarely cancel to a perfect neutral, which is exactly the "mud" behavior described in section 2.
+The **Mix to Gray** app puts this page's distinction on a palette: pick a real pigment for each of the three piles — hue, value, and purity come fixed together as a set, the way an actual tube of paint behaves, so you cannot dial an arbitrary color space — then set how much of each pigment goes into the mix and try to land on neutral gray. The third pile defaults to **Titanium White**, because white is where tinting and neutralizing visibly part ways: white and black enter the model as flat, spectrally neutral reflectors, so adding white lifts the mix's value without pulling it any closer to a true neutral — a tint is not a step toward gray. The panel above the swatch plots the **mixed reflectance curve** and the **L, M, and S cone integrations** the eye actually performs, so the subtractive collapse toward neutral is visible in the same terms the rest of this section uses. The meter measures the result's distance from achromatic gray; real complements rarely cancel to a perfect neutral, which is exactly the "mud" behavior described in section 2.
 
 ### 3. Why Perceptual and Mixing Complements Diverge
 
@@ -65,7 +65,7 @@ Bruce MacEvoy emphasizes that color theory's obsession with a single, symmetrica
 * **The Subtractive Primary Fallacy:** Why the traditional RYB primary/complement system fails to reach a wide gamut of secondary purples and greens compared to the CMY system.
 * **Chromatic Afterimage Dynamics:** The duration and strength of negative afterimages as a function of the stimulating hue's luminance and chroma.
 * **Neutralizing Paints in Practice:** How artists use earth colors (like [[PBr7 - Raw Umber|Raw Umber]] or [[PBr7 - Burnt Sienna|Burnt Sienna]]) to neutralize high-chroma pigments without creating flat, lifeless grays.
-* **Interactive Mix-to-Gray Simulator:** A browser app embedded in section 2b for experimenting with two-pigment subtractive mixtures and their distance from neutral gray.
+* **Interactive Mix-to-Gray Simulator:** A browser app embedded in section 2b for experimenting with two pigments plus a white/black pile, and their distance from neutral gray.
 
 ---
 
