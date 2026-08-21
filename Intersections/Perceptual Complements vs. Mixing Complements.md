@@ -64,7 +64,7 @@ Bruce MacEvoy emphasizes that color theory's obsession with a single, symmetrica
 * **Zone Theory and Stage Models:** How trichromatic cone signals are converted into opponent-process signals in the retina and lateral geniculate nucleus (LGN) before reaching the visual cortex.
 * **The Subtractive Primary Fallacy:** Why the traditional RYB primary/complement system fails to reach a wide gamut of secondary purples and greens compared to the CMY system.
 * **Chromatic Afterimage Dynamics:** The duration and strength of negative afterimages as a function of the stimulating hue's luminance and chroma.
-* **Neutralizing Paints in Practice:** How artists use earth colors (like Raw Umber or Burnt Sienna) to neutralize high-chroma pigments without creating flat, lifeless grays.
+* **Neutralizing Paints in Practice:** How artists use earth colors (like [[PBr7 - Raw Umber|Raw Umber]] or [[PBr7 - Burnt Sienna|Burnt Sienna]]) to neutralize high-chroma pigments without creating flat, lifeless grays.
 * **Interactive Mix-to-Gray Simulator:** A browser app embedded in section 2b for experimenting with two-pigment subtractive mixtures and their distance from neutral gray.
 
 ---

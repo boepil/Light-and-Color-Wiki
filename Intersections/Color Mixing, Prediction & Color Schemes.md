@@ -10,7 +10,7 @@ sequence: 88
 
 Paint color mixing is fundamentally different from mixing light: it is governed by **subtractive (multiplicative) filtering** rather than additive superposition. In additive mixing, light energies sum linearly to a lighter result; in subtractive mixing, each pigment absorbs specific wavelength bands from incident white light, leaving only the unabsorbed wavelengths to be reflected. Consequently:
 
-- **Curved mixing paths:** Mixtures of two pigments do not follow straight lines on a color wheel or chromaticity diagram. Instead, they trace **curved paths** bending inward toward lower chroma, because spectral reflectance curves multiply value-by-value across the spectrum (*"Choosing Colors (Live)"* — Color Nerd; *Color for Science, Art and Technology*, Fig. 1.11; *Interaction of Color*, Ch. X).
+- **Curved mixing paths:** Mixtures of two pigments do not follow straight lines on a color wheel or chromaticity diagram. Instead, they trace **curved paths** bending inward toward lower chroma, because spectral reflectance curves multiply value-by-value across the spectrum.
 - **The RYB fallacy vs. CMY primaries:** Traditional art education teaches Red, Yellow, and Blue (**[[Why CMY Beats RYB for Color Mixing|RYB]]**) as the primary colors. However, modern color science establishes **Cyan, Magenta, and Yellow (CMY)** as the optimal subtractive primaries, because each absorbs exactly one-third of the visible spectrum (cyan absorbs red 600–700 nm, magenta absorbs green 500–600 nm, yellow absorbs blue 400–500 nm).
 - **Why Yellow + Blue yields green, gray, or black:** Yellow and blue lights additively combine to white. Yellow and blue paints typically mix to green because blue pigments absorb red and yellow wavelengths while yellow pigments absorb blue wavelengths, leaving only the **shared green window (500–570 nm)** reflected by both. If two specific pigments lack an overlapping spectral window, their mixture yields an achromatic **gray or black** rather than green.
 
@@ -26,7 +26,7 @@ Predicting the exact hue, value, and chroma of a paint mixture from the individu
 
 ### 3. The Shrinking Gamut
 
-Physical paint mixing always results in a **loss of chroma** relative to the unmixed parent pigments. On a 3D color solid, any mixture line between two pigments passes through the interior of the solid, dropping below the outer boundary. Real pigment gamuts fall well short of Schrödinger's theoretical **[[Optimal Color Solid-MacAdam Limits|MacAdam limits]]** (the maximum achievable chroma for non-fluorescent surfaces) and exhibit severe asymmetries (e.g. greens reaching **[[Munsell Notation|Munsell Chroma]]** ~34 while reds peak near 20). Compared to RGB digital displays, physical paint mixtures lose the most saturation in the cyan-blue and violet sectors (*"Choosing Colors (Live)"* — Color Nerd).
+Physical paint mixing always results in a **loss of chroma** relative to the unmixed parent pigments. On a 3D color solid, any mixture line between two pigments passes through the interior of the solid, dropping below the outer boundary. Real pigment gamuts fall well short of Schrödinger's theoretical **[[Optimal Color Solid-MacAdam Limits|MacAdam limits]]** (the maximum achievable chroma for non-fluorescent surfaces) and exhibit severe asymmetries (e.g. greens reaching **[[Munsell Notation|Munsell Chroma]]** ~34 while reds peak near 20). Compared to RGB digital displays, physical paint mixtures lose the most saturation in the cyan-blue and violet sectors.
 
 ### 4. Color Scheme Geometry & Scientific Critique
 
@@ -42,7 +42,7 @@ To manage mixing unpredictability and enforce harmony, painters rely on four emp
 
 - **Complementary Underpainting (Verdaccio):** Applying a cool complementary underpainting (e.g. Terra Verte / Green Earth or umber) beneath warm flesh tones allows light to pass through translucent glazes, creating optical depth and natural chromatic grays that palette mixing cannot replicate.
 - **Limited Palettes & The "Mother Color":** Restricting the palette to 3–5 pigments (e.g. the historical **Zorn palette**: Titanium White, **[[PY43 - Yellow Ochre|Yellow Ochre]]**, Vermilion/**[[PR108 - Cadmium Red|Cadmium Red]]**, Ivory Black) eliminates mud by constraining all mixtures to a shared, harmonious gamut hull. Adding a small amount of a single **"mother color"** to every mixture on the palette unifies the entire painting's spectral envelope.
-- **Color Strings & Value Grids:** Pre-mixing "color strings" — systematic value and chroma ladders of a single hue string before painting — allows the artist to adjust hue, value, and chroma independently, avoiding palette guesswork (*"Choosing Colors (Live)"* — Color Nerd; *Carlson's Guide to Landscape Painting*).
+- **Color Strings & Value Grids:** Pre-mixing "color strings" — systematic value and chroma ladders of a single hue string before painting — allows the artist to adjust hue, value, and chroma independently, avoiding palette guesswork.
 
 ## Handprint Perspectives
 
@@ -84,12 +84,12 @@ Finally, Briggs stresses that paint mixing is a **compound of subtractive filter
 - [[The artist's color wheel]]
 
 ## Sources
-* "Color for Science, Art, and Technology" — Kurt Nassau (editor)
+* "Color for Science, Art, and Technology" — Kurt Nassau (editor) (Fig. 1.11: curved subtractive mixing paths)
 * "A Comprehensive Overview of Color Vision Mechanisms, Color Spaces, and the Munsell System"
 * "The Science of Paintings" — W. Stanley Taft Jr. and James W. Mayer
 * "The Artist's Handbook of Materials and Techniques" — Ralph Mayer
 * "Interaction of Color: 50th Anniversary Edition" — Josef Albers
-* "The Art of Color: The Subjective Experience and Objective Rationale of Color" — Johannes Itten
+* "The Art of Color: The Subjective Experience and Objective Rationale of Color" — Johannes Itten (Ch. X)
 * "Color by Betty Edwards" — Betty Edwards
 * "A Color Notation" — Albert H. Munsell
 * "Contemporary Color: Theory and Use" — Steven Bleicher

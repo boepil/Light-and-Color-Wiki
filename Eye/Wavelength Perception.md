@@ -64,7 +64,7 @@ A vertical section through the human cone layer reveals the anatomy behind the p
 
 The figure's special emphasis is the anatomical difference between cone classes: **L- and M-cones** are structurally very similar, differing mainly in the photopigment each contains, while the **S-cone (blue cone)** shown here stands out because its **outer segment is noticeably shorter** than those of its L/M neighbors — terminating well below the taller L/M outer segments. The blue overlay is an *artificial annotation*, not a blue-colored cone.
 
-> [!NOTE] **Terminology flag:** the figure's "OLM" (outer limiting membrane) label and the observation that the **S-cone's outer segment is shorter** than L/M outer segments are *not* in the notebook corpus — the corpus describes the cone's inner/outer segments, cell body, pedicle, and OPL wiring, but does not name the OLM or give this S-cone-specific anatomical detail. These two points come from the figure itself, which is otherwise consistent with the corpus (Palmer p. 32; Color for Science p. 101).
+> [!NOTE] **Terminology flag:** the figure's "OLM" (outer limiting membrane) label and the observation that the **S-cone's outer segment is shorter** than L/M outer segments are *not* in the notebook corpus — the corpus describes the cone's inner/outer segments, cell body, pedicle, and OPL wiring, but does not name the OLM or give this S-cone-specific anatomical detail. These two points come from the figure itself, which is otherwise consistent with the corpus.
 
 ### 5. Ratios of Activation Across Cones
 
