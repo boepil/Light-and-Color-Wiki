@@ -8,7 +8,7 @@ sequence: 83
 
 ### Watch the Chain Run: Interactive Animation
 
-<iframe src="../color-journey.htm" style="width: 100%; aspect-ratio: 1200 / 713; height: auto; border: 1px solid #26262e; border-radius: 12px; background: #0a0a0d; display: block; margin: 20px 0;" loading="lazy" title="From light to color — animated causal chain from pigment to cortex"></iframe>
+<iframe src="../color-journey.htm" style="width: 100%; aspect-ratio: 1200 / 448; height: auto; border: 1px solid #26262e; border-radius: 12px; background: #0a0a0d; display: block; margin: 20px 0;" loading="lazy" title="From light to color — animated causal chain from pigment to cortex"></iframe>
 
 The **color journey** animation runs this page's four sections as one continuous loop. Drag the **dominant-wavelength** slider and watch: spectral rays falling inside the pigment's reflectance band survive the surface while the rest die as heat at the impact point; the surviving beam fans out across the **L, M, and S cones** in proportion to their overlapping sensitivities; the cone signals are re-encoded by the **R−G and B−Y opponent channels**, whose axons carry polarity-coded pulses onward; and the cortex glows with the final percept — which is rarely a simple copy of the physical beam that started the journey. The bipolar meters under the slider show the live opponent signals, the same algebra the retina performs before any color appears.
 
