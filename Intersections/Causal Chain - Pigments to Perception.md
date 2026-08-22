@@ -1,4 +1,4 @@
----
+﻿---
 title: Causal Chain - Pigments to Perception
 sequence: 83
 ---
@@ -8,12 +8,12 @@ sequence: 83
 
 ### Watch the Chain Run: Interactive Animation
 
-<iframe src="../color-journey.htm" style="width: 100%; height: 820px; border: 1px solid #26262e; border-radius: 12px; background: #0a0a0d; display: block; margin: 20px 0;" loading="lazy" title="From light to color — animated causal chain from pigment to cortex"></iframe>
+<iframe src="../color-journey.htm" style="width: 100%; aspect-ratio: 1200 / 713; height: auto; border: 1px solid #26262e; border-radius: 12px; background: #0a0a0d; display: block; margin: 20px 0;" loading="lazy" title="From light to color ג€” animated causal chain from pigment to cortex"></iframe>
 
-The **color journey** animation runs this page's four sections as one continuous loop. Drag the **dominant-wavelength** slider and watch: spectral rays falling inside the pigment's reflectance band survive the surface while the rest die as heat at the impact point; the surviving beam fans out across the **L, M, and S cones** in proportion to their overlapping sensitivities; the cone signals are re-encoded by the **R−G and B−Y opponent channels**, whose axons carry polarity-coded pulses onward; and the cortex glows with the final percept — which is rarely a simple copy of the physical beam that started the journey. The bipolar meters under the slider show the live opponent signals, the same algebra the retina performs before any color appears.
+The **color journey** animation runs this page's four sections as one continuous loop. Drag the **dominant-wavelength** slider and watch: spectral rays falling inside the pigment's reflectance band survive the surface while the rest die as heat at the impact point; the surviving beam fans out across the **L, M, and S cones** in proportion to their overlapping sensitivities; the cone signals are re-encoded by the **Rגˆ’G and Bגˆ’Y opponent channels**, whose axons carry polarity-coded pulses onward; and the cortex glows with the final percept ג€” which is rarely a simple copy of the physical beam that started the journey. The bipolar meters under the slider show the live opponent signals, the same algebra the retina performs before any color appears.
 
 ### Physical Foundation: Spectral Reflectance of Surfaces
-The chain begins with the **spectral reflectance** of physical surfaces. The theoretical maximum saturation (chroma) a non-fluorescent material can achieve at any lightness level is governed by **[[Optimal Color Solid-MacAdam Limits|optimal colors]]**—hypothetical surfaces that reflect light with 100% efficiency in specific bands and absorb 100% elsewhere, creating a binary "0 or 1" step-function profile [1, 2]. 
+The chain begins with the **spectral reflectance** of physical surfaces. The theoretical maximum saturation (chroma) a non-fluorescent material can achieve at any lightness level is governed by **[[Optimal Color Solid-MacAdam Limits|optimal colors]]**ג€”hypothetical surfaces that reflect light with 100% efficiency in specific bands and absorb 100% elsewhere, creating a binary "0 or 1" step-function profile [1, 2]. 
 
 Real-world pigments, however, exhibit gradual absorption slopes, chemical impurities, and light scattering [22]. These physical properties prevent real materials from reaching the theoretical limits of optimal color spectra, ensuring that all physical colors remain a subset of these ideal mathematical boundaries [23].
 
@@ -27,7 +27,7 @@ This biological tuning establishes a major asymmetry in how we integrate physica
 ### Empirical Constraints: Pointer's Gamut
 The intersection of physical pigment limitations and human biological sensitivity yields the empirical boundaries of real-world color. In 1980, Michael Pointer measured over 4,000 physical surface colors (flowers, paints, inks, minerals) to map **[[Pointer's Gamut|Pointer's Gamut]]** [4, 5]. 
 
-Pointer's Gamut represents the real-world boundaries of color under standard CIE Illuminant C [6]. It inherits the lopsided asymmetry of the $V(\lambda)$ sensitivity curve—extending deeply into high-chroma greens and oranges, but shrinking significantly in the reds and blue-violet regions [4, 8].
+Pointer's Gamut represents the real-world boundaries of color under standard CIE Illuminant C [6]. It inherits the lopsided asymmetry of the $V(\lambda)$ sensitivity curveג€”extending deeply into high-chroma greens and oranges, but shrinking significantly in the reds and blue-violet regions [4, 8].
 
 ### The Perceptual Experience of Asymmetry
 The final link in the chain is our **perceptual experience** of color. The visual system's **[[Opponent-Process Color Coding|opponent-process coding]]** coordinates lightness and chroma along yellow-blue and red-green axes, translating these physical-biological constraints into our experience of natural color spaces [11, 19]. 
@@ -35,13 +35,13 @@ The final link in the chain is our **perceptual experience** of color. The visua
 This uneven distribution of saturation and lightness across the hue circle is not a defect, but an evolutionary adaptation; the visual system's tuning for maximum luminous efficiency in daylight allows humans to make fine discriminations in vegetation and natural materials where green and yellow-green reflectances dominate [11, 32].
 
 ## Handprint Perspectives
-Bruce MacEvoy highlights that warm surface colors (red, orange, yellow) are unique within the MacAdam limits because they retain high chroma even as lightness increases. He explains this behavior by analyzing the **"warm cliff" reflectance curve** typical of these pigments—characterized by an abrupt rise in reflectance between cyan and orange, high reflectance on the red side, and low reflectance on the blue side. Because warm pigments closely mimic the step-functions of theoretical optimal colors, they can "retain saturation sideways" by widening their reflectance band without losing chromatic purity, a property cool pigments do not possess *(Source: [[raw_sources/handprint/color12.md|color12.html]])*.
+Bruce MacEvoy highlights that warm surface colors (red, orange, yellow) are unique within the MacAdam limits because they retain high chroma even as lightness increases. He explains this behavior by analyzing the **"warm cliff" reflectance curve** typical of these pigmentsג€”characterized by an abrupt rise in reflectance between cyan and orange, high reflectance on the red side, and low reflectance on the blue side. Because warm pigments closely mimic the step-functions of theoretical optimal colors, they can "retain saturation sideways" by widening their reflectance band without losing chromatic purity, a property cool pigments do not possess *(Source: [[raw_sources/handprint/color12.md|color12.html]])*.
 
 ## Subtopics
 - Theoretical optimal colors vs. real-world pigment limitations
 - Mathematical derivation of MacAdam limits from CIE tristimulus integration
 - The role of $V(\lambda)$ in creating the green-yellow lightness-chroma protrusion
-- The chain as a live animation: absorption → cone ratios → opponent polarity → cortical percept
+- The chain as a live animation: absorption ג†’ cone ratios ג†’ opponent polarity ג†’ cortical percept
 
 ## Cross-References
 - [[Colors/Gamuts/Optimal Color Solid-MacAdam Limits]]
@@ -50,5 +50,5 @@ Bruce MacEvoy highlights that warm surface colors (red, orange, yellow) are uniq
 - [[Intersections/Natural Light Gamut vs. Pigment Gamut - Metamerism]]
 
 ## Sources
-* "Color Science: Concepts and Methods, Quantitative Data and Formulae" — Gunter Wyszecki & W.S. Stiles
-* "The Gamut of Real Surface Colours" — Michael R. Pointer
+* "Color Science: Concepts and Methods, Quantitative Data and Formulae" ג€” Gunter Wyszecki & W.S. Stiles
+* "The Gamut of Real Surface Colours" ג€” Michael R. Pointer
