@@ -6,372 +6,519 @@
 <title>From Light to Color</title>
 <style>
   :root {
-    --bg: #0a0a0d;
-    --panel: #131317;
-    --panel-alt: #17171c;
-    --border: #26262e;
-    --text: #eeeeec;
-    --text-dim: #86868f;
-    --text-faint: #55555e;
+    --bg: #030305;
+    --ink: #eeeeec;
+    --muted: #8b8b96;
+    --faint: #4c4c57;
+    --line: #25252d;
+    --tab: #121219;
     --amber: #f2c14e;
+    --blue: #3c74ff;
+    --green: #49c85f;
+    --red: #ee4c42;
     --mono: ui-monospace, "SF Mono", "Cascadia Code", Menlo, Consolas, monospace;
-    --sans: ui-sans-serif, -apple-system, "Segoe UI", Roboto, sans-serif;
+    --sans: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   }
+
   * { box-sizing: border-box; }
-  html, body { margin: 0; background: var(--bg); color: var(--text); font-family: var(--sans); -webkit-font-smoothing: antialiased; }
-  .app { max-width: 920px; margin: 0 auto; padding: 26px 20px 46px; }
-  .eyebrow { font-family: var(--mono); font-size: 11px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--amber); }
-  h1 { font-size: 24px; font-weight: 650; margin: 2px 0 4px; letter-spacing: -0.01em; }
-  .subhead { color: var(--text-dim); font-size: 13.5px; max-width: 700px; line-height: 1.5; margin-bottom: 18px; }
+  html, body { margin: 0; min-height: 100%; background: var(--bg); color: var(--ink); }
+  body { font-family: var(--sans); -webkit-font-smoothing: antialiased; }
+  .journey { width: min(1200px, 100%); margin: 0 auto; padding: 14px 14px 24px; }
+  .scene-frame { position: relative; width: 100%; }
+  #scene { display: block; width: 100%; height: auto; overflow: visible; }
 
-  .scene-wrap { background: var(--panel); border: 1px solid var(--border); border-radius: 14px; padding: 10px 12px; margin-bottom: 14px; }
-  svg#scene { width: 100%; height: auto; display: block; }
+  .stage-tab { fill: var(--tab); }
+  .stage-label, .svg-mono { font-family: var(--mono); letter-spacing: 1.5px; }
+  .stage-label { fill: var(--ink); font-size: 10px; font-weight: 700; }
+  .svg-muted { fill: var(--muted); font-family: var(--mono); font-size: 9px; letter-spacing: 1px; }
+  .svg-faint { fill: var(--faint); font-family: var(--mono); font-size: 8px; }
+  .axis-line { stroke: var(--line); stroke-width: 1; }
 
-  .panel { background: var(--panel); border: 1px solid var(--border); border-radius: 14px; padding: 16px; margin-bottom: 14px; display: grid; grid-template-columns: 280px 1fr 150px; gap: 20px; align-items: stretch; }
-  @media (max-width: 760px) { .panel { grid-template-columns: 1fr; } }
-  .section-title { font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--text-dim); margin-bottom: 8px; }
+  .pigment-control {
+    position: absolute;
+    left: 9.8%;
+    top: 55.9%;
+    width: 21%;
+    color: var(--muted);
+    pointer-events: auto;
+  }
+  .pigment-control .control-label {
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+    margin-bottom: 7px;
+    font: 9px/1.2 var(--mono);
+    letter-spacing: 1px;
+    white-space: nowrap;
+  }
+  .pigment-control .control-label span:last-child { color: var(--ink); }
+  input[type="range"] {
+    display: block;
+    width: 100%;
+    height: 4px;
+    margin: 0;
+    appearance: none;
+    -webkit-appearance: none;
+    border: 0;
+    border-radius: 3px;
+    outline: none;
+    background: linear-gradient(90deg, #7b4b9e 0%, #4a90d9 26%, #21d0c3 42%, #4bb35e 58%, #e0c33e 76%, #e0483e 100%);
+  }
+  input[type="range"]::-webkit-slider-thumb {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 15px;
+    height: 15px;
+    border: 0;
+    border-radius: 50%;
+    background: #f0f0ec;
+    box-shadow: 0 0 0 3px rgba(255,255,255,.12);
+    cursor: pointer;
+  }
+  input[type="range"]::-moz-range-thumb {
+    width: 15px;
+    height: 15px;
+    border: 0;
+    border-radius: 50%;
+    background: #f0f0ec;
+    box-shadow: 0 0 0 3px rgba(255,255,255,.12);
+    cursor: pointer;
+  }
+  input[type="range"]:focus-visible::-webkit-slider-thumb { box-shadow: 0 0 0 3px #030305, 0 0 0 5px var(--ink); }
+  input[type="range"]:focus-visible::-moz-range-thumb { box-shadow: 0 0 0 3px #030305, 0 0 0 5px var(--ink); }
 
-  .curve-block svg { width: 100%; height: auto; display: block; }
-
-  .mid { display: flex; flex-direction: column; justify-content: center; gap: 14px; }
-  .mid label { display: flex; justify-content: space-between; font-family: var(--mono); font-size: 11px; color: var(--text-faint); margin-bottom: 6px; }
-  .mid label .val { color: var(--text-dim); }
-  input[type=range] { -webkit-appearance: none; width: 100%; height: 4px; background: linear-gradient(90deg, #7b4b9e, #4a90d9, #21d0c3, #4bb35e, #e0c33e, #e0483e); border-radius: 2px; outline: none; }
-  input[type=range]::-webkit-slider-thumb { -webkit-appearance: none; width: 16px; height: 16px; border-radius: 50%; background: #f0f0ec; cursor: pointer; box-shadow: 0 0 0 3px rgba(255,255,255,0.12); }
-  input[type=range]::-moz-range-thumb { width: 16px; height: 16px; border-radius: 50%; background: #f0f0ec; border: none; cursor: pointer; }
-
-  .opp-row { display: flex; align-items: center; gap: 8px; font-family: var(--mono); font-size: 11px; color: var(--text-faint); }
-  .opp-row .track { position: relative; flex: 1; height: 8px; background: var(--panel-alt); border: 1px solid var(--border); border-radius: 4px; }
-  .opp-row .notch { position: absolute; left: 50%; top: -2px; bottom: -2px; width: 1px; background: var(--text-faint); }
-  .opp-row .marker { position: absolute; top: 50%; width: 12px; height: 12px; border-radius: 50%; transform: translate(-50%, -50%); transition: left 0.12s ease, background 0.12s ease; }
-
-  .result { display: flex; flex-direction: column; gap: 8px; }
-  .swatch { flex: 1; min-height: 92px; border-radius: 10px; border: 1px solid var(--border); display: flex; align-items: flex-end; justify-content: flex-end; padding: 8px; transition: background 0.15s ease; }
-  .swatch .rgb-label { font-family: var(--mono); font-size: 10.5px; background: rgba(0,0,0,0.55); color: #fff; padding: 3px 7px; border-radius: 6px; }
-  .result .section-title { text-align: center; margin-bottom: 0; }
-
-  footer { font-size: 11.5px; color: var(--text-faint); line-height: 1.6; max-width: 760px; }
+  @media (max-width: 700px) {
+    .journey { padding: 5px 5px 12px; }
+    .pigment-control { left: 9.8%; top: 55.9%; width: 21%; }
+    .pigment-control .control-label { font-size: 7px; letter-spacing: .6px; margin-bottom: 5px; }
+  }
 </style>
 </head>
 <body>
-<div class="app">
-  <div class="eyebrow">Pigment · Retina · Cortex</div>
-  <h1>From light to color</h1>
-  <div class="subhead">Sunlight carries every wavelength; a pigment keeps only its own band. Follow the survivors through the lens, the three cone classes, the opponent channels, and into the cortex — then drag the slider and watch the whole pipeline re-tune.</div>
-
-  <div class="scene-wrap">
-    <svg id="scene" viewBox="0 0 1000 442" preserveAspectRatio="xMidYMid meet">
-      <defs>
-        <radialGradient id="brainGlow">
-          <stop id="gs1" offset="0%" stop-color="#4a90d9" stop-opacity="0.95"/>
-          <stop id="gs2" offset="100%" stop-color="#4a90d9" stop-opacity="0"/>
+<main class="journey" aria-label="Interactive light to color journey">
+  <div class="scene-frame">
+    <svg id="scene" viewBox="0 0 1200 675" role="img" aria-labelledby="sceneTitle sceneDesc" preserveAspectRatio="xMidYMid meet">
+      <title id="sceneTitle">From light to color</title>
+      <desc id="sceneDesc">A wavelength slider changes a schematic path from sunlight through pigment, lens, cone photoreceptors, opponent channels, and visual cortex.</desc>
+      <defs id="svgDefs">
+        <radialGradient id="brainGlowGradient">
+          <stop id="glowStart" offset="0%" stop-color="#4a90d9" stop-opacity=".95"/>
+          <stop id="glowEnd" offset="100%" stop-color="#4a90d9" stop-opacity="0"/>
         </radialGradient>
       </defs>
 
-      <g id="sunRays" stroke="#f2c14e" stroke-width="2" stroke-linecap="round"></g>
-      <circle cx="75" cy="82" r="16" fill="#f2c14e"/>
-
-      <g id="rayFan" stroke-width="1.8" fill="none"></g>
-      <g id="flickers"></g>
-
-      <polygon points="225,372 262,300 300,272 338,290 382,372" fill="#1d3fb8" stroke="#3a63e8" stroke-width="1.5"/>
-      <path id="beamPath" d="M330,278 L445,302 L482,304" fill="none" stroke="#4a90d9" stroke-width="3" stroke-linecap="round" opacity="0.9"/>
-
-      <ellipse cx="445" cy="305" rx="13" ry="27" fill="#e8e4d8" opacity="0.92" transform="rotate(-8 445 305)"/>
-
-      <circle cx="578" cy="302" r="96" fill="none" stroke="#dddddd" stroke-width="2.5"/>
-
-      <path id="wireL" d="M482,304 L578,246" stroke="#e0483e" stroke-width="1.6" fill="none" opacity="0.4"/>
-      <path id="wireM" d="M482,304 L578,302" stroke="#4bb35e" stroke-width="1.6" fill="none" opacity="0.4"/>
-      <path id="wireS" d="M482,304 L578,356" stroke="#4a90d9" stroke-width="1.6" fill="none" opacity="0.4"/>
-
-      <g id="coneL" transform="translate(592,246)">
-        <rect x="-4" y="-27" width="8" height="11" rx="2" fill="#e0483e" opacity="0.75"/>
-        <path d="M-12,-16 L12,-16 L5,20 L-5,20 Z" fill="#e0483e" stroke="#ff6a5e" stroke-width="1.5"/>
-      </g>
-      <g id="coneM" transform="translate(592,302)">
-        <rect x="-4" y="-27" width="8" height="11" rx="2" fill="#4bb35e" opacity="0.75"/>
-        <path d="M-12,-16 L12,-16 L5,20 L-5,20 Z" fill="#4bb35e" stroke="#6fe07e" stroke-width="1.5"/>
-      </g>
-      <g id="coneS" transform="translate(592,356)">
-        <rect x="-4" y="-27" width="8" height="11" rx="2" fill="#4a90d9" opacity="0.75"/>
-        <path d="M-12,-16 L12,-16 L5,20 L-5,20 Z" fill="#4a90d9" stroke="#6db4f0" stroke-width="1.5"/>
+      <g aria-hidden="true">
+        <rect class="stage-tab" x="54" y="38" width="146" height="27" rx="1"/>
+        <rect class="stage-tab" x="218" y="38" width="176" height="27" rx="1"/>
+        <rect class="stage-tab" x="411" y="38" width="144" height="27" rx="1"/>
+        <rect class="stage-tab" x="572" y="38" width="190" height="27" rx="1"/>
+        <rect class="stage-tab" x="779" y="38" width="174" height="27" rx="1"/>
+        <rect class="stage-tab" x="970" y="38" width="176" height="27" rx="1"/>
+        <text class="stage-label" x="127" y="55" text-anchor="middle">SUN</text>
+        <text class="stage-label" x="306" y="55" text-anchor="middle">PIGMENT</text>
+        <text class="stage-label" x="483" y="55" text-anchor="middle">LENS</text>
+        <text class="stage-label" x="667" y="55" text-anchor="middle">RETINA · CONES</text>
+        <text class="stage-label" x="866" y="55" text-anchor="middle">OPPONENT CELLS</text>
+        <text class="stage-label" x="1058" y="55" text-anchor="middle">VISUAL CORTEX</text>
       </g>
 
-      <path id="feedL" d="M604,246 L655,330" stroke="#666670" stroke-width="1.2" fill="none" opacity="0.5"/>
-      <path id="feedM" d="M604,302 L655,330" stroke="#666670" stroke-width="1.2" fill="none" opacity="0.5"/>
-      <path id="wireRG_L" d="M604,246 L758,264" stroke="#e0483e" stroke-width="2" fill="none" opacity="0.5"/>
-      <path id="wireRG_M" d="M604,302 L758,264" stroke="#4bb35e" stroke-width="2" fill="none" opacity="0.5"/>
-      <path id="wireBY_S" d="M604,356 L758,344" stroke="#4a90d9" stroke-width="2" fill="none" opacity="0.5"/>
-      <path id="wireBY_Y" d="M655,330 L758,344" stroke="#f2c14e" stroke-width="2" fill="none" opacity="0.5"/>
+      <g id="sunRays" stroke="#f2c14e" stroke-width="2" stroke-linecap="round" aria-hidden="true"></g>
+      <circle cx="100" cy="145" r="26" fill="#f2c14e" aria-hidden="true"/>
 
-      <text x="775" y="230" text-anchor="middle" font-family="var(--mono)" font-size="10" fill="#86868f" letter-spacing="1">R+ G−</text>
-      <circle id="cellRG_ring" cx="775" cy="264" r="17" fill="#131317" stroke="#e0483e" stroke-width="3"/>
-      <circle id="cellRG_inner" cx="775" cy="264" r="4" fill="#4bb35e"/>
-      <text x="775" y="315" text-anchor="middle" font-family="var(--mono)" font-size="10" fill="#86868f" letter-spacing="1">B+ Y−</text>
-      <circle id="cellBY_ring" cx="775" cy="344" r="17" fill="#131317" stroke="#4a90d9" stroke-width="3"/>
-      <circle id="cellBY_inner" cx="775" cy="344" r="4" fill="#f2c14e"/>
+      <g id="rayFan" fill="none" aria-hidden="true"></g>
+      <g id="flickers" aria-hidden="true"></g>
 
-      <path id="ribbonRG" d="M792,264 L868,272" stroke="#e0483e" stroke-width="11" stroke-linecap="round" opacity="0.4"/>
-      <path id="ribbonBY" d="M792,344 L868,330" stroke="#4a90d9" stroke-width="11" stroke-linecap="round" opacity="0.4"/>
+      <g id="pigmentGraph" aria-hidden="true">
+        <line class="axis-line" x1="118" y1="360" x2="370" y2="360"/>
+        <g id="curvePlot"></g>
+      </g>
 
-      <path d="M868,268 C862,232 886,198 928,192 C968,186 998,208 1000,244 C1001,262 994,272 996,284 C1004,312 988,344 958,352 C952,372 938,386 920,388 L918,362 C898,360 884,346 882,326 C870,312 864,290 868,268 Z M918,388 L913,414 L931,414 L933,386" fill="#17171c" stroke="#9a9aa2" stroke-width="2" fill-rule="evenodd"/>
-      <circle id="brainGlowC" cx="942" cy="272" r="30" fill="url(#brainGlow)"/>
+      <g id="pigmentRays" fill="none" aria-hidden="true"></g>
+      <path id="selectedRay" d="M126,158 L210,300" fill="none" stroke="#4a90d9" stroke-width="2.3" opacity=".95" aria-hidden="true"/>
+      <path id="selectedThroughPigment" d="M210,300 L300,300" fill="none" stroke="#4a90d9" stroke-width="2.8" stroke-dasharray="7 8" opacity=".98" aria-hidden="true"/>
+      <path id="beamToLens" d="M370,276 L443,276" fill="none" stroke="#4a90d9" stroke-width="3" stroke-linecap="round" aria-hidden="true"/>
+      <ellipse cx="468" cy="276" rx="13" ry="31" fill="#e8e4d8" opacity=".95" aria-hidden="true"/>
+      <path id="beamIntoRetina" d="M482,276 L514,276" fill="none" stroke="#4a90d9" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"/>
 
-      <g font-family="ui-monospace, Menlo, Consolas, monospace" font-size="10" fill="#86868f" letter-spacing="1.5" text-anchor="middle">
-        <text x="75" y="430">SUN</text>
-        <text x="300" y="430">PIGMENT</text>
-        <text x="445" y="430">LENS</text>
-        <text x="578" y="430">RETINA · CONES</text>
-        <text x="775" y="430">OPPONENT CELLS</text>
-        <text x="940" y="430">VISUAL CORTEX</text>
+      <g aria-hidden="true">
+        <path d="M520,276 C520,190 578,135 657,135 C736,135 773,196 773,276 C773,356 736,417 657,417 C578,417 520,361 520,276 Z" fill="#080a0f" opacity=".9"/>
+        <circle cx="657" cy="276" r="137" fill="none" stroke="#dddddd" stroke-width="2.5"/>
+        <text class="svg-muted" x="534" y="164">LIGHT</text>
+        <text class="svg-muted" x="689" y="164">NEURAL SIGNAL</text>
+        <path d="M520,276 C548,276 548,239 573,239" fill="none" stroke="#1c2430" stroke-width="1"/>
+        <path d="M520,276 C548,276 548,276 573,276" fill="none" stroke="#1c2430" stroke-width="1"/>
+        <path d="M520,276 C548,276 548,313 573,313" fill="none" stroke="#1c2430" stroke-width="1"/>
+      </g>
+
+      <g id="coneSignals" fill="none" aria-hidden="true">
+        <path id="signalS" d="M514,276 C545,276 558,230 604,225" stroke="#4a90d9" stroke-width="2.8"/>
+        <path id="signalM" d="M514,276 C548,276 565,276 604,276" stroke="#49c85f" stroke-width="2.8"/>
+        <path id="signalL" d="M514,276 C545,276 558,322 604,327" stroke="#ee4c42" stroke-width="2.8"/>
+      </g>
+
+      <g id="cones" aria-hidden="true">
+        <g id="coneS" transform="translate(638,225)">
+          <path d="M-34,0 L24,-24 L24,24 Z" fill="#2556f5" stroke="#f4f3ea" stroke-width="2.8" stroke-linejoin="round"/>
+          <path d="M24,-10 L46,-10 L46,10 L24,10 Z" fill="#2556f5" stroke="#4a90d9" stroke-width="2.4" stroke-linejoin="round"/>
+          <text class="svg-muted" x="54" y="4">S</text>
+        </g>
+        <g id="coneM" transform="translate(638,276)">
+          <path d="M-34,0 L24,-24 L24,24 Z" fill="#23bd46" stroke="#f4f3ea" stroke-width="2.8" stroke-linejoin="round"/>
+          <path d="M24,-10 L46,-10 L46,10 L24,10 Z" fill="#23bd46" stroke="#49c85f" stroke-width="2.4" stroke-linejoin="round"/>
+          <text class="svg-muted" x="54" y="4">M</text>
+        </g>
+        <g id="coneL" transform="translate(638,327)">
+          <path d="M-34,0 L24,-24 L24,24 Z" fill="#ec332d" stroke="#f4f3ea" stroke-width="2.8" stroke-linejoin="round"/>
+          <path d="M24,-10 L46,-10 L46,10 L24,10 Z" fill="#ec332d" stroke="#ee4c42" stroke-width="2.4" stroke-linejoin="round"/>
+          <text class="svg-muted" x="54" y="4">L</text>
+        </g>
+      </g>
+
+      <g id="opponentInputs" fill="none" aria-hidden="true">
+        <path id="byS" d="M664,225 C726,225 741,205 795,218" stroke="#4a90d9" stroke-width="2"/>
+        <path id="byM" d="M664,276 C723,276 744,220 795,218" stroke="#49c85f" stroke-width="2"/>
+        <path id="byL" d="M664,327 C726,327 744,237 795,218" stroke="#ee4c42" stroke-width="2"/>
+        <path id="rgS" d="M664,225 C726,225 747,274 795,276" stroke="#4a90d9" stroke-width="2"/>
+        <path id="rgM" d="M664,276 C726,276 747,276 795,276" stroke="#49c85f" stroke-width="2"/>
+        <path id="rgL" d="M664,327 C726,327 747,278 795,276" stroke="#ee4c42" stroke-width="2"/>
+        <path id="bwM" d="M664,276 C729,276 748,337 795,334" stroke="#49c85f" stroke-width="2"/>
+        <path id="bwL" d="M664,327 C729,327 748,334 795,334" stroke="#ee4c42" stroke-width="2"/>
+      </g>
+
+      <g id="opponentCells" aria-hidden="true">
+        <text class="svg-muted" x="838" y="190" text-anchor="middle">B+ · Y−</text>
+        <circle id="byRing" cx="838" cy="218" r="20" fill="#0c0d12" stroke="#4a90d9" stroke-width="3"/>
+        <circle id="byInner" cx="838" cy="218" r="6" fill="#f2c14e"/>
+
+        <text class="svg-muted" x="838" y="248" text-anchor="middle">R+ · G−</text>
+        <circle id="rgRing" cx="838" cy="276" r="20" fill="#0c0d12" stroke="#ee4c42" stroke-width="3"/>
+        <circle id="rgInner" cx="838" cy="276" r="6" fill="#49c85f"/>
+
+        <text class="svg-muted" x="838" y="306" text-anchor="middle">WHITE · BLACK</text>
+        <circle id="bwRing" cx="838" cy="334" r="20" fill="#0c0d12" stroke="#eeeeec" stroke-width="3"/>
+        <circle id="bwInner" cx="838" cy="334" r="6" fill="#050508"/>
+      </g>
+
+      <g id="outputWaves" fill="none" aria-hidden="true">
+        <path id="outputBY" d="M860,218 C900,180 916,250 948,220 C973,196 986,239 1019,254" stroke="#4a90d9" stroke-width="2.4"/>
+        <path id="outputRG" d="M860,276 C899,317 916,238 948,276 C977,309 990,263 1019,282" stroke="#ee4c42" stroke-width="2.4"/>
+        <path id="outputBW" d="M860,334 C901,301 916,349 950,322 C979,299 993,338 1019,305" stroke="#eeeeec" stroke-width="2.1"/>
+      </g>
+
+      <g id="brain" aria-hidden="true">
+        <path d="M1024,279 C1011,240 1023,191 1056,170 C1072,149 1098,145 1117,156 C1138,145 1174,157 1188,184 C1200,206 1198,229 1190,244 C1201,264 1195,290 1177,303 C1178,327 1162,349 1137,352 C1128,371 1109,380 1092,370 C1074,380 1048,367 1043,347 C1021,332 1016,304 1024,279 Z" fill="#101219" stroke="#92929b" stroke-width="2.2" stroke-linejoin="round"/>
+        <circle cx="1158" cy="348" r="20" fill="#101219" stroke="#92929b" stroke-width="2.2"/>
+        <path d="M1056,191 C1070,183 1084,187 1092,199 M1090,164 C1104,158 1120,163 1127,175 M1132,184 C1148,178 1164,185 1170,198 M1150,226 C1165,220 1182,225 1188,238" fill="none" stroke="#555861" stroke-width="1.4" stroke-linecap="round"/>
+        <path d="M1149,364 L1146,402 L1165,402 L1167,365" fill="#101219" stroke="#92929b" stroke-width="2.2"/>
+        <circle id="brainGlow" cx="1090" cy="252" r="35" fill="url(#brainGlowGradient)"/>
       </g>
     </svg>
-  </div>
 
-  <div class="panel">
-    <div class="curve-block">
-      <div class="section-title">Pigment reflectance</div>
-      <svg id="curveSvg" viewBox="0 0 260 96"></svg>
-    </div>
-    <div class="mid">
-      <div>
-        <label>Dominant wavelength <span class="val" id="wlVal"></span></label>
-        <input type="range" id="wlSlider" min="380" max="700" step="1" value="480">
+    <div class="pigment-control" aria-label="Dominant wavelength control">
+      <div class="control-label">
+        <span id="wlVal">506 nm · Green</span>
       </div>
-      <div class="opp-row"><span>R</span><div class="track"><div class="notch"></div><div class="marker" id="rgMark"></div></div><span>G</span></div>
-      <div class="opp-row"><span>B</span><div class="track"><div class="notch"></div><div class="marker" id="byMark"></div></div><span>Y</span></div>
-    </div>
-    <div class="result">
-      <div class="swatch" id="swatch"><span class="rgb-label" id="rgbLabel"></span></div>
-      <div class="section-title">Perceived</div>
+      <label for="wlSlider" style="position:absolute;left:-10000px;">Dominant wavelength in nanometers</label>
+      <input id="wlSlider" type="range" min="400" max="700" step="1" value="506" aria-label="Dominant wavelength in nanometers">
     </div>
   </div>
-
-  <footer>
-    Every stage runs continuously: wavelengths outside the pigment's band are absorbed at the surface as heat; the reflected band fans out across the L, M, and S cones in proportion to their overlapping sensitivities; the opponent cells re-encode those comparisons as R−G and B−Y; and the cortex glows with the resulting percept. Drag the wavelength slider to re-tune the entire chain — notice how a hue's lightness, its cone ratios, and its opponent polarity all change together.
-  </footer>
-</div>
+</main>
 
 <script>
-function gauss(x, mu, sigma) { return Math.exp(-((x-mu)**2)/(2*sigma*sigma)); }
-const CONE = { L:{mu:564,sigma:30}, M:{mu:545,sigma:32}, S:{mu:430,sigma:20} };
-const EXPOSURE = 1.4;
-const SIG_R = 38, BASE_R = 0.05;
+  const NS = 'http://www.w3.org/2000/svg';
+  const clamp = (value, min, max) => Math.max(min, Math.min(max, value));
+  const gauss = (x, mu, sigma) => Math.exp(-((x - mu) ** 2) / (2 * sigma * sigma));
+  const CONE = { L: { mu: 564, sigma: 30 }, M: { mu: 545, sigma: 32 }, S: { mu: 430, sigma: 20 } };
+  const RAYS = [420, 455, 485, 515, 550, 585, 635];
+  const BASE_R = 0.035;
 
-const RAYS = [420, 455, 485, 515, 550, 585, 635];
+  function reflectance(nm, dominant) { return BASE_R + (1 - BASE_R) * gauss(nm, dominant, 38); }
 
-function reflectance(nm, ld) { return BASE_R + (1-BASE_R)*gauss(nm, ld, SIG_R); }
+  const WHITE_POINT = (() => {
+    const total = { L: 0, M: 0, S: 0 };
+    for (let nm = 380; nm <= 700; nm += 5) {
+      total.L += gauss(nm, CONE.L.mu, CONE.L.sigma);
+      total.M += gauss(nm, CONE.M.mu, CONE.M.sigma);
+      total.S += gauss(nm, CONE.S.mu, CONE.S.sigma);
+    }
+    return total;
+  })();
 
-const WHITE_POINT = (() => {
-  let L=0,M=0,S=0;
-  for (let nm=380; nm<=700; nm+=5) {
-    L += gauss(nm, CONE.L.mu, CONE.L.sigma);
-    M += gauss(nm, CONE.M.mu, CONE.M.sigma);
-    S += gauss(nm, CONE.S.mu, CONE.S.sigma);
+  function coneExcitations(dominant) {
+    const result = { L: 0, M: 0, S: 0 };
+    for (let nm = 380; nm <= 700; nm += 5) {
+      const reflected = reflectance(nm, dominant);
+      result.L += gauss(nm, CONE.L.mu, CONE.L.sigma) * reflected;
+      result.M += gauss(nm, CONE.M.mu, CONE.M.sigma) * reflected;
+      result.S += gauss(nm, CONE.S.mu, CONE.S.sigma) * reflected;
+    }
+    return { L: result.L / WHITE_POINT.L, M: result.M / WHITE_POINT.M, S: result.S / WHITE_POINT.S };
   }
-  return {L,M,S};
-})();
 
-function coneExcitations(ld) {
-  let L=0,M=0,S=0;
-  for (let nm=380; nm<=700; nm+=5) {
-    const r = reflectance(nm, ld);
-    L += gauss(nm, CONE.L.mu, CONE.L.sigma)*r;
-    M += gauss(nm, CONE.M.mu, CONE.M.sigma)*r;
-    S += gauss(nm, CONE.S.mu, CONE.S.sigma)*r;
+  function lmsToRGB(L, M, S) {
+    const X = 1.86006661 * L - 1.129771 * M + 0.219968 * S;
+    const Y = 0.361122 * L + 0.638804 * M - 0.000008 * S;
+    const Z = 1.089064 * S;
+    const gamma = value => value <= 0.0031308 ? 12.92 * value : 1.055 * Math.pow(Math.max(value, 0), 1 / 2.4) - 0.055;
+    const r = gamma(3.2406 * X - 1.5372 * Y - 0.4986 * Z);
+    const g = gamma(-0.9689 * X + 1.8758 * Y + 0.0415 * Z);
+    const b = gamma(0.0557 * X - 0.2040 * Y + 1.0570 * Z);
+    const to255 = value => Math.round(clamp(value, 0, 1) * 255);
+    return { r: to255(r), g: to255(g), b: to255(b) };
   }
-  return {L:L/WHITE_POINT.L, M:M/WHITE_POINT.M, S:S/WHITE_POINT.S};
-}
 
-function lmsToRGB(Ln,Mn,Sn) {
-  let X=1.86006661*Ln-1.129771*Mn+0.219968*Sn;
-  let Y=0.361122*Ln+0.638804*Mn-0.000008*Sn;
-  let Z=1.089064*Sn;
-  const gammaCorrect=c=>c<=0.0031308?12.92*c:1.055*Math.pow(Math.max(c,0),1/2.4)-0.055;
-  let r=gammaCorrect((3.2406*X-1.5372*Y-0.4986*Z)*EXPOSURE);
-  let g=gammaCorrect((-0.9689*X+1.8758*Y+0.0415*Z)*EXPOSURE);
-  let b=gammaCorrect((0.0557*X-0.2040*Y+1.0570*Z)*EXPOSURE);
-  const clamp=c=>Math.max(0,Math.min(255,Math.round(c*255)));
-  return {r:clamp(r),g:clamp(g),b:clamp(b)};
-}
-
-function wlRGB(nm) {
-  let r=0,g=0,b=0;
-  if (nm>=380 && nm<440) { r=-(nm-440)/60; b=1; }
-  else if (nm<490) { g=(nm-440)/50; b=1; }
-  else if (nm<510) { g=1; b=-(nm-510)/20; }
-  else if (nm<580) { r=(nm-510)/70; g=1; }
-  else if (nm<645) { r=1; g=-(nm-645)/65; }
-  else if (nm<=700) { r=1; }
-  let f=1;
-  if (nm<420) f=0.3+0.7*(nm-380)/40;
-  else if (nm>660) f=0.3+0.7*(700-nm)/40;
-  const gm=c=>Math.round(255*Math.pow(Math.max(c*f,0),0.8));
-  return {r:gm(r), g:gm(g), b:gm(b)};
-}
-const rgbStr = c => `rgb(${c.r},${c.g},${c.b})`;
-
-function hueName(nm) {
-  if (nm<450) return 'Violet';
-  if (nm<485) return 'Blue';
-  if (nm<500) return 'Cyan';
-  if (nm<565) return 'Green';
-  if (nm<590) return 'Yellow';
-  if (nm<625) return 'Orange';
-  return 'Red';
-}
-
-const rayEnds = [];
-for (let i=0;i<RAYS.length;i++) {
-  const t=i/(RAYS.length-1);
-  rayEnds.push({x:258+t*88, y:308-t*26});
-}
-
-const sunRaysG = document.getElementById('sunRays');
-for (let i=0;i<8;i++) {
-  const a=(i/8)*Math.PI*2 + 0.4;
-  const l=document.createElementNS('http://www.w3.org/2000/svg','line');
-  l.setAttribute('x1',75+22*Math.cos(a)); l.setAttribute('y1',82+22*Math.sin(a));
-  l.setAttribute('x2',75+32*Math.cos(a)); l.setAttribute('y2',82+32*Math.sin(a));
-  sunRaysG.appendChild(l);
-}
-
-const rayFanG = document.getElementById('rayFan');
-const rayEls = RAYS.map((nm,i)=>{
-  const e=rayEnds[i];
-  const p=document.createElementNS('http://www.w3.org/2000/svg','path');
-  p.setAttribute('d',`M92,92 L${e.x},${e.y}`);
-  p.setAttribute('stroke',rgbStr(wlRGB(nm)));
-  p.setAttribute('stroke-dasharray','5 9');
-  rayFanG.appendChild(p);
-  const f=document.createElementNS('http://www.w3.org/2000/svg','circle');
-  f.setAttribute('cx',e.x); f.setAttribute('cy',e.y); f.setAttribute('r',3);
-  f.setAttribute('fill','#e07840');
-  document.getElementById('flickers').appendChild(f);
-  return {path:p, flicker:f, nm};
-});
-
-const flows = [];
-function regFlow(id, speed) {
-  const el=document.getElementById(id);
-  el.setAttribute('stroke-dasharray','6 10');
-  flows.push({el, speed, period:16});
-}
-regFlow('beamPath', 26);
-regFlow('wireL', 18); regFlow('wireM', 18); regFlow('wireS', 18);
-regFlow('wireRG_L', 22); regFlow('wireRG_M', 22);
-regFlow('wireBY_S', 22); regFlow('wireBY_Y', 22);
-regFlow('ribbonRG', 30); regFlow('ribbonBY', 30);
-
-const els = {};
-['beamPath','wireL','wireM','wireS','wireRG_L','wireRG_M','wireBY_S','wireBY_Y',
- 'coneL','coneM','coneS','cellRG_inner','cellBY_inner','ribbonRG','ribbonBY',
- 'gs1','gs2','brainGlowC','rgMark','byMark','swatch','rgbLabel','wlVal','curveSvg']
-.forEach(id=>els[id]=document.getElementById(id));
-
-let cur = { exc:{L:0,M:0,S:0}, rgN:0, byN:0 };
-
-function drawCurve(ld, beamCol) {
-  const W=260,H=96,x0=8,x1=252,y0=88,amp=72;
-  let d=`M${x0},${y0} `;
-  for (let nm=380; nm<=700; nm+=5) {
-    const x=x0+(nm-380)/320*(x1-x0);
-    const y=y0-reflectance(nm,ld)*amp;
-    d+=`L${x.toFixed(1)},${y.toFixed(1)} `;
+  function wavelengthRGB(nm, fullBrightness = false) {
+    let r = 0, g = 0, b = 0;
+    if (nm < 440) { r = -(nm - 440) / 60; b = 1; }
+    else if (nm < 490) { g = (nm - 440) / 50; b = 1; }
+    else if (nm < 510) { g = 1; b = -(nm - 510) / 20; }
+    else if (nm < 580) { r = (nm - 510) / 70; g = 1; }
+    else if (nm < 645) { r = 1; g = -(nm - 645) / 65; }
+    else { r = 1; }
+    let edge = 1;
+    if (!fullBrightness && nm < 420) edge = 0.3 + 0.7 * (nm - 400) / 20;
+    if (!fullBrightness && nm > 660) edge = 0.3 + 0.7 * (700 - nm) / 40;
+    const tone = value => Math.round(255 * Math.pow(clamp(value * edge, 0, 1), .8));
+    return { r: tone(r), g: tone(g), b: tone(b) };
   }
-  d+=`L${x1},${y0} Z`;
-  const xm=x0+(ld-380)/320*(x1-x0);
-  els.curveSvg.innerHTML =
-    `<line x1="${x0}" y1="${y0}" x2="${x1}" y2="${y0}" stroke="#26262e"/>` +
-    `<path d="${d}" fill="${beamCol}" opacity="0.3"/>` +
-    `<path d="${d.replace(' Z','')}" fill="none" stroke="${beamCol}" stroke-width="1.6"/>` +
-    `<line x1="${xm}" y1="10" x2="${xm}" y2="${y0}" stroke="#eeeeec" stroke-width="1" stroke-dasharray="2 3" opacity="0.7"/>` +
-    `<g font-family="ui-monospace, Menlo, Consolas, monospace" font-size="8" fill="#55555e">` +
-    `<text x="${x0+(400-380)/320*(x1-x0)}" y="96" text-anchor="middle">400</text>` +
-    `<text x="${x0+(500-380)/320*(x1-x0)}" y="96" text-anchor="middle">500</text>` +
-    `<text x="${x0+(600-380)/320*(x1-x0)}" y="96" text-anchor="middle">600</text></g>`;
-}
 
-function update() {
-  const ld = +document.getElementById('wlSlider').value;
-  const exc = coneExcitations(ld);
-  const rg = exc.L - exc.M;
-  const by = exc.S - (exc.L + exc.M)/2;
-  const rgN = Math.max(-1, Math.min(1, rg*2.4));
-  const byN = Math.max(-1, Math.min(1, by*2.4));
-  const percept = lmsToRGB(exc.L, exc.M, exc.S);
-  const beamCol = rgbStr(wlRGB(ld));
+  const rgb = color => `rgb(${color.r},${color.g},${color.b})`;
 
-  cur = { exc, rgN, byN, percept };
+  function hueName(nm) {
+    if (nm < 450) return 'Violet';
+    if (nm < 485) return 'Blue';
+    if (nm < 500) return 'Cyan';
+    if (nm < 565) return 'Green';
+    if (nm < 590) return 'Yellow';
+    if (nm < 625) return 'Orange';
+    return 'Red';
+  }
 
-  els.beamPath.setAttribute('stroke', beamCol);
-  rayEls.forEach(r=>{
-    const R = reflectance(r.nm, ld);
-    r.path.setAttribute('opacity', (0.12 + 0.88*R).toFixed(2));
+  function wavePath(x1, y1, x2, y2, amplitude, cycles, phase = 0) {
+    const samples = 72;
+    const dx = x2 - x1, dy = y2 - y1;
+    const length = Math.hypot(dx, dy);
+    const px = -dy / length, py = dx / length;
+    let path = '';
+    for (let i = 0; i <= samples; i++) {
+      const t = i / samples;
+      const offset = amplitude * Math.sin((Math.PI * 2 * cycles * t) + phase);
+      const x = x1 + dx * t + px * offset;
+      const y = y1 + dy * t + py * offset;
+      path += `${i === 0 ? 'M' : 'L'}${x.toFixed(1)},${y.toFixed(1)} `;
+    }
+    return path;
+  }
+
+  const byId = id => document.getElementById(id);
+  const svgDefs = byId('svgDefs');
+  const rayFan = byId('rayFan');
+  const flickers = byId('flickers');
+  const curvePlot = byId('curvePlot');
+
+  for (let i = 0; i < 8; i++) {
+    const angle = (i / 8) * Math.PI * 2 + .4;
+    const line = document.createElementNS(NS, 'line');
+    line.setAttribute('x1', 100 + 34 * Math.cos(angle));
+    line.setAttribute('y1', 145 + 34 * Math.sin(angle));
+    line.setAttribute('x2', 100 + 47 * Math.cos(angle));
+    line.setAttribute('y2', 145 + 47 * Math.sin(angle));
+    byId('sunRays').appendChild(line);
+  }
+
+  const pigmentRays = byId('pigmentRays');
+  const rayEls = RAYS.map((nm, index) => {
+    const color = rgb(wavelengthRGB(nm));
+    const approach = document.createElementNS(NS, 'path');
+    approach.setAttribute('d', 'M126,158 L210,300');
+    approach.setAttribute('stroke', color);
+    approach.setAttribute('stroke-width', '1.8');
+    rayFan.appendChild(approach);
+
+    const fadeId = `fade${index}`;
+    const gradient = document.createElementNS(NS, 'linearGradient');
+    gradient.setAttribute('id', fadeId);
+    gradient.setAttribute('gradientUnits', 'userSpaceOnUse');
+    gradient.innerHTML = `<stop offset="0%" stop-color="${color}" stop-opacity=".95"/><stop offset="48%" stop-color="${color}" stop-opacity=".6"/><stop offset="100%" stop-color="${color}" stop-opacity="0"/>`;
+    svgDefs.appendChild(gradient);
+
+    const absorbed = document.createElementNS(NS, 'path');
+    absorbed.setAttribute('d', 'M210,300 L300,300');
+    absorbed.setAttribute('stroke', `url(#${fadeId})`);
+    absorbed.setAttribute('stroke-width', '1.7');
+    absorbed.setAttribute('fill', 'none');
+    pigmentRays.appendChild(absorbed);
+
+    const flicker = document.createElementNS(NS, 'circle');
+    flicker.setAttribute('r', '0');
+    flicker.setAttribute('fill', color);
+    flickers.appendChild(flicker);
+    return { nm, approach, absorbed, flicker, gradient };
   });
 
-  els.wireL.setAttribute('opacity', (0.12+0.8*exc.L).toFixed(2));
-  els.wireM.setAttribute('opacity', (0.12+0.8*exc.M).toFixed(2));
-  els.wireS.setAttribute('opacity', (0.12+0.8*exc.S).toFixed(2));
-  els.wireRG_L.setAttribute('opacity', (0.15+0.75*exc.L).toFixed(2));
-  els.wireRG_M.setAttribute('opacity', (0.15+0.75*exc.M).toFixed(2));
-  els.wireBY_S.setAttribute('opacity', (0.15+0.75*exc.S).toFixed(2));
-  els.wireBY_Y.setAttribute('opacity', (0.15+0.75*(exc.L+exc.M)/2).toFixed(2));
+  const flowElements = [];
+  function registerFlow(id, speed) {
+    const element = byId(id);
+    element.setAttribute('stroke-dasharray', '6 10');
+    flowElements.push({ element, speed });
+  }
+  ['selectedThroughPigment', 'beamToLens', 'beamIntoRetina', 'signalS', 'signalM', 'signalL', 'byS', 'byM', 'byL', 'rgS', 'rgM', 'rgL', 'bwM', 'bwL', 'outputBY', 'outputRG', 'outputBW'].forEach((id, index) => registerFlow(id, 16 + (index % 3) * 3));
 
-  const rgCol = rgN>=0 ? '#e0483e' : '#4bb35e';
-  const byCol = byN>=0 ? '#4a90d9' : '#f2c14e';
-  els.cellRG_inner.setAttribute('fill', rgCol);
-  els.cellBY_inner.setAttribute('fill', byCol);
-  els.ribbonRG.setAttribute('stroke', rgCol);
-  els.ribbonBY.setAttribute('stroke', byCol);
+  const slider = byId('wlSlider');
+  const refs = {
+    selectedRay: byId('selectedRay'), selectedThroughPigment: byId('selectedThroughPigment'), beamToLens: byId('beamToLens'), beamIntoRetina: byId('beamIntoRetina'),
+    signalS: byId('signalS'), signalM: byId('signalM'), signalL: byId('signalL'),
+    byS: byId('byS'), byM: byId('byM'), byL: byId('byL'), rgS: byId('rgS'), rgM: byId('rgM'), rgL: byId('rgL'), bwM: byId('bwM'), bwL: byId('bwL'),
+    coneS: byId('coneS'), coneM: byId('coneM'), coneL: byId('coneL'),
+    byRing: byId('byRing'), byInner: byId('byInner'), rgRing: byId('rgRing'), rgInner: byId('rgInner'), bwRing: byId('bwRing'), bwInner: byId('bwInner'),
+    outputBY: byId('outputBY'), outputRG: byId('outputRG'), outputBW: byId('outputBW'), brainGlow: byId('brainGlow'), glowStart: byId('glowStart'), glowEnd: byId('glowEnd'),
+    wlVal: byId('wlVal')
+  };
 
-  els.rgMark.style.left = (50 - rgN*46) + '%';
-  els.rgMark.style.background = rgCol;
-  els.byMark.style.left = (50 - byN*46) + '%';
-  els.byMark.style.background = byCol;
+  let state = { exc: { L: 0, M: 0, S: 0 }, rg: 0, by: 0 };
 
-  const pc = rgbStr(percept);
-  els.gs1.setAttribute('stop-color', pc);
-  els.gs2.setAttribute('stop-color', pc);
-  els.swatch.style.background = pc;
-  els.rgbLabel.textContent = `R ${percept.r}  G ${percept.g}  B ${percept.b}`;
-  els.wlVal.textContent = `${ld} nm · ${hueName(ld)}`;
+  function curveGeometry(dominant) {
+    const x0 = 118, x1 = 370, y0 = 360;
+    const center = (x0 + x1) / 2;
+    const distanceFromCenter = Math.abs(dominant - 550) / 150;
+    const halfWidth = 54 + 12 * (1 - distanceFromCenter);
+    const height = 112 + 18 * (1 - distanceFromCenter);
+    return { x0, x1, y0, center, halfWidth, height };
+  }
 
-  drawCurve(ld, beamCol);
-}
+  function pigmentY(nm) {
+    return 332 - ((nm - 400) / 300) * 76;
+  }
 
-const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-let last = 0;
-function tick(t) {
-  const dt = (t-last)/1000; last = t;
-  flows.forEach(f=>{
-    const off = -(t/1000*f.speed % f.period);
-    f.el.setAttribute('stroke-dashoffset', off.toFixed(1));
-  });
-  const pulse = 0.75 + 0.25*Math.sin(t/1000*5);
-  [['coneL',cur.exc.L],['coneM',cur.exc.M],['coneS',cur.exc.S]].forEach(([id,e])=>{
-    const body = els[id].querySelector('path');
-    body.setAttribute('fill-opacity', (0.2 + 0.75*e*pulse).toFixed(2));
-  });
-  els.cellRG_inner.setAttribute('r', (3 + 9*Math.abs(cur.rgN)*(0.8+0.2*pulse)).toFixed(1));
-  els.cellBY_inner.setAttribute('r', (3 + 9*Math.abs(cur.byN)*(0.8+0.2*pulse)).toFixed(1));
-  els.cellRG_inner.setAttribute('fill-opacity', (0.35 + 0.65*Math.abs(cur.rgN)).toFixed(2));
-  els.cellBY_inner.setAttribute('fill-opacity', (0.35 + 0.65*Math.abs(cur.byN)).toFixed(2));
-  els.ribbonRG.setAttribute('opacity', (0.25 + 0.7*Math.abs(cur.rgN)).toFixed(2));
-  els.ribbonBY.setAttribute('opacity', (0.25 + 0.7*Math.abs(cur.byN)).toFixed(2));
-  const lum = (cur.exc.L + cur.exc.M)/2;
-  els.brainGlowC.setAttribute('r', (20 + 18*lum + 4*Math.sin(t/1000*3)).toFixed(1));
-  requestAnimationFrame(tick);
-}
+  function pigmentBounds(y, geometry) {
+    const fraction = clamp((geometry.y0 - y) / geometry.height, .025, .995);
+    const offset = geometry.halfWidth * Math.sqrt(-2 * Math.log(fraction));
+    return {
+      left: clamp(geometry.center - offset, geometry.x0, geometry.x1),
+      right: clamp(geometry.center + offset, geometry.x0, geometry.x1)
+    };
+  }
 
-document.getElementById('wlSlider').addEventListener('input', update);
-update();
-if (!reduced) requestAnimationFrame(tick);
-else {
-  ['coneL','coneM','coneS'].forEach((id)=>els[id].querySelector('path').setAttribute('fill-opacity','0.7'));
-  els.brainGlowC.setAttribute('r','34');
-}
+  function drawCurve(dominant) {
+    const geometry = curveGeometry(dominant);
+    const { x0, x1, y0, center, halfWidth, height } = geometry;
+    let area = `M${x0},${y0} `;
+    let line = `M${x0},${y0} `;
+    for (let x = x0; x <= x1; x += 3) {
+      const y = y0 - height * Math.exp(-((x - center) ** 2) / (2 * halfWidth * halfWidth));
+      area += `L${x.toFixed(1)},${y.toFixed(1)} `;
+      line += `${x === x0 ? '' : 'L'}${x.toFixed(1)},${y.toFixed(1)} `;
+    }
+    area += `L${x1},${y0} Z`;
+    const markerX = x0 + ((dominant - 400) / 300) * (x1 - x0);
+    curvePlot.innerHTML = `<path d="${area}" fill="#926120" opacity=".34"/><path d="${line}" fill="none" stroke="#f4f3ea" stroke-width="2.2"/><line x1="${markerX.toFixed(1)}" y1="${y0 - height - 2}" x2="${markerX.toFixed(1)}" y2="${y0 + 1}" stroke="#eeeeec" stroke-width="1" stroke-dasharray="3 4" opacity=".9"/>`;
+    return geometry;
+  }
+
+  function setOpacity(ids, value) {
+    ids.forEach(id => refs[id].setAttribute('opacity', value.toFixed(2)));
+  }
+
+  function update() {
+    const dominant = Number(slider.value);
+    const exc = coneExcitations(dominant);
+    const rg = exc.L - exc.M;
+    const by = exc.S - (exc.L + exc.M) / 2;
+    const rgN = clamp(rg * 2.4, -1, 1);
+    const byN = clamp(by * 2.4, -1, 1);
+    const percept = lmsToRGB(exc.L, exc.M, exc.S);
+    const beamColor = rgb(wavelengthRGB(dominant));
+    const outputRGColor = rgN >= 0 ? '#ee4c42' : '#49c85f';
+    const outputBYColor = byN >= 0 ? '#4a90d9' : '#f2c14e';
+    const valueLevel = clamp((exc.L + exc.M) / 2, 0, 1);
+
+    state = { exc, rg: rgN, by: byN };
+    const geometry = drawCurve(dominant);
+    const selectedY = pigmentY(dominant);
+    const selectedBounds = pigmentBounds(selectedY, geometry);
+    refs.selectedRay.setAttribute('d', `M126,158 L${selectedBounds.left.toFixed(1)},${selectedY.toFixed(1)}`);
+    refs.selectedRay.setAttribute('stroke', beamColor);
+    refs.selectedThroughPigment.setAttribute('d', `M${(selectedBounds.left + 1).toFixed(1)},${selectedY.toFixed(1)} L${(selectedBounds.right - 1).toFixed(1)},${selectedY.toFixed(1)}`);
+    refs.selectedThroughPigment.setAttribute('stroke', beamColor);
+    refs.beamToLens.setAttribute('d', wavePath(selectedBounds.right, selectedY, 450, 276, 4, 2.2 + (700 - dominant) / 300 * 2.1));
+    refs.beamIntoRetina.setAttribute('d', wavePath(482, 276, 514, 276, 2.5, 1.3 + (700 - dominant) / 300));
+    refs.beamToLens.setAttribute('stroke', beamColor);
+    refs.beamIntoRetina.setAttribute('stroke', beamColor);
+
+    rayEls.forEach(ray => {
+      const rayY = pigmentY(ray.nm);
+      const bounds = pigmentBounds(rayY, geometry);
+      const match = reflectance(ray.nm, dominant);
+      ray.approach.setAttribute('d', `M126,158 L${bounds.left.toFixed(1)},${rayY.toFixed(1)}`);
+      ray.approach.setAttribute('opacity', '.9');
+      ray.absorbed.setAttribute('d', `M${(bounds.left + 1).toFixed(1)},${rayY.toFixed(1)} L${(bounds.right - 1).toFixed(1)},${rayY.toFixed(1)}`);
+      ray.absorbed.setAttribute('opacity', (.78 - .5 * match).toFixed(2));
+      ray.gradient.setAttribute('x1', (bounds.left + 1).toFixed(1));
+      ray.gradient.setAttribute('y1', rayY.toFixed(1));
+      ray.gradient.setAttribute('x2', (bounds.right - 1).toFixed(1));
+      ray.gradient.setAttribute('y2', rayY.toFixed(1));
+      ray.flicker.setAttribute('opacity', '0');
+    });
+
+    refs.signalS.setAttribute('d', wavePath(514, 276, 604, 225, 4, 2.4));
+    refs.signalM.setAttribute('d', wavePath(514, 276, 604, 276, 4, 2.4));
+    refs.signalL.setAttribute('d', wavePath(514, 276, 604, 327, 4, 2.4));
+    refs.signalS.setAttribute('opacity', (0.55 + 0.45 * Math.sqrt(exc.S)).toFixed(2));
+    refs.signalM.setAttribute('opacity', (0.55 + 0.45 * Math.sqrt(exc.M)).toFixed(2));
+    refs.signalL.setAttribute('opacity', (0.55 + 0.45 * Math.sqrt(exc.L)).toFixed(2));
+
+    ['S', 'M', 'L'].forEach(key => {
+      const value = exc[key];
+      const path = refs[`cone${key}`].querySelector('path');
+      path.setAttribute('fill-opacity', (0.55 + 0.45 * value).toFixed(2));
+    });
+
+    setOpacity(['byS', 'byM', 'byL'], 0.15 + 0.72 * Math.max(exc.S, exc.M, exc.L));
+    setOpacity(['rgS', 'rgM', 'rgL'], 0.15 + 0.72 * Math.max(exc.S, exc.M, exc.L));
+    setOpacity(['bwM', 'bwL'], 0.18 + 0.8 * valueLevel);
+
+    refs.byRing.setAttribute('stroke', outputBYColor);
+    refs.byInner.setAttribute('fill', byN >= 0 ? '#f2c14e' : '#4a90d9');
+    refs.rgRing.setAttribute('stroke', outputRGColor);
+    refs.rgInner.setAttribute('fill', rgN >= 0 ? '#49c85f' : '#ee4c42');
+    refs.bwInner.setAttribute('fill', valueLevel > .5 ? '#eeeeec' : '#050508');
+
+    refs.outputBY.setAttribute('stroke', outputBYColor);
+    refs.outputRG.setAttribute('stroke', outputRGColor);
+    refs.outputBW.setAttribute('stroke', valueLevel > .5 ? '#eeeeec' : '#777985');
+    refs.outputBY.setAttribute('d', wavePath(860, 218, 1024, 265, 3 + 15 * Math.abs(byN), 2.1, byN * .8));
+    refs.outputRG.setAttribute('d', wavePath(860, 276, 1024, 286, 3 + 15 * Math.abs(rgN), 2.25, rgN * .8));
+    refs.outputBW.setAttribute('d', wavePath(860, 334, 1024, 306, 2 + 10 * valueLevel, 2.0, valueLevel * .6));
+    refs.outputBY.setAttribute('opacity', (0.28 + 0.7 * Math.abs(byN)).toFixed(2));
+    refs.outputRG.setAttribute('opacity', (0.28 + 0.7 * Math.abs(rgN)).toFixed(2));
+    refs.outputBW.setAttribute('opacity', (0.25 + 0.7 * valueLevel).toFixed(2));
+
+    const glowTint = rgb(wavelengthRGB(dominant, true));
+    refs.glowStart.setAttribute('stop-color', glowTint);
+    refs.glowEnd.setAttribute('stop-color', glowTint);
+    refs.wlVal.textContent = `${dominant} nm · ${hueName(dominant)}`;
+  }
+
+  const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  function tick(time) {
+    const elapsed = time / 1000;
+    flowElements.forEach(flow => flow.element.setAttribute('stroke-dashoffset', (-(elapsed * flow.speed) % 16).toFixed(1)));
+    const pulse = 0.78 + 0.22 * Math.sin(elapsed * 5);
+    ['S', 'M', 'L'].forEach(key => {
+      const value = state.exc[key] || 0;
+      const body = refs[`cone${key}`].querySelector('path');
+      body.setAttribute('fill-opacity', (0.55 + 0.45 * value * pulse).toFixed(2));
+    });
+    refs.byInner.setAttribute('r', (5 + 9 * Math.abs(state.by) * pulse).toFixed(1));
+    refs.rgInner.setAttribute('r', (5 + 9 * Math.abs(state.rg) * pulse).toFixed(1));
+    refs.bwInner.setAttribute('r', (5 + 6 * ((state.exc.L + state.exc.M) / 2) * pulse).toFixed(1));
+    refs.brainGlow.setAttribute('r', (24 + 24 * ((state.exc.L + state.exc.M) / 2) + 4 * Math.sin(elapsed * 3)).toFixed(1));
+    requestAnimationFrame(tick);
+  }
+
+  slider.addEventListener('input', update);
+  update();
+  if (!reduced) requestAnimationFrame(tick);
 </script>
 </body>
 </html>
