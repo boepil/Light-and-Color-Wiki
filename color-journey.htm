@@ -257,13 +257,7 @@
     return total;
   })();
 
-  const CONE_MAX_WHITE = {
-    L: 1.0,
-    M: 1.0,
-    S: 1.0
-  };
-
-  const CONE_MAX_PIGMENT = (() => {
+  const CONE_MAX = (() => {
     const max = { L: 0, M: 0, S: 0 };
     for (let dom = 380; dom <= 700; dom += 5) {
       const exc = coneExcitations(dom);
@@ -271,7 +265,6 @@
       if (exc.M > max.M) max.M = exc.M;
       if (exc.S > max.S) max.S = exc.S;
     }
-    console.log('CONE_MAX_PIGMENT (best-case single pigment):', max);
     return max;
   })();
 
@@ -283,9 +276,7 @@
       result.M += gauss(nm, CONE.M.mu, CONE.M.sigma) * reflected;
       result.S += gauss(nm, CONE.S.mu, CONE.S.sigma) * reflected;
     }
-    const exc = { L: result.L / WHITE_POINT.L, M: result.M / WHITE_POINT.M, S: result.S / WHITE_POINT.S };
-    console.log(`[${dominant}nm] exc: S=${exc.S.toFixed(4)} M=${exc.M.toFixed(4)} L=${exc.L.toFixed(4)}`);
-    return exc;
+    return { L: result.L / WHITE_POINT.L, M: result.M / WHITE_POINT.M, S: result.S / WHITE_POINT.S };
   }
 
   function lmsToRGB(L, M, S) {
@@ -522,37 +513,41 @@
     refs.rayM.setAttribute('stroke', beamColor);
     refs.rayL.setAttribute('stroke', beamColor);
 
-    //- Cone excitation: Only fire neural signal if excited
-    const threshold = 0.15;
-    refs.signalS.setAttribute('opacity', exc.S > threshold ? (0.55 + 0.45 * Math.sqrt(exc.S)).toFixed(2) : '0');
-    refs.signalM.setAttribute('opacity', exc.M > threshold ? (0.55 + 0.45 * Math.sqrt(exc.M)).toFixed(2) : '0');
-    refs.signalL.setAttribute('opacity', exc.L > threshold ? (0.55 + 0.45 * Math.sqrt(exc.L)).toFixed(2) : '0');
+    //- Per-cone normalization (von Kries style) with 0.25 floor
+    const FLOOR = 0.25;
+    const norm = {
+      S: clamp(exc.S / CONE_MAX.S, 0, 1),
+      M: clamp(exc.M / CONE_MAX.M, 0, 1),
+      L: clamp(exc.L / CONE_MAX.L, 0, 1)
+    };
+    const sOn = norm.S > FLOOR;
+    const mOn = norm.M > FLOOR;
+    const lOn = norm.L > FLOOR;
+    const sOp = sOn ? (norm.S - FLOOR) / (1 - FLOOR) : 0;
+    const mOp = mOn ? (norm.M - FLOOR) / (1 - FLOOR) : 0;
+    const lOp = lOn ? (norm.L - FLOOR) / (1 - FLOOR) : 0;
 
-    ['S', 'M', 'L'].forEach(key => {
-      const value = exc[key];
-      const path = refs[`cone${key}`].querySelector('path');
-      path.setAttribute('fill-opacity', value > threshold ? (0.55 + 0.45 * value).toFixed(2) : '0.2');
-    });
+    //- Neural signals (cone → opponent cells)
+    refs.signalS.setAttribute('opacity', sOp.toFixed(2));
+    refs.signalM.setAttribute('opacity', mOp.toFixed(2));
+    refs.signalL.setAttribute('opacity', lOp.toFixed(2));
 
-    //- Wiring from cones to opponent cells: each path tied strictly to its own cone's excitation
-    const baseWireOp = 0.15;
-    const wireScale = 0.72;
-    
-    // Blue-Yellow connections
-    refs.byS.setAttribute('opacity', exc.S > threshold ? (baseWireOp + wireScale * exc.S).toFixed(2) : '0');
-    refs.byM.setAttribute('opacity', exc.M > threshold ? (baseWireOp + wireScale * exc.M).toFixed(2) : '0');
-    refs.byL.setAttribute('opacity', exc.L > threshold ? (baseWireOp + wireScale * exc.L).toFixed(2) : '0');
+    //- Cone body glow
+    refs.coneS.querySelector('path').setAttribute('fill-opacity', sOn ? (0.55 + 0.45 * norm.S).toFixed(2) : '0.2');
+    refs.coneM.querySelector('path').setAttribute('fill-opacity', mOn ? (0.55 + 0.45 * norm.M).toFixed(2) : '0.2');
+    refs.coneL.querySelector('path').setAttribute('fill-opacity', lOn ? (0.55 + 0.45 * norm.L).toFixed(2) : '0.2');
 
-    // Red-Green connections
-    refs.rgM.setAttribute('opacity', exc.M > threshold ? (baseWireOp + wireScale * exc.M).toFixed(2) : '0');
-    refs.rgL.setAttribute('opacity', exc.L > threshold ? (baseWireOp + wireScale * exc.L).toFixed(2) : '0');
+    //- Wiring paths (cone → opponent cell)
+    refs.byS.setAttribute('opacity', sOp.toFixed(2));
+    refs.byM.setAttribute('opacity', mOp.toFixed(2));
+    refs.byL.setAttribute('opacity', lOp.toFixed(2));
 
-    // White-Black connections
-    const bwBase = 0.18;
-    const bwScale = 0.8;
-    refs.bwS.setAttribute('opacity', exc.S > threshold ? (bwBase + bwScale * exc.S * 0.2).toFixed(2) : '0'); // S is weak for luminance
-    refs.bwM.setAttribute('opacity', exc.M > threshold ? (bwBase + bwScale * exc.M).toFixed(2) : '0');
-    refs.bwL.setAttribute('opacity', exc.L > threshold ? (bwBase + bwScale * exc.L).toFixed(2) : '0');
+    refs.rgM.setAttribute('opacity', mOp.toFixed(2));
+    refs.rgL.setAttribute('opacity', lOp.toFixed(2));
+
+    refs.bwS.setAttribute('opacity', (sOp * 0.2).toFixed(2)); // S weak for luminance
+    refs.bwM.setAttribute('opacity', mOp.toFixed(2));
+    refs.bwL.setAttribute('opacity', lOp.toFixed(2));
 
     refs.byRing.setAttribute('stroke', outputBYColor);
     refs.byInner.setAttribute('fill', byN >= 0 ? '#f2c14e' : '#4a90d9');
