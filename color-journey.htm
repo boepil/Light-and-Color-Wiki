@@ -191,9 +191,9 @@
         <path id="byS" d="M664,225 C726,225 741,205 795,218" stroke="#4a90d9" stroke-width="2"/>
         <path id="byM" d="M664,276 C723,276 744,220 795,218" stroke="#49c85f" stroke-width="2"/>
         <path id="byL" d="M664,327 C726,327 744,237 795,218" stroke="#ee4c42" stroke-width="2"/>
-        <path id="rgS" d="M664,225 C726,225 747,274 795,276" stroke="#4a90d9" stroke-width="2"/>
         <path id="rgM" d="M664,276 C726,276 747,276 795,276" stroke="#49c85f" stroke-width="2"/>
         <path id="rgL" d="M664,327 C726,327 747,278 795,276" stroke="#ee4c42" stroke-width="2"/>
+        <path id="bwS" d="M664,225 C729,225 748,337 795,334" stroke="#4a90d9" stroke-width="2"/>
         <path id="bwM" d="M664,276 C729,276 748,337 795,334" stroke="#49c85f" stroke-width="2"/>
         <path id="bwL" d="M664,327 C729,327 748,334 795,334" stroke="#ee4c42" stroke-width="2"/>
       </g>
@@ -366,7 +366,7 @@
     element.setAttribute('stroke-dasharray', '6 10');
     flowElements.push({ element, speed });
   }
-    ['sunStream1', 'sunStream2', 'sunStream3', 'rayS', 'rayM', 'rayL', 'selectedThroughPigment', 'beamToLens', 'beamIntoRetina', 'signalS', 'signalM', 'signalL', 'byS', 'byM', 'byL', 'rgS', 'rgM', 'rgL', 'bwM', 'bwL', 'outputBY', 'outputRG', 'outputBW'].forEach((id, index) => registerFlow(id, 16 + (index % 3) * 3));
+      ['sunStream1', 'sunStream2', 'sunStream3', 'rayS', 'rayM', 'rayL', 'selectedThroughPigment', 'beamToLens', 'beamIntoRetina', 'signalS', 'signalM', 'signalL', 'byS', 'byM', 'byL', 'rgM', 'rgL', 'bwS', 'bwM', 'bwL', 'outputBY', 'outputRG', 'outputBW'].forEach((id, index) => registerFlow(id, 16 + (index % 3) * 3));
 
   const slider = byId('wlSlider');
   const refs = {
@@ -375,7 +375,7 @@
     selectedThroughPigment: byId('selectedThroughPigment'), beamToLens: byId('beamToLens'), beamIntoRetina: byId('beamIntoRetina'),
     rayS: byId('rayS'), rayM: byId('rayM'), rayL: byId('rayL'),
     signalS: byId('signalS'), signalM: byId('signalM'), signalL: byId('signalL'),
-    byS: byId('byS'), byM: byId('byM'), byL: byId('byL'), rgS: byId('rgS'), rgM: byId('rgM'), rgL: byId('rgL'), bwM: byId('bwM'), bwL: byId('bwL'),
+    byS: byId('byS'), byM: byId('byM'), byL: byId('byL'), rgM: byId('rgM'), rgL: byId('rgL'), bwS: byId('bwS'), bwM: byId('bwM'), bwL: byId('bwL'),
     coneS: byId('coneS'), coneM: byId('coneM'), coneL: byId('coneL'),
     byRing: byId('byRing'), byInner: byId('byInner'), rgRing: byId('rgRing'), rgInner: byId('rgInner'), bwRing: byId('bwRing'), bwInner: byId('bwInner'),
     outputBY: byId('outputBY'), outputRG: byId('outputRG'), outputBW: byId('outputBW'), brainGlow: byId('brainGlow'), glowStart: byId('glowStart'), glowEnd: byId('glowEnd'),
@@ -520,9 +520,9 @@
     const maxExc = Math.max(exc.S, exc.M, exc.L);
     const wiringOpacity = maxExc > 0.1 ? (0.15 + 0.72 * maxExc) : 0;
     
-    setOpacity(['byS', 'byM', 'byL'], exc.S > 0.1 ? wiringOpacity : 0);
-    setOpacity(['rgS', 'rgM', 'rgL'], (exc.M > 0.1 || exc.L > 0.1) ? wiringOpacity : 0);
-    setOpacity(['bwM', 'bwL'], (exc.M > 0.1 || exc.L > 0.1) ? (0.18 + 0.8 * valueLevel) : 0);
+    setOpacity(['byS', 'byM', 'byL'], exc.S > 0.1 || exc.M > 0.1 || exc.L > 0.1 ? wiringOpacity : 0);
+    setOpacity(['rgM', 'rgL'], (exc.M > 0.1 || exc.L > 0.1) ? wiringOpacity : 0);
+    setOpacity(['bwS', 'bwM', 'bwL'], exc.S > 0.1 || exc.M > 0.1 || exc.L > 0.1 ? (0.18 + 0.8 * valueLevel) : 0);
 
     refs.byRing.setAttribute('stroke', outputBYColor);
     refs.byInner.setAttribute('fill', byN >= 0 ? '#f2c14e' : '#4a90d9');
