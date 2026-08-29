@@ -503,26 +503,36 @@
     refs.rayL.setAttribute('stroke', beamColor);
 
     //- Cone excitation: Only fire neural signal if excited
-    refs.signalS.setAttribute('stroke', '#4a90d9');
-    refs.signalS.setAttribute('opacity', exc.S > 0.1 ? (0.55 + 0.45 * Math.sqrt(exc.S)).toFixed(2) : '0');
-    refs.signalM.setAttribute('stroke', '#49c85f');
-    refs.signalM.setAttribute('opacity', exc.M > 0.1 ? (0.55 + 0.45 * Math.sqrt(exc.M)).toFixed(2) : '0');
-    refs.signalL.setAttribute('stroke', '#ee4c42');
-    refs.signalL.setAttribute('opacity', exc.L > 0.1 ? (0.55 + 0.45 * Math.sqrt(exc.L)).toFixed(2) : '0');
+    const threshold = 0.15;
+    refs.signalS.setAttribute('opacity', exc.S > threshold ? (0.55 + 0.45 * Math.sqrt(exc.S)).toFixed(2) : '0');
+    refs.signalM.setAttribute('opacity', exc.M > threshold ? (0.55 + 0.45 * Math.sqrt(exc.M)).toFixed(2) : '0');
+    refs.signalL.setAttribute('opacity', exc.L > threshold ? (0.55 + 0.45 * Math.sqrt(exc.L)).toFixed(2) : '0');
 
     ['S', 'M', 'L'].forEach(key => {
       const value = exc[key];
       const path = refs[`cone${key}`].querySelector('path');
-      path.setAttribute('fill-opacity', value > 0.1 ? (0.55 + 0.45 * value).toFixed(2) : '0.2');
+      path.setAttribute('fill-opacity', value > threshold ? (0.55 + 0.45 * value).toFixed(2) : '0.2');
     });
 
-    //- Wiring from cones to opponent cells
-    const maxExc = Math.max(exc.S, exc.M, exc.L);
-    const wiringOpacity = maxExc > 0.1 ? (0.15 + 0.72 * maxExc) : 0;
+    //- Wiring from cones to opponent cells: each path tied strictly to its own cone's excitation
+    const baseWireOp = 0.15;
+    const wireScale = 0.72;
     
-    setOpacity(['byS', 'byM', 'byL'], exc.S > 0.1 || exc.M > 0.1 || exc.L > 0.1 ? wiringOpacity : 0);
-    setOpacity(['rgM', 'rgL'], (exc.M > 0.1 || exc.L > 0.1) ? wiringOpacity : 0);
-    setOpacity(['bwS', 'bwM', 'bwL'], exc.S > 0.1 || exc.M > 0.1 || exc.L > 0.1 ? (0.18 + 0.8 * valueLevel) : 0);
+    // Blue-Yellow connections
+    refs.byS.setAttribute('opacity', exc.S > threshold ? (baseWireOp + wireScale * exc.S).toFixed(2) : '0');
+    refs.byM.setAttribute('opacity', exc.M > threshold ? (baseWireOp + wireScale * exc.M).toFixed(2) : '0');
+    refs.byL.setAttribute('opacity', exc.L > threshold ? (baseWireOp + wireScale * exc.L).toFixed(2) : '0');
+
+    // Red-Green connections
+    refs.rgM.setAttribute('opacity', exc.M > threshold ? (baseWireOp + wireScale * exc.M).toFixed(2) : '0');
+    refs.rgL.setAttribute('opacity', exc.L > threshold ? (baseWireOp + wireScale * exc.L).toFixed(2) : '0');
+
+    // White-Black connections
+    const bwBase = 0.18;
+    const bwScale = 0.8;
+    refs.bwS.setAttribute('opacity', exc.S > threshold ? (bwBase + bwScale * exc.S * 0.2).toFixed(2) : '0'); // S is weak for luminance
+    refs.bwM.setAttribute('opacity', exc.M > threshold ? (bwBase + bwScale * exc.M).toFixed(2) : '0');
+    refs.bwL.setAttribute('opacity', exc.L > threshold ? (bwBase + bwScale * exc.L).toFixed(2) : '0');
 
     refs.byRing.setAttribute('stroke', outputBYColor);
     refs.byInner.setAttribute('fill', byN >= 0 ? '#f2c14e' : '#4a90d9');
