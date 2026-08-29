@@ -158,15 +158,15 @@
         <path d="M520,276 C548,276 548,313 573,313" fill="none" stroke="#1c2430" stroke-width="1"/>
       </g>
 
-      <g id="coneInputs" fill="none" aria-hidden="true">
-        <path id="inputS" d="M514,276 L604,225" stroke="#4a90d9" stroke-width="2" opacity="0"/>
-        <path id="inputM" d="M514,276 L604,276" stroke="#49c85f" stroke-width="2" opacity="0"/>
-        <path id="inputL" d="M514,276 L604,327" stroke="#ee4c42" stroke-width="2" opacity="0"/>
+      <g id="entranceRays" fill="none" aria-hidden="true">
+        <path id="rayS" d="M514,276 C545,276 558,230 604,225" stroke-width="2" opacity=".7"/>
+        <path id="rayM" d="M514,276 C548,276 565,276 604,276" stroke-width="2" opacity=".7"/>
+        <path id="rayL" d="M514,276 C545,276 558,322 604,327" stroke-width="2" opacity=".7"/>
       </g>
       <g id="coneSignals" fill="none" aria-hidden="true">
-        <path id="signalS" d="M664,225 C726,225 741,205 795,218" stroke="#4a90d9" stroke-width="2.8" opacity="0"/>
-        <path id="signalM" d="M664,276 C723,276 744,220 795,218" stroke="#49c85f" stroke-width="2.8" opacity="0"/>
-        <path id="signalL" d="M664,327 C726,327 744,237 795,218" stroke="#ee4c42" stroke-width="2.8" opacity="0"/>
+        <path id="signalS" d="M664,225 C726,225 741,205 795,218" stroke-width="2.8" opacity="0"/>
+        <path id="signalM" d="M664,276 C723,276 744,220 795,218" stroke-width="2.8" opacity="0"/>
+        <path id="signalL" d="M664,327 C726,327 744,237 795,218" stroke-width="2.8" opacity="0"/>
       </g>
 
       <g id="cones" aria-hidden="true">
@@ -366,14 +366,14 @@
     element.setAttribute('stroke-dasharray', '6 10');
     flowElements.push({ element, speed });
   }
-  ['sunStream1', 'sunStream2', 'sunStream3', 'selectedThroughPigment', 'beamToLens', 'beamIntoRetina', 'signalS', 'signalM', 'signalL', 'byS', 'byM', 'byL', 'rgS', 'rgM', 'rgL', 'bwM', 'bwL', 'outputBY', 'outputRG', 'outputBW'].forEach((id, index) => registerFlow(id, 16 + (index % 3) * 3));
+    ['sunStream1', 'sunStream2', 'sunStream3', 'rayS', 'rayM', 'rayL', 'selectedThroughPigment', 'beamToLens', 'beamIntoRetina', 'signalS', 'signalM', 'signalL', 'byS', 'byM', 'byL', 'rgS', 'rgM', 'rgL', 'bwM', 'bwL', 'outputBY', 'outputRG', 'outputBW'].forEach((id, index) => registerFlow(id, 16 + (index % 3) * 3));
 
   const slider = byId('wlSlider');
   const refs = {
     sunBeam: byId('sunBeam'), sunBeamGradient: byId('sunBeamGradient'),
     sunStream1: byId('sunStream1'), sunStream2: byId('sunStream2'), sunStream3: byId('sunStream3'),
     selectedThroughPigment: byId('selectedThroughPigment'), beamToLens: byId('beamToLens'), beamIntoRetina: byId('beamIntoRetina'),
-    inputS: byId('inputS'), inputM: byId('inputM'), inputL: byId('inputL'),
+    rayS: byId('rayS'), rayM: byId('rayM'), rayL: byId('rayL'),
     signalS: byId('signalS'), signalM: byId('signalM'), signalL: byId('signalL'),
     byS: byId('byS'), byM: byId('byM'), byL: byId('byL'), rgS: byId('rgS'), rgM: byId('rgM'), rgL: byId('rgL'), bwM: byId('bwM'), bwL: byId('bwL'),
     coneS: byId('coneS'), coneM: byId('coneM'), coneL: byId('coneL'),
@@ -493,21 +493,21 @@
       ray.gradient.setAttribute('y2', rayY.toFixed(1));
     });
 
-    refs.signalS.setAttribute('d', wavePath(514, 276, 604, 225, 4, 2.4));
-    refs.signalM.setAttribute('d', wavePath(514, 276, 604, 276, 4, 2.4));
-    refs.signalL.setAttribute('d', wavePath(514, 276, 604, 327, 4, 2.4));
-    //- Light entering the retina: Hits all cones with the same wavelength color
-    const inputOpacity = 0.7;
-    refs.inputS.setAttribute('stroke', beamColor);
-    refs.inputS.setAttribute('opacity', inputOpacity);
-    refs.inputM.setAttribute('stroke', beamColor);
-    refs.inputM.setAttribute('opacity', inputOpacity);
-    refs.inputL.setAttribute('stroke', beamColor);
-    refs.inputL.setAttribute('opacity', inputOpacity);
+    refs.signalS.setAttribute('d', wavePath(664,225, 726,225, 4, 2.4));
+    refs.signalM.setAttribute('d', wavePath(664,276, 723,276, 4, 2.4));
+    refs.signalL.setAttribute('d', wavePath(664,327, 726,327, 4, 2.4));
 
-    //- Cone excitation: Only fire signal if excited
+    //- Light entering the retina: ALL branch rays share the same beam color
+    refs.rayS.setAttribute('stroke', beamColor);
+    refs.rayM.setAttribute('stroke', beamColor);
+    refs.rayL.setAttribute('stroke', beamColor);
+
+    //- Cone excitation: Only fire neural signal if excited
+    refs.signalS.setAttribute('stroke', '#4a90d9');
     refs.signalS.setAttribute('opacity', exc.S > 0.1 ? (0.55 + 0.45 * Math.sqrt(exc.S)).toFixed(2) : '0');
+    refs.signalM.setAttribute('stroke', '#49c85f');
     refs.signalM.setAttribute('opacity', exc.M > 0.1 ? (0.55 + 0.45 * Math.sqrt(exc.M)).toFixed(2) : '0');
+    refs.signalL.setAttribute('stroke', '#ee4c42');
     refs.signalL.setAttribute('opacity', exc.L > 0.1 ? (0.55 + 0.45 * Math.sqrt(exc.L)).toFixed(2) : '0');
 
     ['S', 'M', 'L'].forEach(key => {
