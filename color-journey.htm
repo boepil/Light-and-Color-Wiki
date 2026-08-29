@@ -257,6 +257,24 @@
     return total;
   })();
 
+  const CONE_MAX_WHITE = {
+    L: 1.0,
+    M: 1.0,
+    S: 1.0
+  };
+
+  const CONE_MAX_PIGMENT = (() => {
+    const max = { L: 0, M: 0, S: 0 };
+    for (let dom = 380; dom <= 700; dom += 5) {
+      const exc = coneExcitations(dom);
+      if (exc.L > max.L) max.L = exc.L;
+      if (exc.M > max.M) max.M = exc.M;
+      if (exc.S > max.S) max.S = exc.S;
+    }
+    console.log('CONE_MAX_PIGMENT (best-case single pigment):', max);
+    return max;
+  })();
+
   function coneExcitations(dominant) {
     const result = { L: 0, M: 0, S: 0 };
     for (let nm = 380; nm <= 700; nm += 5) {
@@ -265,7 +283,9 @@
       result.M += gauss(nm, CONE.M.mu, CONE.M.sigma) * reflected;
       result.S += gauss(nm, CONE.S.mu, CONE.S.sigma) * reflected;
     }
-    return { L: result.L / WHITE_POINT.L, M: result.M / WHITE_POINT.M, S: result.S / WHITE_POINT.S };
+    const exc = { L: result.L / WHITE_POINT.L, M: result.M / WHITE_POINT.M, S: result.S / WHITE_POINT.S };
+    console.log(`[${dominant}nm] exc: S=${exc.S.toFixed(4)} M=${exc.M.toFixed(4)} L=${exc.L.toFixed(4)}`);
+    return exc;
   }
 
   function lmsToRGB(L, M, S) {
