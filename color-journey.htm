@@ -101,6 +101,12 @@
       <title id="sceneTitle">From light to color</title>
       <desc id="sceneDesc">A wavelength slider changes a schematic path from sunlight through pigment, lens, cone photoreceptors, opponent channels, and visual cortex.</desc>
       <defs id="svgDefs">
+        <linearGradient id="sunBeamGradient" x1="100" y1="145" x2="250" y2="300" gradientUnits="userSpaceOnUse">
+          <stop offset="0%" stop-color="#ffffff" stop-opacity=".95"/>
+          <stop offset="35%" stop-color="#ffffff" stop-opacity=".82"/>
+          <stop offset="70%" stop-color="#fdfcfa" stop-opacity=".6"/>
+          <stop offset="100%" stop-color="#ffffff" stop-opacity=".35"/>
+        </linearGradient>
         <radialGradient id="brainGlowGradient">
           <stop id="glowStart" offset="0%" stop-color="#4a90d9" stop-opacity=".95"/>
           <stop id="glowEnd" offset="100%" stop-color="#4a90d9" stop-opacity="0"/>
@@ -125,8 +131,13 @@
       <g id="sunRays" stroke="#f2c14e" stroke-width="2" stroke-linecap="round" aria-hidden="true"></g>
       <circle cx="100" cy="145" r="26" fill="#f2c14e" aria-hidden="true"/>
 
-      <g id="rayFan" fill="none" aria-hidden="true"></g>
-      <g id="flickers" aria-hidden="true"></g>
+      <!-- Glowing White Sunlight Beam from Sun to Pigment Mound -->
+      <g id="sunBeamGroup" aria-hidden="true">
+        <path id="sunBeam" fill="url(#sunBeamGradient)" opacity=".95"/>
+        <path id="sunStream1" fill="none" stroke="#ffffff" stroke-width="1.6" opacity=".65" stroke-dasharray="6 8"/>
+        <path id="sunStream2" fill="none" stroke="#ffffff" stroke-width="2.2" opacity=".85" stroke-dasharray="6 8"/>
+        <path id="sunStream3" fill="none" stroke="#ffffff" stroke-width="1.6" opacity=".65" stroke-dasharray="6 8"/>
+      </g>
 
       <g id="pigmentGraph" aria-hidden="true">
         <line class="axis-line" x1="118" y1="360" x2="370" y2="360"/>
@@ -134,7 +145,6 @@
       </g>
 
       <g id="pigmentRays" fill="none" aria-hidden="true"></g>
-      <path id="selectedRay" d="M126,158 L210,300" fill="none" stroke="#4a90d9" stroke-width="2.3" opacity=".95" aria-hidden="true"/>
       <path id="selectedThroughPigment" d="M210,300 L300,300" fill="none" stroke="#4a90d9" stroke-width="2.8" stroke-dasharray="7 8" opacity=".98" aria-hidden="true"/>
       <path id="beamToLens" d="M370,276 L443,276" fill="none" stroke="#4a90d9" stroke-width="3" stroke-linecap="round" aria-hidden="true"/>
       <ellipse cx="468" cy="276" rx="13" ry="31" fill="#e8e4d8" opacity=".95" aria-hidden="true"/>
@@ -329,44 +339,37 @@
   const pigmentRays = byId('pigmentRays');
   const rayEls = RAYS.map((nm, index) => {
     const color = rgb(wavelengthRGB(nm));
-    const approach = document.createElementNS(NS, 'path');
-    approach.setAttribute('d', 'M126,158 L210,300');
-    approach.setAttribute('stroke', color);
-    approach.setAttribute('stroke-width', '1.8');
-    rayFan.appendChild(approach);
-
     const fadeId = `fade${index}`;
     const gradient = document.createElementNS(NS, 'linearGradient');
     gradient.setAttribute('id', fadeId);
     gradient.setAttribute('gradientUnits', 'userSpaceOnUse');
-    gradient.innerHTML = `<stop offset="0%" stop-color="${color}" stop-opacity=".95"/><stop offset="48%" stop-color="${color}" stop-opacity=".6"/><stop offset="100%" stop-color="${color}" stop-opacity="0"/>`;
+    gradient.innerHTML = `<stop offset="0%" stop-color="${color}" stop-opacity=".95"/><stop offset="50%" stop-color="${color}" stop-opacity=".65"/><stop offset="100%" stop-color="${color}" stop-opacity="0"/>`;
     svgDefs.appendChild(gradient);
 
     const absorbed = document.createElementNS(NS, 'path');
     absorbed.setAttribute('d', 'M210,300 L300,300');
     absorbed.setAttribute('stroke', `url(#${fadeId})`);
-    absorbed.setAttribute('stroke-width', '1.7');
+    absorbed.setAttribute('stroke-width', '2.2');
     absorbed.setAttribute('fill', 'none');
     pigmentRays.appendChild(absorbed);
 
-    const flicker = document.createElementNS(NS, 'circle');
-    flicker.setAttribute('r', '0');
-    flicker.setAttribute('fill', color);
-    flickers.appendChild(flicker);
-    return { nm, approach, absorbed, flicker, gradient };
+    return { nm, absorbed, gradient };
   });
 
   const flowElements = [];
   function registerFlow(id, speed) {
     const element = byId(id);
+    if (!element) return;
     element.setAttribute('stroke-dasharray', '6 10');
     flowElements.push({ element, speed });
   }
-  ['selectedThroughPigment', 'beamToLens', 'beamIntoRetina', 'signalS', 'signalM', 'signalL', 'byS', 'byM', 'byL', 'rgS', 'rgM', 'rgL', 'bwM', 'bwL', 'outputBY', 'outputRG', 'outputBW'].forEach((id, index) => registerFlow(id, 16 + (index % 3) * 3));
+  ['sunStream1', 'sunStream2', 'sunStream3', 'selectedThroughPigment', 'beamToLens', 'beamIntoRetina', 'signalS', 'signalM', 'signalL', 'byS', 'byM', 'byL', 'rgS', 'rgM', 'rgL', 'bwM', 'bwL', 'outputBY', 'outputRG', 'outputBW'].forEach((id, index) => registerFlow(id, 16 + (index % 3) * 3));
 
   const slider = byId('wlSlider');
   const refs = {
-    selectedRay: byId('selectedRay'), selectedThroughPigment: byId('selectedThroughPigment'), beamToLens: byId('beamToLens'), beamIntoRetina: byId('beamIntoRetina'),
+    sunBeam: byId('sunBeam'), sunBeamGradient: byId('sunBeamGradient'),
+    sunStream1: byId('sunStream1'), sunStream2: byId('sunStream2'), sunStream3: byId('sunStream3'),
+    selectedThroughPigment: byId('selectedThroughPigment'), beamToLens: byId('beamToLens'), beamIntoRetina: byId('beamIntoRetina'),
     signalS: byId('signalS'), signalM: byId('signalM'), signalL: byId('signalL'),
     byS: byId('byS'), byM: byId('byM'), byL: byId('byL'), rgS: byId('rgS'), rgM: byId('rgM'), rgL: byId('rgL'), bwM: byId('bwM'), bwL: byId('bwL'),
     coneS: byId('coneS'), coneM: byId('coneM'), coneL: byId('coneL'),
@@ -434,10 +437,38 @@
 
     state = { exc, rg: rgN, by: byN };
     const geometry = drawCurve(dominant);
+
+    // Calculate contact bounds along the pigment curve's left slope
+    const topY = pigmentY(RAYS[RAYS.length - 1]); // 635nm (top ray)
+    const bottomY = pigmentY(RAYS[0]);            // 420nm (bottom ray)
+    const topBounds = pigmentBounds(topY, geometry);
+    const bottomBounds = pigmentBounds(bottomY, geometry);
+
+    // Build the white beam polygon hugging the curve's left edge
+    let beamPathD = `M120,132 L${topBounds.left.toFixed(1)},${topY.toFixed(1)} `;
+    for (let y = topY + 8; y < bottomY; y += 8) {
+      const b = pigmentBounds(y, geometry);
+      beamPathD += `L${b.left.toFixed(1)},${y.toFixed(1)} `;
+    }
+    beamPathD += `L${bottomBounds.left.toFixed(1)},${bottomY.toFixed(1)} L116,168 Z`;
+    refs.sunBeam.setAttribute('d', beamPathD);
+
+    // Update gradient orientation to track beam direction
+    refs.sunBeamGradient.setAttribute('x1', '118');
+    refs.sunBeamGradient.setAttribute('y1', '150');
+    refs.sunBeamGradient.setAttribute('x2', ((topBounds.left + bottomBounds.left) / 2).toFixed(1));
+    refs.sunBeamGradient.setAttribute('y2', ((topY + bottomY) / 2).toFixed(1));
+
+    // White stream flow lines inside the beam
+    const midY = (topY + bottomY) / 2;
+    const midBounds = pigmentBounds(midY, geometry);
+    refs.sunStream1.setAttribute('d', wavePath(120, 138, topBounds.left, topY, 2.5, 3.2));
+    refs.sunStream2.setAttribute('d', wavePath(124, 150, midBounds.left, midY, 2.5, 3.2));
+    refs.sunStream3.setAttribute('d', wavePath(118, 162, bottomBounds.left, bottomY, 2.5, 3.2));
+
+    // Selected dominant wavelength passing through the pigment
     const selectedY = pigmentY(dominant);
     const selectedBounds = pigmentBounds(selectedY, geometry);
-    refs.selectedRay.setAttribute('d', `M126,158 L${selectedBounds.left.toFixed(1)},${selectedY.toFixed(1)}`);
-    refs.selectedRay.setAttribute('stroke', beamColor);
     refs.selectedThroughPigment.setAttribute('d', `M${(selectedBounds.left + 1).toFixed(1)},${selectedY.toFixed(1)} L${(selectedBounds.right - 1).toFixed(1)},${selectedY.toFixed(1)}`);
     refs.selectedThroughPigment.setAttribute('stroke', beamColor);
     refs.beamToLens.setAttribute('d', wavePath(selectedBounds.right, selectedY, 450, 276, 4, 2.2 + (700 - dominant) / 300 * 2.1));
@@ -445,19 +476,17 @@
     refs.beamToLens.setAttribute('stroke', beamColor);
     refs.beamIntoRetina.setAttribute('stroke', beamColor);
 
+    // Horizontal spectral rays inside the pigment
     rayEls.forEach(ray => {
       const rayY = pigmentY(ray.nm);
       const bounds = pigmentBounds(rayY, geometry);
       const match = reflectance(ray.nm, dominant);
-      ray.approach.setAttribute('d', `M126,158 L${bounds.left.toFixed(1)},${rayY.toFixed(1)}`);
-      ray.approach.setAttribute('opacity', '.9');
       ray.absorbed.setAttribute('d', `M${(bounds.left + 1).toFixed(1)},${rayY.toFixed(1)} L${(bounds.right - 1).toFixed(1)},${rayY.toFixed(1)}`);
-      ray.absorbed.setAttribute('opacity', (.78 - .5 * match).toFixed(2));
+      ray.absorbed.setAttribute('opacity', (.85 - .4 * match).toFixed(2));
       ray.gradient.setAttribute('x1', (bounds.left + 1).toFixed(1));
       ray.gradient.setAttribute('y1', rayY.toFixed(1));
       ray.gradient.setAttribute('x2', (bounds.right - 1).toFixed(1));
       ray.gradient.setAttribute('y2', rayY.toFixed(1));
-      ray.flicker.setAttribute('opacity', '0');
     });
 
     refs.signalS.setAttribute('d', wavePath(514, 276, 604, 225, 4, 2.4));
