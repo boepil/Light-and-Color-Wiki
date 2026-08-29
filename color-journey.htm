@@ -513,19 +513,19 @@
     refs.rayM.setAttribute('stroke', beamColor);
     refs.rayL.setAttribute('stroke', beamColor);
 
-    //- Per-cone normalization (von Kries style) with 0.25 floor
-    const FLOOR = 0.25;
+    //- Per-cone normalization (von Kries style) with per-cone floors
+    const FLOOR = { S: 0.15, M: 0.25, L: 0.10 };
     const norm = {
       S: clamp(exc.S / CONE_MAX.S, 0, 1),
       M: clamp(exc.M / CONE_MAX.M, 0, 1),
       L: clamp(exc.L / CONE_MAX.L, 0, 1)
     };
-    const sOn = norm.S > FLOOR;
-    const mOn = norm.M > FLOOR;
-    const lOn = norm.L > FLOOR;
-    const sOp = sOn ? (norm.S - FLOOR) / (1 - FLOOR) : 0;
-    const mOp = mOn ? (norm.M - FLOOR) / (1 - FLOOR) : 0;
-    const lOp = lOn ? (norm.L - FLOOR) / (1 - FLOOR) : 0;
+    const sOn = norm.S > FLOOR.S;
+    const mOn = norm.M > FLOOR.M;
+    const lOn = norm.L > FLOOR.L;
+    const sOp = sOn ? (norm.S - FLOOR.S) / (1 - FLOOR.S) : 0;
+    const mOp = mOn ? (norm.M - FLOOR.M) / (1 - FLOOR.M) : 0;
+    const lOp = lOn ? (norm.L - FLOOR.L) / (1 - FLOOR.L) : 0;
 
     //- Neural signals (cone → opponent cells)
     refs.signalS.setAttribute('opacity', sOp.toFixed(2));
