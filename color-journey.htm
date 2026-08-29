@@ -111,6 +111,15 @@
           <stop id="glowStart" offset="0%" stop-color="#4a90d9" stop-opacity=".95"/>
           <stop id="glowEnd" offset="100%" stop-color="#4a90d9" stop-opacity="0"/>
         </radialGradient>
+        <marker id="arrow-blue" viewBox="0 0 8 8" refX="6" refY="4" markerWidth="5" markerHeight="5" orient="auto">
+          <path d="M1,1 L7,4 L1,7 Z" fill="#3c74ff"/>
+        </marker>
+        <marker id="arrow-green" viewBox="0 0 8 8" refX="6" refY="4" markerWidth="5" markerHeight="5" orient="auto">
+          <path d="M1,1 L7,4 L1,7 Z" fill="#49c85f"/>
+        </marker>
+        <marker id="arrow-red" viewBox="0 0 8 8" refX="6" refY="4" markerWidth="5" markerHeight="5" orient="auto">
+          <path d="M1,1 L7,4 L1,7 Z" fill="#ee4c42"/>
+        </marker>
       </defs>
 
       <g aria-hidden="true">
@@ -118,13 +127,13 @@
         <rect class="stage-tab" x="218" y="38" width="176" height="27" rx="1"/>
         <rect class="stage-tab" x="411" y="38" width="144" height="27" rx="1"/>
         <rect class="stage-tab" x="572" y="38" width="190" height="27" rx="1"/>
-        <rect class="stage-tab" x="779" y="38" width="174" height="27" rx="1"/>
+        <rect class="stage-tab" x="785" y="38" width="174" height="27" rx="1"/>
         <rect class="stage-tab" x="970" y="38" width="176" height="27" rx="1"/>
         <text class="stage-label" x="127" y="55" text-anchor="middle">SUN</text>
         <text class="stage-label" x="306" y="55" text-anchor="middle">PIGMENT</text>
         <text class="stage-label" x="483" y="55" text-anchor="middle">LENS</text>
         <text class="stage-label" x="667" y="55" text-anchor="middle">RETINA · CONES</text>
-        <text class="stage-label" x="866" y="55" text-anchor="middle">OPPONENT CELLS</text>
+        <text class="stage-label" x="872" y="55" text-anchor="middle">OPPONENT CELLS</text>
         <text class="stage-label" x="1058" y="55" text-anchor="middle">VISUAL CORTEX</text>
       </g>
 
@@ -165,61 +174,68 @@
       </g>
 
       <g id="cones" aria-hidden="true">
-        <g id="coneS" transform="translate(730,225)">
+        <g id="coneS" transform="translate(720,225)">
           <path class="cone-body" d="M-34,0 L24,-24 L24,24 Z" fill="#2556f5" stroke="#f4f3ea" stroke-width="2.8" stroke-linejoin="round"/>
-          <path class="cone-stem" d="M24,-10 L46,-10 L46,10 L24,10 Z" fill="#2556f5" stroke="#4a90d9" stroke-width="2.4" stroke-linejoin="round"/>
-          <text class="svg-muted" x="52" y="4">S</text>
+          <path class="cone-stem" d="M24,-10 L44,-10 L44,10 L24,10 Z" fill="#2556f5" stroke="#4a90d9" stroke-width="2.4" stroke-linejoin="round"/>
+          <text class="svg-muted" x="50" y="4">S</text>
         </g>
-        <g id="coneM" transform="translate(730,276)">
+        <g id="coneM" transform="translate(720,276)">
           <path class="cone-body" d="M-34,0 L24,-24 L24,24 Z" fill="#23bd46" stroke="#f4f3ea" stroke-width="2.8" stroke-linejoin="round"/>
-          <path class="cone-stem" d="M24,-10 L46,-10 L46,10 L24,10 Z" fill="#23bd46" stroke="#49c85f" stroke-width="2.4" stroke-linejoin="round"/>
-          <text class="svg-muted" x="52" y="4">M</text>
+          <path class="cone-stem" d="M24,-10 L44,-10 L44,10 L24,10 Z" fill="#23bd46" stroke="#49c85f" stroke-width="2.4" stroke-linejoin="round"/>
+          <text class="svg-muted" x="50" y="4">M</text>
         </g>
-        <g id="coneL" transform="translate(730,327)">
+        <g id="coneL" transform="translate(720,327)">
           <path class="cone-body" d="M-34,0 L24,-24 L24,24 Z" fill="#ec332d" stroke="#f4f3ea" stroke-width="2.8" stroke-linejoin="round"/>
-          <path class="cone-stem" d="M24,-10 L46,-10 L46,10 L24,10 Z" fill="#ec332d" stroke="#ee4c42" stroke-width="2.4" stroke-linejoin="round"/>
-          <text class="svg-muted" x="52" y="4">L</text>
+          <path class="cone-stem" d="M24,-10 L44,-10 L44,10 L24,10 Z" fill="#ec332d" stroke="#ee4c42" stroke-width="2.4" stroke-linejoin="round"/>
+          <text class="svg-muted" x="50" y="4">L</text>
         </g>
       </g>
 
+      <!-- Cone Axon Bus with Terminal Arrowheads entering Opponent Somata -->
       <g id="opponentInputs" fill="none" aria-hidden="true">
-        <!-- B/Y Inputs from S, M, L -->
-        <path id="byS" d="M776,225 C795,225 802,214 818,214" stroke="#3c74ff" stroke-width="2"/>
-        <path id="byM" d="M776,276 C795,276 800,218 818,218" stroke="#49c85f" stroke-width="2"/>
-        <path id="byL" d="M776,327 C795,327 800,222 818,222" stroke="#ee4c42" stroke-width="2"/>
-        <!-- R/G Inputs strictly from M, L -->
-        <path id="rgM" d="M776,276 C795,276 802,273 818,273" stroke="#49c85f" stroke-width="2"/>
-        <path id="rgL" d="M776,327 C795,327 802,279 818,279" stroke="#ee4c42" stroke-width="2"/>
-        <!-- Achromatic White/Black Inputs from S, M, L -->
-        <path id="bwS" d="M776,225 C795,225 800,330 818,330" stroke="#3c74ff" stroke-width="2"/>
-        <path id="bwM" d="M776,276 C795,276 800,334 818,334" stroke="#49c85f" stroke-width="2"/>
-        <path id="bwL" d="M776,327 C795,327 802,338 818,338" stroke="#ee4c42" stroke-width="2"/>
+        <!-- Blue (S) Cone branches to B/Y (top) and White/Black (bottom) ONLY -->
+        <path id="byS" d="M764,225 C776,225 780,218 804,218" stroke="#3c74ff" stroke-width="2" marker-end="url(#arrow-blue)"/>
+        <path id="bwS" d="M764,225 C776,225 776,334 804,334" stroke="#3c74ff" stroke-width="2" marker-end="url(#arrow-blue)"/>
+
+        <!-- Green (M) Cone branches to B/Y, R/G, and White/Black -->
+        <path id="byM" d="M764,276 C784,276 784,218 804,218" stroke="#49c85f" stroke-width="2" marker-end="url(#arrow-green)"/>
+        <path id="rgM" d="M764,276 L804,276" stroke="#49c85f" stroke-width="2" marker-end="url(#arrow-green)"/>
+        <path id="bwM" d="M764,276 C784,276 784,334 804,334" stroke="#49c85f" stroke-width="2" marker-end="url(#arrow-green)"/>
+
+        <!-- Red (L) Cone branches to B/Y, R/G, and White/Black -->
+        <path id="byL" d="M764,327 C792,327 792,218 804,218" stroke="#ee4c42" stroke-width="2" marker-end="url(#arrow-red)"/>
+        <path id="rgL" d="M764,327 C792,327 792,276 804,276" stroke="#ee4c42" stroke-width="2" marker-end="url(#arrow-red)"/>
+        <path id="bwL" d="M764,327 C792,327 792,334 804,334" stroke="#ee4c42" stroke-width="2" marker-end="url(#arrow-red)"/>
       </g>
 
       <g id="opponentCells" aria-hidden="true">
         <!-- B/Y Cell (Center-Surround Receptive Field) -->
-        <rect x="802" y="206" width="70" height="24" rx="12" fill="#090b12" stroke="#1c202d" stroke-width="1.2" opacity="0.85"/>
-        <text class="svg-muted" x="838" y="190" text-anchor="middle">B+ · Y−</text>
-        <circle id="byRing" cx="838" cy="218" r="18" fill="#07080f" stroke="#f2c14e" stroke-width="3.5"/>
-        <circle id="byInner" cx="838" cy="218" r="9" fill="#3c74ff"/>
+        <rect x="816" y="205" width="86" height="26" rx="13" fill="#090b12" stroke="#1c202d" stroke-width="1.2" opacity="0.85"/>
+        <path id="somaInputBY" d="M808,218 L862,218" fill="none" stroke="#f2c14e" stroke-width="2.2" stroke-dasharray="5 5" opacity="0.7"/>
+        <text class="svg-muted" x="876" y="188" text-anchor="middle">B+ · Y−</text>
+        <circle id="byRing" cx="876" cy="218" r="18" fill="#07080f" stroke="#f2c14e" stroke-width="3.5"/>
+        <circle id="byInner" cx="876" cy="218" r="9" fill="#3c74ff"/>
 
         <!-- R/G Cell (Center-Surround Receptive Field) -->
-        <rect x="802" y="264" width="70" height="24" rx="12" fill="#090b12" stroke="#1c202d" stroke-width="1.2" opacity="0.85"/>
-        <text class="svg-muted" x="838" y="248" text-anchor="middle">R+ · G−</text>
-        <circle id="rgRing" cx="838" cy="276" r="18" fill="#07080f" stroke="#ee4c42" stroke-width="3.5"/>
-        <circle id="rgInner" cx="838" cy="276" r="9" fill="#49c85f"/>
+        <rect x="816" y="263" width="86" height="26" rx="13" fill="#090b12" stroke="#1c202d" stroke-width="1.2" opacity="0.85"/>
+        <path id="somaInputRG" d="M808,276 L862,276" fill="none" stroke="#ee4c42" stroke-width="2.2" stroke-dasharray="5 5" opacity="0.7"/>
+        <text class="svg-muted" x="876" y="246" text-anchor="middle">R+ · G−</text>
+        <circle id="rgRing" cx="876" cy="276" r="18" fill="#07080f" stroke="#ee4c42" stroke-width="3.5"/>
+        <circle id="rgInner" cx="876" cy="276" r="9" fill="#49c85f"/>
 
         <!-- White/Black Luminance Cell -->
-        <rect x="802" y="322" width="70" height="24" rx="12" fill="#090b12" stroke="#1c202d" stroke-width="1.2" opacity="0.85"/>
-        <text class="svg-muted" x="838" y="306" text-anchor="middle">WHITE · BLACK</text>
-        <circle id="bwRing" cx="838" cy="334" r="18" fill="#07080f" stroke="#ffffff" stroke-width="3.5"/>
-        <circle id="bwInner" cx="838" cy="334" r="8" fill="#08090f" stroke="#ffffff" stroke-width="1.5"/>
+        <rect x="816" y="321" width="86" height="26" rx="13" fill="#090b12" stroke="#1c202d" stroke-width="1.2" opacity="0.85"/>
+        <path id="somaInputBW" d="M808,334 L862,334" fill="none" stroke="#ffffff" stroke-width="2" stroke-dasharray="5 5" opacity="0.7"/>
+        <text class="svg-muted" x="876" y="304" text-anchor="middle">WHITE · BLACK</text>
+        <circle id="bwRing" cx="876" cy="334" r="18" fill="#07080f" stroke="#ffffff" stroke-width="3.5"/>
+        <circle id="bwInner" cx="876" cy="334" r="8" fill="#08090f" stroke="#ffffff" stroke-width="1.5"/>
       </g>
 
+      <!-- Biological Neural Axon Tracts to Visual Cortex (Hatched Action Potential Spikes) -->
       <g id="outputWaves" fill="none" aria-hidden="true">
-        <path id="outputBY" d="M858,218 C898,180 916,250 948,220 C973,196 986,239 1024,254" stroke="#4a90d9" stroke-width="2.4"/>
-        <path id="outputRG" d="M858,276 C898,317 916,238 948,276 C977,309 990,263 1024,276" stroke="#ee4c42" stroke-width="2.4"/>
-        <path id="outputBW" d="M858,334 C898,301 916,349 950,322 C979,299 993,338 1024,305" stroke="#eeeeec" stroke-width="2.1"/>
+        <path id="outputBY" d="M896,218 C940,218 970,250 1024,254" stroke="#4a90d9" stroke-width="2.6" stroke-dasharray="6 6"/>
+        <path id="outputRG" d="M896,276 C940,276 970,276 1024,276" stroke="#ee4c42" stroke-width="2.6" stroke-dasharray="6 6"/>
+        <path id="outputBW" d="M896,334 C940,334 970,310 1024,305" stroke="#eeeeec" stroke-width="2.2" stroke-dasharray="6 6"/>
       </g>
 
       <g id="brain" aria-hidden="true">
@@ -375,10 +391,9 @@
   function registerFlow(id, speed) {
     const element = byId(id);
     if (!element) return;
-    element.setAttribute('stroke-dasharray', '6 10');
     flowElements.push({ element, speed });
   }
-  ['sunStream1', 'sunStream2', 'sunStream3', 'rayS', 'rayM', 'rayL', 'selectedThroughPigment', 'beamToLens', 'beamIntoRetina', 'byS', 'byM', 'byL', 'rgM', 'rgL', 'bwS', 'bwM', 'bwL', 'outputBY', 'outputRG', 'outputBW'].forEach((id, index) => registerFlow(id, 16 + (index % 3) * 3));
+  ['sunStream1', 'sunStream2', 'sunStream3', 'rayS', 'rayM', 'rayL', 'selectedThroughPigment', 'beamToLens', 'beamIntoRetina', 'byS', 'byM', 'byL', 'rgM', 'rgL', 'bwS', 'bwM', 'bwL', 'somaInputBY', 'somaInputRG', 'somaInputBW', 'outputBY', 'outputRG', 'outputBW'].forEach((id, index) => registerFlow(id, 16 + (index % 3) * 3));
 
   const slider = byId('wlSlider');
   const refs = {
@@ -388,7 +403,8 @@
     rayS: byId('rayS'), rayM: byId('rayM'), rayL: byId('rayL'),
     byS: byId('byS'), byM: byId('byM'), byL: byId('byL'), rgM: byId('rgM'), rgL: byId('rgL'), bwS: byId('bwS'), bwM: byId('bwM'), bwL: byId('bwL'),
     coneS: byId('coneS'), coneM: byId('coneM'), coneL: byId('coneL'),
-    byRing: byId('byRing'), byInner: byId('byInner'), rgRing: byId('rgRing'), rgInner: byId('rgInner'), bwRing: byId('bwRing'), bwInner: byId('bwInner'), bwDisc: byId('bwDisc'),
+    somaInputBY: byId('somaInputBY'), somaInputRG: byId('somaInputRG'), somaInputBW: byId('somaInputBW'),
+    byRing: byId('byRing'), byInner: byId('byInner'), rgRing: byId('rgRing'), rgInner: byId('rgInner'), bwRing: byId('bwRing'), bwInner: byId('bwInner'),
     outputBY: byId('outputBY'), outputRG: byId('outputRG'), outputBW: byId('outputBW'), brainGlow: byId('brainGlow'), glowStart: byId('glowStart'), glowEnd: byId('glowEnd'),
     wlVal: byId('wlVal')
   };
@@ -534,14 +550,14 @@
     const scaleM = { x: 1.0 + 0.45 * mOp, y: 1.0 + 0.15 * mOp };
     const scaleL = { x: 1.0 + 0.45 * lOp, y: 1.0 + 0.15 * lOp };
 
-    refs.coneS.setAttribute('transform', `translate(730,225) translate(24,0) scale(${scaleS.x.toFixed(2)},${scaleS.y.toFixed(2)}) translate(-24,0)`);
-    refs.coneM.setAttribute('transform', `translate(730,276) translate(24,0) scale(${scaleM.x.toFixed(2)},${scaleM.y.toFixed(2)}) translate(-24,0)`);
-    refs.coneL.setAttribute('transform', `translate(730,327) translate(24,0) scale(${scaleL.x.toFixed(2)},${scaleL.y.toFixed(2)}) translate(-24,0)`);
+    refs.coneS.setAttribute('transform', `translate(720,225) translate(24,0) scale(${scaleS.x.toFixed(2)},${scaleS.y.toFixed(2)}) translate(-24,0)`);
+    refs.coneM.setAttribute('transform', `translate(720,276) translate(24,0) scale(${scaleM.x.toFixed(2)},${scaleM.y.toFixed(2)}) translate(-24,0)`);
+    refs.coneL.setAttribute('transform', `translate(720,327) translate(24,0) scale(${scaleL.x.toFixed(2)},${scaleL.y.toFixed(2)}) translate(-24,0)`);
 
     // Cone tip X coordinates
-    const tipS_X = 730 + 24 - 58 * scaleS.x;
-    const tipM_X = 730 + 24 - 58 * scaleM.x;
-    const tipL_X = 730 + 24 - 58 * scaleL.x;
+    const tipS_X = 720 + 24 - 58 * scaleS.x;
+    const tipM_X = 720 + 24 - 58 * scaleM.x;
+    const tipL_X = 720 + 24 - 58 * scaleL.x;
 
     refs.rayS.setAttribute('d', `M514,276 C580,276 630,225 ${tipS_X.toFixed(1)},225`);
     refs.rayM.setAttribute('d', `M514,276 L${tipM_X.toFixed(1)},276`);
@@ -564,29 +580,38 @@
     refs.coneM.querySelector('.cone-body').setAttribute('stroke', mOn ? '#ffffff' : '#334055');
     refs.coneL.querySelector('.cone-body').setAttribute('stroke', lOn ? '#ffffff' : '#334055');
 
-    // Cone → Opponent Neural Signal Lines
-    // B/Y inputs
+    // Cone → Opponent Neural Signal Lines (with Terminal Arrowheads)
+    // S cone outputs (B/Y and White/Black only)
     refs.byS.setAttribute('opacity', sOp.toFixed(2));
-    refs.byM.setAttribute('opacity', mOp.toFixed(2));
-    refs.byL.setAttribute('opacity', lOp.toFixed(2));
-
-    // R/G inputs (M and L strictly)
-    refs.rgM.setAttribute('opacity', mOp.toFixed(2));
-    refs.rgL.setAttribute('opacity', lOp.toFixed(2));
-
-    // Achromatic W/B inputs (S, M, L)
     refs.bwS.setAttribute('opacity', (sOp * 0.35).toFixed(2));
+
+    // M cone outputs (B/Y, R/G, White/Black)
+    refs.byM.setAttribute('opacity', mOp.toFixed(2));
+    refs.rgM.setAttribute('opacity', mOp.toFixed(2));
     refs.bwM.setAttribute('opacity', mOp.toFixed(2));
+
+    // L cone outputs (B/Y, R/G, White/Black)
+    refs.byL.setAttribute('opacity', lOp.toFixed(2));
+    refs.rgL.setAttribute('opacity', lOp.toFixed(2));
     refs.bwL.setAttribute('opacity', lOp.toFixed(2));
+
+    // Straight Hatched Lines entering Somata
+    refs.somaInputBY.setAttribute('opacity', byActive ? (0.4 + 0.6 * Math.abs(byN)).toFixed(2) : '0.15');
+    refs.somaInputBY.setAttribute('stroke', byN >= 0 ? '#3c74ff' : '#f2c14e');
+
+    refs.somaInputRG.setAttribute('opacity', rgActive ? (0.4 + 0.6 * Math.abs(rgN)).toFixed(2) : '0.15');
+    refs.somaInputRG.setAttribute('stroke', rgN >= 0 ? '#ee4c42' : '#49c85f');
+
+    refs.somaInputBW.setAttribute('opacity', bwActive ? (0.35 + 0.65 * valueLevel).toFixed(2) : '0.15');
 
     // Opponent cell states (Center-Surround Receptive Field Opponency)
     if (byActive) {
       if (byN >= 0) {
-        // Blue dominant (e.g. Short Wavelengths): Yellow surround, Blue center
+        // Blue dominant: Yellow surround, Blue center
         refs.byRing.setAttribute('stroke', '#f2c14e');
         refs.byInner.setAttribute('fill', '#3c74ff');
       } else {
-        // Yellow dominant (e.g. 570-590nm): Blue surround, Yellow center
+        // Yellow dominant: Blue surround, Yellow center
         refs.byRing.setAttribute('stroke', '#3c74ff');
         refs.byInner.setAttribute('fill', '#f2c14e');
       }
@@ -599,11 +624,11 @@
 
     if (rgActive) {
       if (rgN >= 0) {
-        // Red dominant (e.g. Long Wavelengths / Red): Red surround, Green center
+        // Red dominant: Red surround, Green center
         refs.rgRing.setAttribute('stroke', '#ee4c42');
         refs.rgInner.setAttribute('fill', '#49c85f');
       } else {
-        // Green dominant (e.g. Middle Wavelengths / Green): Green surround, Red center
+        // Green dominant: Green surround, Red center
         refs.rgRing.setAttribute('stroke', '#49c85f');
         refs.rgInner.setAttribute('fill', '#ee4c42');
       }
@@ -618,27 +643,24 @@
     refs.bwInner.setAttribute('stroke', bwActive ? (valueLevel > 0.4 ? '#ffffff' : '#666670') : '#222430');
     refs.bwInner.setAttribute('opacity', bwActive ? '1' : '0.3');
 
-    // Selective output wave transmission to Visual Cortex (Brain)
+    // Biological Neural Transmission Tracts to Visual Cortex (Hatched Spike Trains)
     if (byActive) {
       refs.outputBY.setAttribute('stroke', outputBYColor);
-      refs.outputBY.setAttribute('d', wavePath(858, 218, 1024, 254, 3 + 14 * Math.abs(byN), 2.1, byN * .8));
-      refs.outputBY.setAttribute('opacity', (0.35 + 0.65 * Math.abs(byN)).toFixed(2));
+      refs.outputBY.setAttribute('opacity', (0.4 + 0.6 * Math.abs(byN)).toFixed(2));
     } else {
       refs.outputBY.setAttribute('opacity', '0');
     }
 
     if (rgActive) {
       refs.outputRG.setAttribute('stroke', outputRGColor);
-      refs.outputRG.setAttribute('d', wavePath(858, 276, 1024, 276, 3 + 14 * Math.abs(rgN), 2.25, rgN * .8));
-      refs.outputRG.setAttribute('opacity', (0.35 + 0.65 * Math.abs(rgN)).toFixed(2));
+      refs.outputRG.setAttribute('opacity', (0.4 + 0.6 * Math.abs(rgN)).toFixed(2));
     } else {
       refs.outputRG.setAttribute('opacity', '0');
     }
 
     if (bwActive) {
-      refs.outputBW.setAttribute('stroke', valueLevel > 0.5 ? '#eeeeec' : '#777985');
-      refs.outputBW.setAttribute('d', wavePath(858, 334, 1024, 305, 2 + 8 * valueLevel, 2.0, valueLevel * .6));
-      refs.outputBW.setAttribute('opacity', (0.3 + 0.7 * valueLevel).toFixed(2));
+      refs.outputBW.setAttribute('stroke', valueLevel > 0.5 ? '#eeeeec' : '#888892');
+      refs.outputBW.setAttribute('opacity', (0.35 + 0.65 * valueLevel).toFixed(2));
     } else {
       refs.outputBW.setAttribute('opacity', '0');
     }
@@ -665,15 +687,15 @@
     // Dynamic cone pulse reaction on X
     if (op.S > 0) {
       const scaleSX = 1.0 + (0.4 + 0.1 * Math.sin(elapsed * 6)) * op.S;
-      refs.coneS.setAttribute('transform', `translate(730,225) translate(24,0) scale(${scaleSX.toFixed(2)},1.08) translate(-24,0)`);
+      refs.coneS.setAttribute('transform', `translate(720,225) translate(24,0) scale(${scaleSX.toFixed(2)},1.08) translate(-24,0)`);
     }
     if (op.M > 0) {
       const scaleMX = 1.0 + (0.4 + 0.1 * Math.sin(elapsed * 6)) * op.M;
-      refs.coneM.setAttribute('transform', `translate(730,276) translate(24,0) scale(${scaleMX.toFixed(2)},1.08) translate(-24,0)`);
+      refs.coneM.setAttribute('transform', `translate(720,276) translate(24,0) scale(${scaleMX.toFixed(2)},1.08) translate(-24,0)`);
     }
     if (op.L > 0) {
       const scaleLX = 1.0 + (0.4 + 0.1 * Math.sin(elapsed * 6)) * op.L;
-      refs.coneL.setAttribute('transform', `translate(730,327) translate(24,0) scale(${scaleLX.toFixed(2)},1.08) translate(-24,0)`);
+      refs.coneL.setAttribute('transform', `translate(720,327) translate(24,0) scale(${scaleLX.toFixed(2)},1.08) translate(-24,0)`);
     }
 
     if (byActive) {
