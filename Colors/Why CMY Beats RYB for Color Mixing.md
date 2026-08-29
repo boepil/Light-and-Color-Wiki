@@ -40,9 +40,9 @@ Green pigments (e.g., **[[PG7 - Phthalo Green|Phthalo Green PG7]]**) are easier 
 
 | Primary role | Modern CMY pigment | Traditional RYB pigment | Why the CMY pick wins |
 |:----------- |:------------------------------------------------------------- |:---------------------------------------------------------- |:-------------------------------------------------------------------- |
-| Yellow | [[PY97 - Hansa Yellow\|Hansa Yellow (PY97)]] | [[PY35 - Cadmium Yellow\|Cadmium Yellow]] | clean ½-spectrum reflectance, high strength |
-| Cyan/Blue | [[PB15 - Phthalo Blue\|Phthalo Blue (PB15:3)]] | [[PB29 - Ultramarine Blue\|Ultramarine Blue]] | near-step absorption edge; Ultramarine's red undertone muddies greens |
-| Red/Magenta | [[PR122 - Quinacridone Magenta\|Quinacridone Magenta (PR122)]] | [[PR108 - Cadmium Red\|Cadmium Red Light]] | reflects red+blue cleanly; Cadmium Red leaks green |
+| Yellow | [[PY97 - Hansa Yellow|Hansa Yellow (PY97)]] | [[PY35 - Cadmium Yellow|Cadmium Yellow]] | clean ½-spectrum reflectance, high strength |
+| Cyan/Blue | [[PB15 - Phthalo Blue|Phthalo Blue (PB15:3)]] | [[PB29 - Ultramarine Blue|Ultramarine Blue]] | near-step absorption edge; Ultramarine's red undertone muddies greens |
+| Red/Magenta | [[PR122 - Quinacridone Magenta|Quinacridone Magenta (PR122)]] | [[PR108 - Cadmium Red|Cadmium Red Light]] | reflects red+blue cleanly; Cadmium Red leaks green |
 
 MacEvoy's **[[The artist's color wheel|functional paint wheel]]** converges on exactly these three: **primary magenta — quinacridone magenta**, **light yellow**, and **primary cyan — phthalocyanine blue GS** (or phthalocyanine cyan); the traditional triad — red, yellow, and blue — is, in his words, **"obsolete and should not be taught"** *(Source: [[raw_sources/handprint/color13.md|color13.html]])*. He is equally blunt about *why* this triad and not the historical one: the modern reason is simply measured outputs — three paints that **mix every hue at the highest possible chroma**, given the restriction of three colorants and the cost-effective, lightfast pigments actually available *(Source: [[raw_sources/handprint/color13.md|color13.html]])*. In printing the identical logic produced CMY process inks.
 
