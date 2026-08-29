@@ -514,7 +514,7 @@
     refs.rayL.setAttribute('stroke', beamColor);
 
     //- Per-cone normalization (von Kries style) with per-cone floors
-    const FLOOR = { S: 0.15, M: 0.25, L: 0.10 };
+    const FLOOR = { S: 0.15, M: 0.25, L: 0.08 };
     const norm = {
       S: clamp(exc.S / CONE_MAX.S, 0, 1),
       M: clamp(exc.M / CONE_MAX.M, 0, 1),
