@@ -1,5 +1,19 @@
 # Ingest Log
 
+## [2026-08-29] lint & fix | color-journey.htm — biological light-to-cone flow and per-cone floors & full vault lint pass
+- **Biological flow & per-cone normalization in `color-journey.htm`**:
+  - Replaced incorrect pre-cone spectral splitting with unified same-color entrance rays (`rayS`, `rayM`, `rayL`) from the cornea into all three cone types (reflecting that monochromatic/broadband light hits all cones simultaneously).
+  - Implemented von Kries-style per-cone normalization (`norm = exc / CONE_MAX`), computing peak responses per cone across the spectrum (`S_max` ≈ 0.87, `M_max` ≈ 0.77, `L_max` ≈ 0.76).
+  - Applied per-cone floor thresholds (`S`: 0.15, `M`: 0.25, `L`: 0.05) so that at 634nm and 688nm red, the L-cone fires cleanly while M and S remain silent (preventing false M-cone firing in red and suppressing deep-red tail noise).
+  - Tied all neural output and opponent wiring strictly to each source cone's normalized excitation level.
+- **Full vault lint sweep**:
+  - Scanned all 100 Markdown files across `Light/`, `Eye/`, `Colors/`, `Painting/`, `Pigments/`, `Intersections/`, `Appendix/`.
+  - H1 headings: 0 violations.
+  - Inline source attributions: 0 violations.
+  - `.md` link extensions: 0 violations outside `raw_sources/`.
+  - Missing required sections (`**Scope:**`, `## Subtopics`, `## Cross-References`, `## Sources`): 0 violations.
+  - All `raw_sources/` links and folder note hubs (`[[Path/index|Title]]`) verified to resolve cleanly.
+
 ## [2026-08-21] visual polish | color-journey.htm — white sunlight beam to pigment mound
 - **Visual refinement per user mockup (`images/illustration.jpg`)**: updated `color-journey.htm` so sunlight traveling from the sun to the pigment mound is a single broad, glowing white beam with streaming white pulse lines.
 - **Physical narrative alignment**: in air, broadband sunlight is white; upon striking the pigment mound's left contour, it separates into the horizontal spectral color bands (red down to violet). Non-selected wavelengths fade out inside the mound (showing absorption/heat), while the selected dominant wavelength passes through and exits rightward to the lens.
