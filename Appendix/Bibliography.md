@@ -30,6 +30,18 @@ sequence: 3
 * "Yes — some women appear to have the biological hardware for 'four-color vision' (tetrachromacy)…" — NotebookLM source
 * "Why Material Reality Favors Green Over Red: The Physical Chemistry of Chromatic Limits" — NotebookLM source
 * "The Material Supremacy of Green Chroma" — NotebookLM source
+* "Color Appearance: On Seeing Red—or Yellow, or Green, or Blue" — Israel Abramov & James Gordon
+* "Redness from short-wavelength-sensitive cones does not induce greenness" — Steven K. Shevell
+* "Hue signals from short- and middle-wavelength-sensitive cones" — Bruce Drum
+* "Some Quantitative Aspects of an Opponent-Colors Theory II: Brightness, Saturation, and Hue in Normal and Dichromatic Vision" — Leo M. Hurvich & Dorothea Jameson
+* "A rationale for the structure of color space" — R. Lotto & Dale Purves
+* "A magenta gap in the colour wheel" — A. A. Silva & P. Topa
+* "Reddish Green: A Challenge for Modal Claims About Phenomenal Structure" — Martine Nida-Rümelin & Julian Suarez
+* "Why Do Colours Look the Way They Do?" — Nicholas Unwin
+* "Color vision" — Handbook of Clinical Neurology
+* "Unique hues and their stimuli—state of the art" — Rolf G. Kuehni
+* "Color and Similarity" — Alex Byrne
+* "Perceiving Opponent Hues in Color Induction Displays" — Ennio Mingolla, G. Livitz, R. Eskew, & A. Yazdanbakhsh
 
 ## Colors
 

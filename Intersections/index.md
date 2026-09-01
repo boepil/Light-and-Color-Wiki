@@ -57,6 +57,10 @@ Connects **Eye** and higher-level perception: dedicated color circuits in the co
 
 Connects **Eye**, **Pigments**, and **Painting**: visual complements are biological constants wired into **[[Opponent-Process Color Coding|opponent-process]]** receptors, causing afterimages and simultaneous contrast. Mixing complements are physical filters that absorb light subtractively on the palette. Explains why the visual complement of red (cyan) differs from its mixing complement (green/blue-green) and why physical mixing is non-linear.
 
+#### [[The Perceptual Paradox and Why Violet Looks Reddish]] — why the shortest visible light looks reddish and closes the spectrum into a circle
+
+Connects **Light**, **Eye**, and **Colors**: the physical spectrum is a linear scale of wavelengths (380–780 nm), yet human perception organizes color into a closed wheel where short-wave violet looks reddish-blue. Explains the S-cone's dual excitation of blue and red opponent channels, the difference between spectral violet and extraspectral purple, and why the visual system closes the hue circle.
+
 ### How the pieces fit together
 
 These pages are not a linear course — they radiate from the same central question: **how does physical light become lived color, and where do materials, measurement, and perception pull apart?** The **Causal Chain** is the best single overview. **Color Mixing** and **Light Falloff** speak most directly to painters. **Simultaneous Contrast** and **Metamerism** answer the "why does this look different than I expected?" moments. **Lab-Munsell** and **Color Matching Functions** bridge biology to the number systems in **Colors**.

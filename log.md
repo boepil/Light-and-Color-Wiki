@@ -9,6 +9,27 @@
 - **Full vault lint sweep**:
   - Scanned all 100 Markdown files across `Light/`, `Eye/`, `Colors/`, `Painting/`, `Pigments/`, `Intersections/`, `Appendix/`.
   - H1 headings: 0 violations.
+  - Inline source attributions: 0 parenthetical book title violations in prose (citations isolated to `## Sources`).
+  - `.md` link extensions: 0 violations outside `raw_sources/`.
+  - Missing required sections (`**Scope:**`, `## Subtopics`, `## Cross-References`, `## Sources`): 0 violations.
+  - All `raw_sources/` links and folder note hubs (`[[Path/index|Title]]`) verified to resolve cleanly.
+
+## [2026-08-29] ingest | Intersections/The Perceptual Paradox and Why Violet Looks Reddish.md
+- **New Intersections page** (sequence 94) built from pasted reliable source content (Lotto & Purves, Hurvich & Jameson, Drum, Abramov & Gordon, Silva & Topa, Byrne, Unwin, Shevell, et al.).
+- **Structure aligned to wiki conventions**: header-image prompt blockquote (flat medical-textbook blue anatomy-plate style), `**Scope:**`, clean descriptive headings (no numeric prefixes), inline attributions stripped (citations moved to `## Sources` with 12 academic entries), Handprint Perspectives (MacEvoy `color18a`), Contradiction Flag, Subtopics, Cross-References, `## Sources` block.
+- **Key content**: Linear spectrum vs. closed hue circle; S-cone dual excitation of B+Y- (blue) and R+G- (red via L-cone beta tail); Hurvich–Jameson two red lobes; spectral violet vs. extraspectral purple gap; Lotto & Purves topological rationale (four-color map problem); Shevell spatial induction vs. appearance distinction.
+- **Integration**: Added to `Intersections/index.md` with cross-bridge description; `page-status.md` updated; `Appendix/Bibliography.md` Eye block expanded with 12 new academic sources; fluency wikilinks added on first mention (e.g., `**[[Eye/Opponent-Process Color Coding|opponent channels]]**`, `**[[Colors/Nonspectral Colors|nonspectral purples]]**`, `**[[Light/The Visible Spectrum|visible spectrum]]**`).
+- **Asset**: `b&W.jpg` moved from repo root to `images/`.
+
+## [2026-08-21] visual polish | color-journey.htm — white sunlight beam to pigment mound
+- **Biological flow & per-cone normalization in `color-journey.htm`**:
+  - Replaced incorrect pre-cone spectral splitting with unified same-color entrance rays (`rayS`, `rayM`, `rayL`) from the cornea into all three cone types (reflecting that monochromatic/broadband light hits all cones simultaneously).
+  - Implemented von Kries-style per-cone normalization (`norm = exc / CONE_MAX`), computing peak responses per cone across the spectrum (`S_max` ≈ 0.87, `M_max` ≈ 0.77, `L_max` ≈ 0.76).
+  - Applied per-cone floor thresholds (`S`: 0.15, `M`: 0.25, `L`: 0.05) so that at 634nm and 688nm red, the L-cone fires cleanly while M and S remain silent (preventing false M-cone firing in red and suppressing deep-red tail noise).
+  - Tied all neural output and opponent wiring strictly to each source cone's normalized excitation level.
+- **Full vault lint sweep**:
+  - Scanned all 100 Markdown files across `Light/`, `Eye/`, `Colors/`, `Painting/`, `Pigments/`, `Intersections/`, `Appendix/`.
+  - H1 headings: 0 violations.
   - Inline source attributions: 0 violations.
   - `.md` link extensions: 0 violations outside `raw_sources/`.
   - Missing required sections (`**Scope:**`, `## Subtopics`, `## Cross-References`, `## Sources`): 0 violations.
