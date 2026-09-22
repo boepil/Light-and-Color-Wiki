@@ -1,5 +1,9 @@
 # Ingest Log
 
+## [2026-09-22] enrich | Pigments/Media, Vehicles & Solvents.md — water-based binders + studio gouache formulas
+- NotebookLM session `3b22cbb5` (sources requested): dextrin as designers'/poster binder, chalk ~half pigment load in gouache, casein/acryla variants, preservatives, pre-wet + mull method, standard gum / honey-water / glycerin base vehicle.
+- Added `### Mixing Pigment into Vehicle & Studio Gouache Formulas` with honey history moved here + 3 condensed recipes (Titanium White, Alizarin Red, Cobalt Blue) per user; Subtopics updated; Sources unchanged (Mayer, Taft & Mayer, Bleicher, Erickson, Feller already listed).
+
 ## [2026-08-29] lint & fix | color-journey.htm — biological light-to-cone flow and per-cone floors & full vault lint pass
 - **Biological flow & per-cone normalization in `color-journey.htm`**:
   - Replaced incorrect pre-cone spectral splitting with unified same-color entrance rays (`rayS`, `rayM`, `rayL`) from the cornea into all three cone types (reflecting that monochromatic/broadband light hits all cones simultaneously).

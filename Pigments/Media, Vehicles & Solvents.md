@@ -8,8 +8,9 @@ sequence: 18
 
 ### Watercolor — The Transparent Wash
 
-- **Binder and diluent:** watercolor is defined by its **gum arabic** binder (sourced from the acacia tree) with **water** as the diluent.
-- **Vehicle additives:** manufacturers add honey or sugar for film flexibility, **glycerin** for moistness (preventing extreme caking), and **ox gall** (or modern synthetic wetting agents) to reduce surface tension and improve flow on the paper.
+- **Binder and diluent:** watercolor is defined by its **gum arabic** binder (sourced from the acacia tree, top grades traditionally Senegal/Kordofan) with **water** as the diluent.
+- **Vehicle additives:** manufacturers add honey or sugar for film flexibility, **glycerin** for moistness (preventing extreme caking), and **ox gall** (or modern synthetic wetting agents) to reduce surface tension and improve flow on the paper. In pure form the gum dries brittle and cracks in thick applications, so these modifiers are structural, not optional.
+- **Commercial alternative binder:** **dextrin** (from wheat or corn starch) is the primary binder in designers' colors and poster paints, giving body, adhesion, and smooth texture.
 - **Pigment load and transparency:** tubes contain mostly water and gum arabic — only **5% to 50% actual pigment** ([[raw_sources/handprint/pigmt1.md|pigmt1.html]]). Watercolor behaves more like a stain than a continuous film: paper fibers absorb and hold pigment particles in their interstices, and because there is no surplus of medium to "lock in" pigment, color builds as "volume color" — intensity accumulating through successive translucent layers.
 - **Rewettability:** gum arabic dries by simple **evaporation with no chemical change**, so dried paint remains completely soluble and can be re-moistened indefinitely.
 - **Chroma ceiling:** watercolor typically reaches **lower chroma than oil** — it lacks the continuous light-trapping "glassy" film of oil, relying instead on light reflecting off the white substrate through sparsely pigmented washes.
@@ -17,7 +18,9 @@ sequence: 18
 ### Gouache — Opaque Watercolor
 
 - **Same binder, different intent:** gouache uses the **same gum arabic vehicle** but is formulated for total hiding power and density.
-- **Opacifiers:** it is "super loaded" with pigment plus inert **white fillers — chalk, whiting, or blanc fixe** — which, combined with a higher binder-to-pigment ratio than transparent watercolor, create a dull **matte surface with no sheen**.
+- **Opacifiers:** it is "super loaded" with pigment plus inert **white fillers — chalk, whiting, or blanc fixe** — averaging roughly half the total pigment load, which, combined with a higher binder-to-pigment ratio than transparent watercolor, create a dull **matte surface with no sheen**.
+- **Other gouache vehicles:** casein (milk protein) gives a strong water-resistant matte film, and modern acryla gouache uses acrylic polymer emulsion with larger solids for a matte finish.
+- **Preservatives:** gum and protein solutions need mold control — phenol-type preservatives, beta-naphthol, or oil of cloves in traditional shop practice.
 - **Why matte matters:** the flat finish was historically preferred for reproduction because it eliminates glossy reflections during photography.
 - **Behavior:** like watercolor it is re-wettable, but the heavier paint layer is **prone to cracking** when applied thickly or on non-rigid supports, and layered dry coats draw vehicle from fresh coats.
 
@@ -48,6 +51,13 @@ sequence: 18
 - **Casein:** **milk protein** (skim-milk solids) as binder — extremely strong, dries to a matte, **water-insoluble** film, ideal for layering.
 - **Pastel:** essentially **dry, binderless pigment** (or pigment with a minimal binder such as gum tragacanth) compressed into sticks — held by the tooth of the paper rather than a liquid vehicle.
 
+### Mixing Pigment into Vehicle & Studio Gouache Formulas
+
+- **Honey history, moved here:** honey in medieval manuscript illumination and traditional moist pans is the original plasticizer — modern shop practice substitutes sugar syrup or glucose for the same anti-cracking, smooth-grinding role, with glycerin as the humectant that keeps tubes moist and re-wettable.
+- **Pre-wet, then mull:** pigments that repel water (alizarin types are the classic case) are first moistened with a few drops of alcohol or wetting-agent water, then worked with the vehicle into a stiff paste on glass or marble with a glass muller until each particle is coated and graininess is gone. Distilled water holds workable fluidity during grinding, then evaporates back to paste for tubes or pans.
+- **Standard base vehicle:** 2 oz pulverized gum Senegal or gum arabic dissolved in 4 fl oz boiling distilled water (stirred, not cooked), then 1¼ fl oz honey-water 1:1 (or sugar syrup / glucose), 1½ fl oz glycerin, 2–6 drops wetting agent, and ¼ tsp preservative, strained through cheesecloth.
+- **Three condensed gouache examples** (dry pigment + chalk ground into base): Titanium White — 2 oz titanium dioxide + 7 drams base; Alizarin Red — ½ oz pigment (pre-wet with alcohol) + ½ oz precipitated chalk + 5 drams base; Cobalt Blue — ¾ oz pigment + ¾ oz chalk + 9 drams base.
+
 ### How the Vehicle Changes the Same Pigment
 
 - **Refractive index mechanism:** a dry pigment in air shows high surface reflection because the index gap is large (air ≈ **1.00** vs. pigment ≈ **2.0–2.7**). Moistened with linseed oil (≈ **1.48**) the gap shrinks, more light is transmitted into the paint and absorbed, and the color looks **darker and more saturated**.
@@ -70,8 +80,9 @@ Briggs grounds the "same pigment, different color" phenomenon in the **medium's 
 > [!NOTE] The page's "watercolor dries lighter" and "oil dries darker" are both vehicle-index effects, and Briggs' *mixing*-physics framing sits underneath them — the same principle does double duty as a rule about colour *combining*. The two sources agree on the optics; Briggs attaches the medium's second role.
 
 ## Subtopics
-- Watercolor: gum arabic + honey/glycerin/ox gall; 5–50% pigment load; rewettable; volume color; lowest chroma ceiling
-- Gouache: gum arabic + chalk/whiting/blanc fixe; matte for reproduction; re-wettable but crack-prone
+- Watercolor: gum arabic + honey/glycerin/ox gall; dextrin in designers'/poster colors; 5–50% pigment load; rewettable; volume color; lowest chroma ceiling
+- Gouache: gum arabic + chalk/whiting/blanc fixe (~half load); casein/acryla variants; preservatives; matte for reproduction; re-wettable but crack-prone
+- Mixing & studio formulas: pre-wet + mull to paste; standard gum / honey-water / glycerin vehicle + 3 condensed color examples (titanium white, alizarin red, cobalt blue)
 - Oil: linseed/walnut/poppy/safflower; oxidation → linoxyn; turpentine/mineral spirits; oil index (cadmium yellow 18–32%, zinc white 14–25%)
 - Acrylic: 1940s polymer emulsion; dries in minutes; slightly less transparent, slightly weaker tints
 - Inks: dye vs pigment; India ink (carbon + shellac/animal glue); dye inks water-resistant but less lightfast; acrylic inks waterproof
